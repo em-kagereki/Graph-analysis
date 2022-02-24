@@ -8,7 +8,7 @@ bibliography: references.bib
 link-citations: yes
 output:
   xaringan::moon_reader:
-    css: ["xaringan-themer.css","style.css"]
+    css: ["xaringan-themer.css"]
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
@@ -21,6 +21,9 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(comment = NA)
+knitr::opts_chunk$set(warning =FALSE)
+knitr::opts_chunk$set(error =FALSE)
+knitr::opts_chunk$set(message = FALSE)
 knitr::opts_chunk$set(
   fig.width=9, fig.height=3.5, fig.retina=3,
   out.width = "100%",
@@ -196,8 +199,10 @@ basicStats<- read.csv("Data/basicStats.csv")
 Stats<-read.csv("Data/Stats.csv")
 schema <- read.csv("Data/metadata.csv")
 #schema
-schema<- rename(schema, Triples = Number.of.triples)
-schema<- rename(schema, Relationship = Relation)
+#schema<- rename(schema, Triples = Number.of.triples)
+#schema<- rename(schema, Relationship = Relation)
+names(schema)[names(schema) == "Number.of.triples"] <- "Triples"
+names(schema)[names(schema) == "Relation"] <- "Relationship"
 
 
 schema
@@ -276,6 +281,9 @@ all2 <- all[ which(all$Degree>10 & all$Degree<1000), ]
 library(ggplot2)
 library(ggtext)
 library(plyr)
+library(extrafont)
+loadfonts(device = "win")
+
 mu <- ddply(all2, "Aspect", summarise, grp.mean=median(Degree))
 ggplot(all2, aes(x=Degree, color=Aspect)) +
   geom_density()+
@@ -285,7 +293,7 @@ ggplot(all2, aes(x=Degree, color=Aspect)) +
   labs(x = NULL)+
   theme_classic()+
   labs(
-    title = "<b style = 'color:#1381B0; font-family:Courier; font-size:32px';> Density plot of degree centrality</b><br>
+    title = "<b style = 'color:#1381B0;  font-size:32px';> Density plot of degree centrality</b><br>
     <span style = 'font-size:10pt'>The in-degree, out degree and total degree distribution for all the nodes. This plot excludes nodes with degrees below 10 and above 1000</span>",
     x = "Number of connections",
     y = "Distribution</span>"
@@ -325,7 +333,7 @@ ggplot(all2, aes(x=Degree, color=Aspect)) +
 ---
 class: full
 
-```{r, centrality, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%", warning = FALSE}
+```{r, centrality, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%"}
 
 library(ggplot2)
 library(ggtext)
@@ -362,7 +370,7 @@ ggplot(centralMerge, aes(x = factor(1), y = centrality)) +
   labs(x = NULL)+
   theme_classic()+
   labs(
-    title = "<b style = 'color:#1381B0; font-family:Courier; font-size:32px';>Centrality Measure</b><br>
+    title = "<b style = 'color:#1381B0; font-size:32px';>Centrality Measure</b><br>
     <span style = 'font-size:10pt'>The top ten most connected genes are labeled</span>",
     x = "All points",
     y = "Centrality (scale (0-1)</span>"
@@ -434,7 +442,7 @@ ggplot(betweenAndcentrality, aes(x=betweenness, y=centrality, shape=Category, co
   theme_classic()+
   labs(x = NULL)+
   labs(
-    title = "<b style = 'color:#1381B0; font-family:Courier; font-size:32px';>Influential connectors</b><br>
+    title = "<b style = 'color:#1381B0;  font-size:32px';>Influential connectors</b><br>
     <span style = 'font-size:10pt'>Centrality and betweenness  scatter plot to 
 identify  nodes that have a larger influence in the network. With high  centrality and high betweenness lead to many and influential linkages</span>",
     x = "Betweenness centrality",
@@ -570,7 +578,7 @@ ggplot(betweenAndclose, aes(x=betweenness, y=closeness, shape=Category, color=Ca
   geom_point()+
   theme_classic()+
   labs(
-    title = "<b style = 'color:#1381B0; font-family:Courier; font-size:32px';> Information flow influencers</b><br>
+    title = "<b style = 'color:#1381B0;  font-size:32px';> Information flow influencers</b><br>
     <span style = 'font-size:10pt'>Closeness centrality and betweenness centrality scatter plot to 
 identify  nodes that have a larger influence in the network. With high closeness centrality and high betweenness centrality both distribute information 
 effectively throughout the system, and are in a position of “control” of the influence of 
@@ -639,7 +647,7 @@ ggraph(subgraph, layout = 'kk') +
   theme(axis.title = element_blank())+
   theme_classic()+
    labs(
-    title = "<b style = 'color:#1381B0; font-family:Courier; font-size:32px';>Subset of the network of the top influential genes</b><br>
+    title = "<b style = 'color:#1381B0;  font-size:32px';>Subset of the network of the top influential genes</b><br>
     <span style = 'font-size:10pt'>Common Neighbours: neighbouring nodes in common is indicative of potential relation between a Disease and a Compound.</span>",
     x = "",
     y = "" 
@@ -714,7 +722,7 @@ ggplot(siteDrugRank, aes(x = Site, y = Compound, group = Compound)) +
   geom_point(aes(color = rank, size = desc(rank)))+
   geom_line(aes(color = rank), size = 2)+
    labs(
-    title = "<b style = 'color:#1381B0; font-family:Courier; font-size:32px';>Link prediction (Compound and BTC) based on shared genes</b><br>
+    title = "<b style = 'color:#1381B0;  font-size:32px';>Link prediction (Compound and BTC) based on shared genes</b><br>
     <span style = 'font-size:10pt'></span>",
     x = "Anatomical site",
     y = "Compound" 
@@ -772,7 +780,7 @@ ggplot(presentLinks, aes(x = siteDrugLink, y = diseaseDrugLink)) +
     box.padding = unit(0.25, "lines"),
     point.padding = unit(0.25, "lines"))+
    labs(
-    title = "<b style = 'color:#1381B0; font-family:Courier; font-size:32px';>Predicting site specific compounds.</b><br>
+    title = "<b style = 'color:#1381B0;  font-size:32px';>Predicting site specific compounds.</b><br>
     <span style = 'font-size:10pt'> </span>",
     x = "Link Prediction score: Anatomic site",
     y = "Link Prediction score: Compound" 
