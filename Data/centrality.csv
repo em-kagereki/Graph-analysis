@@ -1,0 +1,1857 @@
+"","name","centrality","Category","centralPercent"
+"1","2-LTR circle formation",0,"Pathway",1
+"2","3' -UTR-mediated translational regulation",0,"Pathway",1
+"3","A tetrasaccharide linker sequence is required for GAG synthesis",0,"Pathway",1
+"4","A third proteolytic cleavage releases NICD",0,"Pathway",1
+"5","a6b1 and a6b4 Integrin signaling",0,"Pathway",1
+"6","Abacavir transmembrane transport",0,"Pathway",1
+"7","Abacavir transport and metabolism",0,"Pathway",1
+"8","ABC-family proteins mediated transport",0,"Pathway",1
+"9","ABCB1",13,"Gene",92
+"10","ABCC5",10,"Gene",91
+"11","ABCF3",0,"Gene",1
+"12","ABHD6",0,"Gene",1
+"13","Abnormal metabolism in phenylketonuria",0,"Pathway",1
+"14","ACAT2",0,"Gene",1
+"15","Acetylcholine Binding And Downstream Events",0,"Pathway",1
+"16","Acetylcholine Neurotransmitter Release Cycle",0,"Pathway",1
+"17","Acetylcholine regulates insulin secretion",0,"Pathway",1
+"18","ACOT9",0,"Gene",1
+"19","Activated NOTCH1 Transmits Signal to the Nucleus",0,"Pathway",1
+"20","Activated point mutants of FGFR2",0,"Pathway",1
+"21","activated TAK1 mediates p38 MAPK activation",0,"Pathway",1
+"22","Activated TLR4 signalling",0,"Pathway",2
+"23","Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins",0,"Pathway",2
+"24","Activation of ATR in response to replication stress",0,"Pathway",2
+"25","Activation of BAD and translocation to mitochondria",0,"Pathway",2
+"26","Activation of BH3-only proteins",0,"Pathway",2
+"27","Activation of caspases through apoptosome-mediated cleavage",0,"Pathway",2
+"28","Activation of GABAB receptors",0,"Pathway",2
+"29","Activation of gene expression by SREBF (SREBP)",0,"Pathway",2
+"30","Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon",0,"Pathway",2
+"31","Activation of Matrix Metalloproteinases",0,"Pathway",2
+"32","Activation of NF-kappaB in B cells",0,"Pathway",2
+"33","Activation of PKB",0,"Pathway",2
+"34","Activation of PPARGC1A (PGC-1alpha) by phosphorylation",0,"Pathway",2
+"35","Activation of Rac",0,"Pathway",2
+"36","Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",0,"Pathway",2
+"37","Activation of the pre-replicative complex",0,"Pathway",2
+"38","Activation, translocation and oligomerization of BAX",0,"Pathway",2
+"39","Acyl chain remodeling of DAG and TAG",0,"Pathway",2
+"40","ADAM10",28,"Gene",97
+"41","Adaptive Immune System",0,"Pathway",2
+"42","Adenylate cyclase inhibitory pathway",0,"Pathway",3
+"43","ADGRE5",5,"Gene",84
+"44","Adherens junctions interactions",0,"Pathway",3
+"45","ADI1",5,"Gene",84
+"46","Adipogenesis",0,"Pathway",3
+"47","ADM",9,"Gene",90
+"48","ADO",0,"Gene",3
+"49","ADP signalling through P2Y purinoceptor 12",0,"Pathway",3
+"50","ADRA1A",15,"Gene",94
+"51","ADRA1B",15,"Gene",94
+"52","ADRA1D",14,"Gene",93
+"53","ADRA2A",19,"Gene",95
+"54","ADRA2B",15,"Gene",94
+"55","ADRA2C",19,"Gene",95
+"56","Adrenaline signalling through Alpha-2 adrenergic receptor",0,"Pathway",3
+"57","Adrenaline,noradrenaline inhibits insulin secretion",0,"Pathway",3
+"58","Adrenoceptors",0,"Pathway",3
+"59","ADSL",5,"Gene",84
+"60","Advanced glycosylation endproduct receptor signaling",0,"Pathway",3
+"61","AFF1",0,"Gene",3
+"62","Aflatoxin activation and detoxification",0,"Pathway",3
+"63","Aflatoxin B1 metabolism",0,"Pathway",3
+"64","AGE/RAGE pathway",0,"Pathway",3
+"65","AKR1B10",5,"Gene",84
+"66","AKR7A2",5,"Gene",84
+"67","AKT phosphorylates targets in the nucleus",0,"Pathway",3
+"68","ALB",21,"Gene",96
+"69","ALDOC",7,"Gene",87
+"70","Allograft Rejection",0,"Pathway",3
+"71","alpha-linolenic (omega3) and linoleic (omega6) acid metabolism",0,"Pathway",3
+"72","Alpha-synuclein signaling",0,"Pathway",3
+"73","Alpha 6 Beta 4 signaling pathway",0,"Pathway",3
+"74","Alpha4 beta1 integrin signaling events",0,"Pathway",3
+"75","Alpha6 beta4 integrin-ligand interactions",0,"Pathway",4
+"76","AlphaE beta7 integrin cell surface interactions",0,"Pathway",4
+"77","Alternative NF-kappaB pathway",0,"Pathway",4
+"78","Alzheimers Disease",0,"Pathway",4
+"79","amb2 Integrin signaling",0,"Pathway",4
+"80","AMER1 mutants destabilize the destruction complex",0,"Pathway",4
+"81","AMFR",1,"Gene",78
+"82","Amine compound SLC transporters",0,"Pathway",4
+"83","Amine ligand-binding receptors",0,"Pathway",4
+"84","Amino acid and derivative metabolism",0,"Pathway",4
+"85","Amino acid and oligopeptide SLC transporters",0,"Pathway",4
+"86","Amino acid synthesis and interconversion (transamination)",0,"Pathway",4
+"87","Amino acid transport across the plasma membrane",0,"Pathway",4
+"88","AMPK inhibits chREBP transcriptional activation activity",0,"Pathway",4
+"89","AMPK Signaling",0,"Pathway",4
+"90","Amyloids",0,"Pathway",4
+"91","Amyotrophic lateral sclerosis (ALS)",0,"Pathway",4
+"92","Anchoring fibril formation",0,"Pathway",4
+"93","Androgen receptor signaling pathway",0,"Pathway",4
+"94","Angiopoietin receptor Tie2-mediated signaling",0,"Pathway",4
+"95","ANKRD17",0,"Gene",5
+"96","ANKS1A",0,"Gene",5
+"97","Antigen activates B Cell Receptor (BCR) leading to generation of second messengers",0,"Pathway",5
+"98","Antigen Presentation: Folding, assembly and peptide loading of class I MHC",0,"Pathway",5
+"99","Antigen processing-Cross presentation",0,"Pathway",5
+"100","Antigen processing: Ubiquitination & Proteasome degradation",0,"Pathway",5
+"101","Antiviral mechanism by IFN-stimulated genes",0,"Pathway",5
+"102","ANXA4",1,"Gene",78
+"103","AP-1 transcription factor network",0,"Pathway",5
+"104","AP2S1",35,"Gene",98
+"105","APAF1",21,"Gene",96
+"106","APC-Cdc20 mediated degradation of Nek2A",0,"Pathway",5
+"107","APC/C-mediated degradation of cell cycle proteins",0,"Pathway",5
+"108","APC/C:Cdc20 mediated degradation of Cyclin B",0,"Pathway",5
+"109","APC/C:Cdc20 mediated degradation of mitotic proteins",0,"Pathway",5
+"110","APC/C:Cdc20 mediated degradation of Securin",0,"Pathway",5
+"111","APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1",0,"Pathway",5
+"112","APEX1",32,"Gene",98
+"113","APLP2",0,"Gene",5
+"114","APOBEC3G mediated resistance to HIV-1 infection",0,"Pathway",5
+"115","Apoptosis",0,"Pathway",5
+"116","Apoptosis",0,"Pathway",5
+"117","Apoptosis",0,"Pathway",5
+"118","Apoptosis",0,"Pathway",6
+"119","Apoptosis-related network due to altered Notch3 in ovarian cancer",0,"Pathway",6
+"120","Apoptosis Modulation and Signaling",0,"Pathway",6
+"121","Apoptosis Modulation by HSP70",0,"Pathway",6
+"122","Apoptotic cleavage of cell adhesion proteins",0,"Pathway",6
+"123","Apoptotic cleavage of cellular proteins",0,"Pathway",6
+"124","Apoptotic execution phase",0,"Pathway",6
+"125","Apoptotic factor-mediated response",0,"Pathway",6
+"126","APP",48,"Gene",99
+"127","APPL1",5,"Gene",84
+"128","APRT",4,"Gene",82
+"129","Aquaporin-mediated transport",0,"Pathway",6
+"130","Arachidonate Epoxygenase / Epoxide Hydrolase",0,"Pathway",6
+"131","Arachidonic acid metabolism",0,"Pathway",6
+"132","Arf6 downstream pathway",0,"Pathway",6
+"133","Arf6 signaling events",0,"Pathway",6
+"134","Arf6 trafficking events",0,"Pathway",6
+"135","ARID4A",2,"Gene",79
+"136","ARMS-mediated activation",0,"Pathway",6
+"137","Arrhythmogenic Right Ventricular Cardiomyopathy",0,"Pathway",6
+"138","Aryl Hydrocarbon Receptor",0,"Pathway",6
+"139","Aryl Hydrocarbon Receptor Pathway",0,"Pathway",6
+"140","Arylamine metabolism",0,"Pathway",6
+"141","Asparagine N-linked glycosylation",0,"Pathway",7
+"142","Assembly of collagen fibrils and other multimeric structures",0,"Pathway",7
+"143","Assembly Of The HIV Virion",0,"Pathway",7
+"144","Assembly of the pre-replicative complex",0,"Pathway",7
+"145","Assembly of the RAD51-ssDNA nucleoprotein complex",0,"Pathway",7
+"146","Association of licensing factors with the pre-replicative complex",0,"Pathway",7
+"147","Association of TriC/CCT with target proteins during biosynthesis",0,"Pathway",7
+"148","Astrocytic Glutamate-Glutamine Uptake And Metabolism",0,"Pathway",7
+"149","ASUN",0,"Gene",7
+"150","Asymmetric localization of PCP proteins",0,"Pathway",7
+"151","ATF-2 transcription factor network",0,"Pathway",7
+"152","ATF6-alpha activates chaperones",0,"Pathway",7
+"153","ATG3",1,"Gene",78
+"154","ATM Signaling Pathway",0,"Pathway",7
+"155","ATP1B1",7,"Gene",87
+"156","ATP6V0B",8,"Gene",89
+"157","ATP6V1D",8,"Gene",89
+"158","ATR signaling pathway",0,"Pathway",7
+"159","ATRN",0,"Gene",7
+"160","Attenuation phase",0,"Pathway",7
+"161","Atypical NF-kappaB pathway",0,"Pathway",7
+"162","AUF1 (hnRNP D0) destabilizes mRNA",0,"Pathway",7
+"163","AURKB",16,"Gene",95
+"164","Aurora A signaling",0,"Pathway",7
+"165","Aurora B signaling",0,"Pathway",8
+"166","Aurora C signaling",0,"Pathway",8
+"167","Autodegradation of Cdh1 by Cdh1:APC/C",0,"Pathway",8
+"168","Autodegradation of the E3 ubiquitin ligase COP1",0,"Pathway",8
+"169","Autointegration results in viral DNA circles",0,"Pathway",8
+"170","Axon guidance",0,"Pathway",8
+"171","B Cell Activation",0,"Pathway",8
+"172","B Cell Receptor Signaling Pathway",0,"Pathway",8
+"173","B3GALNT1",1,"Gene",78
+"174","BABAM1",0,"Gene",8
+"175","BAG3",1,"Gene",78
+"176","BANF1",21,"Gene",96
+"177","BARD1 signaling events",0,"Pathway",8
+"178","Base-Excision Repair, AP Site Formation",0,"Pathway",8
+"179","Base-free sugar-phosphate removal via the single-nucleotide replacement pathway",0,"Pathway",8
+"180","Base Excision Repair",0,"Pathway",8
+"181","Basigin interactions",0,"Pathway",8
+"182","BAX",28,"Gene",97
+"183","BCAP31",3,"Gene",81
+"184","BCL2",43,"Gene",99
+"185","BCR signaling pathway",0,"Pathway",8
+"186","BCS1L",2,"Gene",79
+"187","BDNF signaling pathway",0,"Pathway",8
+"188","Benzo(a)pyrene metabolism",0,"Pathway",8
+"189","beta-catenin independent WNT signaling",0,"Pathway",8
+"190","Beta-catenin phosphorylation cascade",0,"Pathway",8
+"191","Beta1 integrin cell surface interactions",0,"Pathway",9
+"192","Beta2 integrin cell surface interactions",0,"Pathway",9
+"193","Beta3 integrin cell surface interactions",0,"Pathway",9
+"194","Beta5 beta6 beta7 and beta8 integrin cell surface interactions",0,"Pathway",9
+"195","BFAR",0,"Gene",9
+"196","BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members",0,"Pathway",9
+"197","Bile acid and bile salt metabolism",0,"Pathway",9
+"198","Binding and Uptake of Ligands by Scavenger Receptors",0,"Pathway",9
+"199","binding of TCF/LEF:CTNNB1 to target gene promoters",0,"Pathway",9
+"200","Biological oxidations",0,"Pathway",9
+"201","Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein",0,"Pathway",9
+"202","BIRC5",19,"Gene",95
+"203","Bladder Cancer",0,"Pathway",9
+"204","BMAL1:CLOCK,NPAS2 activates circadian gene expression",0,"Pathway",9
+"205","BMI1",5,"Gene",84
+"206","BMP receptor signaling",0,"Pathway",9
+"207","Branched-chain amino acid catabolism",0,"Pathway",9
+"208","BTK",25,"Gene",97
+"209","Budding and maturation of HIV virion",0,"Pathway",9
+"210","Bupropion",42,"Compound",99
+"211","C-MYB transcription factor network",0,"Pathway",9
+"212","C-MYC pathway",0,"Pathway",9
+"213","C14orf1",0,"Gene",9
+"214","C1QBP",3,"Gene",81
+"215","C2CD2",0,"Gene",10
+"216","C2CD5",2,"Gene",79
+"217","Calcineurin-regulated NFAT-dependent transcription in lymphocytes",0,"Pathway",10
+"218","Calcitonin-like ligand receptors",0,"Pathway",10
+"219","Calcium Regulation in the Cardiac Cell",0,"Pathway",10
+"220","Calcium signaling in the CD4+ TCR pathway",0,"Pathway",10
+"221","Calnexin/calreticulin cycle",0,"Pathway",10
+"222","CAMSAP1",0,"Gene",10
+"223","Canonical NF-kappaB pathway",0,"Pathway",10
+"224","Canonical Wnt signaling pathway",0,"Pathway",10
+"225","CANT1",0,"Gene",10
+"226","Cap-dependent Translation Initiation",0,"Pathway",10
+"227","CAPN3",1,"Gene",78
+"228","CAPN7",1,"Gene",78
+"229","Carbohydrate metabolism",0,"Pathway",10
+"230","Cardiac Hypertrophic Response",0,"Pathway",10
+"231","Cardiac Progenitor Differentiation",0,"Pathway",10
+"232","CASP2",18,"Gene",95
+"233","Caspase Cascade in Apoptosis",0,"Pathway",10
+"234","CAST",0,"Gene",10
+"235","CCNA2",40,"Gene",98
+"236","CCP110",7,"Gene",87
+"237","CCT2",8,"Gene",89
+"238","CCT3",8,"Gene",89
+"239","CCT5",8,"Gene",89
+"240","CD28 co-stimulation",0,"Pathway",10
+"241","CD28 dependent PI3K/Akt signaling",0,"Pathway",10
+"242","CD28 dependent Vav1 pathway",0,"Pathway",10
+"243","CD2BP2",4,"Gene",82
+"244","CD40/CD40L signaling",0,"Pathway",11
+"245","CD44",18,"Gene",95
+"246","CDC14B",2,"Gene",80
+"247","CDC20",30,"Gene",98
+"248","Cdc20:Phospho-APC/C mediated degradation of Cyclin A",0,"Pathway",11
+"249","CDC25B",18,"Gene",95
+"250","CDC42 signaling events",0,"Pathway",11
+"251","CDC6 association with the ORC:origin complex",0,"Pathway",11
+"252","CDH1",34,"Gene",98
+"253","CDK-mediated phosphorylation and removal of Cdc6",0,"Pathway",11
+"254","CDK7",48,"Gene",99
+"255","CDT1 association with the CDC6:ORC:origin complex",0,"Pathway",11
+"256","CEBPB",28,"Gene",97
+"257","Cell-Cell communication",0,"Pathway",11
+"258","Cell-cell junction organization",0,"Pathway",11
+"259","Cell-extracellular matrix interactions",0,"Pathway",11
+"260","Cell Cycle",0,"Pathway",11
+"261","Cell Cycle",0,"Pathway",11
+"262","Cell Cycle",0,"Pathway",11
+"263","Cell Cycle",0,"Pathway",11
+"264","Cell Cycle Checkpoints",0,"Pathway",11
+"265","Cell Cycle, Mitotic",0,"Pathway",11
+"266","Cell death signalling via NRAGE, NRIF and NADE",0,"Pathway",11
+"267","Cell Differentiation - Index",0,"Pathway",11
+"268","cell division",0,"BiologicalProcess",11
+"269","cell division",0,"Pathway",11
+"270","Cell junction organization",0,"Pathway",12
+"271","Cell surface interactions at the vascular wall",0,"Pathway",12
+"272","Cellular response to heat stress",0,"Pathway",12
+"273","Cellular response to hypoxia",0,"Pathway",12
+"274","Cellular responses to stress",0,"Pathway",12
+"275","Cellular Senescence",0,"Pathway",12
+"276","Centrosome maturation",0,"Pathway",12
+"277","CEP192",8,"Gene",89
+"278","CEP76",7,"Gene",87
+"279","Ceramide signaling pathway",0,"Pathway",12
+"280","CERK",8,"Gene",89
+"281","Chaperonin-mediated protein folding",0,"Pathway",12
+"282","Chemokine receptors bind chemokines",0,"Pathway",12
+"283","CHL1 interactions",0,"Pathway",12
+"284","CHMP1A",0,"Gene",12
+"285","Cholesterol biosynthesis",0,"Pathway",12
+"286","Cholesterol Biosynthesis",0,"Pathway",12
+"287","Chondroitin sulfate/dermatan sulfate metabolism",0,"Pathway",12
+"288","CHRFAM7A",0,"Gene",12
+"289","CHRM1",15,"Gene",94
+"290","CHRM2",14,"Gene",93
+"291","CHRM3",18,"Gene",95
+"292","CHRM4",12,"Gene",92
+"293","CHRM5",13,"Gene",92
+"294","CHRNA3",10,"Gene",91
+"295","CHRNA4",10,"Gene",91
+"296","CHRNA6",8,"Gene",89
+"297","CHRNA7",6,"Gene",86
+"298","CHRNB2",11,"Gene",91
+"299","CHRNB4",10,"Gene",91
+"300","Chromatin modifying enzymes",0,"Pathway",12
+"301","Chromosome Maintenance",0,"Pathway",12
+"302","Chylomicron-mediated lipid transport",0,"Pathway",12
+"303","Circadian Clock",0,"Pathway",13
+"304","Circadian rhythm pathway",0,"Pathway",13
+"305","Circadian rythm related genes",0,"Pathway",13
+"306","Citric acid cycle (TCA cycle)",0,"Pathway",13
+"307","Class A/1 (Rhodopsin-like receptors)",0,"Pathway",13
+"308","Class B/2 (Secretin family receptors)",0,"Pathway",13
+"309","Class I MHC mediated antigen processing & presentation",0,"Pathway",13
+"310","Class I PI3K signaling events",0,"Pathway",13
+"311","Class I PI3K signaling events mediated by Akt",0,"Pathway",13
+"312","Clathrin derived vesicle budding",0,"Pathway",13
+"313","Clearance of dopamine",0,"Pathway",13
+"314","Clearance of Nuclear Envelope Membranes from Chromatin",0,"Pathway",13
+"315","Cleavage of Growing Transcript in the Termination Region",0,"Pathway",13
+"316","Cleavage of the damaged purine",0,"Pathway",13
+"317","Clonidine",32,"Compound",98
+"318","CNOT2",5,"Gene",84
+"319","Codeine and Morphine Metabolism",0,"Pathway",13
+"320","COG7",0,"Gene",13
+"321","COL11A1",8,"Gene",89
+"322","COL9A3",14,"Gene",93
+"323","COLGALT1",3,"Gene",81
+"324","Collagen biosynthesis and modifying enzymes",0,"Pathway",13
+"325","Collagen degradation",0,"Pathway",13
+"326","Collagen formation",0,"Pathway",13
+"327","Common Pathway",0,"Pathway",14
+"328","Complement and Coagulation Cascades",0,"Pathway",14
+"329","Complement cascade",0,"Pathway",14
+"330","Composition of Lipid Particles",0,"Pathway",14
+"331","Condensation of Prometaphase Chromosomes",0,"Pathway",14
+"332","Condensation of Prophase Chromosomes",0,"Pathway",14
+"333","Constitutive Androstane Receptor Pathway",0,"Pathway",14
+"334","Constitutive PI3K/AKT Signaling in Cancer",0,"Pathway",14
+"335","Constitutive Signaling by NOTCH1 HD Domain Mutants",0,"Pathway",14
+"336","Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants",0,"Pathway",14
+"337","Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant",0,"Pathway",14
+"338","Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase",0,"Pathway",14
+"339","Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding",0,"Pathway",14
+"340","Copper homeostasis",0,"Pathway",14
+"341","COPS3",0,"Gene",14
+"342","Coregulation of Androgen receptor activity",0,"Pathway",14
+"343","Cori Cycle",0,"Pathway",14
+"344","Corticotropin-releasing hormone",0,"Pathway",14
+"345","Costimulation by the CD28 family",0,"Pathway",14
+"346","COX4I1",7,"Gene",87
+"347","COX7B",7,"Gene",87
+"348","COX8A",8,"Gene",89
+"349","CRK",62,"Gene",100
+"350","CRMPs in Sema3A signaling",0,"Pathway",15
+"351","Cross-presentation of soluble exogenous antigens (endosomes)",0,"Pathway",15
+"352","Crosslinking of collagen fibrils",0,"Pathway",15
+"353","CRYZ",0,"Gene",15
+"354","CTLA4 inhibitory signaling",0,"Pathway",15
+"355","CTSD",13,"Gene",92
+"356","CTSL",15,"Gene",94
+"357","CXCR3-mediated signaling events",0,"Pathway",15
+"358","CXCR4-mediated signaling events",0,"Pathway",15
+"359","Cyclin A/B1 associated events during G2/M transition",0,"Pathway",15
+"360","Cyclin A:Cdk2-associated events at S phase entry",0,"Pathway",15
+"361","Cyclin B2 mediated events",0,"Pathway",15
+"362","Cyclin D associated events in G1",0,"Pathway",15
+"363","Cyclin E associated events during G1/S transition",0,"Pathway",15
+"364","CYCS",31,"Gene",98
+"365","CYP1A1",24,"Gene",97
+"366","CYP1A2",27,"Gene",97
+"367","CYP2A6",14,"Gene",93
+"368","CYP2B6",14,"Gene",93
+"369","CYP2C19",16,"Gene",95
+"370","CYP2C8",15,"Gene",94
+"371","CYP2C9",16,"Gene",95
+"372","CYP2D6",14,"Gene",93
+"373","CYP2E1",15,"Gene",94
+"374","CYP2E1 reactions",0,"Pathway",15
+"375","CYP3A4",23,"Gene",96
+"376","CYP3A5",11,"Gene",91
+"377","CYP51A1",13,"Gene",92
+"378","CYTH1",1,"Gene",78
+"379","Cytisine",6,"Compound",86
+"380","Cytochrome P450 - arranged by substrate type",0,"Pathway",15
+"381","Cytokine Signaling in Immune system",0,"Pathway",15
+"382","Cytokines and Inflammatory Response",0,"Pathway",15
+"383","Cytoplasmic Ribosomal Proteins",0,"Pathway",15
+"384","Cytosolic iron-sulfur cluster assembly",0,"Pathway",15
+"385","Cytosolic sensors of pathogen-associated DNA",0,"Pathway",15
+"386","DAD1",3,"Gene",81
+"387","DAP12 interactions",0,"Pathway",16
+"388","DAP12 signaling",0,"Pathway",16
+"389","DBP",3,"Gene",81
+"390","DCC mediated attractive signaling",0,"Pathway",16
+"391","DCTPP1",0,"Gene",16
+"392","DDIT4",3,"Gene",81
+"393","DDX47",0,"Gene",16
+"394","deactivation of the beta-catenin transactivating complex",0,"Pathway",16
+"395","Deadenylation-dependent mRNA decay",0,"Pathway",16
+"396","Deadenylation of mRNA",0,"Pathway",16
+"397","DECR2",0,"Gene",16
+"398","Defective AMN causes hereditary megaloblastic anemia 1",0,"Pathway",16
+"399","Defective B3GAT3 causes JDSSDHD",0,"Pathway",16
+"400","degradation of AXIN",0,"Pathway",16
+"401","degradation of DVL",0,"Pathway",16
+"402","Degradation of GLI1 by the proteasome",0,"Pathway",16
+"403","Degradation of GLI2 by the proteasome",0,"Pathway",16
+"404","Degradation of the extracellular matrix",0,"Pathway",16
+"405","DENND3",0,"Gene",16
+"406","Deposition of new CENPA-containing nucleosomes at the centromere",0,"Pathway",16
+"407","Detoxification of Reactive Oxygen Species",0,"Pathway",16
+"408","Developmental Biology",0,"Pathway",17
+"409","DEx/H-box helicases activate type I IFN and inflammatory cytokines production",0,"Pathway",17
+"410","DHCR7",7,"Gene",88
+"411","DHX29",0,"Gene",17
+"412","Diclofenac Metabolic Pathway",0,"Pathway",17
+"413","Differentiation of white and brown adipocyte   ",0,"Pathway",17
+"414","Differentiation Pathway",0,"Pathway",17
+"415","DIRAS3",0,"Gene",17
+"416","Direct p53 effectors",0,"Pathway",17
+"417","disassembly of the destruction complex and recruitment of AXIN to the membrane",0,"Pathway",17
+"418","Disease",0,"Pathway",17
+"419","Diseases associated with visual transduction",0,"Pathway",17
+"420","Displacement of DNA glycosylase by APE1",0,"Pathway",17
+"421","Diurnally Regulated Genes with Circadian Orthologs",0,"Pathway",17
+"422","DLD",13,"Gene",92
+"423","DNA-PK pathway in nonhomologous end joining",0,"Pathway",17
+"424","DNA Damage Response",0,"Pathway",17
+"425","DNA Damage Response (only ATM dependent)",0,"Pathway",17
+"426","DNA Damage/Telomere Stress Induced Senescence",0,"Pathway",17
+"427","DNA methylation",0,"Pathway",17
+"428","DNA Repair",0,"Pathway",17
+"429","DNA Replication",0,"Pathway",18
+"430","DNA Replication",0,"Pathway",18
+"431","DNA Replication",0,"Pathway",18
+"432","DNA Replication",0,"Pathway",18
+"433","DNA Replication Pre-Initiation",0,"Pathway",18
+"434","DNA strand elongation",0,"Pathway",18
+"435","DNAJA3",1,"Gene",78
+"436","DNAJB6",0,"Gene",18
+"437","DNM1L",3,"Gene",81
+"438","DNTTIP2",0,"Gene",18
+"439","DOCK9",3,"Gene",81
+"440","Dopamine metabolism",0,"Pathway",18
+"441","Dopamine Neurotransmitter Release Cycle",0,"Pathway",18
+"442","Dopamine receptors",0,"Pathway",18
+"443","Dopaminergic Neurogenesis",0,"Pathway",18
+"444","Double-Strand Break Repair",0,"Pathway",18
+"445","Downregulation of ERBB2:ERBB3 signaling",0,"Pathway",18
+"446","Downregulation of ERBB4 signaling",0,"Pathway",18
+"447","Downregulation of SMAD2/3:SMAD4 transcriptional activity",0,"Pathway",18
+"448","Downregulation of TGF-beta receptor signaling",0,"Pathway",18
+"449","Downstream signal transduction",0,"Pathway",18
+"450","Downstream signaling events of B Cell Receptor (BCR)",0,"Pathway",18
+"451","Downstream signaling in naïve CD8+ T cells",0,"Pathway",19
+"452","Downstream signaling of activated FGFR",0,"Pathway",19
+"453","Downstream TCR signaling",0,"Pathway",19
+"454","DPH2",0,"Gene",19
+"455","DPYSL2",7,"Gene",88
+"456","DRAP1",4,"Gene",82
+"457","DRD2",13,"Gene",93
+"458","Drug Induction of Bile Acid Pathway",0,"Pathway",19
+"459","DSCAM interactions",0,"Pathway",19
+"460","DSG2",5,"Gene",85
+"461","Dual hijack model of Vif in HIV infection",0,"Pathway",19
+"462","Dual incision reaction in GG-NER",0,"Pathway",19
+"463","Dual incision reaction in TC-NER",0,"Pathway",19
+"464","DYNC1LI2",3,"Gene",81
+"465","DYRK1A",6,"Gene",86
+"466","E-cadherin signaling events",0,"Pathway",19
+"467","E-cadherin signaling in keratinocytes",0,"Pathway",19
+"468","E-cadherin signaling in the nascent adherens junction",0,"Pathway",19
+"469","E2F mediated regulation of DNA replication",0,"Pathway",19
+"470","E2F transcription factor network",0,"Pathway",19
+"471","E2F2",21,"Gene",96
+"472","Early Phase of HIV Life Cycle",0,"Pathway",19
+"473","EBP",3,"Gene",82
+"474","EBV LMP1 signaling",0,"Pathway",19
+"475","ECH1",1,"Gene",78
+"476","ECM proteoglycans",0,"Pathway",19
+"477","Ectoderm Differentiation",0,"Pathway",19
+"478","EDEM1",9,"Gene",90
+"479","EEF1A2",5,"Gene",85
+"480","Effects of Botulinum toxin",0,"Pathway",19
+"481","Effects of PIP2 hydrolysis",0,"Pathway",20
+"482","EGF/EGFR Signaling Pathway",0,"Pathway",20
+"483","EGFR-dependent Endothelin signaling events",0,"Pathway",20
+"484","EGFR downregulation",0,"Pathway",20
+"485","EGR1",26,"Gene",97
+"486","EGR2",7,"Gene",88
+"487","Eicosanoid Synthesis",0,"Pathway",20
+"488","EIF3I",12,"Gene",92
+"489","EIF4ENIF1",0,"Gene",20
+"490","EIF6",1,"Gene",78
+"491","ELAC2",0,"Gene",20
+"492","Elastic fibre formation",0,"Pathway",20
+"493","Electron Transport Chain",0,"Pathway",20
+"494","Elongation arrest and recovery",0,"Pathway",20
+"495","ELOVL6",8,"Gene",89
+"496","Endochondral Ossification",0,"Pathway",20
+"497","Endoderm Differentiation",0,"Pathway",20
+"498","Endogenous sterols",0,"Pathway",20
+"499","Endogenous TLR signaling",0,"Pathway",20
+"500","Endosomal Sorting Complex Required For Transport (ESCRT)",0,"Pathway",20
+"501","Endosomal/Vacuolar pathway",0,"Pathway",20
+"502","Endothelin Pathways",0,"Pathway",20
+"503","Endothelins",0,"Pathway",20
+"504","Energy dependent regulation of mTOR by LKB1-AMPK",0,"Pathway",20
+"505","ENOPH1",5,"Gene",85
+"506","eNOS activation",0,"Pathway",21
+"507","EPH-ephrin mediated repulsion of cells",0,"Pathway",21
+"508","EPH-Ephrin signaling",0,"Pathway",21
+"509","EPHA-mediated growth cone collapse",0,"Pathway",21
+"510","EPHA forward signaling",0,"Pathway",21
+"511","EPHA2 forward signaling",0,"Pathway",21
+"512","EPHA3",8,"Gene",90
+"513","EPHB-mediated forward signaling",0,"Pathway",21
+"514","EPHB forward signaling",0,"Pathway",21
+"515","Ephrin A reverse signaling",0,"Pathway",21
+"516","Ephrin B reverse signaling",0,"Pathway",21
+"517","Ephrin signaling",0,"Pathway",21
+"518","EphrinA-EPHA pathway",0,"Pathway",21
+"519","Epigenetic regulation of gene expression",0,"Pathway",21
+"520","EPO Receptor Signaling",0,"Pathway",21
+"521","EPO signaling pathway",0,"Pathway",21
+"522","ER-Phagosome pathway",0,"Pathway",21
+"523","ER Quality Control Compartment (ERQC)",0,"Pathway",21
+"524","ERAP2",4,"Gene",82
+"525","ErbB receptor signaling network",0,"Pathway",21
+"526","ErbB Signaling Pathway",0,"Pathway",21
+"527","ErbB1 downstream signaling",0,"Pathway",22
+"528","ErbB2/ErbB3 signaling events",0,"Pathway",22
+"529","ERBB3",37,"Gene",98
+"530","ErbB4 signaling events",0,"Pathway",22
+"531","ERH",0,"Gene",22
+"532","ERI3",0,"Gene",22
+"533","Estrogen metabolism",0,"Pathway",22
+"534","Estrogen Receptor Pathway",0,"Pathway",22
+"535","Estrogen signaling pathway",0,"Pathway",22
+"536","ETFB",4,"Gene",83
+"537","Eukaryotic Transcription Initiation",0,"Pathway",22
+"538","Eukaryotic Translation Elongation",0,"Pathway",22
+"539","Eukaryotic Translation Termination",0,"Pathway",22
+"540","EVC",0,"Gene",22
+"541","EVL",7,"Gene",88
+"542","Evolocumab Mechanism",0,"Pathway",22
+"543","Export of Viral Ribonucleoproteins from Nucleus",0,"Pathway",22
+"544","Extension of Telomeres",0,"Pathway",22
+"545","Extracellular matrix organization",0,"Pathway",22
+"546","EYA2",0,"Gene",22
+"547","EZH2",13,"Gene",93
+"548","Facilitative Na+-independent glucose transporters",0,"Pathway",22
+"549","Factors involved in megakaryocyte development and platelet production",0,"Pathway",22
+"550","FADS2",4,"Gene",83
+"551","FAM188A",0,"Gene",23
+"552","FAM50A",0,"Gene",23
+"553","FAM69A",0,"Gene",23
+"554","FAM96B",2,"Gene",80
+"555","Fanconi anemia pathway",0,"Pathway",23
+"556","Fanconi Anemia pathway",0,"Pathway",23
+"557","Farnesoid X Receptor  Pathway",0,"Pathway",23
+"558","FAS (CD95) signaling pathway",0,"Pathway",23
+"559","FAS pathway and Stress induction of HSP regulation",0,"Pathway",23
+"560","Fatty Acid Beta Oxidation",0,"Pathway",23
+"561","Fatty Acid Biosynthesis",0,"Pathway",23
+"562","Fatty Acid Omega Oxidation",0,"Pathway",23
+"563","Fatty acid, triacylglycerol, and ketone body metabolism",0,"Pathway",23
+"564","Fatty acids",0,"Pathway",23
+"565","Fatty Acyl-CoA Biosynthesis",0,"Pathway",23
+"566","FBL",0,"Gene",23
+"567","FBXL5",4,"Gene",83
+"568","FBXW7 Mutants and NOTCH1 in Cancer",0,"Pathway",23
+"569","Fc-epsilon receptor I signaling in mast cells",0,"Pathway",23
+"570","Fc epsilon receptor (FCERI) signaling",0,"Pathway",23
+"571","FCERI mediated Ca+2 mobilization",0,"Pathway",23
+"572","FCERI mediated MAPK activation",0,"Pathway",24
+"573","FCERI mediated NF-kB activation",0,"Pathway",24
+"574","Fcgamma receptor (FCGR) dependent phagocytosis",0,"Pathway",24
+"575","FCGR activation",0,"Pathway",24
+"576","FDFT1",11,"Gene",91
+"577","FDPS",7,"Gene",88
+"578","Felbamate Metabolism",0,"Pathway",24
+"579","FGF signaling pathway",0,"Pathway",24
+"580","FGF1",54,"Gene",100
+"581","FGFR ligand binding and activation",0,"Pathway",24
+"582","FGFR1 ligand binding and activation",0,"Pathway",24
+"583","FGFR1b ligand binding and activation",0,"Pathway",24
+"584","FGFR1c ligand binding and activation",0,"Pathway",24
+"585","FGFR2b ligand binding and activation",0,"Pathway",24
+"586","FGFR2c ligand binding and activation",0,"Pathway",24
+"587","FGFR3 ligand binding and activation",0,"Pathway",24
+"588","FGFR3b ligand binding and activation",0,"Pathway",24
+"589","FGFR4 ligand binding and activation",0,"Pathway",24
+"590","FIS1",0,"Gene",24
+"591","FKBP4",7,"Gene",88
+"592","Fluoropyrimidine Activity",0,"Pathway",24
+"593","Focal Adhesion",0,"Pathway",24
+"594","Folate-Alcohol and Cancer Pathway",0,"Pathway",24
+"595","Folate Metabolism",0,"Pathway",25
+"596","Folding of actin by CCT/TriC",0,"Pathway",25
+"597","Formation of a pool of free 40S subunits",0,"Pathway",25
+"598","Formation of annular gap junctions",0,"Pathway",25
+"599","Formation of apoptosome",0,"Pathway",25
+"600","Formation of Fibrin Clot (Clotting Cascade)",0,"Pathway",25
+"601","Formation of HIV-1 elongation complex containing HIV-1 Tat",0,"Pathway",25
+"602","Formation of HIV elongation complex in the absence of HIV Tat",0,"Pathway",25
+"603","Formation of Senescence-Associated Heterochromatin Foci (SAHF)",0,"Pathway",25
+"604","formation of the beta-catenin:TCF transactivating complex",0,"Pathway",25
+"605","Formation of the Early Elongation Complex",0,"Pathway",25
+"606","Formation of the ternary complex, and subsequently, the 43S complex",0,"Pathway",25
+"607","Formation of tubulin folding intermediates by CCT/TriC",0,"Pathway",25
+"608","Formyl peptide receptors bind formyl peptides and many other ligands",0,"Pathway",25
+"609","FOXA1 transcription factor network",0,"Pathway",25
+"610","FOXA2 and FOXA3 transcription factor networks",0,"Pathway",25
+"611","FOXM1 transcription factor network",0,"Pathway",25
+"612","FoxO family signaling",0,"Pathway",25
+"613","FOXO3",51,"Gene",99
+"614","FOXO4",35,"Gene",98
+"615","FPGS",5,"Gene",85
+"616","FRS2-mediated cascade",0,"Pathway",25
+"617","FSH signaling pathway",0,"Pathway",26
+"618","FTO Obesity Variant Mechanism",0,"Pathway",26
+"619","FYN",111,"Gene",100
+"620","FZD7",13,"Gene",93
+"621","G-protein activation",0,"Pathway",26
+"622","G-protein beta:gamma signalling",0,"Pathway",26
+"623","G-protein mediated events",0,"Pathway",26
+"624","G alpha (12/13) signalling events",0,"Pathway",26
+"625","G alpha (i) signalling events",0,"Pathway",26
+"626","G alpha (q) signalling events",0,"Pathway",26
+"627","G alpha (s) signalling events",0,"Pathway",26
+"628","G alpha (z) signalling events",0,"Pathway",26
+"629","G beta:gamma signalling through PI3Kgamma",0,"Pathway",26
+"630","G Protein Signaling Pathways",0,"Pathway",26
+"631","G0 and Early G1",0,"Pathway",26
+"632","G1 to S cell cycle control",0,"Pathway",26
+"633","G1/S-Specific Transcription",0,"Pathway",26
+"634","G1/S DNA Damage Checkpoints",0,"Pathway",26
+"635","G1/S Transition",0,"Pathway",26
+"636","G13 Signaling Pathway",0,"Pathway",26
+"637","G2 Phase",0,"Pathway",26
+"638","G2/M Checkpoints",0,"Pathway",27
+"639","G2/M Transition",0,"Pathway",27
+"640","G6PD",8,"Gene",90
+"641","GAB1 signalosome",0,"Pathway",27
+"642","GABA receptor activation",0,"Pathway",27
+"643","GABA synthesis, release, reuptake and degradation",0,"Pathway",27
+"644","Gamma-carboxylation of protein precursors",0,"Pathway",27
+"645","Gamma-carboxylation, transport, and amino-terminal cleavage of proteins",0,"Pathway",27
+"646","Gap-filling DNA repair synthesis and ligation in GG-NER",0,"Pathway",27
+"647","Gap junction assembly",0,"Pathway",27
+"648","Gap junction degradation",0,"Pathway",27
+"649","Gap junction trafficking",0,"Pathway",27
+"650","Gap junction trafficking and regulation",0,"Pathway",27
+"651","GAS7",0,"Gene",27
+"652","Gastric Cancer Network 1",0,"Pathway",27
+"653","Gastric Cancer Network 2",0,"Pathway",27
+"654","Gastrin-CREB signalling pathway via PKC and MAPK",0,"Pathway",27
+"655","GATA3",14,"Gene",94
+"656","Gene Expression",0,"Pathway",27
+"657","Gene regulatory network modelling somitogenesis ",0,"Pathway",27
+"658","Generation of second messenger molecules",0,"Pathway",27
+"659","Generic Transcription Pathway",0,"Pathway",28
+"660","GHR",9,"Gene",90
+"661","GJA1",21,"Gene",96
+"662","GK",8,"Gene",90
+"663","GLI3 is processed to GLI3R by the proteasome",0,"Pathway",28
+"664","Glial Cell Differentiation",0,"Pathway",28
+"665","Global Genomic NER (GG-NER)",0,"Pathway",28
+"666","Globo Sphingolipid Metabolism",0,"Pathway",28
+"667","Glucagon-like Peptide-1 (GLP1) regulates insulin secretion",0,"Pathway",28
+"668","Glucagon-type ligand receptors",0,"Pathway",28
+"669","Glucagon signaling in metabolic regulation",0,"Pathway",28
+"670","Glucocorticoid receptor regulatory network",0,"Pathway",28
+"671","Gluconeogenesis",0,"Pathway",28
+"672","Glucose metabolism",0,"Pathway",28
+"673","Glucose transport",0,"Pathway",28
+"674","Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity",0,"Pathway",28
+"675","Glutamate Neurotransmitter Release Cycle",0,"Pathway",28
+"676","Glutathione conjugation",0,"Pathway",28
+"677","Glutathione metabolism",0,"Pathway",28
+"678","Glycerophospholipid biosynthesis",0,"Pathway",28
+"679","Glycerophospholipid Biosynthetic Pathway",0,"Pathway",28
+"680","Glycogen Metabolism",0,"Pathway",28
+"681","Glycogen synthesis",0,"Pathway",29
+"682","Glycolysis",0,"Pathway",29
+"683","Glycolysis and Gluconeogenesis",0,"Pathway",29
+"684","Glycosphingolipid metabolism",0,"Pathway",29
+"685","Glypican 1 network",0,"Pathway",29
+"686","GMCSF-mediated signaling events",0,"Pathway",29
+"687","GMNN",11,"Gene",91
+"688","GNAI2",46,"Gene",99
+"689","GNAS",31,"Gene",98
+"690","Golgi Associated Vesicle Biogenesis",0,"Pathway",29
+"691","GPATCH8",0,"Gene",29
+"692","GPCR downstream signaling",0,"Pathway",29
+"693","GPCR ligand binding",0,"Pathway",29
+"694","GPCRs, Class A Rhodopsin-like",0,"Pathway",29
+"695","GPCRs, Class B Secretin-like",0,"Pathway",29
+"696","GPCRs, Other",0,"Pathway",29
+"697","GPER1",9,"Gene",90
+"698","GPVI-mediated activation cascade",0,"Pathway",29
+"699","GRAMD4",1,"Gene",78
+"700","GRB2:SOS provides linkage to MAPK signaling for Integrins",0,"Pathway",29
+"701","GRB7",15,"Gene",94
+"702","GRB7 events in ERBB2 signaling",0,"Pathway",29
+"703","Growth hormone receptor signaling",0,"Pathway",29
+"704","GRWD1",0,"Gene",29
+"705","GSTT2",8,"Gene",90
+"706","GTP hydrolysis and joining of the 60S ribosomal subunit",0,"Pathway",29
+"707","GTPBP1",0,"Gene",30
+"708","GTPBP8",0,"Gene",30
+"709","Hair Follicle Development: Induction (Part 1 of 3)",0,"Pathway",30
+"710","HAT1",2,"Gene",80
+"711","HATs acetylate histones",0,"Pathway",30
+"712","HAUS7",0,"Gene",30
+"713","HDAC2",35,"Gene",98
+"714","HDAC5",14,"Gene",94
+"715","HDAC6",14,"Gene",94
+"716","HDACs deacetylate histones",0,"Pathway",30
+"717","HDL-mediated lipid transport",0,"Pathway",30
+"718","HDMs demethylate histones",0,"Pathway",30
+"719","Heart Development",0,"Pathway",30
+"720","Hedgehog 'off' state",0,"Pathway",30
+"721","Hedgehog ligand biogenesis",0,"Pathway",30
+"722","Hedgehog signaling events mediated by Gli proteins",0,"Pathway",30
+"723","Hematopoietic Stem Cell Differentiation",0,"Pathway",30
+"724","Heme degradation",0,"Pathway",30
+"725","Hemostasis",0,"Pathway",30
+"726","Heparan sulfate/heparin (HS-GAG) metabolism",0,"Pathway",30
+"727","HERC1",0,"Gene",30
+"728","HERC5",7,"Gene",88
+"729","Hexose uptake",0,"Pathway",30
+"730","Hh ligand biogenesis disease",0,"Pathway",30
+"731","HIF-1-alpha transcription factor network",0,"Pathway",31
+"732","HIF-2-alpha transcription factor network",0,"Pathway",31
+"733","Highly calcium permeable nicotinic acetylcholine receptors",0,"Pathway",31
+"734","Highly calcium permeable postsynaptic nicotinic acetylcholine receptors",0,"Pathway",31
+"735","Highly sodium permeable acetylcholine nicotinic receptors",0,"Pathway",31
+"736","HIST1H4C",48,"Gene",99
+"737","Histamine receptors",0,"Pathway",31
+"738","Histone Modifications",0,"Pathway",31
+"739","HIV-1 Nef: Negative effector of Fas and TNF-alpha",0,"Pathway",31
+"740","HIV Infection",0,"Pathway",31
+"741","HIV Life Cycle",0,"Pathway",31
+"742","HIV Transcription Initiation",0,"Pathway",31
+"743","HLA-DMA",5,"Gene",85
+"744","HLA-DRA",19,"Gene",96
+"745","HMGA2",5,"Gene",85
+"746","HMGCR",15,"Gene",94
+"747","HMGCS1",13,"Gene",93
+"748","HMOX2",5,"Gene",85
+"749","Homologous DNA pairing and strand exchange",0,"Pathway",31
+"750","Homologous recombination",0,"Pathway",31
+"751","Homologous Recombination Repair",0,"Pathway",31
+"752","HOOK2",0,"Gene",31
+"753","Host Interactions of HIV factors",0,"Pathway",31
+"754","Host Interactions with Influenza Factors",0,"Pathway",31
+"755","HRH1",12,"Gene",92
+"756","HS-GAG biosynthesis",0,"Pathway",31
+"757","HS-GAG degradation",0,"Pathway",31
+"758","HSD17B7",4,"Gene",83
+"759","HSF1-dependent transactivation",0,"Pathway",32
+"760","HSF1 activation",0,"Pathway",32
+"761","HSP90AA1",63,"Gene",100
+"762","HSPA8",29,"Gene",97
+"763","HSPB1",14,"Gene",94
+"764","HSPD1",6,"Gene",86
+"765","HSPE1",0,"Gene",32
+"766","HTATSF1",0,"Gene",32
+"767","HTR1A",11,"Gene",92
+"768","HTR2A",15,"Gene",94
+"769","HTR2C",12,"Gene",92
+"770","HTR6",11,"Gene",92
+"771","Hyaluronan biosynthesis and export",0,"Pathway",32
+"772","Hyaluronan metabolism",0,"Pathway",32
+"773","Hyaluronan uptake and degradation",0,"Pathway",32
+"774","Hypertrophy Model",0,"Pathway",32
+"775","Hypothetical Network for Drug Addiction",0,"Pathway",32
+"776","Hypoxic and oxygen homeostasis regulation of HIF-1-alpha",0,"Pathway",32
+"777","IARS2",3,"Gene",82
+"778","ICAM1",20,"Gene",96
+"779","ICAM3",6,"Gene",86
+"780","ID signaling pathway",0,"Pathway",32
+"781","IDI1",9,"Gene",90
+"782","IFN-gamma pathway",0,"Pathway",32
+"783","IFRD2",0,"Gene",32
+"784","IFT27",0,"Gene",32
+"785","IGF1 pathway",0,"Pathway",32
+"786","IGF1R signaling cascade",0,"Pathway",32
+"787","IGF2BP2",2,"Gene",80
+"788","IKK complex recruitment mediated by RIP1",0,"Pathway",32
+"789","IKZF1",2,"Gene",80
+"790","IL-1 signaling pathway",0,"Pathway",32
+"791","IL-2 Signaling Pathway",0,"Pathway",32
+"792","IL-3 Signaling Pathway",0,"Pathway",33
+"793","IL-4 Signaling Pathway",0,"Pathway",33
+"794","IL-5 Signaling Pathway",0,"Pathway",33
+"795","IL-6 signaling pathway",0,"Pathway",33
+"796","IL-7 Signaling Pathway",0,"Pathway",33
+"797","IL-9 Signaling Pathway",0,"Pathway",33
+"798","IL1-mediated signaling events",0,"Pathway",33
+"799","IL1 and megakaryotyces in obesity",0,"Pathway",33
+"800","IL12-mediated signaling events",0,"Pathway",33
+"801","IL12 signaling mediated by STAT4",0,"Pathway",33
+"802","IL17 signaling pathway",0,"Pathway",33
+"803","IL2-mediated signaling events",0,"Pathway",33
+"804","IL2 signaling events mediated by PI3K",0,"Pathway",33
+"805","IL2 signaling events mediated by STAT5",0,"Pathway",33
+"806","IL23-mediated signaling events",0,"Pathway",33
+"807","IL27-mediated signaling events",0,"Pathway",33
+"808","IL3-mediated signaling events",0,"Pathway",33
+"809","IL4-mediated signaling events",0,"Pathway",33
+"810","IL5-mediated signaling events",0,"Pathway",33
+"811","IL6-mediated signaling events",0,"Pathway",34
+"812","IL8- and CXCR1-mediated signaling events",0,"Pathway",34
+"813","IL8- and CXCR2-mediated signaling events",0,"Pathway",34
+"814","Imatinib Resistance in Chronic Myeloid Leukemia",0,"Pathway",34
+"815","Immune System",0,"Pathway",34
+"816","Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",0,"Pathway",34
+"817","Import of palmitoyl-CoA into the mitochondrial matrix",0,"Pathway",34
+"818","Inactivation of APC/C via direct inhibition of the APC/C complex",0,"Pathway",34
+"819","Inactivation, recovery and regulation of the phototransduction cascade",0,"Pathway",34
+"820","Inflammasomes",0,"Pathway",34
+"821","Inflammatory Response Pathway",0,"Pathway",34
+"822","Influenza Infection",0,"Pathway",34
+"823","Influenza Life Cycle",0,"Pathway",34
+"824","Influenza Viral RNA Transcription and Replication",0,"Pathway",34
+"825","Influenza Virus Induced Apoptosis",0,"Pathway",34
+"826","ING1",1,"Gene",78
+"827","Initiation of Nuclear Envelope Reformation",0,"Pathway",34
+"828","Initiation of transcription and translation elongation at the HIV-1 LTR",0,"Pathway",34
+"829","Innate Immune System",0,"Pathway",34
+"830","Inositol phosphate metabolism",0,"Pathway",34
+"831","INPP4B",8,"Gene",90
+"832","INSIG1",4,"Gene",83
+"833","Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA",0,"Pathway",35
+"834","Insulin effects increased synthesis of Xylulose-5-Phosphate",0,"Pathway",35
+"835","Insulin Pathway",0,"Pathway",35
+"836","Insulin receptor recycling",0,"Pathway",35
+"837","Insulin receptor signalling cascade",0,"Pathway",35
+"838","Insulin Signaling",0,"Pathway",35
+"839","Integrated Breast Cancer Pathway",0,"Pathway",35
+"840","Integrated Cancer Pathway",0,"Pathway",35
+"841","Integrated Pancreatic Cancer Pathway",0,"Pathway",35
+"842","Integration of energy metabolism",0,"Pathway",35
+"843","Integration of provirus",0,"Pathway",35
+"844","Integrin-linked kinase signaling",0,"Pathway",35
+"845","Integrin-mediated Cell Adhesion",0,"Pathway",35
+"846","Integrin alphaIIb beta3 signaling",0,"Pathway",35
+"847","Integrin cell surface interactions",0,"Pathway",35
+"848","Integrin family cell surface interactions",0,"Pathway",35
+"849","Integrins in angiogenesis",0,"Pathway",35
+"850","Interaction between L1 and Ankyrins",0,"Pathway",35
+"851","Interactions of Rev with host cellular proteins",0,"Pathway",35
+"852","Interactions of Vpr with host cellular proteins",0,"Pathway",36
+"853","Interactome of polycomb repressive complex 2 (PRC2) ",0,"Pathway",36
+"854","Interferon alpha/beta signaling",0,"Pathway",36
+"855","Interferon gamma signaling",0,"Pathway",36
+"856","Interferon Signaling",0,"Pathway",36
+"857","Interferon type I signaling pathways",0,"Pathway",36
+"858","Interleukin-1 processing",0,"Pathway",36
+"859","Interleukin-1 signaling",0,"Pathway",36
+"860","Interleukin-11 Signaling Pathway",0,"Pathway",36
+"861","Interleukin-2 signaling",0,"Pathway",36
+"862","Interleukin-3, 5 and GM-CSF signaling",0,"Pathway",36
+"863","Interleukin-7 signaling",0,"Pathway",36
+"864","Interleukin receptor SHC signaling",0,"Pathway",36
+"865","Internalization of ErbB1",0,"Pathway",36
+"866","Intrinsic Pathway",0,"Pathway",36
+"867","Intrinsic Pathway for Apoptosis",0,"Pathway",36
+"868","Ion channel transport",0,"Pathway",36
+"869","Ion transport by P-type ATPases",0,"Pathway",36
+"870","IRAK1",39,"Gene",98
+"871","IRAK1 recruits IKK complex",0,"Pathway",36
+"872","IRAK2 mediated activation of TAK1 complex",0,"Pathway",37
+"873","IRE1alpha activates chaperones",0,"Pathway",37
+"874","IRF3-mediated induction of type I IFN",0,"Pathway",37
+"875","IRF5",10,"Gene",91
+"876","Irinotecan Pathway",0,"Pathway",37
+"877","Iron uptake and transport",0,"Pathway",37
+"878","IRS-mediated signalling",0,"Pathway",37
+"879","IRS-related events",0,"Pathway",37
+"880","IRS-related events triggered by IGF1R",0,"Pathway",37
+"881","ISOC2",0,"Gene",37
+"882","ITGB1BP1",0,"Gene",37
+"883","ITGB3",48,"Gene",99
+"884","JADE2",2,"Gene",80
+"885","JMJD6",0,"Gene",37
+"886","JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",0,"Pathway",37
+"887","JNK signaling in the CD4+ TCR pathway",0,"Pathway",37
+"888","KANK1",0,"Gene",37
+"889","KAT6B",2,"Gene",80
+"890","KDM5D",2,"Gene",80
+"891","KIAA1109",0,"Gene",37
+"892","KIF2C",16,"Gene",95
+"893","Kinesins",0,"Pathway",37
+"894","KIT",34,"Gene",98
+"895","Kit receptor signaling pathway",0,"Pathway",37
+"896","KLHL21",4,"Gene",83
+"897","KPNA2",7,"Gene",88
+"898","KRT34",0,"Gene",37
+"899","KRT81",0,"Gene",37
+"900","L1CAM interactions",0,"Pathway",38
+"901","Lagging Strand Synthesis",0,"Pathway",38
+"902","LAMA3",20,"Gene",96
+"903","LAMA5",13,"Gene",93
+"904","Laminin interactions",0,"Pathway",38
+"905","LAMTOR2",0,"Gene",38
+"906","Late Phase of HIV Life Cycle",0,"Pathway",38
+"907","Latent infection of Homo sapiens with Mycobacterium tuberculosis",0,"Pathway",38
+"908","LCMT1",0,"Gene",38
+"909","LCP2",18,"Gene",95
+"910","LDHB",7,"Gene",88
+"911","LDL endocytosis",0,"Pathway",38
+"912","LDLR",22,"Gene",96
+"913","Leading Strand Synthesis",0,"Pathway",38
+"914","Leptin signaling pathway",0,"Pathway",38
+"915","LGALS4",0,"Gene",38
+"916","Lidocaine metabolism",0,"Pathway",38
+"917","LIG1",32,"Gene",98
+"918","Linoleic acid (LA) metabolism",0,"Pathway",38
+"919","LIPA",1,"Gene",78
+"920","Lipid and lipoprotein metabolism",0,"Pathway",38
+"921","Lipoprotein metabolism",0,"Pathway",38
+"922","LIPT1",0,"Gene",38
+"923","Lissencephaly gene (LIS1) in neuronal migration and development",0,"Pathway",38
+"924","Liver X Receptor Pathway",0,"Pathway",38
+"925","LKB1 signaling events",0,"Pathway",38
+"926","Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling",0,"Pathway",39
+"927","Loss of Function of SMAD2/3 in Cancer",0,"Pathway",39
+"928","Loss of Nlp from mitotic centrosomes",0,"Pathway",39
+"929","LOXL1",5,"Gene",85
+"930","LPA receptor mediated events",0,"Pathway",39
+"931","LPL",20,"Gene",96
+"932","LPP",1,"Gene",79
+"933","LRRC41",4,"Gene",83
+"934","LSS",7,"Gene",88
+"935","LTN1",0,"Gene",39
+"936","LUC7L",0,"Gene",39
+"937","LY75",0,"Gene",39
+"938","Lysine catabolism",0,"Pathway",39
+"939","Lysosome Vesicle Biogenesis",0,"Pathway",39
+"940","LYST",0,"Gene",39
+"941","M Phase",0,"Pathway",39
+"942","MAL",0,"Gene",39
+"943","MALT1",16,"Gene",95
+"944","MAMLD1",13,"Gene",93
+"945","MAP kinase activation in TLR cascade",0,"Pathway",39
+"946","MAPK Signaling Pathway",0,"Pathway",39
+"947","MAPKAPK5",6,"Gene",86
+"948","Matrix Metalloproteinases",0,"Pathway",39
+"949","MBTPS1",7,"Gene",88
+"950","MCM3AP",0,"Gene",39
+"951","MCM7",25,"Gene",97
+"952","MCTS1",0,"Gene",39
+"953","ME2",0,"Gene",39
+"954","Mecp2 and Associated Rett Syndrome",0,"Pathway",39
+"955","Meiosis",0,"Pathway",40
+"956","Meiotic recombination",0,"Pathway",40
+"957","Meiotic synapsis",0,"Pathway",40
+"958","Melatonin metabolism and effects",0,"Pathway",40
+"959","Membrane binding and targetting of GAG proteins",0,"Pathway",40
+"960","Membrane Trafficking",0,"Pathway",40
+"961","Mesodermal Commitment Pathway",0,"Pathway",40
+"962","MEST",0,"Gene",40
+"963","Metabolism",0,"Pathway",40
+"964","Metabolism of Angiotensinogen to Angiotensins",0,"Pathway",40
+"965","Metabolism of folate and pterines",0,"Pathway",40
+"966","Metabolism of lipids and lipoproteins",0,"Pathway",40
+"967","Metabolism of mRNA",0,"Pathway",40
+"968","Metabolism of nitric oxide",0,"Pathway",40
+"969","Metabolism of polyamines",0,"Pathway",40
+"970","Metabolism of proteins",0,"Pathway",40
+"971","Metabolism of RNA",0,"Pathway",40
+"972","Metapathway biotransformation",0,"Pathway",40
+"973","Metastatic brain tumor",0,"Pathway",40
+"974","Methionine salvage pathway",0,"Pathway",41
+"975","Methylation",0,"Pathway",41
+"976","METTL17",0,"Gene",41
+"977","METTL4",0,"Gene",41
+"978","MFAP3L",0,"Gene",41
+"979","MFAP5-mediated ovarian cancer cell motility and invasiveness",0,"Pathway",41
+"980","MGA",0,"Gene",41
+"981","MHC class II antigen presentation",0,"Pathway",41
+"982","MICALL1",0,"Gene",41
+"983","MicroRNA (miRNA) biogenesis",0,"Pathway",41
+"984","MicroRNAs in cardiomyocyte hypertrophy",0,"Pathway",41
+"985","MIF",2,"Gene",80
+"986","miRNA Biogenesis",0,"Pathway",41
+"987","miRNA Regulation of DNA Damage Response",0,"Pathway",41
+"988","miRNAs involved in DNA damage response",0,"Pathway",41
+"989","miRs in Muscle Cell Differentiation",0,"Pathway",41
+"990","Miscellaneous substrates",0,"Pathway",41
+"991","Mismatch repair",0,"Pathway",41
+"992","Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)",0,"Pathway",41
+"993","Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)",0,"Pathway",41
+"994","Mitochondrial biogenesis",0,"Pathway",42
+"995","Mitochondrial Gene Expression",0,"Pathway",42
+"996","Mitochondrial protein import",0,"Pathway",42
+"997","Mitochondrial translation",0,"Pathway",42
+"998","Mitochondrial translation elongation",0,"Pathway",42
+"999","Mitochondrial translation initiation",0,"Pathway",42
+"1000","Mitochondrial translation termination",0,"Pathway",42
+"1001","Mitochondrial tRNA aminoacylation",0,"Pathway",42
+"1002","Mitotic Anaphase",0,"Pathway",42
+"1003","Mitotic G1-G1/S phases",0,"Pathway",42
+"1004","Mitotic G2-G2/M phases",0,"Pathway",42
+"1005","Mitotic M-M/G1 phases",0,"Pathway",42
+"1006","Mitotic Metaphase and Anaphase",0,"Pathway",42
+"1007","Mitotic Prometaphase",0,"Pathway",42
+"1008","Mitotic Prophase",0,"Pathway",42
+"1009","Mitotic Spindle Checkpoint",0,"Pathway",42
+"1010","MLEC",4,"Gene",83
+"1011","MMR",0,"Pathway",42
+"1012","Molecules associated with elastic fibres",0,"Pathway",42
+"1013","MON2",0,"Gene",42
+"1014","Monoamine GPCRs",0,"Pathway",43
+"1015","Monoamine Transport",0,"Pathway",43
+"1016","MPC2",5,"Gene",85
+"1017","MPG",9,"Gene",90
+"1018","MPP1",0,"Gene",43
+"1019","MPP5",4,"Gene",83
+"1020","mRNA Capping",0,"Pathway",43
+"1021","mRNA Processing",0,"Pathway",43
+"1022","mRNA Splicing",0,"Pathway",43
+"1023","MRPL11",5,"Gene",85
+"1024","MRPL12",5,"Gene",85
+"1025","MRPL13",5,"Gene",85
+"1026","MRPL19",6,"Gene",86
+"1027","MRPL22",5,"Gene",85
+"1028","MRPL4",5,"Gene",85
+"1029","MRPS16",5,"Gene",85
+"1030","MRPS2",0,"Gene",43
+"1031","MRPS28",5,"Gene",85
+"1032","MRPS35",5,"Gene",85
+"1033","MRPS7",5,"Gene",85
+"1034","MSMO1",4,"Gene",83
+"1035","MTHFD2",4,"Gene",83
+"1036","mTOR signaling pathway",0,"Pathway",43
+"1037","mTOR signalling",0,"Pathway",43
+"1038","mTORC1-mediated signalling",0,"Pathway",43
+"1039","MUC1",5,"Gene",86
+"1040","Muscarinic acetylcholine receptors",0,"Pathway",43
+"1041","Muscle contraction",0,"Pathway",43
+"1042","MVD",13,"Gene",93
+"1043","MYC",82,"Gene",100
+"1044","MyD88-independent cascade",0,"Pathway",43
+"1045","MyD88 cascade initiated on plasma membrane",0,"Pathway",43
+"1046","MyD88 dependent cascade initiated on endosome",0,"Pathway",43
+"1047","MyD88:Mal cascade initiated on plasma membrane",0,"Pathway",43
+"1048","MYLK",7,"Gene",88
+"1049","Myometrial Relaxation and Contraction Pathways",0,"Pathway",43
+"1050","N-cadherin signaling events",0,"Pathway",43
+"1051","N-glycan trimming in the ER and Calnexin/Calreticulin cycle",0,"Pathway",43
+"1052","Na+/Cl- dependent neurotransmitter transporters",0,"Pathway",44
+"1053","NAA10",1,"Gene",79
+"1054","NADE modulates death signalling",0,"Pathway",44
+"1055","NCAM signaling for neurite out-growth",0,"Pathway",44
+"1056","NCAM1 interactions",0,"Pathway",44
+"1057","NCAPD2",7,"Gene",88
+"1058","NCK2",26,"Gene",97
+"1059","NCL",5,"Gene",86
+"1060","NCOA1",45,"Gene",99
+"1061","NDUFA10",6,"Gene",87
+"1062","NDUFA13",6,"Gene",87
+"1063","NDUFA9",6,"Gene",87
+"1064","NDUFB8",6,"Gene",87
+"1065","NDUFS3",6,"Gene",87
+"1066","NDUFS6",6,"Gene",87
+"1067","Nectin adhesion pathway",0,"Pathway",44
+"1068","Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters",0,"Pathway",44
+"1069","Nef and signal transduction",0,"Pathway",44
+"1070","Nef Mediated CD4 Down-regulation",0,"Pathway",44
+"1071","Nef Mediated CD8 Down-regulation",0,"Pathway",44
+"1072","Negative epigenetic regulation of rRNA expression",0,"Pathway",44
+"1073","Negative regulation of FGFR signaling",0,"Pathway",44
+"1074","Negative regulation of the PI3K/AKT network",0,"Pathway",44
+"1075","Negative regulators of RIG-I/MDA5 signaling",0,"Pathway",44
+"1076","NEP/NS2 Interacts with the Cellular Export Machinery",0,"Pathway",44
+"1077","Nephrin interactions",0,"Pathway",44
+"1078","Nephrin/Neph1 signaling in the kidney podocyte",0,"Pathway",44
+"1079","Netrin-1 signaling",0,"Pathway",44
+"1080","Netrin-mediated signaling events",0,"Pathway",44
+"1081","Netrin mediated repulsion signals",0,"Pathway",44
+"1082","Neural Crest Differentiation",0,"Pathway",45
+"1083","Neurofascin interactions",0,"Pathway",45
+"1084","Neuronal System",0,"Pathway",45
+"1085","Neurotransmitter Clearance In The Synaptic Cleft",0,"Pathway",45
+"1086","Neurotransmitter Receptor Binding And Downstream Transmission In The Postsynaptic Cell",0,"Pathway",45
+"1087","Neurotransmitter Release Cycle",0,"Pathway",45
+"1088","Neurotrophic factor-mediated Trk receptor signaling",0,"Pathway",45
+"1089","NF-kB is activated and signals survival",0,"Pathway",45
+"1090","NFKB2",39,"Gene",98
+"1091","NFKBIE",7,"Gene",88
+"1092","NFX1",1,"Gene",79
+"1093","NGF signalling via TRKA from the plasma membrane",0,"Pathway",45
+"1094","NICD traffics to nucleus",0,"Pathway",45
+"1095","Nicotinamide salvaging",0,"Pathway",45
+"1096","Nicotinate metabolism",0,"Pathway",45
+"1097","Nicotine Activity on Chromaffin Cells",0,"Pathway",45
+"1098","Nicotine Activity on Dopaminergic Neurons",0,"Pathway",45
+"1099","Nicotine Metabolism",0,"Pathway",45
+"1100","NISCH",1,"Gene",79
+"1101","NME1",10,"Gene",91
+"1102","NNT",4,"Gene",83
+"1103","NOD pathway",0,"Pathway",45
+"1104","NOD1/2 Signaling Pathway",0,"Pathway",45
+"1105","Non-coding RNA Metabolism",0,"Pathway",45
+"1106","Non-homologous end joining",0,"Pathway",45
+"1107","Non-integrin membrane-ECM interactions",0,"Pathway",46
+"1108","Noncanonical Wnt signaling pathway",0,"Pathway",46
+"1109","Nongenotropic Androgen signaling",0,"Pathway",46
+"1110","Nonhomologous End-joining (NHEJ)",0,"Pathway",46
+"1111","Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",0,"Pathway",46
+"1112","Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",0,"Pathway",46
+"1113","NoRC negatively regulates rRNA expression",0,"Pathway",46
+"1114","Norepinephrine Neurotransmitter Release Cycle",0,"Pathway",46
+"1115","Nortriptyline",79,"Compound",100
+"1116","NOSIP",3,"Gene",82
+"1117","NOSIP mediated eNOS trafficking",0,"Pathway",46
+"1118","Notch-mediated HES/HEY network",0,"Pathway",46
+"1119","Notch signaling pathway",0,"Pathway",46
+"1120","Notch signaling pathway",0,"BiologicalProcess",46
+"1121","Notch Signaling Pathway",0,"Pathway",46
+"1122","Notch Signaling Pathway",0,"Pathway",46
+"1123","Notch Signaling Pathway",0,"Pathway",46
+"1124","Notch Signaling Pathway",0,"Pathway",46
+"1125","NOTCH1",38,"Gene",98
+"1126","NOTCH1 Intracellular Domain Regulates Transcription",0,"Pathway",46
+"1127","NOTCH1 regulation of human endothelial cell calcification",0,"Pathway",46
+"1128","NOTCH2",18,"Gene",95
+"1129","NOTCH2 Activation and Transmission of Signal to the Nucleus",0,"Pathway",46
+"1130","NOTCH2 intracellular domain regulates transcription",0,"Pathway",47
+"1131","NOV",0,"Gene",47
+"1132","NPAT",1,"Gene",79
+"1133","NPC1",1,"Gene",79
+"1134","NPDC1",0,"Gene",47
+"1135","NPR3",0,"Gene",47
+"1136","NPTX2",0,"Gene",47
+"1137","NQO1",12,"Gene",92
+"1138","NR3C1",17,"Gene",95
+"1139","NRAGE signals death through JNK",0,"Pathway",47
+"1140","NRF2 pathway",0,"Pathway",47
+"1141","NRIF signals cell death from the nucleus",0,"Pathway",47
+"1142","NSDHL",4,"Gene",83
+"1143","NT5C",6,"Gene",87
+"1144","NUBP2",2,"Gene",80
+"1145","Nuclear Envelope Breakdown",0,"Pathway",47
+"1146","Nuclear import of Rev protein",0,"Pathway",47
+"1147","Nuclear Pore Complex (NPC) Disassembly",0,"Pathway",47
+"1148","Nuclear Receptor transcription pathway",0,"Pathway",47
+"1149","Nuclear Receptors",0,"Pathway",47
+"1150","Nuclear Receptors in Lipid Metabolism and Toxicity",0,"Pathway",47
+"1151","Nuclear signaling by ERBB4",0,"Pathway",47
+"1152","Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways",0,"Pathway",47
+"1153","Nucleotide Excision Repair",0,"Pathway",47
+"1154","Nucleotide metabolism",0,"Pathway",47
+"1155","Nucleotide Metabolism",0,"Pathway",47
+"1156","NUDC",12,"Gene",92
+"1157","NUDT1",3,"Gene",82
+"1158","NUDT6",0,"Gene",48
+"1159","NUP85",53,"Gene",100
+"1160","O-linked glycosylation",0,"Pathway",48
+"1161","O-linked glycosylation of mucins",0,"Pathway",48
+"1162","Oligomerization of connexins into connexons",0,"Pathway",48
+"1163","Oncogene Induced Senescence",0,"Pathway",48
+"1164","Oncostatin M Signaling Pathway",0,"Pathway",48
+"1165","One Carbon Metabolism",0,"Pathway",48
+"1166","Opioid Signalling",0,"Pathway",48
+"1167","Orc1 removal from chromatin",0,"Pathway",48
+"1168","Organelle biogenesis and maintenance",0,"Pathway",48
+"1169","Organic cation transport",0,"Pathway",48
+"1170","Organic cation/anion/zwitterion transport",0,"Pathway",48
+"1171","ORM1",0,"Gene",48
+"1172","Orphan transporters",0,"Pathway",48
+"1173","Osteoblast Signaling",0,"Pathway",48
+"1174","Osteoclast Signaling",0,"Pathway",48
+"1175","Osteopontin-mediated events",0,"Pathway",48
+"1176","Osteopontin Signaling",0,"Pathway",48
+"1177","OTUB1",0,"Gene",48
+"1178","Ovarian Infertility Genes",0,"Pathway",49
+"1179","Overview of nanoparticle effects",0,"Pathway",49
+"1180","OXA1L",0,"Gene",49
+"1181","Oxidation by Cytochrome P450",0,"Pathway",49
+"1182","Oxidative phosphorylation",0,"Pathway",49
+"1183","Oxidative Stress",0,"Pathway",49
+"1184","Oxidative Stress Induced Senescence",0,"Pathway",49
+"1185","OXSR1",0,"Gene",49
+"1186","Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha",0,"Pathway",49
+"1187","p130Cas linkage to MAPK signaling for integrins",0,"Pathway",49
+"1188","p38 MAPK signaling pathway",0,"Pathway",49
+"1189","p38 MAPK Signaling Pathway",0,"Pathway",49
+"1190","p38 signaling mediated by MAPKAP kinases",0,"Pathway",49
+"1191","p38MAPK events",0,"Pathway",49
+"1192","p53-Dependent G1 DNA Damage Response",0,"Pathway",49
+"1193","p53 pathway",0,"Pathway",49
+"1194","p73 transcription factor network",0,"Pathway",49
+"1195","p75 NTR receptor-mediated signalling",0,"Pathway",49
+"1196","p75(NTR)-mediated signaling",0,"Pathway",49
+"1197","p75NTR negatively regulates cell cycle via SC1",0,"Pathway",50
+"1198","p75NTR recruits signalling complexes",0,"Pathway",50
+"1199","p75NTR signals via NF-kB",0,"Pathway",50
+"1200","Packaging Of Telomere Ends",0,"Pathway",50
+"1201","PAFAH1B3",1,"Gene",79
+"1202","PAK1",55,"Gene",100
+"1203","PAK6",8,"Gene",90
+"1204","PAR1-mediated thrombin signaling events",0,"Pathway",50
+"1205","PARD3",8,"Gene",90
+"1206","PARK7",4,"Gene",83
+"1207","Parkin-Ubiquitin Proteasomal System pathway",0,"Pathway",50
+"1208","Parkinsons Disease Pathway",0,"Pathway",50
+"1209","Pathogenic Escherichia coli infection",0,"Pathway",50
+"1210","Pausing and recovery of Tat-mediated HIV elongation",0,"Pathway",50
+"1211","PAX8",2,"Gene",80
+"1212","PCBD1",3,"Gene",82
+"1213","PCNA",44,"Gene",99
+"1214","PCP/CE pathway",0,"Pathway",50
+"1215","PD-1 signaling",0,"Pathway",50
+"1216","PDGF Pathway",0,"Pathway",50
+"1217","PDGFR-alpha signaling pathway",0,"Pathway",50
+"1218","PDGFR-beta signaling pathway",0,"Pathway",50
+"1219","PDIA5",4,"Gene",83
+"1220","PECAM1 interactions",0,"Pathway",50
+"1221","Pentose Phosphate Pathway",0,"Pathway",50
+"1222","Peptide chain elongation",0,"Pathway",50
+"1223","Peptide hormone metabolism",0,"Pathway",50
+"1224","Peptide ligand-binding receptors",0,"Pathway",50
+"1225","PER3",2,"Gene",80
+"1226","PF4",16,"Gene",95
+"1227","PFKL",8,"Gene",90
+"1228","PFN1",13,"Gene",93
+"1229","PGLS",4,"Gene",83
+"1230","Phase 1 - Functionalization of compounds",0,"Pathway",51
+"1231","Phase I biotransformations, non P450",0,"Pathway",51
+"1232","Phase II conjugation",0,"Pathway",51
+"1233","Phenylalanine and tyrosine catabolism",0,"Pathway",51
+"1234","PHIP",0,"Gene",51
+"1235","Phosphate bond hydrolysis by NUDT proteins",0,"Pathway",51
+"1236","Phospholipase C-mediated cascade",0,"Pathway",51
+"1237","Phospholipid metabolism",0,"Pathway",51
+"1238","Phosphorylation of CD3 and TCR zeta chains",0,"Pathway",51
+"1239","Phosphorylation of Emi1",0,"Pathway",51
+"1240","Phosphorylation of proteins involved in the G2/M transition by Cyclin A:Cdc2 complexes",0,"Pathway",51
+"1241","Phosphorylation of the APC/C",0,"Pathway",51
+"1242","PI-3K cascade",0,"Pathway",51
+"1243","PI Metabolism",0,"Pathway",51
+"1244","PI3K Cascade",0,"Pathway",51
+"1245","PI3K/AKT activation",0,"Pathway",51
+"1246","PIKFYVE",7,"Gene",88
+"1247","PIP4K2A",7,"Gene",88
+"1248","PIP5K1B",19,"Gene",96
+"1249","PKA activation in glucagon signalling",0,"Pathway",51
+"1250","PKB-mediated events",0,"Pathway",51
+"1251","PKIG",2,"Gene",80
+"1252","PLA2G15",0,"Gene",51
+"1253","Plasma membrane estrogen receptor signaling",0,"Pathway",52
+"1254","Platelet activation, signaling and aggregation",0,"Pathway",52
+"1255","Platelet Adhesion to exposed collagen",0,"Pathway",52
+"1256","Platelet Aggregation (Plug Formation)",0,"Pathway",52
+"1257","Platelet degranulation",0,"Pathway",52
+"1258","Platelet homeostasis",0,"Pathway",52
+"1259","Platelet sensitization by LDL",0,"Pathway",52
+"1260","PLC beta mediated events",0,"Pathway",52
+"1261","PLEKHM1",0,"Gene",52
+"1262","Plexin-D1 Signaling",0,"Pathway",52
+"1263","PLK1 signaling events",0,"Pathway",52
+"1264","PLP1",2,"Gene",80
+"1265","PLS1",0,"Gene",52
+"1266","PMM2",6,"Gene",87
+"1267","PNKP",1,"Gene",79
+"1268","PNP",5,"Gene",86
+"1269","PNPLA3",7,"Gene",88
+"1270","POLD4",29,"Gene",97
+"1271","POLR1D",23,"Gene",96
+"1272","Porphyrin metabolism",0,"Pathway",52
+"1273","Post-chaperonin tubulin folding pathway",0,"Pathway",52
+"1274","Post-Elongation Processing of Intron-Containing pre-mRNA",0,"Pathway",52
+"1275","Post-translational protein modification",0,"Pathway",52
+"1276","Posttranslational regulation of adherens junction stability and dissassembly",0,"Pathway",52
+"1277","PPAR Alpha Pathway",0,"Pathway",52
+"1278","PPARA activates gene expression",0,"Pathway",52
+"1279","PPARD",19,"Gene",96
+"1280","PPARGC1A",29,"Gene",97
+"1281","PPIB",4,"Gene",83
+"1282","PPM1G",1,"Gene",79
+"1283","PPP2R5E",29,"Gene",98
+"1284","PPP4C",0,"Gene",53
+"1285","PRC2 methylates histones and DNA",0,"Pathway",53
+"1286","PRCP",3,"Gene",82
+"1287","Pre-NOTCH Expression and Processing",0,"Pathway",53
+"1288","Pre-NOTCH Processing in Golgi",0,"Pathway",53
+"1289","Pre-NOTCH Processing in the Endoplasmic Reticulum",0,"Pathway",53
+"1290","Pre-NOTCH Transcription and Translation",0,"Pathway",53
+"1291","Prefoldin mediated transfer of substrate to CCT/TriC",0,"Pathway",53
+"1292","Preimplantation Embryo",0,"Pathway",53
+"1293","Presenilin action in Notch and Wnt signaling",0,"Pathway",53
+"1294","Presynaptic nicotinic acetylcholine receptors",0,"Pathway",53
+"1295","Presynaptic phase of homologous DNA pairing and strand exchange",0,"Pathway",53
+"1296","Primary Focal Segmental Glomerulosclerosis FSGS",0,"Pathway",53
+"1297","PRKAG2",28,"Gene",97
+"1298","PRKCQ",44,"Gene",99
+"1299","Processing of Capped Intron-Containing Pre-mRNA",0,"Pathway",53
+"1300","Processing of DNA double-strand break ends",0,"Pathway",53
+"1301","Processing of DNA ends prior to end rejoining",0,"Pathway",53
+"1302","Processive synthesis on the C-strand of the telomere",0,"Pathway",53
+"1303","Processive synthesis on the lagging strand",0,"Pathway",53
+"1304","PROCR",4,"Gene",83
+"1305","Prolactin receptor signaling",0,"Pathway",53
+"1306","Prolonged ERK activation events",0,"Pathway",53
+"1307","PROS1",19,"Gene",96
+"1308","Prostacyclin signalling through prostacyclin receptor",0,"Pathway",54
+"1309","Prostaglandin Synthesis and Regulation",0,"Pathway",54
+"1310","Proteasome Degradation",0,"Pathway",54
+"1311","Protein folding",0,"Pathway",54
+"1312","Proteoglycan syndecan-mediated signaling events",0,"Pathway",54
+"1313","PRPF18",1,"Gene",79
+"1314","PRUNE",0,"Gene",54
+"1315","PRUNE2",0,"Gene",54
+"1316","PSD4",0,"Gene",54
+"1317","PSMA7",83,"Gene",100
+"1318","PSMB2",83,"Gene",100
+"1319","PSMB6",83,"Gene",100
+"1320","PSMC3",84,"Gene",100
+"1321","PSME1",83,"Gene",100
+"1322","PSMG1",0,"Gene",54
+"1323","PTGS1",10,"Gene",91
+"1324","PTGS2",22,"Gene",96
+"1325","PTM: gamma carboxylation, hypusine formation and arylsulfatase activation",0,"Pathway",54
+"1326","PTPN6",41,"Gene",99
+"1327","PTPRK",1,"Gene",79
+"1328","PTPRO",2,"Gene",80
+"1329","PUF60",0,"Gene",54
+"1330","Purine catabolism",0,"Pathway",54
+"1331","Purine metabolism",0,"Pathway",54
+"1332","Purine ribonucleoside monophosphate biosynthesis",0,"Pathway",54
+"1333","Purine salvage",0,"Pathway",54
+"1334","PWP2",0,"Gene",54
+"1335","PYCR1",4,"Gene",84
+"1336","Pyrimidine biosynthesis",0,"Pathway",54
+"1337","Pyrimidine catabolism",0,"Pathway",54
+"1338","Pyrimidine metabolism",0,"Pathway",54
+"1339","Pyrimidine salvage reactions",0,"Pathway",55
+"1340","Pyruvate metabolism",0,"Pathway",55
+"1341","Pyruvate metabolism and Citric Acid (TCA) cycle",0,"Pathway",55
+"1342","Quercetin and Nf-kB/ AP-1 Induced Cell Apoptosis",0,"Pathway",55
+"1343","RAC1 signaling pathway",0,"Pathway",55
+"1344","Rac1/Pak1/p38/MMP-2 pathway",0,"Pathway",55
+"1345","RAI14",0,"Gene",55
+"1346","RalA downstream regulated genes",0,"Pathway",55
+"1347","RALB",10,"Gene",91
+"1348","RAN",28,"Gene",97
+"1349","RANKL/RANK Signaling Pathway",0,"Pathway",55
+"1350","RBM6",0,"Gene",55
+"1351","Receptor-ligand binding initiates the second proteolytic cleavage of Notch receptor",0,"Pathway",55
+"1352","RECK",0,"Gene",55
+"1353","Recycling of bile acids and salts",0,"Pathway",55
+"1354","Recycling pathway of L1",0,"Pathway",55
+"1355","Reelin signaling pathway",0,"Pathway",55
+"1356","Regulation of Actin Cytoskeleton",0,"Pathway",55
+"1357","Regulation of actin dynamics for phagocytic cup formation",0,"Pathway",55
+"1358","Regulation of activated PAK-2p34 by proteasome mediated degradation",0,"Pathway",55
+"1359","Regulation of AMPK activity via LKB1",0,"Pathway",55
+"1360","Regulation of Androgen receptor activity",0,"Pathway",56
+"1361","Regulation of APC/C activators between G1/S and early anaphase",0,"Pathway",56
+"1362","Regulation of Apoptosis",0,"Pathway",56
+"1363","Regulation of beta-cell development",0,"Pathway",56
+"1364","Regulation of CDC42 activity",0,"Pathway",56
+"1365","Regulation of cholesterol biosynthesis by SREBP (SREBF)",0,"Pathway",56
+"1366","Regulation of Complement cascade",0,"Pathway",56
+"1367","Regulation of cytoplasmic and nuclear SMAD2/3 signaling",0,"Pathway",56
+"1368","Regulation of cytoskeletal remodeling and cell spreading by IPP complex components",0,"Pathway",56
+"1369","Regulation of DNA replication",0,"Pathway",56
+"1370","regulation of FZD by ubiquitination",0,"Pathway",56
+"1371","Regulation of gap junction activity",0,"Pathway",56
+"1372","Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells",0,"Pathway",56
+"1373","Regulation of Glucokinase by Glucokinase Regulatory Protein",0,"Pathway",56
+"1374","Regulation of HSF1-mediated heat shock response",0,"Pathway",56
+"1375","Regulation of IFNA signaling",0,"Pathway",56
+"1376","Regulation of IFNG signaling",0,"Pathway",56
+"1377","Regulation of innate immune responses to cytosolic DNA",0,"Pathway",56
+"1378","Regulation of insulin secretion",0,"Pathway",56
+"1379","Regulation of KIT signaling",0,"Pathway",57
+"1380","Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",0,"Pathway",57
+"1381","Regulation of mRNA stability by proteins that bind AU-rich elements",0,"Pathway",57
+"1382","Regulation of nuclear beta catenin signaling and target gene transcription",0,"Pathway",57
+"1383","Regulation of nuclear SMAD2/3 signaling",0,"Pathway",57
+"1384","Regulation of ornithine decarboxylase (ODC)",0,"Pathway",57
+"1385","Regulation of p38-alpha and p38-beta",0,"Pathway",57
+"1386","Regulation of PLK1 Activity at G2/M Transition",0,"Pathway",57
+"1387","Regulation of pyruvate dehydrogenase (PDH) complex",0,"Pathway",57
+"1388","Regulation of RAC1 activity",0,"Pathway",57
+"1389","Regulation of retinoblastoma protein",0,"Pathway",57
+"1390","Regulation of Rheb GTPase activity by AMPK",0,"Pathway",57
+"1391","Regulation of RhoA activity",0,"Pathway",57
+"1392","Regulation of signaling by CBL",0,"Pathway",57
+"1393","Regulation of Telomerase",0,"Pathway",57
+"1394","Regulation of the Fanconi anemia pathway",0,"Pathway",57
+"1395","Regulation of toll-like receptor signaling pathway",0,"Pathway",57
+"1396","Regulatory RNA pathways",0,"Pathway",57
+"1397","Release of apoptotic factors from the mitochondria",0,"Pathway",58
+"1398","Removal of aminoterminal propeptides from gamma-carboxylated proteins",0,"Pathway",58
+"1399","Removal of DNA patch containing abasic residue",0,"Pathway",58
+"1400","Removal of licensing factors from origins",0,"Pathway",58
+"1401","Removal of the Flap Intermediate",0,"Pathway",58
+"1402","Removal of the Flap Intermediate from the C-strand",0,"Pathway",58
+"1403","Repair synthesis for gap-filling by DNA polymerase in TC-NER",0,"Pathway",58
+"1404","Resolution of AP sites via the single-nucleotide replacement pathway",0,"Pathway",58
+"1405","Resolution of D-loop structures",0,"Pathway",58
+"1406","Resolution of Sister Chromatid Cohesion",0,"Pathway",58
+"1407","Respiratory electron transport",0,"Pathway",58
+"1408","Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.",0,"Pathway",58
+"1409","Response to elevated platelet cytosolic Ca2+",0,"Pathway",58
+"1410","Retinoblastoma (RB) in Cancer",0,"Pathway",58
+"1411","Retinoic acid receptors-mediated signaling",0,"Pathway",58
+"1412","Retinoid metabolism and transport",0,"Pathway",58
+"1413","Retrograde neurotrophin signalling",0,"Pathway",58
+"1414","REV-ERBA represses gene expression",0,"Pathway",58
+"1415","Rev-mediated nuclear export of HIV RNA",0,"Pathway",59
+"1416","REV3L",0,"Gene",59
+"1417","RGS2",7,"Gene",88
+"1418","Rho GTPase cycle",0,"Pathway",59
+"1419","RhoA signaling pathway",0,"Pathway",59
+"1420","RHOT2",2,"Gene",80
+"1421","Ribosomal scanning and start codon recognition",0,"Pathway",59
+"1422","RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways",0,"Pathway",59
+"1423","RIN3",0,"Gene",59
+"1424","RIP-mediated NFkB activation via ZBP1",0,"Pathway",59
+"1425","RMI1",1,"Gene",79
+"1426","RMTs methylate histone arginines",0,"Pathway",59
+"1427","RNA Pol II CTD phosphorylation and interaction with CE",0,"Pathway",59
+"1428","RNA Polymerase I Chain Elongation",0,"Pathway",59
+"1429","RNA Polymerase I Promoter Clearance",0,"Pathway",59
+"1430","RNA Polymerase I Promoter Escape",0,"Pathway",59
+"1431","RNA Polymerase I Promoter Opening",0,"Pathway",59
+"1432","RNA Polymerase I Transcription",0,"Pathway",59
+"1433","RNA Polymerase I Transcription Initiation",0,"Pathway",59
+"1434","RNA Polymerase I Transcription Termination",0,"Pathway",59
+"1435","RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription",0,"Pathway",59
+"1436","RNA Polymerase II Pre-transcription Events",0,"Pathway",60
+"1437","RNA Polymerase II Transcription",0,"Pathway",60
+"1438","RNA Polymerase III Abortive And Retractive Initiation",0,"Pathway",60
+"1439","RNA Polymerase III Chain Elongation",0,"Pathway",60
+"1440","RNA Polymerase III Transcription Initiation",0,"Pathway",60
+"1441","RNA Polymerase III Transcription Initiation From Type 1 Promoter",0,"Pathway",60
+"1442","RNA Polymerase III Transcription Initiation From Type 2 Promoter",0,"Pathway",60
+"1443","RNA Polymerase III Transcription Initiation From Type 3 Promoter",0,"Pathway",60
+"1444","RNA Polymerase III Transcription Termination",0,"Pathway",60
+"1445","RNF mutants show enhanced WNT signaling and proliferation",0,"Pathway",60
+"1446","RNPS1",13,"Gene",93
+"1447","Role of Calcineurin-dependent NFAT signaling in lymphocytes",0,"Pathway",60
+"1448","Role of DCC in regulating apoptosis",0,"Pathway",60
+"1449","Role of LAT2/NTAL/LAB on calcium mobilization",0,"Pathway",60
+"1450","Role of phospholipids in phagocytosis",0,"Pathway",60
+"1451","RORA activates circadian gene expression",0,"Pathway",60
+"1452","RPA3",48,"Gene",99
+"1453","RPN1",7,"Gene",89
+"1454","RPS4Y1",25,"Gene",97
+"1455","RPS6",51,"Gene",99
+"1456","RPS6KC1",0,"Gene",60
+"1457","RRAGD",2,"Gene",80
+"1458","RRP1B",0,"Gene",60
+"1459","RRP8",4,"Gene",84
+"1460","RSU1",4,"Gene",84
+"1461","RUVBL1",19,"Gene",96
+"1462","RXR and RAR heterodimerization with other nuclear receptor",0,"Pathway",60
+"1463","S Phase",0,"Pathway",61
+"1464","S100A4",0,"Gene",61
+"1465","S1P1 pathway",0,"Pathway",61
+"1466","S1P2 pathway",0,"Pathway",61
+"1467","S1P3 pathway",0,"Pathway",61
+"1468","S1P4 pathway",0,"Pathway",61
+"1469","S1P5 pathway",0,"Pathway",61
+"1470","S6K1-mediated signalling",0,"Pathway",61
+"1471","S6K1 signalling",0,"Pathway",61
+"1472","SATB1",4,"Gene",84
+"1473","SC5D",6,"Gene",87
+"1474","SCAPER",0,"Gene",61
+"1475","Scavenging by Class F Receptors",0,"Pathway",61
+"1476","Scavenging of heme from plasma",0,"Pathway",61
+"1477","SCD",5,"Gene",86
+"1478","SCF-beta-TrCP mediated degradation of Emi1",0,"Pathway",61
+"1479","SCF(Skp2)-mediated degradation of p27/p21",0,"Pathway",61
+"1480","SCN1B",4,"Gene",84
+"1481","SCYL3",0,"Gene",61
+"1482","SDC1",24,"Gene",97
+"1483","SDCBP",11,"Gene",92
+"1484","SDHB",8,"Gene",90
+"1485","Secretion of Hydrochloric Acid in Parietal Cells",0,"Pathway",61
+"1486","Selenium Metabolism and Selenoproteins",0,"Pathway",61
+"1487","Selenium Micronutrient Network",0,"Pathway",61
+"1488","SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion",0,"Pathway",62
+"1489","Sema3A PAK dependent Axon repulsion",0,"Pathway",62
+"1490","Semaphorin interactions",0,"Pathway",62
+"1491","Senescence-Associated Secretory Phenotype (SASP)",0,"Pathway",62
+"1492","Senescence and Autophagy in Cancer",0,"Pathway",62
+"1493","Separation of Sister Chromatids",0,"Pathway",62
+"1494","SEPHS2",2,"Gene",80
+"1495","Serotonin Receptor 2 and ELK-SRF/GATA4 signaling",0,"Pathway",62
+"1496","Serotonin Receptor 2 and STAT3 Signaling",0,"Pathway",62
+"1497","Serotonin Receptor 4/6/7 and NR3C Signaling",0,"Pathway",62
+"1498","Serotonin receptors",0,"Pathway",62
+"1499","Serotonin Transporter Activity",0,"Pathway",62
+"1500","SERPINA3",3,"Gene",82
+"1501","SESN1",3,"Gene",82
+"1502","SGMS1",5,"Gene",86
+"1503","SHC-mediated cascade",0,"Pathway",62
+"1504","SHC-mediated signalling",0,"Pathway",62
+"1505","SHC-related events",0,"Pathway",62
+"1506","SHC-related events triggered by IGF1R",0,"Pathway",62
+"1507","SHC activation",0,"Pathway",62
+"1508","SHC1",115,"Gene",100
+"1509","SHC1 events in EGFR signaling",0,"Pathway",62
+"1510","SHC1 events in ERBB2 signaling",0,"Pathway",62
+"1511","SHC1 events in ERBB4 signaling",0,"Pathway",63
+"1512","SHP2 signaling",0,"Pathway",63
+"1513","SIDS Susceptibility Pathways",0,"Pathway",63
+"1514","Signal amplification",0,"Pathway",63
+"1515","Signal attenuation",0,"Pathway",63
+"1516","Signal regulatory protein (SIRP) family interactions",0,"Pathway",63
+"1517","Signal transduction by L1",0,"Pathway",63
+"1518","Signal Transduction of S1P Receptor",0,"Pathway",63
+"1519","Signaling by Activin",0,"Pathway",63
+"1520","Signaling by Aurora kinases",0,"Pathway",63
+"1521","Signaling by constitutively active EGFR",0,"Pathway",63
+"1522","Signaling by EGFR",0,"Pathway",63
+"1523","Signaling by EGFR in Cancer",0,"Pathway",63
+"1524","Signaling by ERBB2",0,"Pathway",63
+"1525","Signaling by ERBB4",0,"Pathway",63
+"1526","Signaling by FGFR",0,"Pathway",63
+"1527","Signaling by FGFR in disease",0,"Pathway",63
+"1528","Signaling by FGFR mutants",0,"Pathway",63
+"1529","Signaling by FGFR1 fusion mutants",0,"Pathway",64
+"1530","Signaling by FGFR1 mutants",0,"Pathway",64
+"1531","Signaling by GPCR",0,"Pathway",64
+"1532","Signaling by Hedgehog",0,"Pathway",64
+"1533","Signaling by Hippo",0,"Pathway",64
+"1534","Signaling by Insulin receptor",0,"Pathway",64
+"1535","Signaling by Interleukins",0,"Pathway",64
+"1536","Signaling by Leptin",0,"Pathway",64
+"1537","Signaling by NGF",0,"Pathway",64
+"1538","Signaling by NODAL",0,"Pathway",64
+"1539","Signaling by NOTCH",0,"Pathway",64
+"1540","Signaling by NOTCH2",0,"Pathway",64
+"1541","Signaling by NOTCH3",0,"Pathway",64
+"1542","Signaling by NOTCH4",0,"Pathway",64
+"1543","Signaling by PDGF",0,"Pathway",64
+"1544","Signaling by Robo receptor",0,"Pathway",64
+"1545","Signaling by SCF-KIT",0,"Pathway",64
+"1546","Signaling by VEGF",0,"Pathway",64
+"1547","Signaling by Wnt",0,"Pathway",65
+"1548","Signaling by WNT in cancer",0,"Pathway",65
+"1549","Signaling events mediated by focal adhesion kinase",0,"Pathway",65
+"1550","Signaling events mediated by HDAC Class I",0,"Pathway",65
+"1551","Signaling events mediated by HDAC Class II",0,"Pathway",65
+"1552","Signaling events mediated by HDAC Class III",0,"Pathway",65
+"1553","Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)",0,"Pathway",65
+"1554","Signaling events mediated by PRL",0,"Pathway",65
+"1555","Signaling events mediated by PTP1B",0,"Pathway",65
+"1556","Signaling events mediated by Stem cell factor receptor (c-Kit)",0,"Pathway",65
+"1557","Signaling events mediated by TCPTP",0,"Pathway",65
+"1558","Signaling events mediated by VEGFR1 and VEGFR2",0,"Pathway",65
+"1559","Signaling events regulated by Ret tyrosine kinase",0,"Pathway",65
+"1560","Signaling mediated by p38-alpha and p38-beta",0,"Pathway",65
+"1561","Signaling of Hepatocyte Growth Factor Receptor",0,"Pathway",65
+"1562","Signaling Pathways",0,"Pathway",65
+"1563","Signaling Pathways in Glioblastoma",0,"Pathway",65
+"1564","Signalling to ERKs",0,"Pathway",65
+"1565","Signalling to RAS",0,"Pathway",66
+"1566","SIK3",1,"Gene",79
+"1567","SIPA1L1",0,"Gene",66
+"1568","SIRT1 negatively regulates rRNA Expression",0,"Pathway",66
+"1569","SLC-mediated transmembrane transport",0,"Pathway",66
+"1570","SLC19A2",4,"Gene",84
+"1571","SLC22A1",15,"Gene",94
+"1572","SLC22A3",9,"Gene",90
+"1573","SLC22A4",5,"Gene",86
+"1574","SLC22A5",5,"Gene",86
+"1575","SLC25A4",13,"Gene",93
+"1576","SLC25A6",14,"Gene",94
+"1577","SLC2A6",5,"Gene",86
+"1578","SLC35F2",0,"Gene",66
+"1579","SLC38A1",9,"Gene",91
+"1580","SLC43A3",0,"Gene",66
+"1581","SLC6A2",7,"Gene",89
+"1582","SLC6A3",14,"Gene",94
+"1583","SLC6A4",6,"Gene",87
+"1584","SLC6A6",9,"Gene",91
+"1585","SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription",0,"Pathway",66
+"1586","SMARCA2",6,"Gene",87
+"1587","SMCHD1",0,"Gene",66
+"1588","Smooth Muscle Contraction",0,"Pathway",66
+"1589","SNRPA",4,"Gene",84
+"1590","SNRPA1",4,"Gene",84
+"1591","SNRPD2",7,"Gene",89
+"1592","SNX19",0,"Gene",66
+"1593","SNX6",0,"Gene",66
+"1594","SOCS5",2,"Gene",81
+"1595","SON",0,"Gene",66
+"1596","SOX10",1,"Gene",79
+"1597","SPG11",0,"Gene",66
+"1598","Sphingolipid de novo biosynthesis",0,"Pathway",66
+"1599","Sphingolipid metabolism",0,"Pathway",66
+"1600","Sphingolipid Metabolism",0,"Pathway",66
+"1601","Sphingosine 1-phosphate (S1P) pathway",0,"Pathway",66
+"1602","Spinal Cord Injury",0,"Pathway",66
+"1603","SPR",3,"Gene",82
+"1604","Spry regulation of FGF signaling",0,"Pathway",67
+"1605","SPTLC2",5,"Gene",86
+"1606","SQLE",8,"Gene",90
+"1607","SQSTM1",23,"Gene",97
+"1608","SREBF and miR33 in cholesterol and lipid homeostasis",0,"Pathway",67
+"1609","SREBF2",11,"Gene",92
+"1610","SREBP signalling",0,"Pathway",67
+"1611","SRP-dependent cotranslational protein targeting to membrane",0,"Pathway",67
+"1612","SS18L1",0,"Gene",67
+"1613","ST7",0,"Gene",67
+"1614","Stabilization and expansion of the E-cadherin adherens junction",0,"Pathway",67
+"1615","Stabilization of p53",0,"Pathway",67
+"1616","STAM2",9,"Gene",91
+"1617","STAT5A",60,"Gene",100
+"1618","STAT5B",52,"Gene",100
+"1619","Statin Pathway",0,"Pathway",67
+"1620","Steroid Biosynthesis",0,"Pathway",67
+"1621","Stimuli-sensing channels",0,"Pathway",67
+"1622","STING mediated induction of host immune responses",0,"Pathway",67
+"1623","STOML2",0,"Gene",67
+"1624","Structural Pathway of Interleukin 1 (IL-1)",0,"Pathway",67
+"1625","STUB1",13,"Gene",93
+"1626","STXBP1",15,"Gene",94
+"1627","Sulfation Biotransformation Reaction",0,"Pathway",67
+"1628","Sulfur amino acid metabolism",0,"Pathway",67
+"1629","Sulindac Metabolic Pathway",0,"Pathway",67
+"1630","Sumoylation by RanBP2 regulates transcriptional repression",0,"Pathway",67
+"1631","SUV39H1",8,"Gene",90
+"1632","SUZ12",7,"Gene",89
+"1633","SVIL",1,"Gene",79
+"1634","SYK",42,"Gene",99
+"1635","Synaptic Vesicle Pathway",0,"Pathway",68
+"1636","Syndecan-1-mediated signaling events",0,"Pathway",68
+"1637","Syndecan-2-mediated signaling events",0,"Pathway",68
+"1638","Syndecan-3-mediated signaling events",0,"Pathway",68
+"1639","Syndecan-4-mediated signaling events",0,"Pathway",68
+"1640","Syndecan interactions",0,"Pathway",68
+"1641","SYNGR3",0,"Gene",68
+"1642","SYNJ1",11,"Gene",92
+"1643","SYNJ2BP",0,"Gene",68
+"1644","Synthesis and interconversion of nucleotide di- and triphosphates",0,"Pathway",68
+"1645","Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)",0,"Pathway",68
+"1646","Synthesis of 15-eicosatetraenoic acid derivatives",0,"Pathway",68
+"1647","Synthesis of bile acids and bile salts",0,"Pathway",68
+"1648","Synthesis of bile acids and bile salts via 27-hydroxycholesterol",0,"Pathway",68
+"1649","Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",0,"Pathway",68
+"1650","Synthesis of DNA",0,"Pathway",68
+"1651","Synthesis of Dolichyl-phosphate",0,"Pathway",68
+"1652","Synthesis of epoxy (EET) and dihydroxyeicosatrienoic acids (DHET)",0,"Pathway",68
+"1653","Synthesis of GDP-mannose",0,"Pathway",68
+"1654","Synthesis of IP2, IP, and Ins in the cytosol",0,"Pathway",69
+"1655","Synthesis of IP3 and IP4 in the cytosol",0,"Pathway",69
+"1656","Synthesis of PIPs at the early endosome membrane",0,"Pathway",69
+"1657","Synthesis of PIPs at the Golgi membrane",0,"Pathway",69
+"1658","Synthesis of PIPs at the late endosome membrane",0,"Pathway",69
+"1659","Synthesis of PIPs at the plasma membrane",0,"Pathway",69
+"1660","Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",0,"Pathway",69
+"1661","Synthesis of substrates in N-glycan biosythesis",0,"Pathway",69
+"1662","Synthesis of very long-chain fatty acyl-CoAs",0,"Pathway",69
+"1663","T-Cell Receptor and Co-stimulatory Signaling",0,"Pathway",69
+"1664","TAB2",47,"Gene",99
+"1665","TAF4",10,"Gene",91
+"1666","TAK1 activates NFkB by phosphorylation and activation of IKKs complex",0,"Pathway",69
+"1667","Tamoxifen metabolism",0,"Pathway",69
+"1668","TarBasePathway",0,"Pathway",69
+"1669","TATDN2",4,"Gene",84
+"1670","TBC1D19",0,"Gene",69
+"1671","TBX2",2,"Gene",81
+"1672","TCA Cycle",0,"Pathway",69
+"1673","TCA Cycle and PDHc",0,"Pathway",69
+"1674","TCEB2",25,"Gene",97
+"1675","TCF dependent signaling in response to WNT",0,"Pathway",69
+"1676","TCR signaling",0,"Pathway",69
+"1677","TCR signaling in naïve CD4+ T cells",0,"Pathway",70
+"1678","TCR signaling in naïve CD8+ T cells",0,"Pathway",70
+"1679","TCR Signaling Pathway",0,"Pathway",70
+"1680","TCTA",0,"Gene",70
+"1681","TECPR2",0,"Gene",70
+"1682","Telomere C-strand (Lagging Strand) Synthesis",0,"Pathway",70
+"1683","Telomere Extension By Telomerase",0,"Pathway",70
+"1684","Telomere Maintenance",0,"Pathway",70
+"1685","Termination of O-glycan biosynthesis",0,"Pathway",70
+"1686","Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",0,"Pathway",70
+"1687","TFEB",0,"Gene",70
+"1688","TGF-beta receptor signaling",0,"Pathway",70
+"1689","TGF-beta Receptor Signaling",0,"Pathway",70
+"1690","TGF-beta receptor signaling activates SMADs",0,"Pathway",70
+"1691","TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)",0,"Pathway",70
+"1692","TGF-beta Signaling Pathway",0,"Pathway",70
+"1693","THAP11",0,"Gene",70
+"1694","The citric acid (TCA) cycle and respiratory electron transport",0,"Pathway",70
+"1695","The NLRP1 inflammasome",0,"Pathway",71
+"1696","The NLRP3 inflammasome",0,"Pathway",71
+"1697","The phototransduction cascade",0,"Pathway",71
+"1698","The role of Nef in HIV-1 replication and disease pathogenesis",0,"Pathway",71
+"1699","Thromboxane A2 receptor signaling",0,"Pathway",71
+"1700","Tie2 Signaling",0,"Pathway",71
+"1701","Tight junction interactions",0,"Pathway",71
+"1702","TIMELESS",3,"Gene",82
+"1703","TIMM22",2,"Gene",81
+"1704","TIMM9",2,"Gene",81
+"1705","TIMP1",12,"Gene",92
+"1706","TJP2",7,"Gene",89
+"1707","TK1",7,"Gene",89
+"1708","TKT",6,"Gene",87
+"1709","TM9SF3",0,"Gene",71
+"1710","TMEM109",0,"Gene",71
+"1711","TMEM50A",0,"Gene",71
+"1712","TMEM97",0,"Gene",71
+"1713","TMSB10",0,"Gene",71
+"1714","TNF alpha Signaling Pathway",0,"Pathway",71
+"1715","TNF receptor signaling pathway ",0,"Pathway",71
+"1716","Toll-like Receptor Signaling Pathway",0,"Pathway",71
+"1717","Toll-Like Receptors Cascades",0,"Pathway",71
+"1718","Toll Like Receptor 4 (TLR4) Cascade",0,"Pathway",71
+"1719","Toll Like Receptor 9 (TLR9) Cascade",0,"Pathway",71
+"1720","TOR Signaling",0,"Pathway",72
+"1721","TP53 Network",0,"Pathway",72
+"1722","TPI1",9,"Gene",91
+"1723","TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation",0,"Pathway",72
+"1724","TRAF6 Mediated Induction of proinflammatory cytokines",0,"Pathway",72
+"1725","TRAF6 mediated induction of TAK1 complex",0,"Pathway",72
+"1726","TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling",0,"Pathway",72
+"1727","TRAF6 mediated NF-kB activation",0,"Pathway",72
+"1728","Trafficking and processing of endosomal TLR",0,"Pathway",72
+"1729","Trafficking of GluR2-containing AMPA receptors",0,"Pathway",72
+"1730","Trans-sulfuration and one carbon metabolism",0,"Pathway",72
+"1731","Transcription",0,"Pathway",72
+"1732","Transcription-coupled NER (TC-NER)",0,"Pathway",72
+"1733","Transcription factor regulation in adipogenesis",0,"Pathway",72
+"1734","Transcription of the HIV genome",0,"Pathway",72
+"1735","Transcriptional activation by NRF2",0,"Pathway",72
+"1736","Transcriptional activation of mitochondrial biogenesis",0,"Pathway",72
+"1737","Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer",0,"Pathway",72
+"1738","Transcriptional regulation by small RNAs",0,"Pathway",72
+"1739","Transcriptional regulation of white adipocyte differentiation",0,"Pathway",73
+"1740","Transferrin endocytosis and recycling",0,"Pathway",73
+"1741","Translation",0,"Pathway",73
+"1742","Translation Factors",0,"Pathway",73
+"1743","Translation initiation complex formation",0,"Pathway",73
+"1744","Translocation of GLUT4 to the plasma membrane",0,"Pathway",73
+"1745","Translocation of ZAP-70 to Immunological synapse",0,"Pathway",73
+"1746","Transmembrane transport of small molecules",0,"Pathway",73
+"1747","Transmission across Chemical Synapses",0,"Pathway",73
+"1748","Transport of connexons to the plasma membrane",0,"Pathway",73
+"1749","Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",0,"Pathway",73
+"1750","Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",0,"Pathway",73
+"1751","Transport of inorganic cations/anions and amino acids/oligopeptides",0,"Pathway",73
+"1752","Transport of Mature mRNA derived from an Intron-Containing Transcript",0,"Pathway",73
+"1753","Transport of Mature mRNA Derived from an Intronless Transcript",0,"Pathway",73
+"1754","Transport of Mature mRNAs Derived from Intronless Transcripts",0,"Pathway",73
+"1755","Transport of Mature Transcript to Cytoplasm",0,"Pathway",73
+"1756","Transport of organic anions",0,"Pathway",73
+"1757","Transport of Ribonucleoproteins into the Host Nucleus",0,"Pathway",74
+"1758","Transport of the SLBP Dependant Mature mRNA",0,"Pathway",74
+"1759","Transport of the SLBP independent Mature mRNA",0,"Pathway",74
+"1760","Transport of vitamins, nucleosides, and related molecules",0,"Pathway",74
+"1761","TRAP1",2,"Gene",81
+"1762","TRAPPC10",0,"Gene",74
+"1763","TRAPPC2L",0,"Gene",74
+"1764","TRAPPC3",0,"Gene",74
+"1765","Triacylglyceride Synthesis",0,"Pathway",74
+"1766","TRIB3",48,"Gene",99
+"1767","Triglyceride Biosynthesis",0,"Pathway",74
+"1768","Trk receptor signaling mediated by PI3K and PLC-gamma",0,"Pathway",74
+"1769","Trk receptor signaling mediated by the MAPK pathway",0,"Pathway",74
+"1770","TRMT112",0,"Gene",74
+"1771","tRNA Aminoacylation",0,"Pathway",74
+"1772","Tryptophan metabolism",0,"Pathway",74
+"1773","TSEN2",0,"Gene",74
+"1774","TSH signaling pathway",0,"Pathway",74
+"1775","TSLP Signaling Pathway",0,"Pathway",74
+"1776","TSPAN4",0,"Gene",74
+"1777","TSR3",0,"Gene",75
+"1778","TUBA1A",17,"Gene",95
+"1779","TUBB6",11,"Gene",92
+"1780","TUFM",3,"Gene",82
+"1781","TWEAK Signaling Pathway",0,"Pathway",75
+"1782","TXNDC9",0,"Gene",75
+"1783","TXNRD1",13,"Gene",93
+"1784","TYMS",17,"Gene",95
+"1785","Type I hemidesmosome assembly",0,"Pathway",75
+"1786","Type II diabetes mellitus",0,"Pathway",75
+"1787","Type II interferon signaling (IFNG)",0,"Pathway",75
+"1788","U12 Dependent Splicing",0,"Pathway",75
+"1789","UBC",173,"Gene",100
+"1790","UBE2C",31,"Gene",98
+"1791","Ubiquitin-dependent degradation of Cyclin D",0,"Pathway",75
+"1792","Ubiquitin Mediated Degradation of Phosphorylated Cdc25A",0,"Pathway",75
+"1793","UBL5",0,"Gene",75
+"1794","UBR2",4,"Gene",84
+"1795","Unfolded Protein Response (UPR)",0,"Pathway",75
+"1796","Unwinding of DNA",0,"Pathway",75
+"1797","UQCRQ",5,"Gene",86
+"1798","Urea cycle and metabolism of amino groups",0,"Pathway",75
+"1799","Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling",0,"Pathway",75
+"1800","USP22",2,"Gene",81
+"1801","USP6NL",3,"Gene",82
+"1802","UXS1",0,"Gene",75
+"1803","Validated nuclear estrogen receptor alpha network",0,"Pathway",75
+"1804","Validated nuclear estrogen receptor beta network",0,"Pathway",75
+"1805","Validated targets of C-MYC transcriptional activation",0,"Pathway",75
+"1806","Validated targets of C-MYC transcriptional repression",0,"Pathway",76
+"1807","Validated transcriptional targets of AP1 family members Fra1 and Fra2",0,"Pathway",76
+"1808","Validated transcriptional targets of deltaNp63 isoforms",0,"Pathway",76
+"1809","Validated transcriptional targets of TAp63 isoforms",0,"Pathway",76
+"1810","VAMP4",0,"Gene",76
+"1811","Varenicline",447,"Compound",100
+"1812","Vasopressin regulates renal water homeostasis via Aquaporins",0,"Pathway",76
+"1813","VAV3",41,"Gene",99
+"1814","VEGFA-VEGFR2 Pathway",0,"Pathway",76
+"1815","VEGFR1 specific signals",0,"Pathway",76
+"1816","VEGFR2 mediated vascular permeability",0,"Pathway",76
+"1817","VEGFR3 signaling in lymphatic endothelium",0,"Pathway",76
+"1818","Vif-mediated degradation of APOBEC3G",0,"Pathway",76
+"1819","Viral Messenger RNA Synthesis",0,"Pathway",76
+"1820","Viral mRNA Translation",0,"Pathway",76
+"1821","Vitamin A and Carotenoid Metabolism",0,"Pathway",76
+"1822","Vitamin B1 (thiamin) metabolism",0,"Pathway",76
+"1823","Vitamin B12 Metabolism",0,"Pathway",76
+"1824","Vitamin D Metabolism",0,"Pathway",76
+"1825","VLDLR",3,"Gene",82
+"1826","Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization",0,"Pathway",76
+"1827","Vpr-mediated nuclear import of PICs",0,"Pathway",77
+"1828","Vpu mediated degradation of CD4",0,"Pathway",77
+"1829","vRNP Assembly",0,"Pathway",77
+"1830","WASF3",7,"Gene",89
+"1831","WDR37",0,"Gene",77
+"1832","WIPF1",5,"Gene",86
+"1833","WNT mediated activation of DVL",0,"Pathway",77
+"1834","Wnt signaling network",0,"Pathway",77
+"1835","Wnt Signaling Pathway",0,"Pathway",77
+"1836","Wnt Signaling Pathway and Pluripotency",0,"Pathway",77
+"1837","Wnt Signaling Pathway Netpath",0,"Pathway",77
+"1838","WNT5A-dependent internalization of FZD2, FZD5 and ROR2",0,"Pathway",77
+"1839","WNT5A-dependent internalization of FZD4",0,"Pathway",77
+"1840","WRB",0,"Gene",77
+"1841","XBP1(S) activates chaperone genes",0,"Pathway",77
+"1842","Xenobiotics",0,"Pathway",77
+"1843","XRCC6",21,"Gene",96
+"1844","YAP1- and WWTR1 (TAZ)-stimulated gene expression",0,"Pathway",77
+"1845","YARS2",3,"Gene",82
+"1846","YBX3",2,"Gene",81
+"1847","YME1L1",0,"Gene",77
+"1848","YTHDF1",0,"Gene",77
+"1849","ZBP1(DAI) mediated induction of type I IFNs",0,"Pathway",77
+"1850","ZBTB48",0,"Gene",78
+"1851","ZEB2",2,"Gene",81
+"1852","ZNF248",2,"Gene",81
+"1853","ZNF516",0,"Gene",78
+"1854","ZNF518A",0,"Gene",78
+"1855","ZNHIT1",0,"Gene",78
+"1856","ZWINT",9,"Gene",91

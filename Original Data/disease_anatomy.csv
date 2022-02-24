@@ -1,0 +1,17 @@
+Disease,Disease_ID,Relation,Anatomy,Anatomy_ID
+bile duct cancer,DOID:4606,LOCALIZES_DlA,ventral pancreatic duct,UBERON:0001064
+bile duct cancer,DOID:4606,LOCALIZES_DlA,superior mesenteric artery,UBERON:0001182
+bile duct cancer,DOID:4606,LOCALIZES_DlA,bile,UBERON:0001970
+bile duct cancer,DOID:4606,LOCALIZES_DlA,hepatic artery,UBERON:0001193
+bile duct cancer,DOID:4606,LOCALIZES_DlA,ligament,UBERON:0000211
+bile duct cancer,DOID:4606,LOCALIZES_DlA,common bile duct,UBERON:0001174
+bile duct cancer,DOID:4606,LOCALIZES_DlA,portal vein,UBERON:0002017
+bile duct cancer,DOID:4606,LOCALIZES_DlA,common hepatic duct,UBERON:0001175
+bile duct cancer,DOID:4606,LOCALIZES_DlA,liver,UBERON:0002107
+bile duct cancer,DOID:4606,LOCALIZES_DlA,biliary system,UBERON:0002294
+bile duct cancer,DOID:4606,LOCALIZES_DlA,celiac artery,UBERON:0001640
+bile duct cancer,DOID:4606,LOCALIZES_DlA,hepatic vein,UBERON:0001143
+bile duct cancer,DOID:4606,LOCALIZES_DlA,bile duct,UBERON:0002394
+bile duct cancer,DOID:4606,LOCALIZES_DlA,lymph node,UBERON:0000029
+bile duct cancer,DOID:4606,LOCALIZES_DlA,gall bladder,UBERON:0002110
+bile duct cancer,DOID:4606,LOCALIZES_DlA,pancreas,UBERON:0001264

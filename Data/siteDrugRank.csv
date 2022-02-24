@@ -1,0 +1,2543 @@
+"","Site","Compound","Value","rank"
+"1","lymph node","Varenicline",410,1
+"2","lymph node","Sunitinib",105,2
+"3","lymph node","Bosutinib",85,3
+"4","lymph node","Crizotinib",69,4
+"5","lymph node","Nortriptyline",51,5
+"6","lymph node","Dasatinib",48,6
+"7","lymph node","Metformin",46,7
+"8","lymph node","Vandetanib",36,8
+"9","lymph node","Ruxolitinib",34,9
+"10","lymph node","Adenosine triphosphate",32,10
+"11","lymph node","Sorafenib",31,11
+"12","lymph node","Nilotinib",31,12
+"13","lymph node","Pazopanib",30,13
+"14","lymph node","Glutathione",29,14
+"15","lymph node","Bupropion",28,15
+"16","lymph node","Clonidine",22,16
+"17","lymph node","Flavin adenine dinucleotide",22,17
+"18","lymph node","Erlotinib",21,18
+"19","lymph node","Doxorubicin",21,19
+"20","lymph node","L-Proline",20,20
+"21","lymph node","Dipyridamole",20,21
+"22","lymph node","Imatinib",20,22
+"23","lymph node","Methotrexate",19,23
+"24","lymph node","Choline",19,24
+"25","lymph node","L-Glutamine",19,25
+"26","lymph node","Vitamin C",19,26
+"27","lymph node","Succinic acid",18,27
+"28","lymph node","Adenosine monophosphate",18,28
+"29","lymph node","Regorafenib",18,29
+"30","lymph node","Zonisamide",18,30
+"31","liver","Rifampicin",18,1
+"32","liver","Varenicline",17,2
+"33","lymph node","Verapamil",17,31
+"34","lymph node","Estradiol",17,32
+"35","lymph node","Docetaxel",17,33
+"36","lymph node","Paclitaxel",16,34
+"37","liver","Valproic Acid",16,3
+"38","lymph node","Gefitinib",16,35
+"39","lymph node","Guanidine",16,36
+"40","lymph node","Dinoprostone",16,37
+"41","lymph node","Felodipine",15,38
+"42","lymph node","Tamoxifen",15,39
+"43","lymph node","Vitamin A",15,40
+"44","lymph node","Cisplatin",15,41
+"45","lymph node","L-Aspartic Acid",15,42
+"46","liver","Estradiol",15,4
+"47","liver","Nortriptyline",14,5
+"48","liver","Atorvastatin",14,6
+"49","liver","Propofol",14,7
+"50","lymph node","Bepridil",14,43
+"51","lymph node","Glycine",14,44
+"52","lymph node","Indomethacin",14,45
+"53","lymph node","Ponatinib",14,46
+"54","lymph node","Oxaliplatin",14,47
+"55","lymph node","Ibuprofen",13,48
+"56","lymph node","Vitamin E",13,49
+"57","lymph node","Vinblastine",13,50
+"58","lymph node","Pyruvic acid",13,51
+"59","liver","Testosterone",13,8
+"60","liver","Tamoxifen",13,9
+"61","liver","Fluvastatin",13,10
+"62","liver","Ketoconazole",13,11
+"63","liver","Verapamil",13,12
+"64","liver","Simvastatin",13,13
+"65","liver","Imipramine",13,14
+"66","lymph node","L-Cysteine",13,52
+"67","lymph node","Gemcitabine",13,53
+"68","lymph node","Cyclosporine",13,54
+"69","lymph node","Diclofenac",13,55
+"70","lymph node","L-Methionine",13,56
+"71","lymph node","Vincristine",13,57
+"72","liver","Dexamethasone",13,15
+"73","liver","Cimetidine",12,16
+"74","liver","Acetaminophen",12,17
+"75","liver","Ritonavir",12,18
+"76","liver","Lovastatin",12,19
+"77","liver","Quinidine",12,20
+"78","liver","Phenobarbital",12,21
+"79","liver","Clotrimazole",12,22
+"80","liver","Losartan",12,23
+"81","lymph node","Progesterone",12,58
+"82","lymph node","Conjugated Estrogens",12,59
+"83","lymph node","Melatonin",12,60
+"84","lymph node","Dexamethasone",12,61
+"85","lymph node","Fluorouracil",12,62
+"86","lymph node","Carvedilol",12,63
+"87","lymph node","Digoxin",12,64
+"88","liver","Clozapine",12,24
+"89","liver","Bupropion",11,25
+"90","liver","Amitriptyline",11,26
+"91","liver","Diclofenac",11,27
+"92","liver","Probenecid",11,28
+"93","liver","Indomethacin",11,29
+"94","liver","Mycophenolate mofetil",11,30
+"95","liver","Nicotine",11,31
+"96","liver","Cisapride",11,32
+"97","lymph node","Testosterone",11,65
+"98","lymph node","Irinotecan",11,66
+"99","lymph node","Chlorpromazine",11,67
+"100","lymph node","Marimastat",11,68
+"101","lymph node","Halothane",11,69
+"102","lymph node","Miconazole",11,70
+"103","liver","Quinine",11,33
+"104","liver","Sorafenib",11,34
+"105","liver","Nelfinavir",11,35
+"106","liver","Progesterone",11,36
+"107","liver","Buprenorphine",11,37
+"108","lymph node","Dronedarone",11,71
+"109","lymph node","Probenecid",11,72
+"110","lymph node","Carboplatin",11,73
+"111","lymph node","Nicotine",11,74
+"112","lymph node","Theophylline",11,75
+"113","lymph node","Bortezomib",11,76
+"114","lymph node","L-Alanine",11,77
+"115","lymph node","Lamivudine",11,78
+"116","lymph node","Menadione",11,79
+"117","lymph node","Isoflurane",11,80
+"118","lymph node","Cyanocobalamin",10,81
+"119","liver","Saquinavir",10,38
+"120","liver","Perphenazine",10,39
+"121","liver","Desipramine",10,40
+"122","liver","Nifedipine",10,41
+"123","liver","Caffeine",10,42
+"124","liver","Tretinoin",10,43
+"125","liver","Antipyrine",10,44
+"126","liver","Cyclophosphamide",10,45
+"127","liver","Zidovudine",10,46
+"128","liver","Ibuprofen",10,47
+"129","liver","Flunitrazepam",10,48
+"130","liver","Haloperidol",10,49
+"131","liver","Diazepam",10,50
+"132","lymph node","L-Ornithine",10,82
+"133","lymph node","L-Carnitine",10,83
+"134","lymph node","Trifluoperazine",10,84
+"135","lymph node","Amlodipine",10,85
+"136","lymph node","Cytarabine",10,86
+"137","lymph node","Olanzapine",10,87
+"138","lymph node","Nifedipine",10,88
+"139","lymph node","Caffeine",10,89
+"140","lymph node","Amitriptyline",10,90
+"141","lymph node","Afatinib",10,91
+"142","lymph node","Sulfasalazine",10,92
+"143","lymph node","Arsenic trioxide",10,93
+"144","lymph node","Procainamide",10,94
+"145","lymph node","Nicardipine",10,95
+"146","lymph node","Daunorubicin",10,96
+"147","lymph node","Glyburide",10,97
+"148","lymph node","Biotin",10,98
+"149","lymph node","Acetylsalicylic acid",10,99
+"150","liver","Lidocaine",10,51
+"151","liver","Amiodarone",10,52
+"152","liver","Lansoprazole",10,53
+"153","liver","Methadone",10,54
+"154","liver","Ifosfamide",9,55
+"155","liver","Dextromethorphan",9,56
+"156","liver","Miconazole",9,57
+"157","liver","Amlodipine",9,58
+"158","liver","Regorafenib",9,59
+"159","liver","Conjugated Estrogens",9,60
+"160","liver","Imatinib",9,61
+"161","liver","Dapsone",9,62
+"162","liver","Nilotinib",9,63
+"163","liver","Fluvoxamine",9,64
+"164","liver","Carbamazepine",9,65
+"165","liver","Menadione",9,66
+"166","liver","Omeprazole",9,67
+"167","liver","Aminophenazone",9,68
+"168","liver","Indinavir",9,69
+"169","lymph node","Dalfampridine",9,100
+"170","lymph node","Valproic Acid",9,101
+"171","liver","Pazopanib",9,70
+"172","liver","Azelastine",9,71
+"173","liver","Isoniazid",9,72
+"174","liver","Cyclosporine",9,73
+"175","liver","Pravastatin",9,74
+"176","liver","Estrone",9,75
+"177","liver","Iloperidone",9,76
+"178","liver","Selegiline",9,77
+"179","liver","Thioridazine",9,78
+"180","lymph node","Doxepin",9,102
+"181","lymph node","Celecoxib",9,103
+"182","lymph node","Clozapine",9,104
+"183","lymph node","Hydroxocobalamin",9,105
+"184","lymph node","Phosphatidylserine",9,106
+"185","lymph node","Etoposide",9,107
+"186","lymph node","Tetrahydrofolic acid",9,108
+"187","lymph node","L-Arginine",9,109
+"188","lymph node","Cladribine",9,110
+"189","lymph node","Vorinostat",9,111
+"190","lymph node","Methamphetamine",9,112
+"191","lymph node","Cabazitaxel",9,113
+"192","lymph node","Liotrix",8,114
+"193","lymph node","Furosemide",8,115
+"194","lymph node","Acetaminophen",8,116
+"195","lymph node","Quinidine",8,117
+"196","lymph node","Amiodarone",8,118
+"197","lymph node","Prazosin",8,119
+"198","lymph node","Ketoconazole",8,120
+"199","lymph node","Cimetidine",8,121
+"200","lymph node","Spermine",8,122
+"201","lymph node","Nateglinide",8,123
+"202","lymph node","Ketotifen",8,124
+"203","lymph node","Haloperidol",8,125
+"204","lymph node","Liothyronine",8,126
+"205","lymph node","Desipramine",8,127
+"206","lymph node","Adefovir Dipivoxil",8,128
+"207","liver","Mirtazapine",8,79
+"208","liver","Phenytoin",8,80
+"209","liver","Delavirdine",8,81
+"210","liver","Sildenafil",8,82
+"211","liver","Methimazole",8,83
+"212","liver","Morphine",8,84
+"213","liver","Cholecalciferol",8,85
+"214","liver","Chlorpromazine",8,86
+"215","liver","Dapagliflozin",8,87
+"216","liver","Olanzapine",8,88
+"217","liver","Pimozide",8,89
+"218","lymph node","Amiloride",8,129
+"219","lymph node","Atorvastatin",8,130
+"220","lymph node","Lacosamide",8,131
+"221","lymph node","Levothyroxine",8,132
+"222","lymph node","Desflurane",8,133
+"223","lymph node","Imipramine",8,134
+"224","lymph node","N-Acetyl-D-glucosamine",8,135
+"225","lymph node","Estrone",8,136
+"226","lymph node","Iloprost",8,137
+"227","lymph node","Mitoxantrone",8,138
+"228","lymph node","Mercaptopurine",8,139
+"229","liver","Ziprasidone",8,90
+"230","liver","Ticlopidine",8,91
+"231","liver","Quetiapine",8,92
+"232","liver","Phenelzine",8,93
+"233","liver","Nicardipine",8,94
+"234","liver","Theophylline",8,95
+"235","liver","Ezetimibe",8,96
+"236","liver","Carbinoxamine",7,97
+"237","liver","Codeine",7,98
+"238","liver","Pioglitazone",7,99
+"239","liver","Zafirlukast",7,100
+"240","liver","Aripiprazole",7,101
+"241","liver","Paclitaxel",7,102
+"242","liver","Nilvadipine",7,103
+"243","liver","Doxepin",7,104
+"244","liver","Levothyroxine",7,105
+"245","liver","Ondansetron",7,106
+"246","liver","Troleandomycin",7,107
+"247","liver","Digoxin",7,108
+"248","liver","Midazolam",7,109
+"249","liver","Rosiglitazone",7,110
+"250","liver","Diphenhydramine",7,111
+"251","liver","Diltiazem",7,112
+"252","liver","Methazolamide",7,113
+"253","liver","Metformin",7,114
+"254","liver","Nateglinide",7,115
+"255","liver","Pantoprazole",7,116
+"256","liver","Tranylcypromine",7,117
+"257","liver","Praziquantel",7,118
+"258","liver","Erythromycin",7,119
+"259","liver","Brompheniramine",7,120
+"260","liver","Rifapentine",7,121
+"261","liver","Carvedilol",7,122
+"262","lymph node","Amlexanox",7,140
+"263","lymph node","Diazepam",7,141
+"264","lymph node","Oxtriphylline",7,142
+"265","lymph node","Tacrolimus",7,143
+"266","lymph node","Mesalazine",7,144
+"267","lymph node","Dinoprost Tromethamine",7,145
+"268","lymph node","L-Tryptophan",7,146
+"269","lymph node","Nimodipine",7,147
+"270","lymph node","Risperidone",7,148
+"271","lymph node","Galantamine",7,149
+"272","lymph node","Nitrendipine",7,150
+"273","lymph node","Dopamine",7,151
+"274","lymph node","Pemetrexed",7,152
+"275","lymph node","Diethylstilbestrol",7,153
+"276","liver","Itraconazole",7,123
+"277","lymph node","Tretinoin",7,154
+"278","lymph node","Folic Acid",7,155
+"279","lymph node","Aripiprazole",7,156
+"280","lymph node","Tenofovir",7,157
+"281","lymph node","Dabrafenib",7,158
+"282","lymph node","Alprostadil",7,159
+"283","lymph node","Epirubicin",7,160
+"284","lymph node","Norepinephrine",7,161
+"285","lymph node","Mefloquine",7,162
+"286","lymph node","Clomifene",7,163
+"287","lymph node","Minocycline",7,164
+"288","lymph node","Vinorelbine",7,165
+"289","lymph node","Clomipramine",7,166
+"290","lymph node","Flunarizine",7,167
+"291","lymph node","Sevoflurane",7,168
+"292","lymph node","Zidovudine",7,169
+"293","lymph node","Mycophenolate mofetil",7,170
+"294","lymph node","Sulindac",7,171
+"295","lymph node","L-Leucine",7,172
+"296","liver","Zolpidem",7,124
+"297","liver","Rilpivirine",7,125
+"298","liver","Risperidone",7,126
+"299","liver","Citalopram",7,127
+"300","liver","Irinotecan",7,128
+"301","liver","Methotrexate",7,129
+"302","liver","Methoxyflurane",7,130
+"303","liver","Rabeprazole",7,131
+"304","liver","Etoposide",7,132
+"305","liver","Halothane",7,133
+"306","liver","Zalcitabine",7,134
+"307","liver","Cisplatin",7,135
+"308","liver","Tioconazole",7,136
+"309","liver","Asenapine",7,137
+"310","liver","Ethanol",7,138
+"311","liver","Fluoxetine",7,139
+"312","liver","Domperidone",7,140
+"313","liver","Dinoprostone",7,141
+"314","liver","Liotrix",6,142
+"315","liver","Felodipine",6,143
+"316","liver","Amprenavir",6,144
+"317","liver","Dextropropoxyphene",6,145
+"318","liver","Terbinafine",6,146
+"319","liver","Cilostazol",6,147
+"320","liver","Ketobemidone",6,148
+"321","liver","Sertraline",6,149
+"322","liver","Pentamidine",6,150
+"323","liver","Aprepitant",6,151
+"324","liver","Mianserin",6,152
+"325","liver","Voriconazole",6,153
+"326","liver","Proguanil",6,154
+"327","liver","Dexfenfluramine",6,155
+"328","liver","Trifluoperazine",6,156
+"329","liver","Clopidogrel",6,157
+"330","liver","Dopamine",6,158
+"331","liver","Etoricoxib",6,159
+"332","liver","Epinephrine",6,160
+"333","liver","Naproxen",6,161
+"334","liver","Primidone",6,162
+"335","liver","Cocaine",6,163
+"336","liver","Etodolac",6,164
+"337","liver","Benzyl alcohol",6,165
+"338","liver","Pipotiazine",6,166
+"339","lymph node","Benzocaine",6,173
+"340","lymph node","Benzylpenicillin",6,174
+"341","lymph node","Acetazolamide",6,175
+"342","lymph node","Fluphenazine",6,176
+"343","lymph node","Telaprevir",6,177
+"344","lymph node","Niacin",6,178
+"345","lymph node","Histamine Phosphate",6,179
+"346","lymph node","Lidocaine",6,180
+"347","lymph node","Dextromethorphan",6,181
+"348","lymph node","Thalidomide",6,182
+"349","lymph node","Vemurafenib",6,183
+"350","lymph node","Phenobarbital",6,184
+"351","lymph node","Mianserin",6,185
+"352","lymph node","Olsalazine",6,186
+"353","lymph node","Carfilzomib",6,187
+"354","lymph node","Orlistat",6,188
+"355","lymph node","Icosapent",6,189
+"356","lymph node","Topiramate",6,190
+"357","lymph node","L-Asparagine",6,191
+"358","lymph node","Pimozide",6,192
+"359","liver","Clarithromycin",6,167
+"360","liver","Almotriptan",6,168
+"361","liver","Ponatinib",6,169
+"362","liver","Fluorouracil",6,170
+"363","liver","Pitavastatin",6,171
+"364","liver","Enzalutamide",6,172
+"365","liver","Rosuvastatin",6,173
+"366","liver","Efavirenz",6,174
+"367","liver","Apixaban",6,175
+"368","liver","Nefazodone",6,176
+"369","liver","Clonidine",6,177
+"370","liver","Chloramphenicol",6,178
+"371","liver","Irbesartan",6,179
+"372","liver","Warfarin",6,180
+"373","liver","Tolbutamide",6,181
+"374","liver","Erlotinib",6,182
+"375","liver","Trimipramine",6,183
+"376","liver","Gemfibrozil",6,184
+"377","liver","Hydrocortisone",6,185
+"378","liver","Trazodone",6,186
+"379","liver","Promazine",6,187
+"380","liver","Sunitinib",6,188
+"381","liver","Nevirapine",6,189
+"382","liver","Clevidipine",6,190
+"383","liver","Docetaxel",6,191
+"384","liver","Eletriptan",6,192
+"385","liver","Oxazepam",6,193
+"386","liver","Ezogabine",6,194
+"387","liver","Glyburide",6,195
+"388","liver","Epinastine",6,196
+"389","liver","Propranolol",6,197
+"390","liver","Lopinavir",6,198
+"391","liver","Flurbiprofen",6,199
+"392","liver","Bortezomib",6,200
+"393","lymph node","Suramin",6,193
+"394","lymph node","Fingolimod",6,194
+"395","lymph node","Raloxifene",6,195
+"396","lymph node","Pitavastatin",6,196
+"397","lymph node","Nitroprusside",6,197
+"398","lymph node","Phenoxybenzamine",6,198
+"399","lymph node","Ixabepilone",6,199
+"400","lymph node","Rosuvastatin",6,200
+"401","lymph node","Isradipine",6,201
+"402","lymph node","Cinnarizine",6,202
+"403","lymph node","Diazoxide",6,203
+"404","lymph node","Lapatinib",6,204
+"405","lymph node","Sildenafil",6,205
+"406","lymph node","Acetyldigitoxin",6,206
+"407","lymph node","Saquinavir",6,207
+"408","lymph node","Quinine",6,208
+"409","lymph node","Perphenazine",6,209
+"410","lymph node","Medroxyprogesterone Acetate",6,210
+"411","lymph node","Flavoxate",6,211
+"412","lymph node","L-Serine",6,212
+"413","lymph node","Deslanoside",6,213
+"414","lymph node","Spironolactone",6,214
+"415","lymph node","Aminohippurate",6,215
+"416","lymph node","Dyphylline",6,216
+"417","lymph node","Pseudoephedrine",6,217
+"418","lymph node","Adenine",6,218
+"419","lymph node","Creatine",6,219
+"420","lymph node","Hydroflumethiazide",6,220
+"421","lymph node","Captopril",6,221
+"422","lymph node","Salicylic acid",6,222
+"423","lymph node","L-Citrulline",6,223
+"424","lymph node","Betamethasone",6,224
+"425","lymph node","Ketoprofen",6,225
+"426","lymph node","Rufinamide",6,226
+"427","lymph node","Eribulin",6,227
+"428","lymph node","Amphetamine",6,228
+"429","lymph node","Trichlormethiazide",6,229
+"430","lymph node","L-Isoleucine",6,230
+"431","lymph node","Ibutilide",6,231
+"432","pancreas","Varenicline",6,1
+"433","pancreas","Acarbose",5,2
+"434","liver","Chlorphenamine",5,201
+"435","liver","Aminohippurate",5,202
+"436","liver","Colchicine",5,203
+"437","liver","Levomilnacipran",5,204
+"438","liver","Loratadine",5,205
+"439","liver","Methotrimeprazine",5,206
+"440","liver","Hexobarbital",5,207
+"441","liver","Propafenone",5,208
+"442","liver","Clomifene",5,209
+"443","liver","Ketoprofen",5,210
+"444","liver","Clomipramine",5,211
+"445","liver","Eltrombopag",5,212
+"446","liver","Temazepam",5,213
+"447","liver","Flunarizine",5,214
+"448","liver","Celecoxib",5,215
+"449","liver","Trabectedin",5,216
+"450","liver","Fosphenytoin",5,217
+"451","liver","Tapentadol",5,218
+"452","liver","Clobazam",5,219
+"453","liver","Sulfanilamide",5,220
+"454","liver","Norfloxacin",5,221
+"455","lymph node","Gabapentin",5,232
+"456","lymph node","Aminosalicylic Acid",5,233
+"457","lymph node","Capecitabine",5,234
+"458","lymph node","Sertraline",5,235
+"459","lymph node","Tocainide",5,236
+"460","lymph node","Lenalidomide",5,237
+"461","lymph node","Dronabinol",5,238
+"462","lymph node","Bumetanide",5,239
+"463","lymph node","Cholecalciferol",5,240
+"464","lymph node","Niflumic Acid",5,241
+"465","lymph node","Promethazine",5,242
+"466","lymph node","Methoxyflurane",5,243
+"467","lymph node","Pentoxifylline",5,244
+"468","lymph node","Acitretin",5,245
+"469","lymph node","Loxapine",5,246
+"470","lymph node","Vismodegib",5,247
+"471","lymph node","Nisoldipine",5,248
+"472","lymph node","Epinephrine",5,249
+"473","lymph node","Quinacrine",5,250
+"474","lymph node","Hydrochlorothiazide",5,251
+"475","lymph node","Droxidopa",5,252
+"476","lymph node","Danazol",5,253
+"477","lymph node","Asenapine",5,254
+"478","lymph node","Lansoprazole",5,255
+"479","lymph node","Fluoxetine",5,256
+"480","lymph node","Boceprevir",5,257
+"481","lymph node","Tolmetin",5,258
+"482","lymph node","Clotrimazole",5,259
+"483","lymph node","Losartan",5,260
+"484","lymph node","L-Tyrosine",5,261
+"485","liver","Triazolam",5,222
+"486","liver","Estropipate",5,223
+"487","liver","Buspirone",5,224
+"488","liver","Venlafaxine",5,225
+"489","liver","Chlorzoxazone",5,226
+"490","liver","Bumetanide",5,227
+"491","liver","Thalidomide",5,228
+"492","liver","Sulfaphenazole",5,229
+"493","liver","Promethazine",5,230
+"494","liver","Glycine",5,231
+"495","liver","Sulfamethoxazole",5,232
+"496","liver","Ethosuximide",5,233
+"497","liver","Fluconazole",5,234
+"498","liver","Norethindrone",5,235
+"499","liver","Mycophenolic acid",5,236
+"500","liver","Mexiletine",5,237
+"501","liver","Bosutinib",5,238
+"502","liver","Diethylstilbestrol",5,239
+"503","liver","Modafinil",5,240
+"504","liver","Ethylmorphine",5,241
+"505","liver","Telithromycin",5,242
+"506","pancreas","Marimastat",5,3
+"507","liver","Astemizole",5,243
+"508","liver","Ranitidine",5,244
+"509","liver","Finasteride",5,245
+"510","liver","Oxaliplatin",5,246
+"511","liver","Ethinyl Estradiol",5,247
+"512","liver","Doxorubicin",5,248
+"513","liver","Bromocriptine",5,249
+"514","liver","Cinnarizine",5,250
+"515","liver","Sulfinpyrazone",5,251
+"516","liver","Paroxetine",5,252
+"517","liver","Dasatinib",5,253
+"518","liver","Liothyronine",5,254
+"519","lymph node","Ziprasidone",5,262
+"520","lymph node","Orphenadrine",5,263
+"521","lymph node","Isoprenaline",5,264
+"522","lymph node","Amoxapine",5,265
+"523","lymph node","Enflurane",5,266
+"524","lymph node","Drospirenone",5,267
+"525","lymph node","Naloxone",5,268
+"526","lymph node","Cinchocaine",5,269
+"527","lymph node","Nilvadipine",5,270
+"528","lymph node","Abiraterone",5,271
+"529","lymph node","Hydrocortisone",5,272
+"530","lymph node","Alendronate",5,273
+"531","lymph node","Trazodone",5,274
+"532","lymph node","Quetiapine",5,275
+"533","lymph node","L-Lysine",5,276
+"534","lymph node","Dextrothyroxine",5,277
+"535","lymph node","Olopatadine",5,278
+"536","lymph node","Bezafibrate",5,279
+"537","lymph node","Estramustine",5,280
+"538","lymph node","Phenelzine",5,281
+"539","lymph node","Midazolam",5,282
+"540","lymph node","Pravastatin",5,283
+"541","lymph node","Clofarabine",5,284
+"542","lymph node","Mifepristone",5,285
+"543","lymph node","Ribavirin",5,286
+"544","lymph node","L-Phenylalanine",5,287
+"545","lymph node","Propofol",5,288
+"546","lymph node","L-DOPA",5,289
+"547","lymph node","Sirolimus",5,290
+"548","bile duct","Cyclosporine",5,1
+"549","bile duct","Ursodeoxycholic acid",5,2
+"550","lymph node","Mirtazapine",5,291
+"551","lymph node","Phenytoin",5,292
+"552","lymph node","Lipoic Acid",5,293
+"553","lymph node","Bendroflumethiazide",5,294
+"554","lymph node","S-Adenosylmethionine",5,295
+"555","lymph node","Omeprazole",5,296
+"556","lymph node","Sulfinpyrazone",5,297
+"557","lymph node","Meclofenamic acid",5,298
+"558","lymph node","Nitroglycerin",5,299
+"559","liver","Trimethadione",5,255
+"560","liver","Bifonazole",5,256
+"561","liver","Clofibrate",5,257
+"562","liver","Artemether",5,258
+"563","liver","Medroxyprogesterone Acetate",4,259
+"564","lymph node","Dorzolamide",4,300
+"565","lymph node","Fluticasone Propionate",4,301
+"566","lymph node","Terbinafine",4,302
+"567","lymph node","Ketamine",4,303
+"568","lymph node","Triazolam",4,304
+"569","lymph node","Pranlukast",4,305
+"570","lymph node","Thiamine",4,306
+"571","lymph node","Apomorphine",4,307
+"572","lymph node","Alitretinoin",4,308
+"573","lymph node","Venlafaxine",4,309
+"574","lymph node","Masoprocol",4,310
+"575","lymph node","Ritonavir",4,311
+"576","lymph node","Brinzolamide",4,312
+"577","lymph node","Flutamide",4,313
+"578","lymph node","Mefenamic acid",4,314
+"579","lymph node","Lovastatin",4,315
+"580","lymph node","Clodronate",4,316
+"581","lymph node","Gallium nitrate",4,317
+"582","lymph node","Zoledronate",4,318
+"583","lymph node","Glucosamine",4,319
+"584","lymph node","Teniposide",4,320
+"585","lymph node","Saxagliptin",4,321
+"586","lymph node","Benzphetamine",4,322
+"587","lymph node","Fludarabine",4,323
+"588","lymph node","Nitric Oxide",4,324
+"589","lymph node","Dipivefrin",4,325
+"590","lymph node","Naproxen",4,326
+"591","lymph node","Ibudilast",4,327
+"592","lymph node","Papaverine",4,328
+"593","lymph node","Meloxicam",4,329
+"594","lymph node","Amsacrine",4,330
+"595","lymph node","Cefalotin",4,331
+"596","lymph node","Nelarabine",4,332
+"597","lymph node","Ethanol",4,333
+"598","lymph node","Indapamide",4,334
+"599","lymph node","Tioguanine",4,335
+"600","lymph node","Pergolide",4,336
+"601","lymph node","Dapsone",4,337
+"602","lymph node","Dexmedetomidine",4,338
+"603","lymph node","Dactinomycin",4,339
+"604","lymph node","Sucralfate",4,340
+"605","lymph node","Vardenafil",4,341
+"606","lymph node","Mebendazole",4,342
+"607","liver","Desloratadine",4,260
+"608","liver","Amoxapine",4,261
+"609","liver","Sulfadiazine",4,262
+"610","liver","Paliperidone",4,263
+"611","liver","Ciprofloxacin",4,264
+"612","liver","Dronedarone",4,265
+"613","liver","Captopril",4,266
+"614","liver","Dabrafenib",4,267
+"615","liver","Ropivacaine",4,268
+"616","liver","Methyltestosterone",4,269
+"617","liver","Donepezil",4,270
+"618","liver","Norepinephrine",4,271
+"619","liver","Salicylic acid",4,272
+"620","liver","Zopiclone",4,273
+"621","liver","Aminophylline",4,274
+"622","liver","Arformoterol",4,275
+"623","liver","Escitalopram",4,276
+"624","liver","Montelukast",4,277
+"625","liver","Temsirolimus",4,278
+"626","liver","Methoxsalen",4,279
+"627","liver","Bicalutamide",4,280
+"628","liver","Enalapril",4,281
+"629","liver","Hydromorphone",4,282
+"630","liver","Bromazepam",4,283
+"631","liver","Mifepristone",4,284
+"632","liver","Daunorubicin",4,285
+"633","liver","Sevoflurane",4,286
+"634","liver","Zileuton",4,287
+"635","liver","Succinic acid",4,288
+"636","liver","Loperamide",4,289
+"637","liver","Ergotamine",4,290
+"638","liver","Maprotiline",4,291
+"639","liver","Sirolimus",4,292
+"640","liver","Acetylsalicylic acid",4,293
+"641","liver","Dorzolamide",4,294
+"642","liver","Prednisolone",4,295
+"643","liver","Tamsulosin",4,296
+"644","liver","Ropinirole",4,297
+"645","liver","Fluticasone Propionate",4,298
+"646","liver","Salmeterol",4,299
+"647","liver","Tolterodine",4,300
+"648","liver","Ketamine",4,301
+"649","liver","Fluphenazine",4,302
+"650","liver","Caspofungin",4,303
+"651","liver","Clotiazepam",4,304
+"652","liver","Oxycodone",4,305
+"653","liver","Histamine Phosphate",4,306
+"654","liver","Dronabinol",4,307
+"655","liver","Acenocoumarol",4,308
+"656","liver","Lumiracoxib",4,309
+"657","liver","Alprazolam",4,310
+"658","liver","Thiothixene",4,311
+"659","liver","Cyclobenzaprine",4,312
+"660","liver","Teniposide",4,313
+"661","liver","Vismodegib",4,314
+"662","liver","Rimonabant",4,315
+"663","liver","Alosetron",4,316
+"664","liver","Nisoldipine",4,317
+"665","liver","Pethidine",4,318
+"666","liver","Ospemifene",4,319
+"667","liver","Topiramate",4,320
+"668","liver","Prasugrel",4,321
+"669","liver","Pergolide",4,322
+"670","liver","Cabazitaxel",4,323
+"671","lymph node","Podofilox",4,343
+"672","lymph node","L-Threonine",4,344
+"673","lymph node","Isosorbide Dinitrate",4,345
+"674","lymph node","Bismuth Subsalicylate",4,346
+"675","lymph node","Balsalazide",4,347
+"676","lymph node","Fluspirilene",4,348
+"677","lymph node","Perindopril",4,349
+"678","lymph node","Levonorgestrel",4,350
+"679","lymph node","Ephedrine",4,351
+"680","lymph node","Leflunomide",4,352
+"681","lymph node","Ouabain",4,353
+"682","lymph node","Prednisone",4,354
+"683","lymph node","Ethinyl Estradiol",4,355
+"684","lymph node","Mirabegron",4,356
+"685","lymph node","Aprindine",4,357
+"686","lymph node","Lamotrigine",4,358
+"687","lymph node","Chlorthalidone",4,359
+"688","lymph node","Bromocriptine",4,360
+"689","lymph node","Topotecan",4,361
+"690","lymph node","Nandrolone decanoate",4,362
+"691","lymph node","Albendazole",4,363
+"692","lymph node","Ampicillin",4,364
+"693","lymph node","Azelastine",4,365
+"694","lymph node","Magnesium Sulfate",4,366
+"695","lymph node","Doxazosin",4,367
+"696","lymph node","Irbesartan",4,368
+"697","lymph node","Ofloxacin",4,369
+"698","lymph node","Warfarin",4,370
+"699","lymph node","Diclofenamide",4,371
+"700","lymph node","Dihydroxyaluminium",4,372
+"701","lymph node","Gamma Hydroxybutyric Acid",4,373
+"702","lymph node","Colchicine",4,374
+"703","lymph node","Pomalidomide",4,375
+"704","lymph node","Trimipramine",4,376
+"705","lymph node","Ketazolam",4,377
+"706","lymph node","Pralatrexate",4,378
+"707","lymph node","Cephalexin",4,379
+"708","lymph node","Aminophylline",4,380
+"709","lymph node","Levosimendan",4,381
+"710","lymph node","Montelukast",4,382
+"711","lymph node","Chlorpropamide",4,383
+"712","lymph node","Tolazoline",4,384
+"713","lymph node","Oxymetazoline",4,385
+"714","lymph node","L-Valine",4,386
+"715","lymph node","Flurazepam",4,387
+"716","lymph node","Amantadine",4,388
+"717","lymph node","Fulvestrant",4,389
+"718","lymph node","Fomepizole",4,390
+"719","lymph node","Temazepam",4,391
+"720","lymph node","Rosiglitazone",4,392
+"721","lymph node","Adenosine",4,393
+"722","lymph node","Rifampicin",4,394
+"723","lymph node","Riboflavin",4,395
+"724","lymph node","Potassium Chloride",4,396
+"725","lymph node","Iloperidone",4,397
+"726","lymph node","Phenazopyridine",4,398
+"727","lymph node","Nitrazepam",4,399
+"728","lymph node","Zileuton",4,400
+"729","lymph node","Tofisopam",4,401
+"730","lymph node","Epinastine",4,402
+"731","lymph node","Methazolamide",4,403
+"732","lymph node","Cyclothiazide",4,404
+"733","lymph node","Loperamide",4,405
+"734","lymph node","Dabigatran etexilate",4,406
+"735","lymph node","Ethotoin",4,407
+"736","lymph node","Ezetimibe",4,408
+"737","lymph node","Digitoxin",4,409
+"738","lymph node","Phentolamine",4,410
+"739","lymph node","Flurbiprofen",4,411
+"740","lymph node","Ergotamine",4,412
+"741","lymph node","Telmisartan",4,413
+"742","lymph node","Thiamylal",4,414
+"743","lymph node","Maprotiline",4,415
+"744","liver","Formoterol",4,324
+"745","liver","Zonisamide",4,325
+"746","liver","Gefitinib",4,326
+"747","liver","Spermine",4,327
+"748","liver","Fingolimod",4,328
+"749","liver","Raloxifene",4,329
+"750","liver","Atomoxetine",4,330
+"751","liver","Paramethadione",4,331
+"752","liver","Moclobemide",4,332
+"753","liver","Lamivudine",4,333
+"754","liver","Glutathione",4,334
+"755","liver","Cabergoline",4,335
+"756","liver","Ouabain",4,336
+"757","liver","Choline",4,337
+"758","liver","Esomeprazole",4,338
+"759","liver","Bupivacaine",4,339
+"760","liver","Fexofenadine",4,340
+"761","liver","Lercanidipine",4,341
+"762","liver","Sertindole",4,342
+"763","liver","Palonosetron",3,343
+"764","liver","Levonorgestrel",3,344
+"765","liver","Amodiaquine",3,345
+"766","liver","Dicloxacillin",3,346
+"767","liver","Torasemide",3,347
+"768","liver","Prednisone",3,348
+"769","liver","Phenoxybenzamine",3,349
+"770","liver","Nilutamide",3,350
+"771","liver","Vitamin E",3,351
+"772","liver","Chloroquine",3,352
+"773","liver","Vinblastine",3,353
+"774","liver","Mirabegron",3,354
+"775","liver","Theobromine",3,355
+"776","liver","Anastrozole",3,356
+"777","liver","Lapatinib",3,357
+"778","liver","Levomethadyl Acetate",3,358
+"779","liver","Rotigotine",3,359
+"780","liver","Silodosin",3,360
+"781","liver","Metyrapone",3,361
+"782","liver","Oxtriphylline",3,362
+"783","liver","Tacrolimus",3,363
+"784","liver","Orphenadrine",3,364
+"785","liver","Spironolactone",3,365
+"786","liver","Alfentanil",3,366
+"787","liver","Doxazosin",3,367
+"788","liver","Diclofenamide",3,368
+"789","liver","Etravirine",3,369
+"790","liver","Zaleplon",3,370
+"791","liver","Guanfacine",3,371
+"792","liver","Ruxolitinib",3,372
+"793","liver","Lurasidone",3,373
+"794","liver","Cefotaxime",3,374
+"795","liver","Piroxicam",3,375
+"796","liver","Naloxone",3,376
+"797","liver","Eszopiclone",3,377
+"798","liver","Abiraterone",3,378
+"799","liver","Duloxetine",3,379
+"800","liver","Sitaxentan",3,380
+"801","liver","Crizotinib",3,381
+"802","liver","Econazole",3,382
+"803","liver","Yohimbine",3,383
+"804","liver","Cephalexin",3,384
+"805","liver","Mefloquine",3,385
+"806","liver","Dimethyl sulfoxide",3,386
+"807","liver","Phentermine",3,387
+"808","liver","Bezafibrate",3,388
+"809","liver","Felbamate",3,389
+"810","liver","Clonazepam",3,390
+"811","liver","Acepromazine",3,391
+"812","liver","Chlorpropamide",3,392
+"813","liver","Memantine",3,393
+"814","liver","Secobarbital",3,394
+"815","liver","Midodrine",3,395
+"816","liver","Carboplatin",3,396
+"817","liver","Flurazepam",3,397
+"818","liver","Phenylbutazone",3,398
+"819","liver","Eplerenone",3,399
+"820","liver","L-Methionine",3,400
+"821","liver","Bexarotene",3,401
+"822","liver","Thioproperazine",3,402
+"823","liver","Hesperetin",3,403
+"824","liver","Phenprocoumon",3,404
+"825","liver","Azithromycin",3,405
+"826","liver","Cinacalcet",3,406
+"827","liver","Dabigatran etexilate",3,407
+"828","liver","L-Phenylalanine",3,408
+"829","liver","Digitoxin",3,409
+"830","liver","Metronidazole",3,410
+"831","liver","Fenofibrate",3,411
+"832","liver","Vincristine",3,412
+"833","liver","Ramelteon",3,413
+"834","liver","Valsartan",3,414
+"835","liver","L-Alanine",3,415
+"836","liver","Aminoglutethimide",3,416
+"837","liver","Zuclopenthixol",3,417
+"838","pancreas","Glycine",3,4
+"839","pancreas","Halothane",3,5
+"840","pancreas","Icosapent",3,6
+"841","pancreas","Tretinoin",3,7
+"842","pancreas","Desflurane",3,8
+"843","pancreas","Sulfasalazine",3,9
+"844","pancreas","Oxazepam",3,10
+"845","pancreas","Sevoflurane",3,11
+"846","pancreas","Glyburide",3,12
+"847","bile duct","Glutathione",3,3
+"848","lymph node","Prednisolone",3,416
+"849","lymph node","Ropinirole",3,417
+"850","lymph node","Fenoprofen",3,418
+"851","lymph node","Trimethoprim",3,419
+"852","lymph node","Ivermectin",3,420
+"853","lymph node","Lithium",3,421
+"854","lymph node","Sparfloxacin",3,422
+"855","lymph node","Bimatoprost",3,423
+"856","lymph node","Estropipate",3,424
+"857","lymph node","Nabumetone",3,425
+"858","lymph node","Lisinopril",3,426
+"859","lymph node","Clotiazepam",3,427
+"860","lymph node","Isosorbide Mononitrate",3,428
+"861","lymph node","Pentamidine",3,429
+"862","lymph node","Quinethazone",3,430
+"863","lymph node","Azacitidine",3,431
+"864","lymph node","Neostigmine",3,432
+"865","lymph node","Moexipril",3,433
+"866","lymph node","Debrisoquin",3,434
+"867","lymph node","Citalopram",3,435
+"868","lymph node","Cefdinir",3,436
+"869","lymph node","Cilazapril",3,437
+"870","lymph node","Alpha-Linolenic Acid",3,438
+"871","lymph node","Busulfan",3,439
+"872","lymph node","Acenocoumarol",3,440
+"873","lymph node","Ivacaftor",3,441
+"874","lymph node","Canagliflozin",3,442
+"875","lymph node","Sumatriptan",3,443
+"876","lymph node","Quazepam",3,444
+"877","lymph node","Mimosine",3,445
+"878","lymph node","Dihydroergotamine",3,446
+"879","lymph node","Estazolam",3,447
+"880","lymph node","Repaglinide",3,448
+"881","lymph node","Chlorprothixene",3,449
+"882","lymph node","Testosterone Propionate",3,450
+"883","lymph node","Trilostane",3,451
+"884","lymph node","Thiothixene",3,452
+"885","lymph node","L-Histidine",3,453
+"886","lymph node","Sulfamethoxazole",3,454
+"887","lymph node","Zalcitabine",3,455
+"888","lymph node","Tizanidine",3,456
+"889","lymph node","Voriconazole",3,457
+"890","lymph node","Gliclazide",3,458
+"891","lymph node","Buprenorphine",3,459
+"892","lymph node","Isotretinoin",3,460
+"893","lymph node","Decamethonium",3,461
+"894","lymph node","Cefazolin",3,462
+"895","lymph node","Naphazoline",3,463
+"896","lymph node","Candesartan",3,464
+"897","lymph node","Norethindrone",3,465
+"898","lymph node","Primaquine",3,466
+"899","lymph node","Benazepril",3,467
+"900","lymph node","Ergocalciferol",3,468
+"901","lymph node","Quinidine barbiturate",3,469
+"902","lymph node","Benzthiazide",3,470
+"903","lymph node","Pethidine",3,471
+"904","lymph node","Fluvastatin",3,472
+"905","lymph node","Mexiletine",3,473
+"906","lymph node","Chloroprocaine",3,474
+"907","lymph node","SIMEPREVIR",3,475
+"908","lymph node","Etodolac",3,476
+"909","lymph node","Chlorothiazide",3,477
+"910","lymph node","Lucanthone",3,478
+"911","lymph node","Mepyramine",3,479
+"912","lymph node","Methadone",3,480
+"913","lymph node","Nizatidine",3,481
+"914","lymph node","Clenbuterol",3,482
+"915","lymph node","Methyldopa",3,483
+"916","lymph node","Lisuride",3,484
+"917","lymph node","Dacarbazine",3,485
+"918","pancreas","Glutathione",3,13
+"919","pancreas","Isoflurane",3,14
+"920","lymph node","Acetylcysteine",3,486
+"921","lymph node","Trifluridine",3,487
+"922","lymph node","Tetrahydrobiopterin",3,488
+"923","lymph node","Levonordefrin",3,489
+"924","lymph node","Alfentanil",3,490
+"925","lymph node","Oseltamivir",3,491
+"926","lymph node","Dicoumarol",3,492
+"927","lymph node","Azathioprine",3,493
+"928","lymph node","Adinazolam",3,494
+"929","lymph node","Oxybuprocaine",3,495
+"930","lymph node","Zafirlukast",3,496
+"931","lymph node","Zaleplon",3,497
+"932","lymph node","Tolbutamide",3,498
+"933","lymph node","Cinolazepam",3,499
+"934","lymph node","Dobutamine",3,500
+"935","lymph node","Pregabalin",3,501
+"936","lymph node","Loratadine",3,502
+"937","lymph node","Paliperidone",3,503
+"938","lymph node","Piroxicam",3,504
+"939","lymph node","Enprofylline",3,505
+"940","lymph node","Tazarotene",3,506
+"941","lymph node","Simvastatin",3,507
+"942","lymph node","Eszopiclone",3,508
+"943","lymph node","Ropivacaine",3,509
+"944","lymph node","MACITENTAN",3,510
+"945","lymph node","Methyclothiazide",3,511
+"946","lymph node","Methotrimeprazine",3,512
+"947","lymph node","Triamterene",3,513
+"948","lymph node","Methyltestosterone",3,514
+"949","lymph node","Diethylcarbamazine",3,515
+"950","lymph node","Prazepam",3,516
+"951","lymph node","Yohimbine",3,517
+"952","lymph node","Zopiclone",3,518
+"953","lymph node","Phentermine",3,519
+"954","lymph node","Temsirolimus",3,520
+"955","lymph node","Hexachlorophene",3,521
+"956","lymph node","Clevidipine",3,522
+"957","lymph node","Decitabine",3,523
+"958","lymph node","Cyproheptadine",3,524
+"959","lymph node","Misoprostol",3,525
+"960","lymph node","Roflumilast",3,526
+"961","lymph node","Eletriptan",3,527
+"962","lymph node","Adapalene",3,528
+"963","lymph node","Phenylbutazone",3,529
+"964","lymph node","Oxazepam",3,530
+"965","lymph node","Bromazepam",3,531
+"966","lymph node","Fludiazepam",3,532
+"967","lymph node","Vigabatrin",3,533
+"968","lymph node","Hesperetin",3,534
+"969","lymph node","Phenprocoumon",3,535
+"970","lymph node","Diphenhydramine",3,536
+"971","lymph node","Miglitol",3,537
+"972","lymph node","Bleomycin",3,538
+"973","lymph node","Auranofin",3,539
+"974","lymph node","Triamcinolone",3,540
+"975","lymph node","Isoflurophate",3,541
+"976","lymph node","Megestrol acetate",3,542
+"977","lymph node","Trandolapril",3,543
+"978","lymph node","Etomidate",3,544
+"979","lymph node","Selegiline",3,545
+"980","lymph node","Magnesium salicylate",3,546
+"981","lymph node","Propranolol",3,547
+"982","lymph node","Thioridazine",3,548
+"983","lymph node","Pramipexole",3,549
+"984","lymph node","Nedocromil",3,550
+"985","lymph node","Levofloxacin",3,551
+"986","lymph node","Toremifene",3,552
+"987","lymph node","Norfloxacin",3,553
+"988","lymph node","Mepivacaine",3,554
+"989","lymph node","Vidarabine",3,555
+"990","lymph node","Chlorhexidine",3,556
+"991","lymph node","Halazepam",3,557
+"992","bile duct","Ethinyl Estradiol",3,4
+"993","bile duct","Doxorubicin",3,5
+"994","lymph node","Brimonidine",3,558
+"995","lymph node","Triflupromazine",3,559
+"996","lymph node","Guanabenz",3,560
+"997","lymph node","Astemizole",3,561
+"998","lymph node","Fluoxymesterone",3,562
+"999","lymph node","Ceftriaxone",3,563
+"1000","lymph node","Cabergoline",3,564
+"1001","lymph node","Amodiaquine",3,565
+"1002","lymph node","Levetiracetam",3,566
+"1003","lymph node","Enzalutamide",3,567
+"1004","lymph node","Fludrocortisone",3,568
+"1005","lymph node","Chloroquine",3,569
+"1006","lymph node","Fluvoxamine",3,570
+"1007","lymph node","Carbamazepine",3,571
+"1008","lymph node","Ifenprodil",3,572
+"1009","lymph node","Cyproterone acetate",3,573
+"1010","lymph node","Succinylcholine",3,574
+"1011","lymph node","Estriol",3,575
+"1012","lymph node","Fexofenadine",3,576
+"1013","lymph node","Paroxetine",3,577
+"1014","lymph node","Chlorphenesin",3,578
+"1015","lymph node","Fospropofol",3,579
+"1016","lymph node","Phenylpropanolamine",3,580
+"1017","lymph node","Minaprine",3,581
+"1018","lymph node","Amrinone",3,582
+"1019","lymph node","Apixaban",3,583
+"1020","lymph node","Minoxidil",3,584
+"1021","lymph node","Nefazodone",3,585
+"1022","lymph node","Diflunisal",3,586
+"1023","lymph node","Sertindole",3,587
+"1024","lymph node","Reserpine",3,588
+"1025","lymph node","Ramipril",3,589
+"1026","lymph node","Trimethaphan",3,590
+"1027","liver","Fentanyl",3,418
+"1028","liver","Atazanavir",3,419
+"1029","liver","Benzylpenicillin",3,420
+"1030","liver","Trimethoprim",3,421
+"1031","liver","Acetazolamide",3,422
+"1032","liver","Oxybutynin",3,423
+"1033","liver","Furosemide",3,424
+"1034","liver","Brinzolamide",3,425
+"1035","liver","Ciclesonide",3,426
+"1036","liver","Flutamide",3,427
+"1037","liver","Perhexiline",3,428
+"1038","liver","Pentobarbital",3,429
+"1039","liver","Tramadol",3,430
+"1040","liver","Vemurafenib",3,431
+"1041","liver","Canagliflozin",3,432
+"1042","liver","Quazepam",3,433
+"1043","liver","Roxithromycin",3,434
+"1044","liver","Pyrazinamide",3,435
+"1045","liver","Loxapine",3,436
+"1046","liver","Vilazodone",3,437
+"1047","liver","Nitrendipine",3,438
+"1048","liver","Tetracycline",3,439
+"1049","liver","Vitamin A",3,440
+"1050","liver","Repaglinide",3,441
+"1051","liver","Pilocarpine",3,442
+"1052","liver","Candesartan",3,443
+"1053","liver","Tipranavir",3,444
+"1054","liver","Primaquine",3,445
+"1055","liver","Benzphetamine",3,446
+"1056","liver","Nitric Oxide",3,447
+"1057","liver","Meloxicam",3,448
+"1058","liver","Disulfiram",3,449
+"1059","liver","Pyrimethamine",3,450
+"1060","liver","Cefalotin",3,451
+"1061","liver","Melatonin",3,452
+"1062","liver","SIMEPREVIR",3,453
+"1063","liver","Cladribine",3,454
+"1064","liver","Dolasetron",3,455
+"1065","liver","Dexmedetomidine",3,456
+"1066","liver","Suprofen",3,457
+"1067","liver","Halofantrine",3,458
+"1068","liver","Lisuride",3,459
+"1069","bile duct","Phenobarbital",3,6
+"1070","bile duct","Conjugated Estrogens",3,7
+"1071","bile duct","Verapamil",3,8
+"1072","bile duct","Probenecid",3,9
+"1073","bile duct","Indomethacin",3,10
+"1074","bile duct","Rifampicin",3,11
+"1075","bile duct","Glyburide",3,12
+"1076","bile duct","Vincristine",3,13
+"1077","bile duct","Nifedipine",2,14
+"1078","bile duct","Paclitaxel",2,15
+"1079","bile duct","Adenosine triphosphate",2,16
+"1080","bile duct","Pravastatin",2,17
+"1081","bile duct","Daunorubicin",2,18
+"1082","bile duct","Ezetimibe",2,19
+"1083","bile duct","Gadoxetate",2,20
+"1084","pancreas","Doxycycline",2,15
+"1085","pancreas","Nateglinide",2,16
+"1086","pancreas","Dexamethasone",2,17
+"1087","pancreas","Valproic Acid",2,18
+"1088","pancreas","Vitamin E",2,19
+"1089","pancreas","Octreotide",2,20
+"1090","pancreas","Chloroquine",2,21
+"1091","pancreas","Rosuvastatin",2,22
+"1092","pancreas","Diazepam",2,23
+"1093","pancreas","Quinine",2,24
+"1094","pancreas","Triazolam",2,25
+"1095","pancreas","Zolpidem",2,26
+"1096","pancreas","Acetaminophen",2,27
+"1097","pancreas","Alitretinoin",2,28
+"1098","pancreas","Lorazepam",2,29
+"1099","pancreas","Busulfan",2,30
+"1100","pancreas","Lovastatin",2,31
+"1101","pancreas","L-Cystine",2,32
+"1102","pancreas","Alprazolam",2,33
+"1103","pancreas","Pasireotide",2,34
+"1104","pancreas","Cladribine",2,35
+"1105","pancreas","Boceprevir",2,36
+"1106","liver","Cefradine",2,460
+"1107","liver","Clemastine",2,461
+"1108","liver","Albendazole",2,462
+"1109","liver","Bisoprolol",2,463
+"1110","liver","Agomelatine",2,464
+"1111","liver","Isoflurane",2,465
+"1112","liver","Levobupivacaine",2,466
+"1113","liver","L-Serine",2,467
+"1114","liver","Acetylcysteine",2,468
+"1115","liver","Metoprolol",2,469
+"1116","liver","Methylphenobarbital",2,470
+"1117","liver","Permethrin",2,471
+"1118","liver","Pseudoephedrine",2,472
+"1119","liver","Adinazolam",2,473
+"1120","liver","Mitotane",2,474
+"1121","liver","Folic Acid",2,475
+"1122","liver","Fluorometholone",2,476
+"1123","liver","Pomalidomide",2,477
+"1124","liver","Paramethasone",2,478
+"1125","liver","Nicergoline",2,479
+"1126","liver","Prochlorperazine",2,480
+"1127","liver","Gestodene",2,481
+"1128","liver","Cefoperazone",2,482
+"1129","liver","Acebutolol",2,483
+"1130","liver","Niclosamide",2,484
+"1131","liver","MACITENTAN",2,485
+"1132","liver","Remoxipride",2,486
+"1133","liver","LULICONAZOLE",2,487
+"1134","liver","Timolol",2,488
+"1135","liver","Droperidol",2,489
+"1136","liver","Sitagliptin",2,490
+"1137","liver","Dextrothyroxine",2,491
+"1138","liver","Ardeparin",2,492
+"1139","liver","Alclometasone",2,493
+"1140","liver","Abacavir",2,494
+"1141","liver","Minocycline",2,495
+"1142","liver","Cyproheptadine",2,496
+"1143","liver","Letrozole",2,497
+"1144","liver","Rufinamide",2,498
+"1145","liver","Vinorelbine",2,499
+"1146","liver","Procainamide",2,500
+"1147","liver","Oxymetazoline",2,501
+"1148","liver","Rocuronium",2,502
+"1149","liver","Ximelagatran",2,503
+"1150","liver","Fomepizole",2,504
+"1151","liver","Trametinib",2,505
+"1152","liver","Conivaptan",2,506
+"1153","liver","Flupentixol",2,507
+"1154","liver","Flavin adenine dinucleotide",2,508
+"1155","liver","Amphetamine",2,509
+"1156","liver","Nitrazepam",2,510
+"1157","liver","Rivastigmine",2,511
+"1158","liver","Vitamin C",2,512
+"1159","liver","Triamcinolone",2,513
+"1160","liver","Oxytetracycline",2,514
+"1161","liver","Tasosartan",2,515
+"1162","liver","Pramipexole",2,516
+"1163","liver","Amisulpride",2,517
+"1164","liver","Levofloxacin",2,518
+"1165","liver","Telmisartan",2,519
+"1166","liver","Toremifene",2,520
+"1167","liver","Mitoxantrone",2,521
+"1168","liver","Thiotepa",2,522
+"1169","liver","Rifabutin",2,523
+"1170","liver","Imiquimod",2,524
+"1171","liver","L-DOPA",2,525
+"1172","liver","Gadoxetate",2,526
+"1173","liver","Tadalafil",2,527
+"1174","liver","Tolvaptan",2,528
+"1175","liver","Podofilox",2,529
+"1176","liver","Amoxicillin",2,530
+"1177","liver","Suramin",2,531
+"1178","liver","Doxycycline",2,532
+"1179","liver","Streptozocin",2,533
+"1180","liver","Isosorbide Dinitrate",2,534
+"1181","liver","Ergonovine",2,535
+"1182","liver","Olmesartan",2,536
+"1183","liver","Ipratropium bromide",2,537
+"1184","liver","Fluoxymesterone",2,538
+"1185","liver","Ceftriaxone",2,539
+"1186","liver","Mitiglinide",2,540
+"1187","liver","Leflunomide",2,541
+"1188","liver","S-Adenosylmethionine",2,542
+"1189","liver","Lomustine",2,543
+"1190","liver","Mesoridazine",2,544
+"1191","liver","Rifaximin",2,545
+"1192","liver","Oxiconazole",2,546
+"1193","liver","Lamotrigine",2,547
+"1194","liver","Hydrocodone",2,548
+"1195","liver","Dutasteride",2,549
+"1196","liver","Estriol",2,550
+"1197","liver","Idarubicin",2,551
+"1198","liver","Chlorphenesin",2,552
+"1199","liver","Phenylpropanolamine",2,553
+"1200","liver","Minaprine",2,554
+"1201","liver","Cefamandole",2,555
+"1202","liver","Thiopental",2,556
+"1203","liver","Lumefantrine",2,557
+"1204","liver","Malathion",2,558
+"1205","lymph node","Tamsulosin",2,591
+"1206","lymph node","Benzylpenicilloyl Polylysine",2,592
+"1207","lymph node","Edrophonium",2,593
+"1208","lymph node","Atazanavir",2,594
+"1209","lymph node","Protriptyline",2,595
+"1210","lymph node","Amprenavir",2,596
+"1211","lymph node","Tenoxicam",2,597
+"1212","lymph node","Meprobamate",2,598
+"1213","lymph node","Talbutal",2,599
+"1214","lymph node","Procaine",2,600
+"1215","lymph node","Methylprednisolone",2,601
+"1216","lymph node","Tiotropium",2,602
+"1217","lymph node","Zolpidem",2,603
+"1218","lymph node","Etonogestrel",2,604
+"1219","lymph node","Pyridoxine",2,605
+"1220","lymph node","Ceftazidime",2,606
+"1221","lymph node","Bacitracin",2,607
+"1222","lymph node","Disopyramide",2,608
+"1223","lymph node","Rilpivirine",2,609
+"1224","lymph node","Cefixime",2,610
+"1225","lymph node","Vildagliptin",2,611
+"1226","lymph node","Morphine",2,612
+"1227","lymph node","Ingenol Mebutate",2,613
+"1228","lymph node","Cloxacillin",2,614
+"1229","lymph node","Nelfinavir",2,615
+"1230","lymph node","Naftifine",2,616
+"1231","lymph node","Buspirone",2,617
+"1232","lymph node","WF10",2,618
+"1233","lymph node","Chlorzoxazone",2,619
+"1234","lymph node","Doxacurium chloride",2,620
+"1235","lymph node","Phensuximide",2,621
+"1236","lymph node","Lisdexamfetamine",2,622
+"1237","lymph node","Ciclesonide",2,623
+"1238","lymph node","Perhexiline",2,624
+"1239","lymph node","Tiaprofenic acid",2,625
+"1240","lymph node","Acetic acid",2,626
+"1241","lymph node","Ursodeoxycholic acid",2,627
+"1242","lymph node","Melphalan",2,628
+"1243","lymph node","Leucovorin",2,629
+"1244","lymph node","Lomefloxacin",2,630
+"1245","lymph node","L-Cystine",2,631
+"1246","lymph node","Dextroamphetamine",2,632
+"1247","lymph node","Metolazone",2,633
+"1248","lymph node","Rabeprazole",2,634
+"1249","lymph node","Pargyline",2,635
+"1250","lymph node","Lumiracoxib",2,636
+"1251","lymph node","Ethynodiol",2,637
+"1252","lymph node","Tetracycline",2,638
+"1253","lymph node","Propylthiouracil",2,639
+"1254","lymph node","Hydralazine",2,640
+"1255","lymph node","Cysteamine",2,641
+"1256","lymph node","Fenoldopam",2,642
+"1257","lymph node","Dimetindene",2,643
+"1258","lymph node","Vecuronium",2,644
+"1259","lymph node","Reboxetine",2,645
+"1260","lymph node","Amcinonide",2,646
+"1261","lymph node","Latanoprost",2,647
+"1262","lymph node","Fluocinolone Acetonide",2,648
+"1263","lymph node","Clopidogrel",2,649
+"1264","lymph node","Chloropyramine",2,650
+"1265","lymph node","Methysergide",2,651
+"1266","lymph node","Edetic Acid",2,652
+"1267","lymph node","Etoricoxib",2,653
+"1268","lymph node","Tioconazole",2,654
+"1269","lymph node","Etidronic acid",2,655
+"1270","lymph node","Fluticasone furoate",2,656
+"1271","lymph node","Salicylate-sodium",2,657
+"1272","lymph node","Tafluprost",2,658
+"1273","lymph node","Pancuronium",2,659
+"1274","lymph node","Fluorescein",2,660
+"1275","lymph node","Treprostinil",2,661
+"1276","lymph node","Rivaroxaban",2,662
+"1277","lymph node","Ridogrel",2,663
+"1278","lymph node","Cyclizine",2,664
+"1279","lymph node","Cyclandelate",2,665
+"1280","lymph node","Rasagiline",2,666
+"1281","lymph node","Mycophenolic acid",2,667
+"1282","lymph node","Disulfiram",2,668
+"1283","lymph node","Candoxatril",2,669
+"1284","lymph node","Risedronate",2,670
+"1285","lymph node","Linagliptin",2,671
+"1286","lymph node","Cocaine",2,672
+"1287","lymph node","Dapagliflozin",2,673
+"1288","lymph node","Bosentan",2,674
+"1289","lymph node","Domperidone",2,675
+"1290","lymph node","Phenformin",2,676
+"1291","lymph node","Pentosan Polysulfate",2,677
+"1292","lymph node","Prasugrel",2,678
+"1293","lymph node","Benzyl alcohol",2,679
+"1294","lymph node","Mazindol",2,680
+"1295","lymph node","Suprofen",2,681
+"1296","lymph node","Ketorolac",2,682
+"1297","lymph node","Glipizide",2,683
+"1298","lymph node","Cyclacillin",2,684
+"1299","lymph node","Riluzole",2,685
+"1300","bile duct","Dexamethasone",2,21
+"1301","bile duct","Lamivudine",2,22
+"1302","bile duct","Pitavastatin",2,23
+"1303","pancreas","Nortriptyline",2,37
+"1304","pancreas","Azathioprine",2,38
+"1305","pancreas","L-Glutamine",2,39
+"1306","pancreas","Zaleplon",2,40
+"1307","pancreas","Enflurane",2,41
+"1308","pancreas","Sunitinib",2,42
+"1309","pancreas","Midazolam",2,43
+"1310","pancreas","Daunorubicin",2,44
+"1311","pancreas","Sodium bicarbonate",2,45
+"1312","pancreas","Sirolimus",2,46
+"1313","bile duct","Ivermectin",2,24
+"1314","bile duct","Fusidic Acid",2,25
+"1315","bile duct","Methotrexate",2,26
+"1316","bile duct","Progesterone",2,27
+"1317","bile duct","Leucovorin",2,28
+"1318","bile duct","Quinidine",2,29
+"1319","bile duct","Tamoxifen",2,30
+"1320","bile duct","Etoposide",2,31
+"1321","bile duct","Cisplatin",2,32
+"1322","bile duct","Clotrimazole",2,33
+"1323","bile duct","L-Aspartic Acid",2,34
+"1324","lymph node","Floxuridine",2,686
+"1325","lymph node","Cefaclor",2,687
+"1326","lymph node","Ticlopidine",2,688
+"1327","lymph node","Lornoxicam",2,689
+"1328","lymph node","Desogestrel",2,690
+"1329","lymph node","Bretylium",2,691
+"1330","lymph node","Pioglitazone",2,692
+"1331","lymph node","Chlorphenamine",2,693
+"1332","lymph node","Tamibarotene",2,694
+"1333","lymph node","Apraclonidine",2,695
+"1334","lymph node","Fosinopril",2,696
+"1335","lymph node","Mitotane",2,697
+"1336","lymph node","Methsuximide",2,698
+"1337","lymph node","Dexbrompheniramine",2,699
+"1338","lymph node","Desloratadine",2,700
+"1339","lymph node","Guanfacine",2,701
+"1340","lymph node","Dihomo-gamma-linolenic acid",2,702
+"1341","lymph node","Antipyrine",2,703
+"1342","lymph node","Pralidoxime",2,704
+"1343","lymph node","Furazolidone",2,705
+"1344","lymph node","Levomilnacipran",2,706
+"1345","lymph node","Lurasidone",2,707
+"1346","lymph node","Quinapril",2,708
+"1347","lymph node","Dofetilide",2,709
+"1348","lymph node","Ciprofloxacin",2,710
+"1349","lymph node","Mitomycin",2,711
+"1350","lymph node","Micafungin",2,712
+"1351","lymph node","Lubiprostone",2,713
+"1352","lymph node","Dexrazoxane",2,714
+"1353","lymph node","Hexylcaine",2,715
+"1354","lymph node","Duloxetine",2,716
+"1355","lymph node","Sitaxentan",2,717
+"1356","lymph node","Hexobarbital",2,718
+"1357","lymph node","Promazine",2,719
+"1358","lymph node","Ondansetron",2,720
+"1359","lymph node","Donepezil",2,721
+"1360","lymph node","Epoprostenol",2,722
+"1361","lymph node","Econazole",2,723
+"1362","lymph node","Sitagliptin",2,724
+"1363","lymph node","Propafenone",2,725
+"1364","lymph node","Clonazepam",2,726
+"1365","lymph node","Gliquidone",2,727
+"1366","lymph node","Escitalopram",2,728
+"1367","lymph node","Clobetasol propionate",2,729
+"1368","lymph node","Amifostine",2,730
+"1369","lymph node","Tubocurarine",2,731
+"1370","lymph node","Ethacrynic acid",2,732
+"1371","lymph node","Famotidine",2,733
+"1372","lymph node","Cefadroxil",2,734
+"1373","lymph node","Sulpiride",2,735
+"1374","lymph node","Norgestimate",2,736
+"1375","lymph node","Aluminium",2,737
+"1376","lymph node","Terazosin",2,738
+"1377","lymph node","Drotaverine",2,739
+"1378","lymph node","Cefmetazole",2,740
+"1379","lymph node","Amyl Nitrite",2,741
+"1380","lymph node","Enalapril",2,742
+"1381","lymph node","Eplerenone",2,743
+"1382","lymph node","Trametinib",2,744
+"1383","lymph node","Trabectedin",2,745
+"1384","lymph node","Flupentixol",2,746
+"1385","lymph node","Diltiazem",2,747
+"1386","lymph node","Fenbufen",2,748
+"1387","lymph node","Sodium bicarbonate",2,749
+"1388","lymph node","Hydroxyurea",2,750
+"1389","lymph node","Bromodiphenhydramine",2,751
+"1390","lymph node","Rivastigmine",2,752
+"1391","lymph node","Tiludronate",2,753
+"1392","lymph node","Ethanolamine Oleate",2,754
+"1393","lymph node","Miglustat",2,755
+"1394","lymph node","Bromfenac",2,756
+"1395","lymph node","Rescinnamine",2,757
+"1396","lymph node","Cisapride",2,758
+"1397","lymph node","Nandrolone phenpropionate",2,759
+"1398","lymph node","Rifabutin",2,760
+"1399","lymph node","Pipecuronium",2,761
+"1400","lymph node","Desmopressin",2,762
+"1401","lymph node","Imiquimod",2,763
+"1402","lymph node","Drostanolone",2,764
+"1403","lymph node","Carprofen",2,765
+"1404","lymph node","Valsartan",2,766
+"1405","lymph node","Metoclopramide",2,767
+"1406","lymph node","Aminoglutethimide",2,768
+"1407","liver","Mequitazine",2,559
+"1408","liver","Meprobamate",2,560
+"1409","liver","Tiotropium",2,561
+"1410","liver","Lithium",2,562
+"1411","liver","Ranolazine",2,563
+"1412","liver","L-Ornithine",2,564
+"1413","liver","Pranlukast",2,565
+"1414","liver","Etonogestrel",2,566
+"1415","liver","Flunisolide",2,567
+"1416","liver","Oxcarbazepine",2,568
+"1417","liver","Dinoprost Tromethamine",2,569
+"1418","liver","Flecainide",2,570
+"1419","liver","Alitretinoin",2,571
+"1420","liver","Disopyramide",2,572
+"1421","liver","Fesoterodine",2,573
+"1422","liver","Nitrofural",2,574
+"1423","liver","Alfuzosin",2,575
+"1424","liver","Oxymorphone",2,576
+"1425","liver","Chenodeoxycholic acid",2,577
+"1426","liver","Dihydrocodeine",2,578
+"1427","liver","Niacin",2,579
+"1428","liver","Tiagabine",2,580
+"1429","liver","Benzatropine",2,581
+"1430","liver","Mefenamic acid",2,582
+"1431","liver","L-Carnitine",2,583
+"1432","liver","Ursodeoxycholic acid",2,584
+"1433","liver","Niflumic Acid",2,585
+"1434","liver","Allopurinol",2,586
+"1435","liver","Sumatriptan",2,587
+"1436","liver","Nafcillin",2,588
+"1437","liver","Dextroamphetamine",2,589
+"1438","liver","Galantamine",2,590
+"1439","liver","Pentoxifylline",2,591
+"1440","liver","Acitretin",2,592
+"1441","liver","Phenylephrine",2,593
+"1442","liver","Methylergometrine",2,594
+"1443","liver","Glucosamine",2,595
+"1444","liver","Tetrahydrofolic acid",2,596
+"1445","liver","Reboxetine",2,597
+"1446","liver","Betaxolol",2,598
+"1447","liver","L-Histidine",2,599
+"1448","liver","Vandetanib",2,600
+"1449","liver","Cevimeline",2,601
+"1450","liver","Molindone",2,602
+"1451","liver","Gliclazide",2,603
+"1452","liver","Cefazolin",2,604
+"1453","liver","Methysergide",2,605
+"1454","liver","Saxagliptin",2,606
+"1455","liver","Ergocalciferol",2,607
+"1456","liver","Ganciclovir",2,608
+"1457","liver","Indacaterol",2,609
+"1458","liver","Cytarabine",2,610
+"1459","liver","Rivaroxaban",2,611
+"1460","liver","Droxidopa",2,612
+"1461","liver","Lomitapide",2,613
+"1462","liver","Danazol",2,614
+"1463","liver","Darifenacin",2,615
+"1464","liver","Prazosin",2,616
+"1465","liver","Indapamide",2,617
+"1466","liver","Bosentan",2,618
+"1467","liver","Paricalcitol",2,619
+"1468","liver","Phenformin",2,620
+"1469","liver","Alogliptin",2,621
+"1470","liver","Vardenafil",2,622
+"1471","liver","Granisetron",2,623
+"1472","liver","Argatroban",2,624
+"1473","liver","Chlordiazepoxide",2,625
+"1474","liver","Griseofulvin",2,626
+"1475","liver","Glipizide",2,627
+"1476","liver","Propiomazine",2,628
+"1477","liver","L-Aspartic Acid",2,629
+"1478","liver","Dantrolene",2,630
+"1479","liver","Dacarbazine",2,631
+"1480","bile duct","Vinblastine",2,35
+"1481","bile duct","Sulfinpyrazone",2,36
+"1482","bile duct","Reserpine",2,37
+"1483","lymph node","Isocarboxazid",2,769
+"1484","lymph node","Everolimus",2,770
+"1485","lymph node","Mivacurium",2,771
+"1486","lymph node","Azidocillin",2,772
+"1487","lymph node","Almotriptan",2,773
+"1488","lymph node","Streptozocin",2,774
+"1489","lymph node","Salsalate",2,775
+"1490","lymph node","Enoxaparin",2,776
+"1491","lymph node","Physostigmine",2,777
+"1492","lymph node","Ranitidine",2,778
+"1493","lymph node","Nitrofurantoin",2,779
+"1494","lymph node","Xylometazoline",2,780
+"1495","lymph node","Pyridostigmine",2,781
+"1496","lymph node","Didanosine",2,782
+"1497","lymph node","Atomoxetine",2,783
+"1498","lymph node","Raltitrexed",2,784
+"1499","lymph node","Paramethadione",2,785
+"1500","lymph node","Ipratropium bromide",2,786
+"1501","lymph node","Moclobemide",2,787
+"1502","lymph node","Pantoprazole",2,788
+"1503","lymph node","Hexafluronium",2,789
+"1504","lymph node","Mitiglinide",2,790
+"1505","lymph node","Antrafenine",2,791
+"1506","lymph node","Proparacaine",2,792
+"1507","lymph node","Ethinamate",2,793
+"1508","lymph node","Floctafenine",2,794
+"1509","lymph node","Tranylcypromine",2,795
+"1510","lymph node","Norelgestromin",2,796
+"1511","lymph node","Echothiophate",2,797
+"1512","lymph node","Nepafenac",2,798
+"1513","lymph node","Allylestrenol",2,799
+"1514","lymph node","Nilutamide",2,800
+"1515","lymph node","Linezolid",2,801
+"1516","lymph node","Probucol",2,802
+"1517","lymph node","Clorazepate",2,803
+"1518","lymph node","Tetrabenazine",2,804
+"1519","lymph node","Erythrityl Tetranitrate",2,805
+"1520","lymph node","Erythromycin",2,806
+"1521","lymph node","Mesoridazine",2,807
+"1522","lymph node","Glisoxepide",2,808
+"1523","lymph node","Flunitrazepam",2,809
+"1524","lymph node","Icatibant",2,810
+"1525","lymph node","Ambenonium",2,811
+"1526","lymph node","Theobromine",2,812
+"1527","lymph node","Brompheniramine",2,813
+"1528","lymph node","Fluocinonide",2,814
+"1529","lymph node","Idarubicin",2,815
+"1530","lymph node","Lercanidipine",2,816
+"1531","lymph node","Levomethadyl Acetate",2,817
+"1532","lymph node","Tirofiban",2,818
+"1533","lymph node","Aminocaproic Acid",2,819
+"1534","lymph node","Pentolinium",2,820
+"1535","lymph node","Thiopental",2,821
+"1536","lymph node","Aminolevulinic acid",2,822
+"1537","lymph node","Pimecrolimus",2,823
+"1538","lymph node","Cefepime",2,824
+"1539","lymph node","Zuclopenthixol",2,825
+"1540","lymph node","Cefradine",2,826
+"1541","lymph node","Trisalicylate-choline",2,827
+"1542","lymph node","Indinavir",2,828
+"1543","lymph node","Bifonazole",2,829
+"1544","lymph node","Calcipotriol",2,830
+"1545","lymph node","Clofibrate",2,831
+"1546","lymph node","Oxaprozin",2,832
+"1547","lymph node","Itraconazole",2,833
+"1548","lymph node","Demecarium",2,834
+"1549","lymph node","Spirapril",2,835
+"1550","bile duct","Carbamazepine",1,38
+"1551","bile duct","Rosuvastatin",1,39
+"1552","bile duct","Omeprazole",1,40
+"1553","bile duct","Silodosin",1,41
+"1554","bile duct","Valaciclovir",1,42
+"1555","bile duct","Metyrapone",1,43
+"1556","bile duct","Liothyronine",1,44
+"1557","bile duct","Saquinavir",1,45
+"1558","bile duct","Indinavir",1,46
+"1559","lymph node","Nabilone",1,836
+"1560","lymph node","Tadalafil",1,837
+"1561","lymph node","Carglumic Acid",1,838
+"1562","lymph node","Tolvaptan",1,839
+"1563","lymph node","Desoximetasone",1,840
+"1564","lymph node","Clarithromycin",1,841
+"1565","lymph node","Sulfamethazine",1,842
+"1566","lymph node","Buclizine",1,843
+"1567","lymph node","Amoxicillin",1,844
+"1568","lymph node","Chlorcyclizine",1,845
+"1569","lymph node","Emtricitabine",1,846
+"1570","lymph node","Doxycycline",1,847
+"1571","lymph node","Isothipendyl",1,848
+"1572","lymph node","Antazoline",1,849
+"1573","lymph node","Azilsartan medoxomil",1,850
+"1574","lymph node","Methylphenidate",1,851
+"1575","lymph node","Ergonovine",1,852
+"1576","lymph node","Eprosartan",1,853
+"1577","lymph node","Aciclovir",1,854
+"1578","lymph node","Olmesartan",1,855
+"1579","lymph node","Alimemazine",1,856
+"1580","lymph node","Xanthophyll",1,857
+"1581","lymph node","Carbenicillin",1,858
+"1582","lymph node","Anisindione",1,859
+"1583","lymph node","Fondaparinux sodium",1,860
+"1584","lymph node","Dicloxacillin",1,861
+"1585","lymph node","Torasemide",1,862
+"1586","lymph node","Hydroxyzine",1,863
+"1587","lymph node","Gallamine Triethiodide",1,864
+"1588","lymph node","Testolactone",1,865
+"1589","lymph node","Octreotide",1,866
+"1590","lymph node","Sulfathiazole",1,867
+"1591","lymph node","Clocortolone",1,868
+"1592","lymph node","Ritodrine",1,869
+"1593","lymph node","Homoharringtonine",1,870
+"1594","lymph node","Propylhexedrine",1,871
+"1595","lymph node","Deserpidine",1,872
+"1596","lymph node","Azatadine",1,873
+"1597","lymph node","Bupivacaine",1,874
+"1598","lymph node","Desonide",1,875
+"1599","lymph node","Loteprednol",1,876
+"1600","lymph node","Anastrozole",1,877
+"1601","lymph node","Nalidixic Acid",1,878
+"1602","lymph node","Aprobarbital",1,879
+"1603","lymph node","Roxatidine acetate",1,880
+"1604","lymph node","Sotalol",1,881
+"1605","lymph node","Bethanidine",1,882
+"1606","lymph node","Aminophenazone",1,883
+"1607","lymph node","Ciclopirox",1,884
+"1608","lymph node","Cefotetan",1,885
+"1609","lymph node","Stanozolol",1,886
+"1610","lymph node","Silodosin",1,887
+"1611","lymph node","Tolcapone",1,888
+"1612","lymph node","Cefamandole",1,889
+"1613","lymph node","Valaciclovir",1,890
+"1614","lymph node","Metyrapone",1,891
+"1615","lymph node","Butalbital",1,892
+"1616","lymph node","Pyridoxal",1,893
+"1617","lymph node","Butenafine",1,894
+"1618","lymph node","Malathion",1,895
+"1619","lymph node","Dienestrol",1,896
+"1620","lymph node","Clemastine",1,897
+"1621","lymph node","Gadobenate Dimeglumine",1,898
+"1622","lymph node","Flucytosine",1,899
+"1623","lymph node","Agomelatine",1,900
+"1624","lymph node","Udenafil",1,901
+"1625","lymph node","Levobupivacaine",1,902
+"1626","lymph node","Brotizolam",1,903
+"1627","lymph node","Pheniramine",1,904
+"1628","gall bladder","Zonisamide",1,1
+"1629","bile duct","Cimetidine",1,47
+"1630","bile duct","Phenytoin",1,48
+"1631","bile duct","Ponatinib",1,49
+"1632","bile duct","Eprosartan",1,50
+"1633","bile duct","Aciclovir",1,51
+"1634","bile duct","Olmesartan",1,52
+"1635","bile duct","Fluorouracil",1,53
+"1636","bile duct","Levetiracetam",1,54
+"1637","bile duct","Oxaliplatin",1,55
+"1638","liver","Reserpine",1,632
+"1639","liver","Dalfopristin",1,633
+"1640","liver","Ramipril",1,634
+"1641","liver","Oxaprozin",1,635
+"1642","liver","Udenafil",1,636
+"1643","liver","Ampicillin",1,637
+"1644","liver","Spirapril",1,638
+"1645","pancreas","Liotrix",1,47
+"1646","pancreas","Felodipine",1,48
+"1647","pancreas","Fentanyl",1,49
+"1648","pancreas","Fluticasone Propionate",1,50
+"1649","pancreas","Amprenavir",1,51
+"1650","pancreas","Sorafenib",1,52
+"1651","pancreas","Meprobamate",1,53
+"1652","pancreas","Salmeterol",1,54
+"1653","pancreas","Talbutal",1,55
+"1654","pancreas","Oxybutynin",1,56
+"1655","pancreas","Cilostazol",1,57
+"1656","pancreas","Ivermectin",1,58
+"1657","pancreas","Ifosfamide",1,59
+"1658","pancreas","Bimatoprost",1,60
+"1659","pancreas","Pranlukast",1,61
+"1660","pancreas","Clotiazepam",1,62
+"1661","pancreas","Oxcarbazepine",1,63
+"1662","pancreas","Dinoprost Tromethamine",1,64
+"1663","pancreas","Testosterone",1,65
+"1664","pancreas","Morphine",1,66
+"1665","pancreas","Pentamidine",1,67
+"1666","pancreas","Cromoglicic acid",1,68
+"1667","pancreas","Nimodipine",1,69
+"1668","pancreas","Oxycodone",1,70
+"1669","pancreas","Risperidone",1,71
+"1670","pancreas","Telaprevir",1,72
+"1671","pancreas","Nelfinavir",1,73
+"1672","pancreas","Niacin",1,74
+"1673","pancreas","Buspirone",1,75
+"1674","pancreas","Ritonavir",1,76
+"1675","pancreas","Alpha-Linolenic Acid",1,77
+"1676","pancreas","Lidocaine",1,78
+"1677","pancreas","Flumazenil",1,79
+"1678","pancreas","Bumetanide",1,80
+"1679","pancreas","Irinotecan",1,81
+"1680","pancreas","Flutamide",1,82
+"1681","pancreas","Progesterone",1,83
+"1682","pancreas","Pentobarbital",1,84
+"1683","pancreas","Dextromethorphan",1,85
+"1684","pancreas","Thalidomide",1,86
+"1685","pancreas","Cholecalciferol",1,87
+"1686","pancreas","Glimepiride",1,88
+"1687","pancreas","Niflumic Acid",1,89
+"1688","pancreas","Phosphatidylserine",1,90
+"1689","pancreas","Ivacaftor",1,91
+"1690","pancreas","Calcitriol",1,92
+"1691","pancreas","Quinidine",1,93
+"1692","pancreas","Tamoxifen",1,94
+"1693","pancreas","Methoxyflurane",1,95
+"1694","pancreas","Quazepam",1,96
+"1695","pancreas","Carboprost Tromethamine",1,97
+"1696","pancreas","Acitretin",1,98
+"1697","pancreas","Etoposide",1,99
+"1698","pancreas","Tolazamide",1,100
+"1699","pancreas","Phenobarbital",1,101
+"1700","pancreas","Aprepitant",1,102
+"1701","pancreas","Nitrendipine",1,103
+"1702","pancreas","Estazolam",1,104
+"1703","pancreas","Repaglinide",1,105
+"1704","pancreas","Amiodarone",1,106
+"1705","pancreas","Zalcitabine",1,107
+"1706","pancreas","Voriconazole",1,108
+"1707","pancreas","Ethosuximide",1,109
+"1708","pancreas","Gliclazide",1,110
+"1709","pancreas","Fluconazole",1,111
+"1710","pancreas","Buprenorphine",1,112
+"1711","pancreas","Isotretinoin",1,113
+"1712","pancreas","Clopidogrel",1,114
+"1713","pancreas","Teniposide",1,115
+"1714","pancreas","Edetic Acid",1,116
+"1715","pancreas","Orlistat",1,117
+"1716","pancreas","Vismodegib",1,118
+"1717","pancreas","Norethindrone",1,119
+"1718","pancreas","Miconazole",1,120
+"1719","pancreas","Saxagliptin",1,121
+"1720","pancreas","Fludarabine",1,122
+"1721","pancreas","Nisoldipine",1,123
+"1722","pancreas","Quinacrine",1,124
+"1723","pancreas","Doxapram",1,125
+"1724","pancreas","Beclomethasone",1,126
+"1725","pancreas","Alfacalcidol",1,127
+"1726","pancreas","Amlodipine",1,128
+"1727","pancreas","Piperazine",1,129
+"1728","pancreas","Rivaroxaban",1,130
+"1729","pancreas","Methohexital",1,131
+"1730","pancreas","Disulfiram",1,132
+"1731","pancreas","Fluvastatin",1,133
+"1732","pancreas","Cocaine",1,134
+"1733","pancreas","Fluoxetine",1,135
+"1734","pancreas","Domperidone",1,136
+"1735","pancreas","Imatinib",1,137
+"1736","pancreas","Aspartame",1,138
+"1737","pancreas","Diethylstilbestrol",1,139
+"1738","pancreas","Dinoprostone",1,140
+"1739","pancreas","Tauroursodeoxycholic acid",1,141
+"1740","pancreas","Dapsone",1,142
+"1741","pancreas","Sucralfate",1,143
+"1742","pancreas","Vardenafil",1,144
+"1743","pancreas","Modafinil",1,145
+"1744","pancreas","Granisetron",1,146
+"1745","pancreas","Pimozide",1,147
+"1746","pancreas","Argatroban",1,148
+"1747","pancreas","Methadone",1,149
+"1748","pancreas","Chlordiazepoxide",1,150
+"1749","pancreas","Ketoconazole",1,151
+"1750","pancreas","Cabazitaxel",1,152
+"1751","pancreas","Losartan",1,153
+"1752","pancreas","Glipizide",1,154
+"1753","pancreas","Halofantrine",1,155
+"1754","pancreas","L-Aspartic Acid",1,156
+"1755","pancreas","Riluzole",1,157
+"1756","pancreas","Telithromycin",1,158
+"1757","gall bladder","Chlorthalidone",1,2
+"1758","gall bladder","Dasatinib",1,3
+"1759","pancreas","Cimetidine",1,159
+"1760","pancreas","Phenytoin",1,160
+"1761","pancreas","Clarithromycin",1,161
+"1762","pancreas","Astemizole",1,162
+"1763","pancreas","Streptozocin",1,163
+"1764","pancreas","Gefitinib",1,164
+"1765","pancreas","Ranitidine",1,165
+"1766","pancreas","Ponatinib",1,166
+"1767","pancreas","Ibuprofen",1,167
+"1768","pancreas","Finasteride",1,168
+"1769","pancreas","Mitiglinide",1,169
+"1770","pancreas","Enzalutamide",1,170
+"1771","pancreas","S-Adenosylmethionine",1,171
+"1772","pancreas","Cyanocobalamin",1,172
+"1773","pancreas","Praziquantel",1,173
+"1774","pancreas","Fluvoxamine",1,174
+"1775","pancreas","Clorazepate",1,175
+"1776","pancreas","Carbamazepine",1,176
+"1777","pancreas","Vinblastine",1,177
+"1778","pancreas","Delavirdine",1,178
+"1779","pancreas","Erythromycin",1,179
+"1780","pancreas","Choline",1,180
+"1781","pancreas","Glisoxepide",1,181
+"1782","pancreas","Haloperidol",1,182
+"1783","pancreas","Bupivacaine",1,183
+"1784","pancreas","Dutasteride",1,184
+"1785","pancreas","Pyruvic acid",1,185
+"1786","pancreas","Rifapentine",1,186
+"1787","pancreas","Diazoxide",1,187
+"1788","pancreas","Lapatinib",1,188
+"1789","pancreas","Lercanidipine",1,189
+"1790","pancreas","Fospropofol",1,190
+"1791","pancreas","Levomethadyl Acetate",1,191
+"1792","pancreas","Carvedilol",1,192
+"1793","pancreas","Dasatinib",1,193
+"1794","pancreas","Apixaban",1,194
+"1795","pancreas","Butalbital",1,195
+"1796","pancreas","Sildenafil",1,196
+"1797","pancreas","Tacrolimus",1,197
+"1798","pancreas","Nefazodone",1,198
+"1799","pancreas","Ethchlorvynol",1,199
+"1800","pancreas","Diflunisal",1,200
+"1801","pancreas","Liothyronine",1,201
+"1802","pancreas","Reserpine",1,202
+"1803","pancreas","Ceruletide",1,203
+"1804","pancreas","Saquinavir",1,204
+"1805","pancreas","Indinavir",1,205
+"1806","bile duct","Spironolactone",1,56
+"1807","bile duct","Aminohippurate",1,57
+"1808","bile duct","Ofloxacin",1,58
+"1809","bile duct","Folic Acid",1,59
+"1810","bile duct","Etravirine",1,60
+"1811","bile duct","L-Cysteine",1,61
+"1812","bile duct","Colchicine",1,62
+"1813","bile duct","Atorvastatin",1,63
+"1814","bile duct","Tenofovir",1,64
+"1815","bile duct","Simvastatin",1,65
+"1816","bile duct","Sunitinib",1,66
+"1817","bile duct","Sulfasalazine",1,67
+"1818","bile duct","Novobiocin",1,68
+"1819","bile duct","Amifostine",1,69
+"1820","bile duct","Digoxin",1,70
+"1821","bile duct","Arsenic trioxide",1,71
+"1822","bile duct","Docetaxel",1,72
+"1823","bile duct","Norgestimate",1,73
+"1824","bile duct","Carboplatin",1,74
+"1825","bile duct","Fulvestrant",1,75
+"1826","bile duct","Clofazimine",1,76
+"1827","bile duct","Mycophenolate mofetil",1,77
+"1828","bile duct","Telmisartan",1,78
+"1829","lymph node","Nonoxynol-9",1,905
+"1830","lymph node","Emedastine",1,906
+"1831","lymph node","Rimexolone",1,907
+"1832","lymph node","Mequitazine",1,908
+"1833","lymph node","Fentanyl",1,909
+"1834","lymph node","Gadopentetate dimeglumine",1,910
+"1835","lymph node","Pamidronate",1,911
+"1836","lymph node","Pefloxacin",1,912
+"1837","lymph node","Tolterodine",1,913
+"1838","lymph node","Ticagrelor",1,914
+"1839","lymph node","Cephaloglycin",1,915
+"1840","lymph node","Cilostazol",1,916
+"1841","lymph node","Ketobemidone",1,917
+"1842","lymph node","Azelaic Acid",1,918
+"1843","lymph node","Ranolazine",1,919
+"1844","lymph node","Tripelennamine",1,920
+"1845","lymph node","Milrinone",1,921
+"1846","lymph node","Carbachol",1,922
+"1847","lymph node","Ifosfamide",1,923
+"1848","lymph node","Pentostatin",1,924
+"1849","lymph node","Flunisolide",1,925
+"1850","lymph node","Acetylcarnitine",1,926
+"1851","lymph node","Caspofungin",1,927
+"1852","lymph node","Oxcarbazepine",1,928
+"1853","lymph node","Bepotastine",1,929
+"1854","lymph node","Fesoterodine",1,930
+"1855","lymph node","Heptabarbital",1,931
+"1856","lymph node","Monobenzone",1,932
+"1857","lymph node","Cromoglicic acid",1,933
+"1858","lymph node","Mafenide",1,934
+"1859","lymph node","Alfuzosin",1,935
+"1860","lymph node","Amobarbital",1,936
+"1861","lymph node","Phenindamine",1,937
+"1862","lymph node","Lorazepam",1,938
+"1863","lymph node","Fidaxomicin",1,939
+"1864","lymph node","Sulfamethizole",1,940
+"1865","lymph node","Calcidiol",1,941
+"1866","lymph node","Sofosbuvir",1,942
+"1867","lymph node","Chenodeoxycholic acid",1,943
+"1868","lymph node","Ethopropazine",1,944
+"1869","lymph node","Almitrine",1,945
+"1870","lymph node","Terbutaline",1,946
+"1871","lymph node","Triprolidine",1,947
+"1872","lymph node","Benzatropine",1,948
+"1873","lymph node","Exemestane",1,949
+"1874","lymph node","Meclizine",1,950
+"1875","lymph node","Flumazenil",1,951
+"1876","lymph node","Pentobarbital",1,952
+"1877","lymph node","Diflorasone",1,953
+"1878","lymph node","Tramadol",1,954
+"1879","lymph node","Glimepiride",1,955
+"1880","lymph node","Cinalukast",1,956
+"1881","lymph node","Allopurinol",1,957
+"1882","lymph node","Ibandronate",1,958
+"1883","lymph node","Calcitriol",1,959
+"1884","lymph node","Methocarbamol",1,960
+"1885","lymph node","Bambuterol",1,961
+"1886","lymph node","Roxithromycin",1,962
+"1887","lymph node","Entacapone",1,963
+"1888","lymph node","Trovafloxacin",1,964
+"1889","lymph node","Progabide",1,965
+"1890","lymph node","Pyrazinamide",1,966
+"1891","lymph node","Carboprost Tromethamine",1,967
+"1892","lymph node","Posaconazole",1,968
+"1893","lymph node","Tolazamide",1,969
+"1894","lymph node","Phenylephrine",1,970
+"1895","lymph node","Metocurine",1,971
+"1896","lymph node","Aprepitant",1,972
+"1897","lymph node","Ceftibuten",1,973
+"1898","lymph node","Alprazolam",1,974
+"1899","lymph node","Carbimazole",1,975
+"1900","lymph node","Methylergometrine",1,976
+"1901","lymph node","Voacamine",1,977
+"1902","lymph node","Flumethasone Pivalate",1,978
+"1903","lymph node","Aceprometazine",1,979
+"1904","lymph node","Naltrexone",1,980
+"1905","lymph node","Plerixafor",1,981
+"1906","lymph node","Biperiden",1,982
+"1907","lymph node","Betahistine",1,983
+"1908","lymph node","Gadofosveset trisodium",1,984
+"1909","lymph node","Cevimeline",1,985
+"1910","lymph node","Molindone",1,986
+"1911","lymph node","Aclidinium",1,987
+"1912","lymph node","Trimetrexate",1,988
+"1913","lymph node","Atovaquone",1,989
+"1914","lymph node","Fluconazole",1,990
+"1915","lymph node","Cefonicid",1,991
+"1916","lymph node","Proguanil",1,992
+"1917","lymph node","Cortisone acetate",1,993
+"1918","lymph node","Dexfenfluramine",1,994
+"1919","lymph node","Milnacipran",1,995
+"1920","lymph node","Alcaftadine",1,996
+"1921","lymph node","Cefuroxime",1,997
+"1922","lymph node","Rimonabant",1,998
+"1923","lymph node","Sodium stibogluconate",1,999
+"1924","lymph node","Prilocaine",1,1000
+"1925","lymph node","Chlormerodrin",1,1001
+"1926","lymph node","Desvenlafaxine",1,1002
+"1927","lymph node","Cyclopentolate",1,1003
+"1928","lymph node","Framycetin",1,1004
+"1929","lymph node","Mecamylamine",1,1005
+"1930","lymph node","Beclomethasone",1,1006
+"1931","lymph node","Alfacalcidol",1,1007
+"1932","lymph node","Indacaterol",1,1008
+"1933","lymph node","Lomitapide",1,1009
+"1934","lymph node","Medrysone",1,1010
+"1935","lymph node","Sodium lauryl sulfate",1,1011
+"1936","lymph node","Pyrimethamine",1,1012
+"1937","lymph node","Sulfisoxazole",1,1013
+"1938","lymph node","Primidone",1,1014
+"1939","lymph node","Paricalcitol",1,1015
+"1940","lymph node","Tyloxapol",1,1016
+"1941","lymph node","Ospemifene",1,1017
+"1942","lymph node","Butethal",1,1018
+"1943","lymph node","Hydrocortamate",1,1019
+"1944","lymph node","Propericiazine",1,1020
+"1945","lymph node","Alogliptin",1,1021
+"1946","lymph node","Betazole",1,1022
+"1947","lymph node","Spaglumic Acid",1,1023
+"1948","lymph node","Procarbazine",1,1024
+"1949","lymph node","Granisetron",1,1025
+"1950","lymph node","Ethylmorphine",1,1026
+"1951","lymph node","Ergoloid mesylate",1,1027
+"1952","lymph node","Methacycline",1,1028
+"1953","lymph node","Chlordiazepoxide",1,1029
+"1954","lymph node","Iobenguane",1,1030
+"1955","lymph node","Rizatriptan",1,1031
+"1956","lymph node","Menthol",1,1032
+"1957","lymph node","Enoximone",1,1033
+"1958","lymph node","Cilastatin",1,1034
+"1959","lymph node","Halofantrine",1,1035
+"1960","lymph node","Pipotiazine",1,1036
+"1961","lymph node","Propiomazine",1,1037
+"1962","lymph node","Porfimer",1,1038
+"1963","lymph node","Incadronate",1,1039
+"1964","liver","Everolimus",1,639
+"1965","liver","Azidocillin",1,640
+"1966","liver","Dalfampridine",1,641
+"1967","liver","Guanabenz",1,642
+"1968","liver","Dapiprazole",1,643
+"1969","liver","Enoxaparin",1,644
+"1970","liver","Rolitetracycline",1,645
+"1971","liver","Methylphenidate",1,646
+"1972","liver","Eprosartan",1,647
+"1973","liver","Aciclovir",1,648
+"1974","liver","Stavudine",1,649
+"1975","liver","Fluspirilene",1,650
+"1976","liver","Xylometazoline",1,651
+"1977","liver","Guanidine",1,652
+"1978","liver","Pyridostigmine",1,653
+"1979","liver","Flucloxacillin",1,654
+"1980","liver","Didanosine",1,655
+"1981","liver","Perindopril",1,656
+"1982","liver","Sulfapyridine",1,657
+"1983","liver","Alimemazine",1,658
+"1984","liver","Penicillamine",1,659
+"1985","liver","Sulfadimethoxine",1,660
+"1986","liver","Ephedrine",1,661
+"1987","liver","Fondaparinux sodium",1,662
+"1988","liver","Hydroxyzine",1,663
+"1989","liver","Nitroprusside",1,664
+"1990","liver","Allylestrenol",1,665
+"1991","liver","Cyanocobalamin",1,666
+"1992","liver","Josamycin",1,667
+"1993","liver","Clorazepate",1,668
+"1994","liver","Tetrabenazine",1,669
+"1995","liver","Ixabepilone",1,670
+"1996","liver","Bedaquiline",1,671
+"1997","liver","Isradipine",1,672
+"1998","liver","Trospium",1,673
+"1999","liver","Ifenprodil",1,674
+"2000","liver","Azatadine",1,675
+"2001","liver","Felypressin",1,676
+"2002","liver","Aprindine",1,677
+"2003","liver","Chlorthalidone",1,678
+"2004","liver","Topotecan",1,679
+"2005","liver","Pyruvic acid",1,680
+"2006","liver","Fluocinonide",1,681
+"2007","liver","Retapamulin",1,682
+"2008","liver","Aminocaproic Acid",1,683
+"2009","liver","Tolcapone",1,684
+"2010","liver","Valaciclovir",1,685
+"2011","liver","Aminolevulinic acid",1,686
+"2012","liver","Pimecrolimus",1,687
+"2013","liver","Atropine",1,688
+"2014","liver","Cefepime",1,689
+"2015","liver","Acetyldigitoxin",1,690
+"2016","liver","Diflunisal",1,691
+"2017","liver","Voglibose",1,692
+"2018","liver","Cefaclor",1,693
+"2019","liver","Lornoxicam",1,694
+"2020","liver","Sibutramine",1,695
+"2021","liver","Deslanoside",1,696
+"2022","liver","Desogestrel",1,697
+"2023","liver","Tranexamic Acid",1,698
+"2024","liver","Tetrahydrobiopterin",1,699
+"2025","liver","Hydroxychloroquine",1,700
+"2026","liver","Pindolol",1,701
+"2027","liver","Famciclovir",1,702
+"2028","liver","Levonordefrin",1,703
+"2029","liver","Dyphylline",1,704
+"2030","liver","Oseltamivir",1,705
+"2031","liver","Dicoumarol",1,706
+"2032","liver","Adenine",1,707
+"2033","liver","Apraclonidine",1,708
+"2034","liver","Azathioprine",1,709
+"2035","liver","Fosinopril",1,710
+"2036","liver","Acarbose",1,711
+"2037","liver","Cyamemazine",1,712
+"2038","liver","Methsuximide",1,713
+"2039","liver","Ofloxacin",1,714
+"2040","liver","Amiloride",1,715
+"2041","liver","Pentazocine",1,716
+"2042","liver","L-Glutamine",1,717
+"2043","liver","Dobutamine",1,718
+"2044","liver","Mestranol",1,719
+"2045","liver","Raltegravir",1,720
+"2046","liver","Temozolomide",1,721
+"2047","liver","Sodium Tetradecyl Sulfate",1,722
+"2048","liver","Avanafil",1,723
+"2049","liver","Quinapril",1,724
+"2050","liver","Oxacillin",1,725
+"2051","liver","Tenofovir",1,726
+"2052","liver","Enflurane",1,727
+"2053","liver","Phendimetrazine",1,728
+"2054","liver","Dofetilide",1,729
+"2055","liver","Hydroflumethiazide",1,730
+"2056","liver","Flurandrenolide",1,731
+"2057","liver","Enprofylline",1,732
+"2058","liver","Quinupristin",1,733
+"2059","liver","Tazarotene",1,734
+"2060","liver","Gemcitabine",1,735
+"2061","liver","Lacosamide",1,736
+"2062","liver","Ketazolam",1,737
+"2063","liver","Ajmaline",1,738
+"2064","liver","Salbutamol",1,739
+"2065","liver","Solifenacin",1,740
+"2066","liver","Zolmitriptan",1,741
+"2067","liver","Glutethimide",1,742
+"2068","liver","Triamterene",1,743
+"2069","liver","Dolutegravir",1,744
+"2070","liver","Prazepam",1,745
+"2071","liver","Maraviroc",1,746
+"2072","liver","Epoprostenol",1,747
+"2073","liver","Epirubicin",1,748
+"2074","liver","Olopatadine",1,749
+"2075","liver","Sulfasalazine",1,750
+"2076","liver","Novobiocin",1,751
+"2077","liver","Clobetasol propionate",1,752
+"2078","liver","Estramustine",1,753
+"2079","liver","Tubocurarine",1,754
+"2080","liver","Enoxacin",1,755
+"2081","liver","Famotidine",1,756
+"2082","liver","Betamethasone",1,757
+"2083","liver","Budesonide",1,758
+"2084","liver","Halobetasol Propionate",1,759
+"2085","liver","Arsenic trioxide",1,760
+"2086","liver","Cefadroxil",1,761
+"2087","liver","Tolazoline",1,762
+"2088","liver","Isometheptene",1,763
+"2089","liver","Proflavine",1,764
+"2090","liver","Mometasone",1,765
+"2091","liver","Terazosin",1,766
+"2092","liver","Chlorambucil",1,767
+"2093","liver","Amantadine",1,768
+"2094","liver","Fulvestrant",1,769
+"2095","liver","Cefmetazole",1,770
+"2096","liver","Adapalene",1,771
+"2097","liver","Thiabendazole",1,772
+"2098","liver","Adenosine",1,773
+"2099","liver","Dexmethylphenidate",1,774
+"2100","liver","Clofazimine",1,775
+"2101","liver","Estradiol valerate/Dienogest",1,776
+"2102","liver","Miglitol",1,777
+"2103","liver","Anagrelide",1,778
+"2104","liver","Methyprylon",1,779
+"2105","liver","Hydroxyurea",1,780
+"2106","liver","Tofisopam",1,781
+"2107","liver","Nebivolol",1,782
+"2108","liver","Trichlormethiazide",1,783
+"2109","liver","Biotin",1,784
+"2110","liver","Trandolapril",1,785
+"2111","liver","Ethanolamine Oleate",1,786
+"2112","liver","Guanethidine",1,787
+"2113","liver","Sulindac",1,788
+"2114","liver","Ethotoin",1,789
+"2115","liver","Phentolamine",1,790
+"2116","liver","Tinidazole",1,791
+"2117","liver","Carmustine",1,792
+"2118","liver","Carteolol",1,793
+"2119","liver","Labetalol",1,794
+"2120","liver","Vidarabine",1,795
+"2121","liver","Chlorhexidine",1,796
+"2122","liver","Desmopressin",1,797
+"2123","liver","Thiamylal",1,798
+"2124","liver","Terlipressin",1,799
+"2125","liver","Mercaptopurine",1,800
+"2126","liver","Drostanolone",1,801
+"2127","liver","Hydroxocobalamin",1,802
+"2128","liver","Metoclopramide",1,803
+"2129","liver","Valganciclovir",1,804
+"2130","liver","Vindesine",1,805
+"2131","liver","Rimexolone",1,806
+"2132","liver","Protriptyline",1,807
+"2133","liver","Tenoxicam",1,808
+"2134","liver","Pefloxacin",1,809
+"2135","liver","Regadenoson",1,810
+"2136","liver","Mephentermine",1,811
+"2137","liver","Ticagrelor",1,812
+"2138","liver","Metaraminol",1,813
+"2139","liver","Azelaic Acid",1,814
+"2140","liver","Methylprednisolone",1,815
+"2141","liver","Ivermectin",1,816
+"2142","liver","Methylnaltrexone",1,817
+"2143","liver","Tripelennamine",1,818
+"2144","liver","Capecitabine",1,819
+"2145","liver","Nabumetone",1,820
+"2146","liver","Lisinopril",1,821
+"2147","liver","Darunavir",1,822
+"2148","liver","Thiamine",1,823
+"2149","liver","Isosorbide Mononitrate",1,824
+"2150","liver","Apomorphine",1,825
+"2151","liver","Ceftazidime",1,826
+"2152","liver","Cefixime",1,827
+"2153","liver","Deferasirox",1,828
+"2154","liver","Nimodipine",1,829
+"2155","liver","Cloxacillin",1,830
+"2156","liver","Amobarbital",1,831
+"2157","liver","Sulfamethizole",1,832
+"2158","liver","Tocainide",1,833
+"2159","liver","Telaprevir",1,834
+"2160","liver","Triprolidine",1,835
+"2161","liver","Moexipril",1,836
+"2162","liver","Debrisoquin",1,837
+"2163","liver","Masoprocol",1,838
+"2164","liver","Methoxamine",1,839
+"2165","liver","Cefdinir",1,840
+"2166","liver","Cilazapril",1,841
+"2167","liver","Phensuximide",1,842
+"2168","liver","Exemestane",1,843
+"2169","liver","Alpha-Linolenic Acid",1,844
+"2170","liver","Busulfan",1,845
+"2171","liver","Frovatriptan",1,846
+"2172","liver","Meclizine",1,847
+"2173","liver","Bepridil",1,848
+"2174","liver","Nitisinone",1,849
+"2175","liver","Glimepiride",1,850
+"2176","liver","Ivacaftor",1,851
+"2177","liver","Oxprenolol",1,852
+"2178","liver","Cinitapride",1,853
+"2179","liver","Equilin",1,854
+"2180","liver","Lomefloxacin",1,855
+"2181","liver","Ecabet",1,856
+"2182","liver","L-Cystine",1,857
+"2183","liver","Calcitriol",1,858
+"2184","liver","Metolazone",1,859
+"2185","liver","Entacapone",1,860
+"2186","liver","Dihydroergotamine",1,861
+"2187","liver","Marimastat",1,862
+"2188","liver","Zoledronate",1,863
+"2189","liver","Posaconazole",1,864
+"2190","liver","Estazolam",1,865
+"2191","liver","Ceftibuten",1,866
+"2192","liver","Propylthiouracil",1,867
+"2193","liver","Hydralazine",1,868
+"2194","liver","Flumethasone Pivalate",1,869
+"2195","liver","Chlorprothixene",1,870
+"2196","liver","Testosterone Propionate",1,871
+"2197","liver","Carisoprodol",1,872
+"2198","liver","Fenoldopam",1,873
+"2199","liver","Naltrexone",1,874
+"2200","liver","Biperiden",1,875
+"2201","liver","Vecuronium",1,876
+"2202","liver","Deferoxamine",1,877
+"2203","liver","Tizanidine",1,878
+"2204","liver","Atovaquone",1,879
+"2205","liver","Isotretinoin",1,880
+"2206","liver","Sertaconazole",1,881
+"2207","liver","Latanoprost",1,882
+"2208","liver","Fluocinolone Acetonide",1,883
+"2209","liver","Cortisone acetate",1,884
+"2210","liver","Naphazoline",1,885
+"2211","liver","Alprenolol",1,886
+"2212","liver","Edetic Acid",1,887
+"2213","liver","Orlistat",1,888
+"2214","liver","Cefuroxime",1,889
+"2215","liver","Benazepril",1,890
+"2216","liver","Desvenlafaxine",1,891
+"2217","liver","Quinacrine",1,892
+"2218","liver","Oxamniquine",1,893
+"2219","liver","Fosamprenavir",1,894
+"2220","liver","Quinidine barbiturate",1,895
+"2221","liver","Fluticasone furoate",1,896
+"2222","liver","Gentian Violet",1,897
+"2223","liver","Dipivefrin",1,898
+"2224","liver","Beclomethasone",1,899
+"2225","liver","Pancuronium",1,900
+"2226","liver","Piperazine",1,901
+"2227","liver","Treprostinil",1,902
+"2228","liver","Dipyridamole",1,903
+"2229","liver","Cyclizine",1,904
+"2230","liver","Sufentanil",1,905
+"2231","liver","Rasagiline",1,906
+"2232","liver","Bevantolol",1,907
+"2233","liver","Medrysone",1,908
+"2234","liver","Amsacrine",1,909
+"2235","liver","Clindamycin",1,910
+"2236","liver","Sulfisoxazole",1,911
+"2237","liver","Encainide",1,912
+"2238","liver","Remikiren",1,913
+"2239","liver","Linagliptin",1,914
+"2240","liver","Sulfamoxole",1,915
+"2241","liver","Hydrocortamate",1,916
+"2242","liver","L-Asparagine",1,917
+"2243","liver","Boceprevir",1,918
+"2244","liver","Aspartame",1,919
+"2245","liver","Methamphetamine",1,920
+"2246","liver","Tauroursodeoxycholic acid",1,921
+"2247","liver","Dactinomycin",1,922
+"2248","liver","Sucralfate",1,923
+"2249","liver","Procarbazine",1,924
+"2250","liver","Mepyramine",1,925
+"2251","liver","Ergoloid mesylate",1,926
+"2252","liver","Ceftizoxime",1,927
+"2253","liver","Rizatriptan",1,928
+"2254","liver","Menthol",1,929
+"2255","liver","Clenbuterol",1,930
+"2256","liver","Deferiprone",1,931
+"2257","liver","Cyclacillin",1,932
+"2258","liver","L-Tyrosine",1,933
+"2259","liver","Mebendazole",1,934
+"2260","liver","Methyldopa",1,935
+"2261","liver","Riluzole",1,936
+"2262","pancreas","Clonidine",1,206
+"2263","pancreas","Ziprasidone",1,207
+"2264","pancreas","Voglibose",1,208
+"2265","pancreas","Azelastine",1,209
+"2266","pancreas","Codeine",1,210
+"2267","pancreas","Acetylcysteine",1,211
+"2268","pancreas","Nifedipine",1,212
+"2269","pancreas","Chlorphenamine",1,213
+"2270","pancreas","Alfentanil",1,214
+"2271","pancreas","Caffeine",1,215
+"2272","pancreas","Adinazolam",1,216
+"2273","pancreas","Chloramphenicol",1,217
+"2274","pancreas","Folic Acid",1,218
+"2275","pancreas","Tolbutamide",1,219
+"2276","pancreas","Cinolazepam",1,220
+"2277","pancreas","Glycodiazine",1,221
+"2278","pancreas","Atorvastatin",1,222
+"2279","pancreas","Verapamil",1,223
+"2280","pancreas","Aripiprazole",1,224
+"2281","pancreas","Paliperidone",1,225
+"2282","pancreas","Ciprofloxacin",1,226
+"2283","pancreas","Erlotinib",1,227
+"2284","pancreas","Tazarotene",1,228
+"2285","pancreas","Paclitaxel",1,229
+"2286","pancreas","Cyclophosphamide",1,230
+"2287","pancreas","Gemcitabine",1,231
+"2288","pancreas","Gestodene",1,232
+"2289","pancreas","Simvastatin",1,233
+"2290","pancreas","Amitriptyline",1,234
+"2291","pancreas","Acamprosate",1,235
+"2292","pancreas","Glutethimide",1,236
+"2293","pancreas","Hydrocortisone",1,237
+"2294","pancreas","Cyclosporine",1,238
+"2295","pancreas","Levothyroxine",1,239
+"2296","pancreas","Trazodone",1,240
+"2297","pancreas","Diclofenac",1,241
+"2298","pancreas","Prazepam",1,242
+"2299","pancreas","Ondansetron",1,243
+"2300","pancreas","Crizotinib",1,244
+"2301","pancreas","Alprostadil",1,245
+"2302","pancreas","Quetiapine",1,246
+"2303","pancreas","Epoprostenol",1,247
+"2304","pancreas","L-Citrulline",1,248
+"2305","pancreas","Zopiclone",1,249
+"2306","pancreas","Troleandomycin",1,250
+"2307","pancreas","Dimethyl sulfoxide",1,251
+"2308","pancreas","Olopatadine",1,252
+"2309","pancreas","Gliquidone",1,253
+"2310","pancreas","Estradiol",1,254
+"2311","pancreas","Temsirolimus",1,255
+"2312","pancreas","Ethacrynic acid",1,256
+"2313","pancreas","Nevirapine",1,257
+"2314","pancreas","Betamethasone",1,258
+"2315","pancreas","Chlorpropamide",1,259
+"2316","pancreas","Docetaxel",1,260
+"2317","pancreas","Phenelzine",1,261
+"2318","pancreas","Vapreotide",1,262
+"2319","pancreas","Nicardipine",1,263
+"2320","pancreas","Flurazepam",1,264
+"2321","pancreas","Adapalene",1,265
+"2322","pancreas","Adenosine triphosphate",1,266
+"2323","pancreas","Temazepam",1,267
+"2324","pancreas","Pravastatin",1,268
+"2325","pancreas","Eplerenone",1,269
+"2326","pancreas","Estrone",1,270
+"2327","pancreas","Iloprost",1,271
+"2328","pancreas","Adenosine",1,272
+"2329","pancreas","Bromazepam",1,273
+"2330","pancreas","Rifampicin",1,274
+"2331","pancreas","Fludiazepam",1,275
+"2332","pancreas","Bexarotene",1,276
+"2333","pancreas","Mifepristone",1,277
+"2334","pancreas","Pentagastrin",1,278
+"2335","pancreas","Mycophenolate mofetil",1,279
+"2336","pancreas","Iloperidone",1,280
+"2337","pancreas","Miglitol",1,281
+"2338","pancreas","Diltiazem",1,282
+"2339","pancreas","Methyprylon",1,283
+"2340","pancreas","Nitrazepam",1,284
+"2341","pancreas","Ribavirin",1,285
+"2342","pancreas","Cinacalcet",1,286
+"2343","pancreas","Ethanolamine Oleate",1,287
+"2344","pancreas","Loperamide",1,288
+"2345","pancreas","Dabigatran etexilate",1,289
+"2346","pancreas","Ezetimibe",1,290
+"2347","pancreas","Propranolol",1,291
+"2348","pancreas","Vincristine",1,292
+"2349","pancreas","Cisapride",1,293
+"2350","pancreas","Metformin",1,294
+"2351","pancreas","Norfloxacin",1,295
+"2352","pancreas","Propofol",1,296
+"2353","pancreas","Thiamylal",1,297
+"2354","pancreas","Mercaptopurine",1,298
+"2355","pancreas","Ibutilide",1,299
+"2356","pancreas","Hydroxocobalamin",1,300
+"2357","pancreas","Halazepam",1,301
+"2358","pancreas","Scopolamine",1,302
+"2359","pancreas","Clofibrate",1,303
+"2360","pancreas","Udenafil",1,304
+"2361","pancreas","Itraconazole",1,305
+"2362","pancreas","Glycerol Phenylbutyrate",1,306
+"2363","pancreas","Artemether",1,307
+"2364","lymph node","Cytisine",1,1040
+"2365","lymph node","Penbutolol",1,1041
+"2366","lymph node","Voglibose",1,1042
+"2367","lymph node","Carbinoxamine",1,1043
+"2368","lymph node","Atracurium",1,1044
+"2369","lymph node","Moxifloxacin",1,1045
+"2370","lymph node","Sibutramine",1,1046
+"2371","lymph node","Metoprolol",1,1047
+"2372","lymph node","Tranexamic Acid",1,1048
+"2373","lymph node","Cetirizine",1,1049
+"2374","lymph node","Hydroxychloroquine",1,1050
+"2375","lymph node","Nadolol",1,1051
+"2376","lymph node","Methylphenobarbital",1,1052
+"2377","lymph node","Famciclovir",1,1053
+"2378","lymph node","Valrubicin",1,1054
+"2379","lymph node","Hydroxyproline",1,1055
+"2380","lymph node","Quinestrol",1,1056
+"2381","lymph node","Oxandrolone",1,1057
+"2382","lymph node","Atenolol",1,1058
+"2383","lymph node","Dihydrotachysterol",1,1059
+"2384","lymph node","Acarbose",1,1060
+"2385","lymph node","Chloramphenicol",1,1061
+"2386","lymph node","Iodipamide",1,1062
+"2387","lymph node","Cefpiramide",1,1063
+"2388","lymph node","Pentazocine",1,1064
+"2389","lymph node","Etravirine",1,1065
+"2390","lymph node","Forasartan",1,1066
+"2391","lymph node","Diphenylpyraline",1,1067
+"2392","lymph node","Mestranol",1,1068
+"2393","lymph node","Cycloserine",1,1069
+"2394","lymph node","Fluorometholone",1,1070
+"2395","lymph node","Raltegravir",1,1071
+"2396","lymph node","Fosaprepitant",1,1072
+"2397","lymph node","Sodium Tetradecyl Sulfate",1,1073
+"2398","lymph node","Avanafil",1,1074
+"2399","lymph node","Azapropazone",1,1075
+"2400","lymph node","Oxacillin",1,1076
+"2401","lymph node","Phendimetrazine",1,1077
+"2402","lymph node","Phenindione",1,1078
+"2403","lymph node","Cefotaxime",1,1079
+"2404","lymph node","Paramethasone",1,1080
+"2405","lymph node","Flurandrenolide",1,1081
+"2406","lymph node","Prochlorperazine",1,1082
+"2407","lymph node","Travoprost",1,1083
+"2408","lymph node","Cyclophosphamide",1,1084
+"2409","lymph node","Mannitol",1,1085
+"2410","lymph node","Cefoperazone",1,1086
+"2411","lymph node","Gemfibrozil",1,1087
+"2412","lymph node","Doxylamine",1,1088
+"2413","lymph node","Haloprogin",1,1089
+"2414","lymph node","Icosapent ethyl",1,1090
+"2415","lymph node","Ajmaline",1,1091
+"2416","lymph node","Acebutolol",1,1092
+"2417","lymph node","Niclosamide",1,1093
+"2418","lymph node","Dyclonine",1,1094
+"2419","lymph node","Remoxipride",1,1095
+"2420","lymph node","Acamprosate",1,1096
+"2421","lymph node","Methantheline",1,1097
+"2422","lymph node","Zolmitriptan",1,1098
+"2423","lymph node","Glutethimide",1,1099
+"2424","lymph node","Carbidopa",1,1100
+"2425","lymph node","Dolutegravir",1,1101
+"2426","lymph node","Phenmetrazine",1,1102
+"2427","lymph node","Lofexidine",1,1103
+"2428","lymph node","Maraviroc",1,1104
+"2429","lymph node","Timolol",1,1105
+"2430","lymph node","Droperidol",1,1106
+"2431","lymph node","Troleandomycin",1,1107
+"2432","lymph node","Triclosan",1,1108
+"2433","lymph node","Bisacodyl",1,1109
+"2434","lymph node","Alclometasone",1,1110
+"2435","lymph node","Guanadrel",1,1111
+"2436","lymph node","Novobiocin",1,1112
+"2437","lymph node","Abacavir",1,1113
+"2438","lymph node","Acepromazine",1,1114
+"2439","lymph node","Enoxacin",1,1115
+"2440","lymph node","Chlormezanone",1,1116
+"2441","lymph node","Budesonide",1,1117
+"2442","lymph node","Gatifloxacin",1,1118
+"2443","lymph node","Cidofovir",1,1119
+"2444","lymph node","Halobetasol Propionate",1,1120
+"2445","lymph node","Letrozole",1,1121
+"2446","lymph node","Isometheptene",1,1122
+"2447","lymph node","Methoxsalen",1,1123
+"2448","lymph node","Articaine",1,1124
+"2449","lymph node","Vapreotide",1,1125
+"2450","lymph node","Secobarbital",1,1126
+"2451","lymph node","Prednicarbate",1,1127
+"2452","lymph node","Mometasone",1,1128
+"2453","lymph node","Rocuronium",1,1129
+"2454","lymph node","Bicalutamide",1,1130
+"2455","lymph node","Chlorambucil",1,1131
+"2456","lymph node","Thiabendazole",1,1132
+"2457","lymph node","Lindane",1,1133
+"2458","lymph node","Dicyclomine",1,1134
+"2459","lymph node","Levocabastine",1,1135
+"2460","lymph node","Mupirocin",1,1136
+"2461","lymph node","Hydromorphone",1,1137
+"2462","lymph node","Dexmethylphenidate",1,1138
+"2463","lymph node","Clofazimine",1,1139
+"2464","lymph node","Thioproperazine",1,1140
+"2465","lymph node","Diethylpropion",1,1141
+"2466","lymph node","Ezogabine",1,1142
+"2467","lymph node","Cerulenin",1,1143
+"2468","lymph node","Pentagastrin",1,1144
+"2469","lymph node","Fosphenytoin",1,1145
+"2470","lymph node","Saprisartan",1,1146
+"2471","lymph node","Anagrelide",1,1147
+"2472","lymph node","Azithromycin",1,1148
+"2473","lymph node","Flupirtine",1,1149
+"2474","lymph node","Clofedanol",1,1150
+"2475","lymph node","Dimenhydrinate",1,1151
+"2476","lymph node","Cisatracurium Besylate",1,1152
+"2477","lymph node","Tapentadol",1,1153
+"2478","lymph node","Sulfamerazine",1,1154
+"2479","lymph node","Phylloquinone",1,1155
+"2480","lymph node","Clobazam",1,1156
+"2481","lymph node","Guanethidine",1,1157
+"2482","lymph node","Dimetacrine",1,1158
+"2483","lymph node","Naratriptan",1,1159
+"2484","lymph node","Lopinavir",1,1160
+"2485","lymph node","Carmustine",1,1161
+"2486","lymph node","Tasosartan",1,1162
+"2487","lymph node","Methdilazine",1,1163
+"2488","lymph node","Fenofibrate",1,1164
+"2489","lymph node","Amisulpride",1,1165
+"2490","lymph node","Isoaminile",1,1166
+"2491","lymph node","Difluprednate",1,1167
+"2492","lymph node","Captodiame",1,1168
+"2493","lymph node","Sulfanilamide",1,1169
+"2494","lymph node","Nitroxoline",1,1170
+"2495","lymph node","Metyrosine",1,1171
+"2496","lymph node","Foscarnet",1,1172
+"2497","lymph node","Baclofen",1,1173
+"2498","lymph node","Dydrogesterone",1,1174
+"2499","lymph node","Gadoxetate",1,1175
+"2500","lymph node","Scopolamine",1,1176
+"2501","lymph node","Valganciclovir",1,1177
+"2502","gall bladder","Diclofenamide",1,4
+"2503","gall bladder","Hydroflumethiazide",1,5
+"2504","gall bladder","Lacosamide",1,6
+"2505","gall bladder","Sulpiride",1,7
+"2506","gall bladder","Celecoxib",1,8
+"2507","gall bladder","Trichlormethiazide",1,9
+"2508","gall bladder","Methazolamide",1,10
+"2509","gall bladder","Sulfanilamide",1,11
+"2510","bile duct","Liotrix",1,79
+"2511","bile duct","Sorafenib",1,80
+"2512","bile duct","Sparfloxacin",1,81
+"2513","bile duct","Furosemide",1,82
+"2514","bile duct","Pranlukast",1,83
+"2515","bile duct","Testosterone",1,84
+"2516","bile duct","Chenodeoxycholic acid",1,85
+"2517","bile duct","Ritonavir",1,86
+"2518","bile duct","Bumetanide",1,87
+"2519","bile duct","Irinotecan",1,88
+"2520","bile duct","Lovastatin",1,89
+"2521","bile duct","Chlorpromazine",1,90
+"2522","bile duct","Canagliflozin",1,91
+"2523","bile duct","Lomefloxacin",1,92
+"2524","bile duct","Tetrahydrofolic acid",1,93
+"2525","bile duct","Primaquine",1,94
+"2526","bile duct","Fluorescein",1,95
+"2527","bile duct","Bosentan",1,96
+"2528","bile duct","Ketoconazole",1,97
+"2529","gall bladder","Dorzolamide",1,12
+"2530","gall bladder","Acetazolamide",1,13
+"2531","gall bladder","Furosemide",1,14
+"2532","gall bladder","Mafenide",1,15
+"2533","gall bladder","Brinzolamide",1,16
+"2534","gall bladder","Bumetanide",1,17
+"2535","gall bladder","Metolazone",1,18
+"2536","gall bladder","Benzthiazide",1,19
+"2537","gall bladder","Hydrochlorothiazide",1,20
+"2538","gall bladder","Indapamide",1,21
+"2539","gall bladder","Bosutinib",1,22
+"2540","gall bladder","Topiramate",1,23
+"2541","gall bladder","Imatinib",1,24
+"2542","gall bladder","Nilotinib",1,25

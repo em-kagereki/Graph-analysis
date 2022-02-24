@@ -1,0 +1,8 @@
+Dataset,Number of triples,Node1,Relation,Node2
+compound_disease,0,Compound,TREATS_CtD,Disease
+gene_bioprocess,11187,Gene,PARTICIPATES_GpBP,BiologicalProcess
+disease_gene,42,Disease,ASSOCIATES_DaG,Gene
+gene_pathway,8089,Gene,PARTICIPATES_GpPW,Pathway
+disease_anatomy,16,Disease,LOCALIZES_DlA,Anatomy
+compound_gene,8596,Compound,BINDS_CbG,Gene
+gene_anatomy,13695,Anatomy,EXPRESSES_AeG,Gene

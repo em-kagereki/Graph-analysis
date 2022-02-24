@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Chemotherapy in biliary tract cancer: Application of graph theory</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Edwin Kagereki" />
+    <meta name="date" content="2022-02-24" />
+    <script src="upDated_files/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Chemotherapy in biliary tract cancer: Application of graph theory
+### Edwin Kagereki
+### 2022-02-24
+
+---
+
+
+
+
+
+
+
+
+
+
+
+## Biliary tract cancer (BTC) or Cholangiocarcinoma (CC)
+
+#### Cluster of highly heterogeneous &amp; aggressive malignant tumours that can arise at any point of the biliary tree. 
+
+
+.pull-left[
+![Anatomy, "Anatomy"](Data/anat.png)*Fig 1.Anatomic classification of BTC. Reproduced from [Banales et al](https://www.nature.com/articles/s41575-020-0310-z) &lt;sup&gt;1&lt;/sup&gt;*
+]
+
+.pull-right[
+Highlights:
+  - Low survival rates (5-year survival rate for metastatic disease being only 2%).
+  - Prevalence increasing globally ( accounts for ~15% of all primary liver cancers and ~3% of gastrointestinal malignancies).
+  - High heterogeneity at the genomic, epigenetic and molecular levels severely compromises the efficacy of the available therapies.
+  - Limited treatment options.
+]  
+
+---
+
+## Overview of BTC gene landscape
+
+#### Massive sequencing studies have improved our understanding of the causal mechanisms in CCA, emphasizing the genomic complexity in prevalent oncogenic modules affecting: cell cycle regulation
+
+
+1. DNA damage and genomic instability (TP53, CDKN2A, CCND1, ATM, ROBO2, BRCA1 and BRAC2); 
+
+2. MYC amplification; epigenetic regulation including NADPH metabolism (IDH1 and IDH2), 
+
+3. de-ubiquitination (BAP1), SWI–SNF complex (PBRM1, ARID1A, ARID1B, ARID2, SMARCA2, SMARCA4 and SMARCAD1)
+ 
+4. histone (de-)methylation (MLL2, MML3, KMT2C, KDM4A, KDM5D, KDM6A and KDM6B); 
+
+5. kinase signalling (KRAS, ERBB1–3, BRAF, PIK3CA, PTEN, STK11, SMAD4 and FGFR1–3); 
+
+6. immune dysregulation (JAK–STAT3 signalling); FGFR2 and PRKCA–PRKCB fusions; 
+
+7. WNT–CTNNB1 pathway (APC); Hippo signalling (NF2, SAV1 deletion); METLL13 amplifications; 
+
+
+---
+## Mutational signature analysis in BTC
+
+#####  There are marked differences in the genomic features depending on the anatomical location and risk factors. 
+- Some examples of the  differences in the mutations include:&lt;sup&gt;1,2&lt;/sup&gt;.
+
+ &gt; Small bile duct iCCA can be characterized by isocitrate dehydrogenase (IDH1, IDH2) mutations or fibroblast growth factor receptor 2 (FGFR2) fusions. 
+ 
+ &gt; By contrast, large bile duct iCCA, similar to pCCA and dCCA, shows a high frequency of mutations in KRAS and/or TP53 genes. 
+ 
+
+- Growing evidence demonstrates that distinct cells of origin within an organ can give rise to different sub-types of cancer, typically tissue-specific stem and progenitor cells
+
+
+- These findings could be useful to establish treatment and diagnostic strategies for BTCs based on genetic profile.
+
+---
+
+## Therapeutic and prognostic importance of genetic signature.
+
+
+- Liquid biopsy detection of cfDNA  and miRNAs  of mutated genes is  a routine clinical diagnostic procedure and/or prognostic indicator of BTC. 
+
+- Immununotherapy with either chemotherapy or targeted therapy or loco regional therapies such as transarterial chemoembolization (TACE), cryotherapy, radiofrequency ablation (RFA), and radiotherapy is done based on the genetic mutations.
+
+- Relevant genes and proteins involved in chemoresistance have been identified.  
+
+
+---
+
+## Problem statement
+
+Different anatomical sites and genetic aberrations contribute to BTC heterogeneity.These  BTC sub types have different prognosis and response to therapy. 
+This analysis seeks to identify the common genes in the BTC and thereafter estimate identify chemotherapeutic compounds with site-specific importance.
+
+
+---
+## Objectives
+
+#### Identify therapeutic opportunities: Which therapeutic compounds can potentially be associated with site specific BTC based on shared genes?
+
+
+1. What are the most essential genes associated with BTC? 
+2. Which therapeutic compound can potentially be used to treat BTC based on the shared genes?
+3. Which are the potential site specific therapeutic compounds based on the shared genes?
+
+
+---
+## Methodology
+
+1. Social network analysis
+  - Network level measures: 
+      - Size
+  - Node-level measures(Centrality)
+      - Degree centrality.
+      - Betweenness centrality.
+      - Closeness centrality.
+  - Link prediction:  Common neighbors.
+
+2. Tools: Neo4J and R.
+
+---
+
+layout: false
+
+## Metagraph
+
+&lt;center&gt;&lt;img src="graph_schema.png" height="400px" /&gt;&lt;/center&gt; *Fig 1.Metagraph showing the types of nodes used to build the network and the types of links defined to connect the nodes. Reproduced as provided by ALI DAWOOD*
+
+---
+## Dataset
+
+#### Subset of Hetionet data centered on  Biliary Tract Cancer.
+
+Hetionet is an integrative network of biomedical knowledge  combining information from 29 public databases.  The network combines over 50 years of biomedical information into a single resource, consisting of 47,031 nodes (11 types) and 2,250,197 relationships (24 types)&lt;sup&gt;3&lt;/sup&gt;.
+
+
+```
+           Dataset Triples    Node1      Relationship             Node2
+1 compound_disease       0 Compound        TREATS_CtD           Disease
+2  gene_bioprocess   11187     Gene PARTICIPATES_GpBP BiologicalProcess
+3     disease_gene      42  Disease    ASSOCIATES_DaG              Gene
+4     gene_pathway    8089     Gene PARTICIPATES_GpPW           Pathway
+5  disease_anatomy      16  Disease     LOCALIZES_DlA           Anatomy
+6    compound_gene    8596 Compound         BINDS_CbG              Gene
+7     gene_anatomy   13695  Anatomy     EXPRESSES_AeG              Gene
+```
+---
+
+## Network level measures
+
+ **This was a directed graph with a  total of 17535 nodes and 94950 edges. 
+
+
+.left-column[
+| Measure     | Value |
+|-------------|-------|
+| Gene nodes       | 13730      |
+| Compound nodes    | 1313        |
+| Disease nodes    |  1        |
+| Biological Process nodes    | 1026        |
+| Pathway nodes    |   1449       |
+]
+
+.right-column[
+
+| Measure     | Value |
+|-------------|-------|
+| Genes and Diseases |  42      |
+| Compounds and Diseases       |  0      |
+| Disease and Anatomy    |   16     |
+| Anatomy and Gene    |   13695     |
+| Gene and Biological Process    |11187        |
+| Gene and Pathway    |  13376      |
+]
+
+---
+
+
+
+
+---
+&lt;img src="upDated_files/figure-html/centrality1-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+class: full
+
+&lt;img src="upDated_files/figure-html/centrality-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+class: full
+&lt;img src="upDated_files/figure-html/centralityBetweenness-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+
+
+---
+class: full
+&lt;img src="upDated_files/figure-html/Influential-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+class: full
+
+&lt;img src="upDated_files/figure-html/toplist-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+---
+### Link prediction of drugs with potential effect on BTC using near neighbors.
+
+##### The strength of the linkage is represented by the size of the word.
+
+&lt;img src="upDated_files/figure-html/drugs-1.png" width="100%" /&gt;
+
+---
+
+&lt;img src="upDated_files/figure-html/InfluentialDrugs-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: full
+
+&lt;img src="upDated_files/figure-html/compoundSite-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+
+name: colors
+
+## Genomic landscape of BTC 
+
+.left-column[
+Influential genes
+
+`UBC`
+
+`FYN`
+
+`NUP85`
+
+`SHC1`
+
+`MYC`
+
+]
+
+.right-column[
+Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Erat nam at lectus urna.
+Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
+_Eros donec ac odio tempor_ orci dapibus ultrices. 
+Id porta nibh venenatis cras sed felis eget velit aliquet.
+Aliquam id diam maecenas ultricies mi.
+Enim sit amet 
+`code_color("inline")`
+venenatis urna cursus eget nunc scelerisque viverra.
+]
+
+---
+## Drug target prediction by leveraging on gene network.
+
+
+##### Varenicline 
+
+&gt; Varenicline is a synthetic chemical substance produced from the alkaloid cytisine, used for smoking treatment.
+&gt;
+&gt; Varenicline attenuated abstinence-induced negative affect among cancer patients.
+
+##### Infliximab and Dexamethasone
+
+&gt; Has been shown to cause chronic hepatic injury is accompanied by a ductular response that is strongly correlated with disease severity and progression of fibrosis.
+
+##### Lapatinib
+&gt; While targeting HER2/neu in BTCs shows considerable promise, there are also significant limitations and unmet challenges to overcome. 
+&gt; Thus, it remains unclear how to best distinguish in a given case between a HER2/neu oncogenic driver alterations and mere passenger events.
+
+##### Captopril
+
+---
+### Conclusion
+
+Although there were no therapeutic candidates, there  certain medications which are more likely to cause harm in patients with BTC were identified.
+
+
+
+
+
+---
+## References:
+
+1. Banales, J.M., Marin, J.J.G., Lamarca, A. et al. Cholangiocarcinoma 2020: the next horizon in mechanisms and management. Nat Rev Gastroenterol Hepatol 17, 557–588 (2020). https://doi.org/10.1038/s41575-020-0310-z
+
+2. Farshidfar, Farshad et al. “Integrative Genomic Analysis of Cholangiocarcinoma Identifies Distinct IDH-Mutant Molecular Profiles.” Cell reports vol. 18,11 (2017): 2780-2794. doi:10.1016/j.celrep.2017.02.033
+
+3. Heterogeneous Network Edge Prediction: A Data Integration Approach to Prioritize Disease-Associated Genes
+Himmelstein DS, Baranzini SE PLOS Computational Biology (2015) DOI: 10.1371/journal.pcbi.1004259 · PMID: 26158728 · PMCID: PMC4497619
+
+
+---
+class: center, middle
+
+# Thanks!
+
+Project repository:
+
+[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

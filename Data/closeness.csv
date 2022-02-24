@@ -1,0 +1,1857 @@
+"","name","closeness","Category","closenessPercent"
+"1","2-LTR circle formation",0.260005636978579,"Pathway",15
+"2","3' -UTR-mediated translational regulation",0.268168604651163,"Pathway",30
+"3","A tetrasaccharide linker sequence is required for GAG synthesis",0.267624020887728,"Pathway",28
+"4","A third proteolytic cleavage releases NICD",0.262820512820513,"Pathway",18
+"5","a6b1 and a6b4 Integrin signaling",0.279799818016379,"Pathway",53
+"6","Abacavir transmembrane transport",0.227048978587251,"Pathway",3
+"7","Abacavir transport and metabolism",0.227048978587251,"Pathway",3
+"8","ABC-family proteins mediated transport",0.268793706293706,"Pathway",32
+"9","ABCB1",0.289003759398496,"Gene",66
+"10","ABCC5",0.360633307271306,"Gene",98
+"11","ABCF3",0.231958762886598,"Gene",5
+"12","ABHD6",0.340154867256637,"Gene",75
+"13","Abnormal metabolism in phenylketonuria",0.228851401637311,"Pathway",4
+"14","ACAT2",0.241176470588235,"Gene",6
+"15","Acetylcholine Binding And Downstream Events",0.263496143958869,"Pathway",20
+"16","Acetylcholine Neurotransmitter Release Cycle",0.26708164447018,"Pathway",27
+"17","Acetylcholine regulates insulin secretion",0.236963781145646,"Pathway",6
+"18","ACOT9",0.340154867256637,"Gene",75
+"19","Activated NOTCH1 Transmits Signal to the Nucleus",0.286046511627907,"Pathway",63
+"20","Activated point mutants of FGFR2",0.264478211009174,"Pathway",23
+"21","activated TAK1 mediates p38 MAPK activation",0.263571428571429,"Pathway",20
+"22","Activated TLR4 signalling",0.29073432083202,"Pathway",68
+"23","Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins",0.28516228748068,"Pathway",62
+"24","Activation of ATR in response to replication stress",0.260446075663467,"Pathway",15
+"25","Activation of BAD and translocation to mitochondria",0.261479591836735,"Pathway",16
+"26","Activation of BH3-only proteins",0.261479591836735,"Pathway",16
+"27","Activation of caspases through apoptosome-mediated cleavage",0.267624020887728,"Pathway",28
+"28","Activation of GABAB receptors",0.270369284876905,"Pathway",35
+"29","Activation of gene expression by SREBF (SREBP)",0.274635308127419,"Pathway",45
+"30","Activation of IRF3/IRF7 mediated by TBK1/IKK epsilon",0.281937652811736,"Pathway",56
+"31","Activation of Matrix Metalloproteinases",0.206468218442256,"Pathway",1
+"32","Activation of NF-kappaB in B cells",0.28498609823911,"Pathway",62
+"33","Activation of PKB",0.24385408406027,"Pathway",7
+"34","Activation of PPARGC1A (PGC-1alpha) by phosphorylation",0.271164021164021,"Pathway",37
+"35","Activation of Rac",0.266695576756288,"Pathway",27
+"36","Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",0.268168604651163,"Pathway",30
+"37","Activation of the pre-replicative complex",0.260446075663467,"Pathway",15
+"38","Activation, translocation and oligomerization of BAX",0.260078939949253,"Pathway",15
+"39","Acyl chain remodeling of DAG and TAG",0.217673430863615,"Pathway",2
+"40","ADAM10",0.35426267281106,"Gene",94
+"41","Adaptive Immune System",0.328058321479374,"Pathway",75
+"42","Adenylate cyclase inhibitory pathway",0.270369284876905,"Pathway",35
+"43","ADGRE5",0.347981893625047,"Gene",92
+"44","Adherens junctions interactions",0.259129213483146,"Pathway",13
+"45","ADI1",0.269815735595203,"Gene",34
+"46","Adipogenesis",0.289003759398496,"Pathway",66
+"47","ADM",0.28099299421261,"Gene",54
+"48","ADO",0.340154867256637,"Gene",76
+"49","ADP signalling through P2Y purinoceptor 12",0.270369284876905,"Pathway",35
+"50","ADRA1A",0.296910202767943,"Gene",72
+"51","ADRA1B",0.296528447444552,"Gene",72
+"52","ADRA1D",0.296433161953727,"Gene",72
+"53","ADRA2A",0.306274900398406,"Gene",74
+"54","ADRA2B",0.282455603184323,"Gene",57
+"55","ADRA2C",0.306274900398406,"Gene",74
+"56","Adrenaline signalling through Alpha-2 adrenergic receptor",0.234613428280773,"Pathway",5
+"57","Adrenaline,noradrenaline inhibits insulin secretion",0.272204190026556,"Pathway",39
+"58","Adrenoceptors",0.240296952331336,"Pathway",6
+"59","ADSL",0.356177606177606,"Gene",95
+"60","Advanced glycosylation endproduct receptor signaling",0.264629948364888,"Pathway",24
+"61","AFF1",0.340154867256637,"Gene",76
+"62","Aflatoxin activation and detoxification",0.273820124666073,"Pathway",43
+"63","Aflatoxin B1 metabolism",0.273738872403561,"Pathway",43
+"64","AGE/RAGE pathway",0.284722222222222,"Pathway",61
+"65","AKR1B10",0.354807692307692,"Gene",94
+"66","AKR7A2",0.356177606177606,"Gene",95
+"67","AKT phosphorylates targets in the nucleus",0.265238642898217,"Pathway",25
+"68","ALB",0.297676669893514,"Gene",72
+"69","ALDOC",0.36520190023753,"Gene",99
+"70","Allograft Rejection",0.269657994738381,"Pathway",34
+"71","alpha-linolenic (omega3) and linoleic (omega6) acid metabolism",0.21518544436669,"Pathway",1
+"72","Alpha-synuclein signaling",0.281679389312977,"Pathway",55
+"73","Alpha 6 Beta 4 signaling pathway",0.276197604790419,"Pathway",48
+"74","Alpha4 beta1 integrin signaling events",0.266541462005201,"Pathway",26
+"75","Alpha6 beta4 integrin-ligand interactions",0.257250418293363,"Pathway",11
+"76","AlphaE beta7 integrin cell surface interactions",0.259129213483146,"Pathway",13
+"77","Alternative NF-kappaB pathway",0.260961810466761,"Pathway",15
+"78","Alzheimers Disease",0.277360192423331,"Pathway",50
+"79","amb2 Integrin signaling",0.258765778401122,"Pathway",13
+"80","AMER1 mutants destabilize the destruction complex",0.284195933456562,"Pathway",61
+"81","AMFR",0.342682020802377,"Gene",87
+"82","Amine compound SLC transporters",0.273009766203019,"Pathway",41
+"83","Amine ligand-binding receptors",0.244047619047619,"Pathway",7
+"84","Amino acid and derivative metabolism",0.278700906344411,"Pathway",52
+"85","Amino acid and oligopeptide SLC transporters",0.258403361344538,"Pathway",12
+"86","Amino acid synthesis and interconversion (transamination)",0.262596071733561,"Pathway",18
+"87","Amino acid transport across the plasma membrane",0.258403361344538,"Pathway",12
+"88","AMPK inhibits chREBP transcriptional activation activity",0.268793706293706,"Pathway",32
+"89","AMPK Signaling",0.277193509615385,"Pathway",50
+"90","Amyloids",0.268324607329843,"Pathway",31
+"91","Amyotrophic lateral sclerosis (ALS)",0.264629948364888,"Pathway",24
+"92","Anchoring fibril formation",0.256677796327212,"Pathway",10
+"93","Androgen receptor signaling pathway",0.276445909499551,"Pathway",48
+"94","Angiopoietin receptor Tie2-mediated signaling",0.286046511627907,"Pathway",63
+"95","ANKRD17",0.340154867256637,"Gene",76
+"96","ANKS1A",0.340154867256637,"Gene",76
+"97","Antigen activates B Cell Receptor (BCR) leading to generation of second messengers",0.281421598535692,"Pathway",55
+"98","Antigen Presentation: Folding, assembly and peptide loading of class I MHC",0.255327982286189,"Pathway",9
+"99","Antigen processing-Cross presentation",0.28393351800554,"Pathway",60
+"100","Antigen processing: Ubiquitination & Proteasome degradation",0.286757848927572,"Pathway",64
+"101","Antiviral mechanism by IFN-stimulated genes",0.286579683131407,"Pathway",64
+"102","ANXA4",0.340405904059041,"Gene",84
+"103","AP-1 transcription factor network",0.282801961986511,"Pathway",59
+"104","AP2S1",0.358670295489891,"Gene",97
+"105","APAF1",0.346804511278196,"Gene",91
+"106","APC-Cdc20 mediated degradation of Nek2A",0.284371146732429,"Pathway",61
+"107","APC/C-mediated degradation of cell cycle proteins",0.287293677981937,"Pathway",65
+"108","APC/C:Cdc20 mediated degradation of Cyclin B",0.284371146732429,"Pathway",61
+"109","APC/C:Cdc20 mediated degradation of mitotic proteins",0.28516228748068,"Pathway",62
+"110","APC/C:Cdc20 mediated degradation of Securin",0.28516228748068,"Pathway",62
+"111","APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1",0.285692164756891,"Pathway",63
+"112","APEX1",0.349564228874574,"Gene",92
+"113","APLP2",0.340154867256637,"Gene",76
+"114","APOBEC3G mediated resistance to HIV-1 infection",0.258765778401122,"Pathway",13
+"115","Apoptosis",0.297484682360529,"Pathway",72
+"116","Apoptosis",0.297484682360529,"Pathway",72
+"117","Apoptosis",0.284634372107374,"Pathway",61
+"118","Apoptosis",0.284634372107374,"Pathway",61
+"119","Apoptosis-related network due to altered Notch3 in ovarian cancer",0.282888684452622,"Pathway",59
+"120","Apoptosis Modulation and Signaling",0.279122541603631,"Pathway",52
+"121","Apoptosis Modulation by HSP70",0.270766069856178,"Pathway",37
+"122","Apoptotic cleavage of cell adhesion proteins",0.263646756216062,"Pathway",20
+"123","Apoptotic cleavage of cellular proteins",0.268012783265543,"Pathway",29
+"124","Apoptotic execution phase",0.26863715783343,"Pathway",32
+"125","Apoptotic factor-mediated response",0.267624020887728,"Pathway",28
+"126","APP",0.359789391575663,"Gene",98
+"127","APPL1",0.340783154783894,"Gene",84
+"128","APRT",0.356040138942493,"Gene",95
+"129","Aquaporin-mediated transport",0.270527859237537,"Pathway",36
+"130","Arachidonate Epoxygenase / Epoxide Hydrolase",0.270527859237537,"Pathway",36
+"131","Arachidonic acid metabolism",0.275619958171497,"Pathway",47
+"132","Arf6 downstream pathway",0.264175257731959,"Pathway",22
+"133","Arf6 signaling events",0.263948497854077,"Pathway",21
+"134","Arf6 trafficking events",0.267468831545375,"Pathway",28
+"135","ARID4A",0.340783154783894,"Gene",84
+"136","ARMS-mediated activation",0.266541462005201,"Pathway",26
+"137","Arrhythmogenic Right Ventricular Cardiomyopathy",0.269894675248683,"Pathway",34
+"138","Aryl Hydrocarbon Receptor",0.288101186758276,"Pathway",65
+"139","Aryl Hydrocarbon Receptor Pathway",0.283846153846154,"Pathway",60
+"140","Arylamine metabolism",0.225770925110132,"Pathway",3
+"141","Asparagine N-linked glycosylation",0.271164021164021,"Pathway",37
+"142","Assembly of collagen fibrils and other multimeric structures",0.264781859931114,"Pathway",24
+"143","Assembly Of The HIV Virion",0.281937652811736,"Pathway",56
+"144","Assembly of the pre-replicative complex",0.284195933456562,"Pathway",61
+"145","Assembly of the RAD51-ssDNA nucleoprotein complex",0.25963974106389,"Pathway",14
+"146","Association of licensing factors with the pre-replicative complex",0.282715292675452,"Pathway",58
+"147","Association of TriC/CCT with target proteins during biosynthesis",0.255398671096346,"Pathway",9
+"148","Astrocytic Glutamate-Glutamine Uptake And Metabolism",0.257393973214286,"Pathway",11
+"149","ASUN",0.340154867256637,"Gene",76
+"150","Asymmetric localization of PCP proteins",0.283497234173325,"Pathway",60
+"151","ATF-2 transcription factor network",0.277027027027027,"Pathway",49
+"152","ATF6-alpha activates chaperones",0.263345703682558,"Pathway",19
+"153","ATG3",0.340783154783894,"Gene",84
+"154","ATM Signaling Pathway",0.260740531373657,"Pathway",15
+"155","ATP1B1",0.351027397260274,"Gene",93
+"156","ATP6V0B",0.298640336678537,"Gene",73
+"157","ATP6V1D",0.298640336678537,"Gene",73
+"158","ATR signaling pathway",0.270369284876905,"Pathway",35
+"159","ATRN",0.340154867256637,"Gene",76
+"160","Attenuation phase",0.275126752162243,"Pathway",46
+"161","Atypical NF-kappaB pathway",0.262820512820513,"Pathway",18
+"162","AUF1 (hnRNP D0) destabilizes mRNA",0.285603715170279,"Pathway",63
+"163","AURKB",0.3460240060015,"Gene",90
+"164","Aurora A signaling",0.276860744297719,"Pathway",49
+"165","Aurora B signaling",0.266618497109827,"Pathway",27
+"166","Aurora C signaling",0.257107023411371,"Pathway",11
+"167","Autodegradation of Cdh1 by Cdh1:APC/C",0.283323095823096,"Pathway",59
+"168","Autodegradation of the E3 ubiquitin ligase COP1",0.282715292675452,"Pathway",58
+"169","Autointegration results in viral DNA circles",0.258765778401122,"Pathway",13
+"170","Axon guidance",0.29796511627907,"Pathway",73
+"171","B Cell Activation",0.3075,"Pathway",74
+"172","B Cell Receptor Signaling Pathway",0.297388781431335,"Pathway",72
+"173","B3GALNT1",0.34028033935817,"Gene",83
+"174","BABAM1",0.340154867256637,"Gene",76
+"175","BAG3",0.34028033935817,"Gene",83
+"176","BANF1",0.349035187287174,"Gene",92
+"177","BARD1 signaling events",0.272043644942495,"Pathway",39
+"178","Base-Excision Repair, AP Site Formation",0.255257332595462,"Pathway",9
+"179","Base-free sugar-phosphate removal via the single-nucleotide replacement pathway",0.259347764970481,"Pathway",14
+"180","Base Excision Repair",0.271963443396226,"Pathway",39
+"181","Basigin interactions",0.259859154929577,"Pathway",14
+"182","BAX",0.351428571428571,"Gene",93
+"183","BCAP31",0.340531561461794,"Gene",84
+"184","BCL2",0.3539907904835,"Gene",94
+"185","BCR signaling pathway",0.278532608695652,"Pathway",51
+"186","BCS1L",0.341793256761764,"Gene",86
+"187","BDNF signaling pathway",0.292671319796954,"Pathway",69
+"188","Benzo(a)pyrene metabolism",0.226269315673289,"Pathway",3
+"189","beta-catenin independent WNT signaling",0.286757848927572,"Pathway",64
+"190","Beta-catenin phosphorylation cascade",0.262670842824601,"Pathway",18
+"191","Beta1 integrin cell surface interactions",0.262820512820513,"Pathway",18
+"192","Beta2 integrin cell surface interactions",0.258838383838384,"Pathway",13
+"193","Beta3 integrin cell surface interactions",0.272686964232929,"Pathway",40
+"194","Beta5 beta6 beta7 and beta8 integrin cell surface interactions",0.267624020887728,"Pathway",28
+"195","BFAR",0.340154867256637,"Gene",76
+"196","BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members",0.261479591836735,"Pathway",16
+"197","Bile acid and bile salt metabolism",0.273252369668246,"Pathway",42
+"198","Binding and Uptake of Ligands by Scavenger Receptors",0.276032315978456,"Pathway",48
+"199","binding of TCF/LEF:CTNNB1 to target gene promoters",0.249459167117361,"Pathway",8
+"200","Biological oxidations",0.279799818016379,"Pathway",53
+"201","Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein",0.224890297415895,"Pathway",3
+"202","BIRC5",0.347326807228916,"Gene",91
+"203","Bladder Cancer",0.278785131459655,"Pathway",52
+"204","BMAL1:CLOCK,NPAS2 activates circadian gene expression",0.272686964232929,"Pathway",40
+"205","BMI1",0.342936802973978,"Gene",88
+"206","BMP receptor signaling",0.262372013651877,"Pathway",17
+"207","Branched-chain amino acid catabolism",0.219173200285103,"Pathway",2
+"208","BTK",0.346413819001127,"Gene",91
+"209","Budding and maturation of HIV virion",0.281937652811736,"Pathway",56
+"210","Bupropion",0.301963993453355,"Compound",73
+"211","C-MYB transcription factor network",0.292393026941363,"Pathway",69
+"212","C-MYC pathway",0.277027027027027,"Pathway",49
+"213","C14orf1",0.241176470588235,"Gene",6
+"214","C1QBP",0.343191964285714,"Gene",88
+"215","C2CD2",0.340154867256637,"Gene",76
+"216","C2CD5",0.341793256761764,"Gene",86
+"217","Calcineurin-regulated NFAT-dependent transcription in lymphocytes",0.27611493564801,"Pathway",48
+"218","Calcitonin-like ligand receptors",0.219381688466112,"Pathway",2
+"219","Calcium Regulation in the Cardiac Cell",0.282801961986511,"Pathway",59
+"220","Calcium signaling in the CD4+ TCR pathway",0.266618497109827,"Pathway",27
+"221","Calnexin/calreticulin cycle",0.255257332595462,"Pathway",9
+"222","CAMSAP1",0.340154867256637,"Gene",76
+"223","Canonical NF-kappaB pathway",0.267391304347826,"Pathway",28
+"224","Canonical Wnt signaling pathway",0.2677793904209,"Pathway",29
+"225","CANT1",0.340154867256637,"Gene",76
+"226","Cap-dependent Translation Initiation",0.268168604651163,"Pathway",30
+"227","CAPN3",0.34028033935817,"Gene",83
+"228","CAPN7",0.34028033935817,"Gene",83
+"229","Carbohydrate metabolism",0.291653493518811,"Pathway",68
+"230","Cardiac Hypertrophic Response",0.264629948364888,"Pathway",24
+"231","Cardiac Progenitor Differentiation",0.269421728971963,"Pathway",33
+"232","CASP2",0.352637614678899,"Gene",94
+"233","Caspase Cascade in Apoptosis",0.278869407496977,"Pathway",52
+"234","CAST",0.230164670658683,"Gene",5
+"235","CCNA2",0.288011239463003,"Gene",65
+"236","CCP110",0.344859813084112,"Gene",90
+"237","CCT2",0.342554771630152,"Gene",87
+"238","CCT3",0.342554771630152,"Gene",87
+"239","CCT5",0.342554771630152,"Gene",87
+"240","CD28 co-stimulation",0.281593406593407,"Pathway",55
+"241","CD28 dependent PI3K/Akt signaling",0.278785131459655,"Pathway",52
+"242","CD28 dependent Vav1 pathway",0.273414344991108,"Pathway",42
+"243","CD2BP2",0.343575418994413,"Gene",89
+"244","CD40/CD40L signaling",0.28013969025205,"Pathway",54
+"245","CD44",0.361764705882353,"Gene",99
+"246","CDC14B",0.341793256761764,"Gene",86
+"247","CDC20",0.36520190023753,"Gene",99
+"248","Cdc20:Phospho-APC/C mediated degradation of Cyclin A",0.286847014925373,"Pathway",64
+"249","CDC25B",0.346804511278196,"Gene",91
+"250","CDC42 signaling events",0.267934940458902,"Pathway",29
+"251","CDC6 association with the ORC:origin complex",0.257825600894354,"Pathway",11
+"252","CDH1",0.349696739954511,"Gene",92
+"253","CDK-mediated phosphorylation and removal of Cdc6",0.282715292675452,"Pathway",58
+"254","CDK7",0.353177641653905,"Gene",94
+"255","CDT1 association with the CDC6:ORC:origin complex",0.282801961986511,"Pathway",59
+"256","CEBPB",0.360915492957746,"Gene",98
+"257","Cell-Cell communication",0.279376135675348,"Pathway",53
+"258","Cell-cell junction organization",0.263270547945205,"Pathway",19
+"259","Cell-extracellular matrix interactions",0.254132231404959,"Pathway",8
+"260","Cell Cycle",0.285603715170279,"Pathway",63
+"261","Cell Cycle",0.285603715170279,"Pathway",63
+"262","Cell Cycle",0.31722833562586,"Pathway",75
+"263","Cell Cycle",0.31722833562586,"Pathway",75
+"264","Cell Cycle Checkpoints",0.288732394366197,"Pathway",66
+"265","Cell Cycle, Mitotic",0.31701030927835,"Pathway",75
+"266","Cell death signalling via NRAGE, NRIF and NADE",0.287921348314607,"Pathway",65
+"267","Cell Differentiation - Index",0.260593220338983,"Pathway",15
+"268","cell division",0.256820712694877,"BiologicalProcess",11
+"269","cell division",0.256820712694877,"Pathway",11
+"270","Cell junction organization",0.265620501007774,"Pathway",26
+"271","Cell surface interactions at the vascular wall",0.290917691579943,"Pathway",68
+"272","Cellular response to heat stress",0.280395136778116,"Pathway",54
+"273","Cellular response to hypoxia",0.282975460122699,"Pathway",59
+"274","Cellular responses to stress",0.3089417280643,"Pathway",74
+"275","Cellular Senescence",0.293789808917197,"Pathway",70
+"276","Centrosome maturation",0.274308652988403,"Pathway",44
+"277","CEP192",0.344988780852655,"Gene",90
+"278","CEP76",0.344859813084112,"Gene",90
+"279","Ceramide signaling pathway",0.282801961986511,"Pathway",59
+"280","CERK",0.359089139743091,"Gene",97
+"281","Chaperonin-mediated protein folding",0.26863715783343,"Pathway",32
+"282","Chemokine receptors bind chemokines",0.259712837837838,"Pathway",14
+"283","CHL1 interactions",0.25978597578147,"Pathway",14
+"284","CHMP1A",0.340154867256637,"Gene",76
+"285","Cholesterol biosynthesis",0.270369284876905,"Pathway",35
+"286","Cholesterol Biosynthesis",0.2701317715959,"Pathway",35
+"287","Chondroitin sulfate/dermatan sulfate metabolism",0.267624020887728,"Pathway",29
+"288","CHRFAM7A",0.340405904059041,"Gene",84
+"289","CHRM1",0.295767874318692,"Gene",71
+"290","CHRM2",0.29729294231389,"Gene",72
+"291","CHRM3",0.310501514641535,"Gene",74
+"292","CHRM4",0.293136320305052,"Gene",70
+"293","CHRM5",0.293229497774952,"Gene",70
+"294","CHRNA3",0.352637614678899,"Gene",94
+"295","CHRNA4",0.346283783783784,"Gene",91
+"296","CHRNA6",0.343319687383699,"Gene",88
+"297","CHRNA7",0.345376263571696,"Gene",90
+"298","CHRNB2",0.34758854559156,"Gene",91
+"299","CHRNB4",0.229992520568437,"Gene",4
+"300","Chromatin modifying enzymes",0.275619958171497,"Pathway",47
+"301","Chromosome Maintenance",0.277777777777778,"Pathway",51
+"302","Chylomicron-mediated lipid transport",0.271563143950545,"Pathway",38
+"303","Circadian Clock",0.28828125,"Pathway",66
+"304","Circadian rhythm pathway",0.255610972568579,"Pathway",10
+"305","Circadian rythm related genes",0.296433161953727,"Pathway",72
+"306","Citric acid cycle (TCA cycle)",0.269815735595203,"Pathway",34
+"307","Class A/1 (Rhodopsin-like receptors)",0.279545454545455,"Pathway",53
+"308","Class B/2 (Secretin family receptors)",0.272525849335303,"Pathway",40
+"309","Class I MHC mediated antigen processing & presentation",0.288191190253046,"Pathway",66
+"310","Class I PI3K signaling events",0.284283513097072,"Pathway",61
+"311","Class I PI3K signaling events mediated by Akt",0.27636309167166,"Pathway",48
+"312","Clathrin derived vesicle budding",0.25978597578147,"Pathway",14
+"313","Clearance of dopamine",0.20961145194274,"Pathway",1
+"314","Clearance of Nuclear Envelope Membranes from Chromatin",0.258765778401122,"Pathway",13
+"315","Cleavage of Growing Transcript in the Termination Region",0.25639244024458,"Pathway",10
+"316","Cleavage of the damaged purine",0.255257332595462,"Pathway",9
+"317","Clonidine",0.298930654569021,"Compound",73
+"318","CNOT2",0.343703427719821,"Gene",89
+"319","Codeine and Morphine Metabolism",0.232250755287009,"Pathway",5
+"320","COG7",0.340154867256637,"Gene",76
+"321","COL11A1",0.253225363711227,"Gene",8
+"322","COL9A3",0.350094876660342,"Gene",93
+"323","COLGALT1",0.341035120147874,"Gene",85
+"324","Collagen biosynthesis and modifying enzymes",0.26432664756447,"Pathway",23
+"325","Collagen degradation",0.264933946008041,"Pathway",24
+"326","Collagen formation",0.268872048965316,"Pathway",32
+"327","Common Pathway",0.262446657183499,"Pathway",17
+"328","Complement and Coagulation Cascades",0.258548206278027,"Pathway",12
+"329","Complement cascade",0.258548206278027,"Pathway",12
+"330","Composition of Lipid Particles",0.269973661106234,"Pathway",34
+"331","Condensation of Prometaphase Chromosomes",0.256463719766472,"Pathway",10
+"332","Condensation of Prophase Chromosomes",0.263722126929674,"Pathway",20
+"333","Constitutive Androstane Receptor Pathway",0.284020935960591,"Pathway",60
+"334","Constitutive PI3K/AKT Signaling in Cancer",0.28013969025205,"Pathway",54
+"335","Constitutive Signaling by NOTCH1 HD Domain Mutants",0.286046511627907,"Pathway",63
+"336","Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants",0.296337937680694,"Pathway",71
+"337","Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant",0.264099627827083,"Pathway",22
+"338","Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase",0.268168604651163,"Pathway",30
+"339","Cooperation of Prefoldin and TriC/CCT in actin and tubulin folding",0.268558951965066,"Pathway",31
+"340","Copper homeostasis",0.271164021164021,"Pathway",37
+"341","COPS3",0.340154867256637,"Gene",76
+"342","Coregulation of Androgen receptor activity",0.267158992180712,"Pathway",27
+"343","Cori Cycle",0.265162402989365,"Pathway",25
+"344","Corticotropin-releasing hormone",0.287293677981937,"Pathway",65
+"345","Costimulation by the CD28 family",0.285869228385497,"Pathway",63
+"346","COX4I1",0.358113354037267,"Gene",97
+"347","COX7B",0.358113354037267,"Gene",97
+"348","COX8A",0.358252427184466,"Gene",97
+"349","CRK",0.363332020480504,"Gene",99
+"350","CRMPs in Sema3A signaling",0.269421728971963,"Pathway",33
+"351","Cross-presentation of soluble exogenous antigens (endosomes)",0.273333333333333,"Pathway",42
+"352","Crosslinking of collagen fibrils",0.25448275862069,"Pathway",9
+"353","CRYZ",0.231958762886598,"Gene",5
+"354","CTLA4 inhibitory signaling",0.271483225426722,"Pathway",38
+"355","CTSD",0.347457627118644,"Gene",91
+"356","CTSL",0.345247005988024,"Gene",90
+"357","CXCR3-mediated signaling events",0.271164021164021,"Pathway",37
+"358","CXCR4-mediated signaling events",0.290368271954674,"Pathway",67
+"359","Cyclin A/B1 associated events during G2/M transition",0.273901425178147,"Pathway",43
+"360","Cyclin A:Cdk2-associated events at S phase entry",0.295389048991354,"Pathway",71
+"361","Cyclin B2 mediated events",0.257537688442211,"Pathway",11
+"362","Cyclin D associated events in G1",0.28542698019802,"Pathway",63
+"363","Cyclin E associated events during G1/S transition",0.294822627037392,"Pathway",70
+"364","CYCS",0.363761829652997,"Gene",99
+"365","CYP1A1",0.274880810488677,"Gene",46
+"366","CYP1A2",0.291561314791403,"Gene",68
+"367","CYP2A6",0.273090586145648,"Gene",41
+"368","CYP2B6",0.270766069856178,"Gene",37
+"369","CYP2C19",0.275290957923008,"Gene",47
+"370","CYP2C8",0.27068661971831,"Gene",37
+"371","CYP2C9",0.28099299421261,"Gene",54
+"372","CYP2D6",0.290003143665514,"Gene",67
+"373","CYP2E1",0.28150747635032,"Gene",55
+"374","CYP2E1 reactions",0.227160797833046,"Pathway",4
+"375","CYP3A4",0.29073432083202,"Gene",68
+"376","CYP3A5",0.28393351800554,"Gene",60
+"377","CYP51A1",0.275044722719141,"Gene",46
+"378","CYTH1",0.34028033935817,"Gene",83
+"379","Cytisine",0.262670842824601,"Compound",18
+"380","Cytochrome P450 - arranged by substrate type",0.27895373450257,"Pathway",52
+"381","Cytokine Signaling in Immune system",0.31832298136646,"Pathway",75
+"382","Cytokines and Inflammatory Response",0.256749234622878,"Pathway",10
+"383","Cytoplasmic Ribosomal Proteins",0.268558951965066,"Pathway",32
+"384","Cytosolic iron-sulfur cluster assembly",0.262521343198634,"Pathway",17
+"385","Cytosolic sensors of pathogen-associated DNA",0.289912005028284,"Pathway",67
+"386","DAD1",0.341919940696812,"Gene",86
+"387","DAP12 interactions",0.292671319796954,"Pathway",69
+"388","DAP12 signaling",0.292671319796954,"Pathway",69
+"389","DBP",0.342809364548495,"Gene",88
+"390","DCC mediated attractive signaling",0.269185876860228,"Pathway",33
+"391","DCTPP1",0.340154867256637,"Gene",76
+"392","DDIT4",0.3603515625,"Gene",98
+"393","DDX47",0.340154867256637,"Gene",76
+"394","deactivation of the beta-catenin transactivating complex",0.281937652811736,"Pathway",56
+"395","Deadenylation-dependent mRNA decay",0.255823627287854,"Pathway",10
+"396","Deadenylation of mRNA",0.255823627287854,"Pathway",10
+"397","DECR2",0.340154867256637,"Gene",76
+"398","Defective AMN causes hereditary megaloblastic anemia 1",0.267004341534009,"Pathway",27
+"399","Defective B3GAT3 causes JDSSDHD",0.270290067389393,"Pathway",35
+"400","degradation of AXIN",0.282715292675452,"Pathway",58
+"401","degradation of DVL",0.282715292675452,"Pathway",58
+"402","Degradation of GLI1 by the proteasome",0.282715292675452,"Pathway",58
+"403","Degradation of GLI2 by the proteasome",0.282715292675452,"Pathway",58
+"404","Degradation of the extracellular matrix",0.278616732105104,"Pathway",51
+"405","DENND3",0.340154867256637,"Gene",77
+"406","Deposition of new CENPA-containing nucleosomes at the centromere",0.264250930965339,"Pathway",22
+"407","Detoxification of Reactive Oxygen Species",0.267857142857143,"Pathway",29
+"408","Developmental Biology",0.311234817813765,"Pathway",74
+"409","DEx/H-box helicases activate type I IFN and inflammatory cytokines production",0.267158992180712,"Pathway",27
+"410","DHCR7",0.274390243902439,"Gene",45
+"411","DHX29",0.340154867256637,"Gene",77
+"412","Diclofenac Metabolic Pathway",0.219799857040743,"Pathway",2
+"413","Differentiation of white and brown adipocyte   ",0.271563143950545,"Pathway",38
+"414","Differentiation Pathway",0.272043644942495,"Pathway",39
+"415","DIRAS3",0.340154867256637,"Gene",77
+"416","Direct p53 effectors",0.28306228904572,"Pathway",59
+"417","disassembly of the destruction complex and recruitment of AXIN to the membrane",0.262670842824601,"Pathway",18
+"418","Disease",0.362333071484682,"Pathway",99
+"419","Diseases associated with visual transduction",0.276032315978456,"Pathway",48
+"420","Displacement of DNA glycosylase by APE1",0.259347764970481,"Pathway",14
+"421","Diurnally Regulated Genes with Circadian Orthologs",0.27895373450257,"Pathway",52
+"422","DLD",0.280651049589291,"Gene",54
+"423","DNA-PK pathway in nonhomologous end joining",0.258475763519193,"Pathway",12
+"424","DNA Damage Response",0.280309936189608,"Pathway",54
+"425","DNA Damage Response (only ATM dependent)",0.296433161953727,"Pathway",72
+"426","DNA Damage/Telomere Stress Induced Senescence",0.274553571428571,"Pathway",45
+"427","DNA methylation",0.263722126929674,"Pathway",20
+"428","DNA Repair",0.292857142857143,"Pathway",70
+"429","DNA Replication",0.288461538461538,"Pathway",66
+"430","DNA Replication",0.288461538461538,"Pathway",66
+"431","DNA Replication",0.291745730550285,"Pathway",69
+"432","DNA Replication",0.291745730550285,"Pathway",69
+"433","DNA Replication Pre-Initiation",0.286847014925373,"Pathway",65
+"434","DNA strand elongation",0.273820124666073,"Pathway",43
+"435","DNAJA3",0.232192298011578,"Gene",5
+"436","DNAJB6",0.230164670658683,"Gene",5
+"437","DNM1L",0.341413767579571,"Gene",86
+"438","DNTTIP2",0.241176470588235,"Gene",6
+"439","DOCK9",0.343191964285714,"Gene",88
+"440","Dopamine metabolism",0.264175257731959,"Pathway",22
+"441","Dopamine Neurotransmitter Release Cycle",0.26708164447018,"Pathway",27
+"442","Dopamine receptors",0.22732873336619,"Pathway",4
+"443","Dopaminergic Neurogenesis",0.20961145194274,"Pathway",1
+"444","Double-Strand Break Repair",0.273414344991108,"Pathway",42
+"445","Downregulation of ERBB2:ERBB3 signaling",0.28393351800554,"Pathway",60
+"446","Downregulation of ERBB4 signaling",0.281937652811736,"Pathway",56
+"447","Downregulation of SMAD2/3:SMAD4 transcriptional activity",0.281937652811736,"Pathway",56
+"448","Downregulation of TGF-beta receptor signaling",0.283584383645865,"Pathway",60
+"449","Downstream signal transduction",0.290551181102362,"Pathway",67
+"450","Downstream signaling events of B Cell Receptor (BCR)",0.301175318315377,"Pathway",73
+"451","Downstream signaling in naïve CD8+ T cells",0.268246583309102,"Pathway",31
+"452","Downstream signaling of activated FGFR",0.290094339622642,"Pathway",67
+"453","Downstream TCR signaling",0.269500438212095,"Pathway",33
+"454","DPH2",0.241176470588235,"Gene",6
+"455","DPYSL2",0.341413767579571,"Gene",86
+"456","DRAP1",0.348244620611552,"Gene",92
+"457","DRD2",0.294164540816327,"Gene",70
+"458","Drug Induction of Bile Acid Pathway",0.231900452488688,"Pathway",5
+"459","DSCAM interactions",0.265467625899281,"Pathway",25
+"460","DSG2",0.342173590504451,"Gene",87
+"461","Dual hijack model of Vif in HIV infection",0.258983717012914,"Pathway",13
+"462","Dual incision reaction in GG-NER",0.26387299771167,"Pathway",21
+"463","Dual incision reaction in TC-NER",0.261035653650255,"Pathway",15
+"464","DYNC1LI2",0.342682020802377,"Gene",87
+"465","DYRK1A",0.346543951915853,"Gene",91
+"466","E-cadherin signaling events",0.259129213483146,"Pathway",14
+"467","E-cadherin signaling in keratinocytes",0.271883289124668,"Pathway",39
+"468","E-cadherin signaling in the nascent adherens junction",0.275537634408602,"Pathway",47
+"469","E2F mediated regulation of DNA replication",0.240547588005215,"Pathway",6
+"470","E2F transcription factor network",0.282542113323124,"Pathway",58
+"471","E2F2",0.347326807228916,"Gene",91
+"472","Early Phase of HIV Life Cycle",0.271004700352526,"Pathway",37
+"473","EBP",0.363618446984628,"Gene",99
+"474","EBV LMP1 signaling",0.277610592837797,"Pathway",50
+"475","ECH1",0.340531561461794,"Gene",84
+"476","ECM proteoglycans",0.266387525267109,"Pathway",26
+"477","Ectoderm Differentiation",0.290185592953759,"Pathway",67
+"478","EDEM1",0.342682020802377,"Gene",87
+"479","EEF1A2",0.264024041213509,"Gene",22
+"480","Effects of Botulinum toxin",0.26708164447018,"Pathway",27
+"481","Effects of PIP2 hydrolysis",0.26432664756447,"Pathway",23
+"482","EGF/EGFR Signaling Pathway",0.301372100620712,"Pathway",73
+"483","EGFR-dependent Endothelin signaling events",0.274308652988403,"Pathway",44
+"484","EGFR downregulation",0.284371146732429,"Pathway",61
+"485","EGR1",0.355902777777778,"Gene",95
+"486","EGR2",0.342427616926503,"Gene",87
+"487","Eicosanoid Synthesis",0.270210896309315,"Pathway",35
+"488","EIF3I",0.345764617691154,"Gene",90
+"489","EIF4ENIF1",0.340154867256637,"Gene",77
+"490","EIF6",0.340405904059041,"Gene",84
+"491","ELAC2",0.340154867256637,"Gene",77
+"492","Elastic fibre formation",0.264250930965339,"Pathway",23
+"493","Electron Transport Chain",0.272686964232929,"Pathway",40
+"494","Elongation arrest and recovery",0.258983717012914,"Pathway",13
+"495","ELOVL6",0.274471883368045,"Gene",45
+"496","Endochondral Ossification",0.273820124666073,"Pathway",43
+"497","Endoderm Differentiation",0.277027027027027,"Pathway",50
+"498","Endogenous sterols",0.272043644942495,"Pathway",39
+"499","Endogenous TLR signaling",0.264175257731959,"Pathway",22
+"500","Endosomal Sorting Complex Required For Transport (ESCRT)",0.282196390333435,"Pathway",57
+"501","Endosomal/Vacuolar pathway",0.256677796327212,"Pathway",10
+"502","Endothelin Pathways",0.274635308127419,"Pathway",46
+"503","Endothelins",0.278700906344411,"Pathway",52
+"504","Energy dependent regulation of mTOR by LKB1-AMPK",0.268793706293706,"Pathway",32
+"505","ENOPH1",0.356177606177606,"Gene",95
+"506","eNOS activation",0.272686964232929,"Pathway",40
+"507","EPH-ephrin mediated repulsion of cells",0.279376135675348,"Pathway",53
+"508","EPH-Ephrin signaling",0.289912005028284,"Pathway",67
+"509","EPHA-mediated growth cone collapse",0.281937652811736,"Pathway",56
+"510","EPHA forward signaling",0.279376135675348,"Pathway",53
+"511","EPHA2 forward signaling",0.279376135675348,"Pathway",53
+"512","EPHA3",0.254132231404959,"Gene",8
+"513","EPHB-mediated forward signaling",0.273414344991108,"Pathway",42
+"514","EPHB forward signaling",0.28375884343279,"Pathway",60
+"515","Ephrin A reverse signaling",0.269185876860228,"Pathway",33
+"516","Ephrin B reverse signaling",0.273495404684257,"Pathway",43
+"517","Ephrin signaling",0.27422711058264,"Pathway",44
+"518","EphrinA-EPHA pathway",0.202658172231986,"Pathway",1
+"519","Epigenetic regulation of gene expression",0.277610592837797,"Pathway",50
+"520","EPO Receptor Signaling",0.277610592837797,"Pathway",50
+"521","EPO signaling pathway",0.282628676470588,"Pathway",58
+"522","ER-Phagosome pathway",0.282715292675452,"Pathway",58
+"523","ER Quality Control Compartment (ERQC)",0.255257332595462,"Pathway",9
+"524","ERAP2",0.342809364548495,"Gene",88
+"525","ErbB receptor signaling network",0.275208830548926,"Pathway",47
+"526","ErbB Signaling Pathway",0.2864017385905,"Pathway",64
+"527","ErbB1 downstream signaling",0.269343065693431,"Pathway",33
+"528","ErbB2/ErbB3 signaling events",0.275619958171497,"Pathway",47
+"529","ERBB3",0.354944209311274,"Gene",94
+"530","ErbB4 signaling events",0.286490683229814,"Pathway",64
+"531","ERH",0.340154867256637,"Gene",77
+"532","ERI3",0.340154867256637,"Gene",77
+"533","Estrogen metabolism",0.274717093508041,"Pathway",46
+"534","Estrogen Receptor Pathway",0.226102941176471,"Pathway",3
+"535","Estrogen signaling pathway",0.274962742175857,"Pathway",46
+"536","ETFB",0.356040138942493,"Gene",95
+"537","Eukaryotic Transcription Initiation",0.261925042589438,"Pathway",16
+"538","Eukaryotic Translation Elongation",0.27068661971831,"Pathway",37
+"539","Eukaryotic Translation Termination",0.268012783265543,"Pathway",30
+"540","EVC",0.340154867256637,"Gene",77
+"541","EVL",0.343575418994413,"Gene",89
+"542","Evolocumab Mechanism",0.240046838407494,"Pathway",6
+"543","Export of Viral Ribonucleoproteins from Nucleus",0.27292899408284,"Pathway",41
+"544","Extension of Telomeres",0.275126752162243,"Pathway",46
+"545","Extracellular matrix organization",0.285515320334262,"Pathway",63
+"546","EYA2",0.340154867256637,"Gene",77
+"547","EZH2",0.283584383645865,"Gene",60
+"548","Facilitative Na+-independent glucose transporters",0.257609606255236,"Pathway",11
+"549","Factors involved in megakaryocyte development and platelet production",0.274308652988403,"Pathway",44
+"550","FADS2",0.274145616641902,"Gene",44
+"551","FAM188A",0.340154867256637,"Gene",77
+"552","FAM50A",0.340154867256637,"Gene",77
+"553","FAM69A",0.340154867256637,"Gene",77
+"554","FAM96B",0.35576552256074,"Gene",94
+"555","Fanconi anemia pathway",0.253922378199835,"Pathway",8
+"556","Fanconi Anemia pathway",0.281937652811736,"Pathway",56
+"557","Farnesoid X Receptor  Pathway",0.274880810488677,"Pathway",46
+"558","FAS (CD95) signaling pathway",0.263420902341519,"Pathway",19
+"559","FAS pathway and Stress induction of HSP regulation",0.278700906344411,"Pathway",52
+"560","Fatty Acid Beta Oxidation",0.27228453364817,"Pathway",39
+"561","Fatty Acid Biosynthesis",0.265544041450777,"Pathway",25
+"562","Fatty Acid Omega Oxidation",0.228285077951002,"Pathway",4
+"563","Fatty acid, triacylglycerol, and ketone body metabolism",0.284195933456562,"Pathway",61
+"564","Fatty acids",0.22516475469856,"Pathway",3
+"565","Fatty Acyl-CoA Biosynthesis",0.215386411393883,"Pathway",2
+"566","FBL",0.340154867256637,"Gene",77
+"567","FBXL5",0.342046718576196,"Gene",86
+"568","FBXW7 Mutants and NOTCH1 in Cancer",0.296337937680694,"Pathway",71
+"569","Fc-epsilon receptor I signaling in mast cells",0.281851512373969,"Pathway",56
+"570","Fc epsilon receptor (FCERI) signaling",0.299415774099318,"Pathway",73
+"571","FCERI mediated Ca+2 mobilization",0.278280542986425,"Pathway",51
+"572","FCERI mediated MAPK activation",0.28073645769933,"Pathway",54
+"573","FCERI mediated NF-kB activation",0.268012783265543,"Pathway",30
+"574","Fcgamma receptor (FCGR) dependent phagocytosis",0.288371366051891,"Pathway",66
+"575","FCGR activation",0.270448548812665,"Pathway",36
+"576","FDFT1",0.274798927613941,"Gene",46
+"577","FDPS",0.274471883368045,"Gene",45
+"578","Felbamate Metabolism",0.225494989000244,"Pathway",3
+"579","FGF signaling pathway",0.28150747635032,"Pathway",55
+"580","FGF1",0.359508963367108,"Gene",98
+"581","FGFR ligand binding and activation",0.264478211009174,"Pathway",23
+"582","FGFR1 ligand binding and activation",0.264478211009174,"Pathway",23
+"583","FGFR1b ligand binding and activation",0.264478211009174,"Pathway",23
+"584","FGFR1c ligand binding and activation",0.264478211009174,"Pathway",23
+"585","FGFR2b ligand binding and activation",0.264478211009174,"Pathway",23
+"586","FGFR2c ligand binding and activation",0.264478211009174,"Pathway",23
+"587","FGFR3 ligand binding and activation",0.264478211009174,"Pathway",23
+"588","FGFR3b ligand binding and activation",0.264478211009174,"Pathway",24
+"589","FGFR4 ligand binding and activation",0.264478211009174,"Pathway",24
+"590","FIS1",0.340154867256637,"Gene",77
+"591","FKBP4",0.342173590504451,"Gene",87
+"592","Fluoropyrimidine Activity",0.272204190026556,"Pathway",39
+"593","Focal Adhesion",0.292857142857143,"Pathway",70
+"594","Folate-Alcohol and Cancer Pathway",0.274308652988403,"Pathway",44
+"595","Folate Metabolism",0.277610592837797,"Pathway",51
+"596","Folding of actin by CCT/TriC",0.255327982286189,"Pathway",9
+"597","Formation of a pool of free 40S subunits",0.268168604651163,"Pathway",30
+"598","Formation of annular gap junctions",0.213937847866419,"Pathway",1
+"599","Formation of apoptosome",0.267624020887728,"Pathway",29
+"600","Formation of Fibrin Clot (Clotting Cascade)",0.262670842824601,"Pathway",18
+"601","Formation of HIV-1 elongation complex containing HIV-1 Tat",0.262222853894258,"Pathway",16
+"602","Formation of HIV elongation complex in the absence of HIV Tat",0.262222853894258,"Pathway",16
+"603","Formation of Senescence-Associated Heterochromatin Foci (SAHF)",0.25469353948095,"Pathway",9
+"604","formation of the beta-catenin:TCF transactivating complex",0.279884708737864,"Pathway",53
+"605","Formation of the Early Elongation Complex",0.261035653650255,"Pathway",15
+"606","Formation of the ternary complex, and subsequently, the 43S complex",0.268168604651163,"Pathway",30
+"607","Formation of tubulin folding intermediates by CCT/TriC",0.268558951965066,"Pathway",32
+"608","Formyl peptide receptors bind formyl peptides and many other ligands",0.264629948364888,"Pathway",24
+"609","FOXA1 transcription factor network",0.265238642898217,"Pathway",25
+"610","FOXA2 and FOXA3 transcription factor networks",0.275702331141662,"Pathway",47
+"611","FOXM1 transcription factor network",0.280480389176041,"Pathway",54
+"612","FoxO family signaling",0.27422711058264,"Pathway",44
+"613","FOXO3",0.360070257611241,"Gene",98
+"614","FOXO4",0.356590645535369,"Gene",96
+"615","FPGS",0.358530897784687,"Gene",97
+"616","FRS2-mediated cascade",0.264478211009174,"Pathway",24
+"617","FSH signaling pathway",0.264099627827083,"Pathway",22
+"618","FTO Obesity Variant Mechanism",0.267313822080556,"Pathway",28
+"619","FYN",0.368263473053892,"Gene",100
+"620","FZD7",0.349035187287174,"Gene",92
+"621","G-protein activation",0.270369284876905,"Pathway",35
+"622","G-protein beta:gamma signalling",0.274308652988403,"Pathway",44
+"623","G-protein mediated events",0.270369284876905,"Pathway",35
+"624","G alpha (12/13) signalling events",0.273576512455516,"Pathway",43
+"625","G alpha (i) signalling events",0.281937652811736,"Pathway",56
+"626","G alpha (q) signalling events",0.279207021791768,"Pathway",52
+"627","G alpha (s) signalling events",0.276777677767777,"Pathway",49
+"628","G alpha (z) signalling events",0.277945164206086,"Pathway",51
+"629","G beta:gamma signalling through PI3Kgamma",0.274308652988403,"Pathway",44
+"630","G Protein Signaling Pathways",0.276445909499551,"Pathway",49
+"631","G0 and Early G1",0.272043644942495,"Pathway",39
+"632","G1 to S cell cycle control",0.28498609823911,"Pathway",62
+"633","G1/S-Specific Transcription",0.240547588005215,"Pathway",6
+"634","G1/S DNA Damage Checkpoints",0.282715292675452,"Pathway",58
+"635","G1/S Transition",0.299707602339181,"Pathway",73
+"636","G13 Signaling Pathway",0.267236384704519,"Pathway",28
+"637","G2 Phase",0.223636363636364,"Pathway",2
+"638","G2/M Checkpoints",0.260446075663467,"Pathway",15
+"639","G2/M Transition",0.294916879795396,"Pathway",70
+"640","G6PD",0.359929769801014,"Gene",98
+"641","GAB1 signalosome",0.285074165636588,"Pathway",62
+"642","GABA receptor activation",0.270369284876905,"Pathway",35
+"643","GABA synthesis, release, reuptake and degradation",0.270052693208431,"Pathway",35
+"644","Gamma-carboxylation of protein precursors",0.258548206278027,"Pathway",12
+"645","Gamma-carboxylation, transport, and amino-terminal cleavage of proteins",0.258548206278027,"Pathway",13
+"646","Gap-filling DNA repair synthesis and ligation in GG-NER",0.273171453953213,"Pathway",41
+"647","Gap junction assembly",0.213937847866419,"Pathway",1
+"648","Gap junction degradation",0.213937847866419,"Pathway",1
+"649","Gap junction trafficking",0.213937847866419,"Pathway",1
+"650","Gap junction trafficking and regulation",0.213937847866419,"Pathway",1
+"651","GAS7",0.340154867256637,"Gene",77
+"652","Gastric Cancer Network 1",0.267313822080556,"Pathway",28
+"653","Gastric Cancer Network 2",0.279884708737864,"Pathway",53
+"654","Gastrin-CREB signalling pathway via PKC and MAPK",0.279207021791768,"Pathway",52
+"655","GATA3",0.349564228874574,"Gene",92
+"656","Gene Expression",0.321316614420063,"Pathway",75
+"657","Gene regulatory network modelling somitogenesis ",0.262521343198634,"Pathway",17
+"658","Generation of second messenger molecules",0.268012783265543,"Pathway",30
+"659","Generic Transcription Pathway",0.297772756617172,"Pathway",72
+"660","GHR",0.350360805165211,"Gene",93
+"661","GJA1",0.27212389380531,"Gene",39
+"662","GK",0.356590645535369,"Gene",96
+"663","GLI3 is processed to GLI3R by the proteasome",0.282715292675452,"Pathway",58
+"664","Glial Cell Differentiation",0.25575270307735,"Pathway",10
+"665","Global Genomic NER (GG-NER)",0.27611493564801,"Pathway",48
+"666","Globo Sphingolipid Metabolism",0.253922378199835,"Pathway",8
+"667","Glucagon-like Peptide-1 (GLP1) regulates insulin secretion",0.270527859237537,"Pathway",36
+"668","Glucagon-type ligand receptors",0.270527859237537,"Pathway",36
+"669","Glucagon signaling in metabolic regulation",0.270527859237537,"Pathway",36
+"670","Glucocorticoid receptor regulatory network",0.291653493518811,"Pathway",68
+"671","Gluconeogenesis",0.2677793904209,"Pathway",29
+"672","Glucose metabolism",0.28410840776101,"Pathway",61
+"673","Glucose transport",0.24818401937046,"Pathway",7
+"674","Glutamate Binding, Activation of AMPA Receptors and Synaptic Plasticity",0.264024041213509,"Pathway",22
+"675","Glutamate Neurotransmitter Release Cycle",0.26708164447018,"Pathway",27
+"676","Glutathione conjugation",0.263420902341519,"Pathway",19
+"677","Glutathione metabolism",0.265162402989365,"Pathway",25
+"678","Glycerophospholipid biosynthesis",0.217673430863615,"Pathway",2
+"679","Glycerophospholipid Biosynthetic Pathway",0.262895411798233,"Pathway",19
+"680","Glycogen Metabolism",0.262670842824601,"Pathway",18
+"681","Glycogen synthesis",0.281937652811736,"Pathway",56
+"682","Glycolysis",0.268168604651163,"Pathway",30
+"683","Glycolysis and Gluconeogenesis",0.27068661971831,"Pathway",37
+"684","Glycosphingolipid metabolism",0.264250930965339,"Pathway",23
+"685","Glypican 1 network",0.273576512455516,"Pathway",43
+"686","GMCSF-mediated signaling events",0.279038112522686,"Pathway",52
+"687","GMNN",0.345376263571696,"Gene",90
+"688","GNAI2",0.370481927710843,"Gene",100
+"689","GNAS",0.370779742765273,"Gene",100
+"690","Golgi Associated Vesicle Biogenesis",0.25978597578147,"Pathway",14
+"691","GPATCH8",0.340154867256637,"Gene",77
+"692","GPCR downstream signaling",0.296910202767943,"Pathway",72
+"693","GPCR ligand binding",0.282282741738066,"Pathway",57
+"694","GPCRs, Class A Rhodopsin-like",0.246,"Pathway",7
+"695","GPCRs, Class B Secretin-like",0.258186397984887,"Pathway",12
+"696","GPCRs, Other",0.240359562272017,"Pathway",6
+"697","GPER1",0.282282741738066,"Gene",57
+"698","GPVI-mediated activation cascade",0.282455603184323,"Pathway",57
+"699","GRAMD4",0.341540170307294,"Gene",86
+"700","GRB2:SOS provides linkage to MAPK signaling for Integrins",0.263948497854077,"Pathway",21
+"701","GRB7",0.284283513097072,"Gene",61
+"702","GRB7 events in ERBB2 signaling",0.267934940458902,"Pathway",29
+"703","Growth hormone receptor signaling",0.269343065693431,"Pathway",33
+"704","GRWD1",0.340154867256637,"Gene",77
+"705","GSTT2",0.357558139534884,"Gene",96
+"706","GTP hydrolysis and joining of the 60S ribosomal subunit",0.268168604651163,"Pathway",30
+"707","GTPBP1",0.340154867256637,"Gene",77
+"708","GTPBP8",0.340154867256637,"Gene",78
+"709","Hair Follicle Development: Induction (Part 1 of 3)",0.249459167117361,"Pathway",8
+"710","HAT1",0.340783154783894,"Gene",85
+"711","HATs acetylate histones",0.26863715783343,"Pathway",32
+"712","HAUS7",0.340154867256637,"Gene",78
+"713","HDAC2",0.317119284977656,"Gene",75
+"714","HDAC5",0.352368220015279,"Gene",94
+"715","HDAC6",0.302558215808462,"Gene",74
+"716","HDACs deacetylate histones",0.272606382978723,"Pathway",40
+"717","HDL-mediated lipid transport",0.229420542153693,"Pathway",4
+"718","HDMs demethylate histones",0.263797540749214,"Pathway",21
+"719","Heart Development",0.265544041450777,"Pathway",26
+"720","Hedgehog 'off' state",0.2864017385905,"Pathway",64
+"721","Hedgehog ligand biogenesis",0.282715292675452,"Pathway",58
+"722","Hedgehog signaling events mediated by Gli proteins",0.275455359808898,"Pathway",47
+"723","Hematopoietic Stem Cell Differentiation",0.273982773982774,"Pathway",43
+"724","Heme degradation",0.263571428571429,"Pathway",20
+"725","Hemostasis",0.316249571477545,"Pathway",75
+"726","Heparan sulfate/heparin (HS-GAG) metabolism",0.267624020887728,"Pathway",29
+"727","HERC1",0.340154867256637,"Gene",78
+"728","HERC5",0.343191964285714,"Gene",88
+"729","Hexose uptake",0.24818401937046,"Pathway",7
+"730","Hh ligand biogenesis disease",0.282715292675452,"Pathway",58
+"731","HIF-1-alpha transcription factor network",0.274308652988403,"Pathway",44
+"732","HIF-2-alpha transcription factor network",0.262521343198634,"Pathway",17
+"733","Highly calcium permeable nicotinic acetylcholine receptors",0.263420902341519,"Pathway",20
+"734","Highly calcium permeable postsynaptic nicotinic acetylcholine receptors",0.263496143958869,"Pathway",20
+"735","Highly sodium permeable acetylcholine nicotinic receptors",0.263345703682558,"Pathway",19
+"736","HIST1H4C",0.358113354037267,"Gene",97
+"737","Histamine receptors",0.226269315673289,"Pathway",3
+"738","Histone Modifications",0.271403353927626,"Pathway",38
+"739","HIV-1 Nef: Negative effector of Fas and TNF-alpha",0.274145616641902,"Pathway",44
+"740","HIV Infection",0.309356136820926,"Pathway",74
+"741","HIV Life Cycle",0.294446217682732,"Pathway",70
+"742","HIV Transcription Initiation",0.26110953863572,"Pathway",16
+"743","HLA-DMA",0.343703427719821,"Gene",89
+"744","HLA-DRA",0.345376263571696,"Gene",90
+"745","HMGA2",0.341666666666667,"Gene",86
+"746","HMGCR",0.281765424557117,"Gene",55
+"747","HMGCS1",0.365057380292837,"Gene",99
+"748","HMOX2",0.357835531419705,"Gene",96
+"749","Homologous DNA pairing and strand exchange",0.25963974106389,"Pathway",14
+"750","Homologous recombination",0.258041958041958,"Pathway",12
+"751","Homologous Recombination Repair",0.272043644942495,"Pathway",39
+"752","HOOK2",0.340154867256637,"Gene",78
+"753","Host Interactions of HIV factors",0.303453947368421,"Pathway",74
+"754","Host Interactions with Influenza Factors",0.265010054582017,"Pathway",24
+"755","HRH1",0.292393026941363,"Gene",69
+"756","HS-GAG biosynthesis",0.267624020887728,"Pathway",29
+"757","HS-GAG degradation",0.267624020887728,"Pathway",29
+"758","HSD17B7",0.274145616641902,"Gene",44
+"759","HSF1-dependent transactivation",0.275126752162243,"Pathway",47
+"760","HSF1 activation",0.277945164206086,"Pathway",51
+"761","HSP90AA1",0.374847622917513,"Gene",100
+"762","HSPA8",0.350893875998478,"Gene",93
+"763","HSPB1",0.351161020175105,"Gene",93
+"764","HSPD1",0.346153846153846,"Gene",91
+"765","HSPE1",0.340154867256637,"Gene",78
+"766","HTATSF1",0.340154867256637,"Gene",78
+"767","HTR1A",0.296052631578947,"Gene",71
+"768","HTR2A",0.296433161953727,"Gene",72
+"769","HTR2C",0.291193181818182,"Gene",68
+"770","HTR6",0.291930379746835,"Gene",69
+"771","Hyaluronan biosynthesis and export",0.265086206896552,"Pathway",25
+"772","Hyaluronan metabolism",0.266927083333333,"Pathway",27
+"773","Hyaluronan uptake and degradation",0.265697004608295,"Pathway",26
+"774","Hypertrophy Model",0.261627906976744,"Pathway",16
+"775","Hypothetical Network for Drug Addiction",0.229992520568437,"Pathway",5
+"776","Hypoxic and oxygen homeostasis regulation of HIF-1-alpha",0.274635308127419,"Pathway",46
+"777","IARS2",0.360633307271306,"Gene",98
+"778","ICAM1",0.349035187287174,"Gene",92
+"779","ICAM3",0.343575418994413,"Gene",89
+"780","ID signaling pathway",0.254412575841147,"Pathway",8
+"781","IDI1",0.278196622436671,"Gene",51
+"782","IFN-gamma pathway",0.265238642898217,"Pathway",25
+"783","IFRD2",0.241176470588235,"Gene",6
+"784","IFT27",0.340154867256637,"Gene",78
+"785","IGF1 pathway",0.278364514182257,"Pathway",51
+"786","IGF1R signaling cascade",0.286490683229814,"Pathway",64
+"787","IGF2BP2",0.343319687383699,"Gene",89
+"788","IKK complex recruitment mediated by RIP1",0.281937652811736,"Pathway",56
+"789","IKZF1",0.340405904059041,"Gene",84
+"790","IL-1 signaling pathway",0.265697004608295,"Pathway",26
+"791","IL-2 Signaling Pathway",0.301077023498695,"Pathway",73
+"792","IL-3 Signaling Pathway",0.28747273293861,"Pathway",65
+"793","IL-4 Signaling Pathway",0.288101186758276,"Pathway",65
+"794","IL-5 Signaling Pathway",0.297005795235029,"Pathway",72
+"795","IL-6 signaling pathway",0.282975460122699,"Pathway",59
+"796","IL-7 Signaling Pathway",0.288191190253046,"Pathway",66
+"797","IL-9 Signaling Pathway",0.266541462005201,"Pathway",26
+"798","IL1-mediated signaling events",0.265697004608295,"Pathway",26
+"799","IL1 and megakaryotyces in obesity",0.269264448336252,"Pathway",33
+"800","IL12-mediated signaling events",0.270766069856178,"Pathway",37
+"801","IL12 signaling mediated by STAT4",0.256749234622878,"Pathway",10
+"802","IL17 signaling pathway",0.265238642898217,"Pathway",25
+"803","IL2-mediated signaling events",0.297388781431335,"Pathway",72
+"804","IL2 signaling events mediated by PI3K",0.297772756617172,"Pathway",73
+"805","IL2 signaling events mediated by STAT5",0.293229497774952,"Pathway",70
+"806","IL23-mediated signaling events",0.266156953260242,"Pathway",26
+"807","IL27-mediated signaling events",0.2677793904209,"Pathway",29
+"808","IL3-mediated signaling events",0.279969650986343,"Pathway",54
+"809","IL4-mediated signaling events",0.28498609823911,"Pathway",62
+"810","IL5-mediated signaling events",0.267701683110853,"Pathway",29
+"811","IL6-mediated signaling events",0.280565693430657,"Pathway",54
+"812","IL8- and CXCR1-mediated signaling events",0.270369284876905,"Pathway",35
+"813","IL8- and CXCR2-mediated signaling events",0.270369284876905,"Pathway",35
+"814","Imatinib Resistance in Chronic Myeloid Leukemia",0.282282741738066,"Pathway",57
+"815","Immune System",0.352772466539197,"Pathway",94
+"816","Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",0.261850695430031,"Pathway",16
+"817","Import of palmitoyl-CoA into the mitochondrial matrix",0.270845566647093,"Pathway",37
+"818","Inactivation of APC/C via direct inhibition of the APC/C complex",0.268168604651163,"Pathway",30
+"819","Inactivation, recovery and regulation of the phototransduction cascade",0.26432664756447,"Pathway",23
+"820","Inflammasomes",0.270210896309315,"Pathway",35
+"821","Inflammatory Response Pathway",0.255327982286189,"Pathway",9
+"822","Influenza Infection",0.284634372107374,"Pathway",61
+"823","Influenza Life Cycle",0.28393351800554,"Pathway",60
+"824","Influenza Viral RNA Transcription and Replication",0.282888684452622,"Pathway",59
+"825","Influenza Virus Induced Apoptosis",0.265010054582017,"Pathway",24
+"826","ING1",0.340783154783894,"Gene",85
+"827","Initiation of Nuclear Envelope Reformation",0.258765778401122,"Pathway",13
+"828","Initiation of transcription and translation elongation at the HIV-1 LTR",0.269973661106234,"Pathway",34
+"829","Innate Immune System",0.330882352941176,"Pathway",75
+"830","Inositol phosphate metabolism",0.26432664756447,"Pathway",23
+"831","INPP4B",0.356590645535369,"Gene",96
+"832","INSIG1",0.27422711058264,"Gene",44
+"833","Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA",0.255610972568579,"Pathway",10
+"834","Insulin effects increased synthesis of Xylulose-5-Phosphate",0.264024041213509,"Pathway",22
+"835","Insulin Pathway",0.280054644808743,"Pathway",54
+"836","Insulin receptor recycling",0.230049875311721,"Pathway",5
+"837","Insulin receptor signalling cascade",0.288461538461538,"Pathway",66
+"838","Insulin Signaling",0.29073432083202,"Pathway",68
+"839","Integrated Breast Cancer Pathway",0.295862732520847,"Pathway",71
+"840","Integrated Cancer Pathway",0.280224787363305,"Pathway",54
+"841","Integrated Pancreatic Cancer Pathway",0.311024949426838,"Pathway",74
+"842","Integration of energy metabolism",0.282023845918679,"Pathway",57
+"843","Integration of provirus",0.260005636978579,"Pathway",15
+"844","Integrin-linked kinase signaling",0.275619958171497,"Pathway",47
+"845","Integrin-mediated Cell Adhesion",0.287204234122042,"Pathway",65
+"846","Integrin alphaIIb beta3 signaling",0.28099299421261,"Pathway",54
+"847","Integrin cell surface interactions",0.277027027027027,"Pathway",50
+"848","Integrin family cell surface interactions",0.263948497854077,"Pathway",21
+"849","Integrins in angiogenesis",0.281335773101555,"Pathway",55
+"850","Interaction between L1 and Ankyrins",0.254342431761787,"Pathway",8
+"851","Interactions of Rev with host cellular proteins",0.27292899408284,"Pathway",41
+"852","Interactions of Vpr with host cellular proteins",0.275619958171497,"Pathway",47
+"853","Interactome of polycomb repressive complex 2 (PRC2) ",0.266233766233766,"Pathway",26
+"854","Interferon alpha/beta signaling",0.268090671316478,"Pathway",30
+"855","Interferon gamma signaling",0.273495404684257,"Pathway",43
+"856","Interferon Signaling",0.296052631578947,"Pathway",71
+"857","Interferon type I signaling pathways",0.282282741738066,"Pathway",57
+"858","Interleukin-1 processing",0.260961810466761,"Pathway",15
+"859","Interleukin-1 signaling",0.265697004608295,"Pathway",26
+"860","Interleukin-11 Signaling Pathway",0.281078610603291,"Pathway",55
+"861","Interleukin-2 signaling",0.280480389176041,"Pathway",54
+"862","Interleukin-3, 5 and GM-CSF signaling",0.285957842529448,"Pathway",63
+"863","Interleukin-7 signaling",0.266541462005201,"Pathway",26
+"864","Interleukin receptor SHC signaling",0.27611493564801,"Pathway",48
+"865","Internalization of ErbB1",0.278448536070027,"Pathway",51
+"866","Intrinsic Pathway",0.255610972568579,"Pathway",10
+"867","Intrinsic Pathway for Apoptosis",0.272364924712135,"Pathway",39
+"868","Ion channel transport",0.282715292675452,"Pathway",58
+"869","Ion transport by P-type ATPases",0.259859154929577,"Pathway",14
+"870","IRAK1",0.354807692307692,"Gene",94
+"871","IRAK1 recruits IKK complex",0.261925042589438,"Pathway",16
+"872","IRAK2 mediated activation of TAK1 complex",0.284546576187539,"Pathway",61
+"873","IRE1alpha activates chaperones",0.274962742175857,"Pathway",46
+"874","IRF3-mediated induction of type I IFN",0.258403361344538,"Pathway",12
+"875","IRF5",0.345117845117845,"Gene",90
+"876","Irinotecan Pathway",0.225384803322746,"Pathway",3
+"877","Iron uptake and transport",0.268168604651163,"Pathway",31
+"878","IRS-mediated signalling",0.279207021791768,"Pathway",52
+"879","IRS-related events",0.279207021791768,"Pathway",52
+"880","IRS-related events triggered by IGF1R",0.279207021791768,"Pathway",52
+"881","ISOC2",0.340154867256637,"Gene",78
+"882","ITGB1BP1",0.340154867256637,"Gene",78
+"883","ITGB3",0.358530897784687,"Gene",97
+"884","JADE2",0.340783154783894,"Gene",85
+"885","JMJD6",0.340154867256637,"Gene",78
+"886","JNK (c-Jun kinases) phosphorylation and activation mediated by activated human TAK1",0.263571428571429,"Pathway",20
+"887","JNK signaling in the CD4+ TCR pathway",0.267546403712297,"Pathway",28
+"888","KANK1",0.340154867256637,"Gene",78
+"889","KAT6B",0.340783154783894,"Gene",85
+"890","KDM5D",0.340783154783894,"Gene",85
+"891","KIAA1109",0.340154867256637,"Gene",78
+"892","KIF2C",0.294258373205742,"Gene",70
+"893","Kinesins",0.227384767069263,"Pathway",4
+"894","KIT",0.362333071484682,"Gene",99
+"895","Kit receptor signaling pathway",0.295957651588065,"Pathway",71
+"896","KLHL21",0.342809364548495,"Gene",88
+"897","KPNA2",0.343191964285714,"Gene",88
+"898","KRT34",0.340154867256637,"Gene",78
+"899","KRT81",0.340154867256637,"Gene",78
+"900","L1CAM interactions",0.275702331141662,"Pathway",48
+"901","Lagging Strand Synthesis",0.273171453953213,"Pathway",42
+"902","LAMA3",0.345247005988024,"Gene",90
+"903","LAMA5",0.342809364548495,"Gene",88
+"904","Laminin interactions",0.257250418293363,"Pathway",11
+"905","LAMTOR2",0.340154867256637,"Gene",78
+"906","Late Phase of HIV Life Cycle",0.290825977301387,"Pathway",68
+"907","Latent infection of Homo sapiens with Mycobacterium tuberculosis",0.230049875311721,"Pathway",5
+"908","LCMT1",0.340154867256637,"Gene",78
+"909","LCP2",0.34706546275395,"Gene",91
+"910","LDHB",0.296719202315857,"Gene",72
+"911","LDL endocytosis",0.240046838407494,"Pathway",6
+"912","LDLR",0.31581650119822,"Gene",75
+"913","Leading Strand Synthesis",0.26957919345412,"Pathway",33
+"914","Leptin signaling pathway",0.294634302139891,"Pathway",70
+"915","LGALS4",0.340154867256637,"Gene",78
+"916","Lidocaine metabolism",0.226269315673289,"Pathway",3
+"917","LIG1",0.29510556621881,"Gene",71
+"918","Linoleic acid (LA) metabolism",0.21518544436669,"Pathway",2
+"919","LIPA",0.241239539748954,"Gene",7
+"920","Lipid and lipoprotein metabolism",0.273333333333333,"Pathway",42
+"921","Lipoprotein metabolism",0.273333333333333,"Pathway",42
+"922","LIPT1",0.340154867256637,"Gene",78
+"923","Lissencephaly gene (LIS1) in neuronal migration and development",0.257107023411371,"Pathway",11
+"924","Liver X Receptor Pathway",0.227160797833046,"Pathway",4
+"925","LKB1 signaling events",0.282455603184323,"Pathway",57
+"926","Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling",0.262521343198634,"Pathway",17
+"927","Loss of Function of SMAD2/3 in Cancer",0.29073432083202,"Pathway",68
+"928","Loss of Nlp from mitotic centrosomes",0.274308652988403,"Pathway",45
+"929","LOXL1",0.341287458379578,"Gene",86
+"930","LPA receptor mediated events",0.279291553133515,"Pathway",53
+"931","LPL",0.364624505928854,"Gene",99
+"932","LPP",0.34028033935817,"Gene",83
+"933","LRRC41",0.342809364548495,"Gene",88
+"934","LSS",0.274471883368045,"Gene",45
+"935","LTN1",0.340154867256637,"Gene",79
+"936","LUC7L",0.340154867256637,"Gene",79
+"937","LY75",0.340154867256637,"Gene",79
+"938","Lysine catabolism",0.219173200285103,"Pathway",2
+"939","Lysosome Vesicle Biogenesis",0.25978597578147,"Pathway",14
+"940","LYST",0.340154867256637,"Gene",79
+"941","M Phase",0.296147672552167,"Pathway",71
+"942","MAL",0.350760456273764,"Gene",93
+"943","MALT1",0.345117845117845,"Gene",90
+"944","MAMLD1",0.35169653069005,"Gene",93
+"945","MAP kinase activation in TLR cascade",0.263571428571429,"Pathway",20
+"946","MAPK Signaling Pathway",0.291838025941158,"Pathway",69
+"947","MAPKAPK5",0.342554771630152,"Gene",87
+"948","Matrix Metalloproteinases",0.206468218442256,"Pathway",1
+"949","MBTPS1",0.357419604804339,"Gene",96
+"950","MCM3AP",0.340154867256637,"Gene",79
+"951","MCM7",0.34758854559156,"Gene",91
+"952","MCTS1",0.340154867256637,"Gene",79
+"953","ME2",0.340154867256637,"Gene",79
+"954","Mecp2 and Associated Rett Syndrome",0.220958083832335,"Pathway",2
+"955","Meiosis",0.266849869829332,"Pathway",27
+"956","Meiotic recombination",0.266849869829332,"Pathway",27
+"957","Meiotic synapsis",0.263722126929674,"Pathway",20
+"958","Melatonin metabolism and effects",0.27422711058264,"Pathway",44
+"959","Membrane binding and targetting of GAG proteins",0.281937652811736,"Pathway",56
+"960","Membrane Trafficking",0.289820923656927,"Pathway",67
+"961","Mesodermal Commitment Pathway",0.25469353948095,"Pathway",9
+"962","MEST",0.340154867256637,"Gene",79
+"963","Metabolism",0.352502865876958,"Pathway",94
+"964","Metabolism of Angiotensinogen to Angiotensins",0.257897679619793,"Pathway",12
+"965","Metabolism of folate and pterines",0.263948497854077,"Pathway",21
+"966","Metabolism of lipids and lipoproteins",0.30058651026393,"Pathway",73
+"967","Metabolism of mRNA",0.292300380228137,"Pathway",69
+"968","Metabolism of nitric oxide",0.27292899408284,"Pathway",41
+"969","Metabolism of polyamines",0.265238642898217,"Pathway",25
+"970","Metabolism of proteins",0.293229497774952,"Pathway",70
+"971","Metabolism of RNA",0.296242774566474,"Pathway",71
+"972","Metapathway biotransformation",0.276694661067786,"Pathway",49
+"973","Metastatic brain tumor",0.249459167117361,"Pathway",8
+"974","Methionine salvage pathway",0.265238642898217,"Pathway",25
+"975","Methylation",0.225770925110132,"Pathway",3
+"976","METTL17",0.340154867256637,"Gene",79
+"977","METTL4",0.340154867256637,"Gene",79
+"978","MFAP3L",0.340154867256637,"Gene",79
+"979","MFAP5-mediated ovarian cancer cell motility and invasiveness",0.268402676752982,"Pathway",31
+"980","MGA",0.340154867256637,"Gene",79
+"981","MHC class II antigen presentation",0.274145616641902,"Pathway",44
+"982","MICALL1",0.340154867256637,"Gene",79
+"983","MicroRNA (miRNA) biogenesis",0.265926780051888,"Pathway",26
+"984","MicroRNAs in cardiomyocyte hypertrophy",0.265238642898217,"Pathway",25
+"985","MIF",0.343575418994413,"Gene",89
+"986","miRNA Biogenesis",0.265926780051888,"Pathway",26
+"987","miRNA Regulation of DNA Damage Response",0.281851512373969,"Pathway",56
+"988","miRNAs involved in DNA damage response",0.249459167117361,"Pathway",8
+"989","miRs in Muscle Cell Differentiation",0.272606382978723,"Pathway",40
+"990","Miscellaneous substrates",0.224835486229588,"Pathway",3
+"991","Mismatch repair",0.234852342158859,"Pathway",5
+"992","Mismatch repair (MMR) directed by MSH2:MSH3 (MutSbeta)",0.273171453953213,"Pathway",42
+"993","Mismatch repair (MMR) directed by MSH2:MSH6 (MutSalpha)",0.273171453953213,"Pathway",42
+"994","Mitochondrial biogenesis",0.276860744297719,"Pathway",49
+"995","Mitochondrial Gene Expression",0.267313822080556,"Pathway",28
+"996","Mitochondrial protein import",0.271483225426722,"Pathway",38
+"997","Mitochondrial translation",0.268558951965066,"Pathway",32
+"998","Mitochondrial translation elongation",0.268558951965066,"Pathway",32
+"999","Mitochondrial translation initiation",0.268480791618161,"Pathway",31
+"1000","Mitochondrial translation termination",0.268480791618161,"Pathway",31
+"1001","Mitochondrial tRNA aminoacylation",0.265162402989365,"Pathway",25
+"1002","Mitotic Anaphase",0.293043202033037,"Pathway",70
+"1003","Mitotic G1-G1/S phases",0.300097592713077,"Pathway",73
+"1004","Mitotic G2-G2/M phases",0.294916879795396,"Pathway",70
+"1005","Mitotic M-M/G1 phases",0.300195248942402,"Pathway",73
+"1006","Mitotic Metaphase and Anaphase",0.293043202033037,"Pathway",70
+"1007","Mitotic Prometaphase",0.278616732105104,"Pathway",52
+"1008","Mitotic Prophase",0.276280323450135,"Pathway",48
+"1009","Mitotic Spindle Checkpoint",0.268168604651163,"Pathway",31
+"1010","MLEC",0.342046718576196,"Gene",86
+"1011","MMR",0.273171453953213,"Pathway",42
+"1012","Molecules associated with elastic fibres",0.263948497854077,"Pathway",21
+"1013","MON2",0.340154867256637,"Gene",79
+"1014","Monoamine GPCRs",0.244047619047619,"Pathway",7
+"1015","Monoamine Transport",0.276280323450135,"Pathway",48
+"1016","MPC2",0.356177606177606,"Gene",95
+"1017","MPG",0.342682020802377,"Gene",87
+"1018","MPP1",0.340154867256637,"Gene",79
+"1019","MPP5",0.340657311669128,"Gene",84
+"1020","mRNA Capping",0.261035653650255,"Pathway",15
+"1021","mRNA Processing",0.256963788300836,"Pathway",11
+"1022","mRNA Splicing",0.260888009049774,"Pathway",15
+"1023","MRPL11",0.341035120147874,"Gene",85
+"1024","MRPL12",0.360774344935471,"Gene",98
+"1025","MRPL13",0.341035120147874,"Gene",85
+"1026","MRPL19",0.238310514079049,"Gene",6
+"1027","MRPL22",0.341035120147874,"Gene",85
+"1028","MRPL4",0.341035120147874,"Gene",85
+"1029","MRPS16",0.360774344935471,"Gene",98
+"1030","MRPS2",0.241176470588235,"Gene",6
+"1031","MRPS28",0.341035120147874,"Gene",85
+"1032","MRPS35",0.341035120147874,"Gene",85
+"1033","MRPS7",0.246,"Gene",7
+"1034","MSMO1",0.274145616641902,"Gene",44
+"1035","MTHFD2",0.351830663615561,"Gene",93
+"1036","mTOR signaling pathway",0.273333333333333,"Pathway",42
+"1037","mTOR signalling",0.27292899408284,"Pathway",41
+"1038","mTORC1-mediated signalling",0.263722126929674,"Pathway",20
+"1039","MUC1",0.342173590504451,"Gene",87
+"1040","Muscarinic acetylcholine receptors",0.239548169306674,"Pathway",6
+"1041","Muscle contraction",0.255540166204986,"Pathway",9
+"1042","MVD",0.2864017385905,"Gene",64
+"1043","MYC",0.332312680115274,"Gene",75
+"1044","MyD88-independent cascade",0.289366373902133,"Pathway",66
+"1045","MyD88 cascade initiated on plasma membrane",0.289366373902133,"Pathway",66
+"1046","MyD88 dependent cascade initiated on endosome",0.289366373902133,"Pathway",66
+"1047","MyD88:Mal cascade initiated on plasma membrane",0.29073432083202,"Pathway",68
+"1048","MYLK",0.343191964285714,"Gene",88
+"1049","Myometrial Relaxation and Contraction Pathways",0.277110243316311,"Pathway",50
+"1050","N-cadherin signaling events",0.213937847866419,"Pathway",1
+"1051","N-glycan trimming in the ER and Calnexin/Calreticulin cycle",0.255327982286189,"Pathway",9
+"1052","Na+/Cl- dependent neurotransmitter transporters",0.273009766203019,"Pathway",41
+"1053","NAA10",0.34028033935817,"Gene",83
+"1054","NADE modulates death signalling",0.260740531373657,"Pathway",15
+"1055","NCAM signaling for neurite out-growth",0.269973661106234,"Pathway",34
+"1056","NCAM1 interactions",0.259347764970481,"Pathway",14
+"1057","NCAPD2",0.344859813084112,"Gene",90
+"1058","NCK2",0.35331290693221,"Gene",94
+"1059","NCL",0.342173590504451,"Gene",87
+"1060","NCOA1",0.366945107398568,"Gene",100
+"1061","NDUFA10",0.356315179606025,"Gene",96
+"1062","NDUFA13",0.358113354037267,"Gene",97
+"1063","NDUFA9",0.356315179606025,"Gene",96
+"1064","NDUFB8",0.356315179606025,"Gene",96
+"1065","NDUFS3",0.356315179606025,"Gene",96
+"1066","NDUFS6",0.356315179606025,"Gene",96
+"1067","Nectin adhesion pathway",0.272204190026556,"Pathway",39
+"1068","Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters",0.264024041213509,"Pathway",22
+"1069","Nef and signal transduction",0.269185876860228,"Pathway",33
+"1070","Nef Mediated CD4 Down-regulation",0.264024041213509,"Pathway",22
+"1071","Nef Mediated CD8 Down-regulation",0.264024041213509,"Pathway",22
+"1072","Negative epigenetic regulation of rRNA expression",0.276777677767777,"Pathway",49
+"1073","Negative regulation of FGFR signaling",0.28542698019802,"Pathway",63
+"1074","Negative regulation of the PI3K/AKT network",0.24385408406027,"Pathway",7
+"1075","Negative regulators of RIG-I/MDA5 signaling",0.282023845918679,"Pathway",57
+"1076","NEP/NS2 Interacts with the Cellular Export Machinery",0.27292899408284,"Pathway",41
+"1077","Nephrin interactions",0.27068661971831,"Pathway",37
+"1078","Nephrin/Neph1 signaling in the kidney podocyte",0.27068661971831,"Pathway",37
+"1079","Netrin-1 signaling",0.272606382978723,"Pathway",40
+"1080","Netrin-mediated signaling events",0.273414344991108,"Pathway",43
+"1081","Netrin mediated repulsion signals",0.269185876860228,"Pathway",33
+"1082","Neural Crest Differentiation",0.287652011225444,"Pathway",65
+"1083","Neurofascin interactions",0.255398671096346,"Pathway",9
+"1084","Neuronal System",0.282023845918679,"Pathway",57
+"1085","Neurotransmitter Clearance In The Synaptic Cleft",0.225384803322746,"Pathway",3
+"1086","Neurotransmitter Receptor Binding And Downstream Transmission In The Postsynaptic Cell",0.27611493564801,"Pathway",48
+"1087","Neurotransmitter Release Cycle",0.272525849335303,"Pathway",40
+"1088","Neurotrophic factor-mediated Trk receptor signaling",0.27895373450257,"Pathway",52
+"1089","NF-kB is activated and signals survival",0.28498609823911,"Pathway",62
+"1090","NFKB2",0.353042479908152,"Gene",94
+"1091","NFKBIE",0.277360192423331,"Gene",50
+"1092","NFX1",0.34028033935817,"Gene",83
+"1093","NGF signalling via TRKA from the plasma membrane",0.293789808917197,"Pathway",70
+"1094","NICD traffics to nucleus",0.262895411798233,"Pathway",19
+"1095","Nicotinamide salvaging",0.266618497109827,"Pathway",27
+"1096","Nicotinate metabolism",0.266618497109827,"Pathway",27
+"1097","Nicotine Activity on Chromaffin Cells",0.262372013651877,"Pathway",17
+"1098","Nicotine Activity on Dopaminergic Neurons",0.271723122238586,"Pathway",38
+"1099","Nicotine Metabolism",0.214984852015847,"Pathway",1
+"1100","NISCH",0.230452160879341,"Gene",5
+"1101","NME1",0.358949416342412,"Gene",97
+"1102","NNT",0.360633307271306,"Gene",98
+"1103","NOD pathway",0.273090586145648,"Pathway",41
+"1104","NOD1/2 Signaling Pathway",0.264933946008041,"Pathway",24
+"1105","Non-coding RNA Metabolism",0.272204190026556,"Pathway",39
+"1106","Non-homologous end joining",0.258403361344538,"Pathway",12
+"1107","Non-integrin membrane-ECM interactions",0.274553571428571,"Pathway",45
+"1108","Noncanonical Wnt signaling pathway",0.263270547945205,"Pathway",19
+"1109","Nongenotropic Androgen signaling",0.270369284876905,"Pathway",35
+"1110","Nonhomologous End-joining (NHEJ)",0.258403361344538,"Pathway",12
+"1111","Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)",0.268793706293706,"Pathway",32
+"1112","Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)",0.268012783265543,"Pathway",30
+"1113","NoRC negatively regulates rRNA expression",0.276445909499551,"Pathway",49
+"1114","Norepinephrine Neurotransmitter Release Cycle",0.269815735595203,"Pathway",34
+"1115","Nortriptyline",0.31777471581123,"Compound",75
+"1116","NOSIP",0.355902777777778,"Gene",95
+"1117","NOSIP mediated eNOS trafficking",0.262521343198634,"Pathway",17
+"1118","Notch-mediated HES/HEY network",0.274145616641902,"Pathway",44
+"1119","Notch signaling pathway",0.28125,"Pathway",55
+"1120","Notch signaling pathway",0.28125,"BiologicalProcess",55
+"1121","Notch Signaling Pathway",0.281679389312977,"Pathway",55
+"1122","Notch Signaling Pathway",0.281679389312977,"Pathway",55
+"1123","Notch Signaling Pathway",0.272364924712135,"Pathway",39
+"1124","Notch Signaling Pathway",0.272364924712135,"Pathway",40
+"1125","NOTCH1",0.355902777777778,"Gene",95
+"1126","NOTCH1 Intracellular Domain Regulates Transcription",0.29510556621881,"Pathway",71
+"1127","NOTCH1 regulation of human endothelial cell calcification",0.262521343198634,"Pathway",17
+"1128","NOTCH2",0.35169653069005,"Gene",93
+"1129","NOTCH2 Activation and Transmission of Signal to the Nucleus",0.284898085237801,"Pathway",62
+"1130","NOTCH2 intracellular domain regulates transcription",0.260961810466761,"Pathway",15
+"1131","NOV",0.340154867256637,"Gene",79
+"1132","NPAT",0.342300556586271,"Gene",87
+"1133","NPC1",0.241239539748954,"Gene",7
+"1134","NPDC1",0.340154867256637,"Gene",79
+"1135","NPR3",0.340154867256637,"Gene",79
+"1136","NPTX2",0.340154867256637,"Gene",80
+"1137","NQO1",0.358949416342412,"Gene",97
+"1138","NR3C1",0.350893875998478,"Gene",93
+"1139","NRAGE signals death through JNK",0.26387299771167,"Pathway",21
+"1140","NRF2 pathway",0.287204234122042,"Pathway",65
+"1141","NRIF signals cell death from the nucleus",0.283410138248848,"Pathway",60
+"1142","NSDHL",0.274145616641902,"Gene",44
+"1143","NT5C",0.356315179606025,"Gene",96
+"1144","NUBP2",0.35576552256074,"Gene",95
+"1145","Nuclear Envelope Breakdown",0.272525849335303,"Pathway",40
+"1146","Nuclear import of Rev protein",0.27292899408284,"Pathway",41
+"1147","Nuclear Pore Complex (NPC) Disassembly",0.24818401937046,"Pathway",7
+"1148","Nuclear Receptor transcription pathway",0.268012783265543,"Pathway",30
+"1149","Nuclear Receptors",0.268012783265543,"Pathway",30
+"1150","Nuclear Receptors in Lipid Metabolism and Toxicity",0.276611694152924,"Pathway",49
+"1151","Nuclear signaling by ERBB4",0.269973661106234,"Pathway",34
+"1152","Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways",0.274064171122995,"Pathway",43
+"1153","Nucleotide Excision Repair",0.27611493564801,"Pathway",48
+"1154","Nucleotide metabolism",0.271004700352526,"Pathway",37
+"1155","Nucleotide Metabolism",0.265467625899281,"Pathway",25
+"1156","NUDC",0.345505617977528,"Gene",90
+"1157","NUDT1",0.355902777777778,"Gene",95
+"1158","NUDT6",0.340154867256637,"Gene",80
+"1159","NUP85",0.33005366726297,"Gene",75
+"1160","O-linked glycosylation",0.254975124378109,"Pathway",9
+"1161","O-linked glycosylation of mucins",0.254975124378109,"Pathway",9
+"1162","Oligomerization of connexins into connexons",0.213937847866419,"Pathway",1
+"1163","Oncogene Induced Senescence",0.282628676470588,"Pathway",58
+"1164","Oncostatin M Signaling Pathway",0.289820923656927,"Pathway",67
+"1165","One Carbon Metabolism",0.269973661106234,"Pathway",34
+"1166","Opioid Signalling",0.270369284876905,"Pathway",35
+"1167","Orc1 removal from chromatin",0.286490683229814,"Pathway",64
+"1168","Organelle biogenesis and maintenance",0.280395136778116,"Pathway",54
+"1169","Organic cation transport",0.217212149752767,"Pathway",2
+"1170","Organic cation/anion/zwitterion transport",0.217212149752767,"Pathway",2
+"1171","ORM1",0.250747485729818,"Gene",8
+"1172","Orphan transporters",0.275619958171497,"Pathway",47
+"1173","Osteoblast Signaling",0.263948497854077,"Pathway",21
+"1174","Osteoclast Signaling",0.263948497854077,"Pathway",21
+"1175","Osteopontin-mediated events",0.277027027027027,"Pathway",50
+"1176","Osteopontin Signaling",0.263948497854077,"Pathway",21
+"1177","OTUB1",0.340154867256637,"Gene",80
+"1178","Ovarian Infertility Genes",0.269185876860228,"Pathway",33
+"1179","Overview of nanoparticle effects",0.276445909499551,"Pathway",49
+"1180","OXA1L",0.349696739954511,"Gene",92
+"1181","Oxidation by Cytochrome P450",0.229135618479881,"Pathway",4
+"1182","Oxidative phosphorylation",0.263045337895637,"Pathway",19
+"1183","Oxidative Stress",0.26957919345412,"Pathway",33
+"1184","Oxidative Stress Induced Senescence",0.28828125,"Pathway",66
+"1185","OXSR1",0.349696739954511,"Gene",92
+"1186","Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha",0.282975460122699,"Pathway",59
+"1187","p130Cas linkage to MAPK signaling for integrins",0.269815735595203,"Pathway",34
+"1188","p38 MAPK signaling pathway",0.262372013651877,"Pathway",17
+"1189","p38 MAPK Signaling Pathway",0.287741734248284,"Pathway",65
+"1190","p38 signaling mediated by MAPKAP kinases",0.262222853894258,"Pathway",16
+"1191","p38MAPK events",0.25963974106389,"Pathway",14
+"1192","p53-Dependent G1 DNA Damage Response",0.282715292675452,"Pathway",58
+"1193","p53 pathway",0.223636363636364,"Pathway",2
+"1194","p73 transcription factor network",0.285869228385497,"Pathway",63
+"1195","p75 NTR receptor-mediated signalling",0.292764201840686,"Pathway",69
+"1196","p75(NTR)-mediated signaling",0.286936236391913,"Pathway",65
+"1197","p75NTR negatively regulates cell cycle via SC1",0.24079874706343,"Pathway",6
+"1198","p75NTR recruits signalling complexes",0.28498609823911,"Pathway",62
+"1199","p75NTR signals via NF-kB",0.28498609823911,"Pathway",62
+"1200","Packaging Of Telomere Ends",0.263722126929674,"Pathway",20
+"1201","PAFAH1B3",0.34028033935817,"Gene",83
+"1202","PAK1",0.361339600470035,"Gene",99
+"1203","PAK6",0.343191964285714,"Gene",88
+"1204","PAR1-mediated thrombin signaling events",0.270369284876905,"Pathway",36
+"1205","PARD3",0.350627137970353,"Gene",93
+"1206","PARK7",0.342046718576196,"Gene",87
+"1207","Parkin-Ubiquitin Proteasomal System pathway",0.280224787363305,"Pathway",54
+"1208","Parkinsons Disease Pathway",0.273333333333333,"Pathway",42
+"1209","Pathogenic Escherichia coli infection",0.283323095823096,"Pathway",60
+"1210","Pausing and recovery of Tat-mediated HIV elongation",0.258983717012914,"Pathway",13
+"1211","PAX8",0.34116124260355,"Gene",85
+"1212","PCBD1",0.355902777777778,"Gene",95
+"1213","PCNA",0.295862732520847,"Gene",71
+"1214","PCP/CE pathway",0.286757848927572,"Pathway",64
+"1215","PD-1 signaling",0.263646756216062,"Pathway",20
+"1216","PDGF Pathway",0.278112752487187,"Pathway",51
+"1217","PDGFR-alpha signaling pathway",0.277027027027027,"Pathway",50
+"1218","PDGFR-beta signaling pathway",0.299415774099318,"Pathway",73
+"1219","PDIA5",0.342046718576196,"Gene",87
+"1220","PECAM1 interactions",0.274308652988403,"Pathway",45
+"1221","Pentose Phosphate Pathway",0.265010054582017,"Pathway",24
+"1222","Peptide chain elongation",0.268012783265543,"Pathway",30
+"1223","Peptide hormone metabolism",0.257897679619793,"Pathway",12
+"1224","Peptide ligand-binding receptors",0.269264448336252,"Pathway",33
+"1225","PER3",0.345505617977528,"Gene",90
+"1226","PF4",0.350760456273764,"Gene",93
+"1227","PFKL",0.359228971962617,"Gene",98
+"1228","PFN1",0.350760456273764,"Gene",93
+"1229","PGLS",0.358391608391608,"Gene",97
+"1230","Phase 1 - Functionalization of compounds",0.279460769463799,"Pathway",53
+"1231","Phase I biotransformations, non P450",0.194374209860936,"Pathway",1
+"1232","Phase II conjugation",0.273333333333333,"Pathway",42
+"1233","Phenylalanine and tyrosine catabolism",0.262521343198634,"Pathway",17
+"1234","PHIP",0.340154867256637,"Gene",80
+"1235","Phosphate bond hydrolysis by NUDT proteins",0.262521343198634,"Pathway",17
+"1236","Phospholipase C-mediated cascade",0.264478211009174,"Pathway",24
+"1237","Phospholipid metabolism",0.271243751837695,"Pathway",38
+"1238","Phosphorylation of CD3 and TCR zeta chains",0.256749234622878,"Pathway",10
+"1239","Phosphorylation of Emi1",0.267546403712297,"Pathway",28
+"1240","Phosphorylation of proteins involved in the G2/M transition by Cyclin A:Cdc2 complexes",0.223636363636364,"Pathway",2
+"1241","Phosphorylation of the APC/C",0.258693213684801,"Pathway",13
+"1242","PI-3K cascade",0.285074165636588,"Pathway",62
+"1243","PI Metabolism",0.268950437317784,"Pathway",32
+"1244","PI3K Cascade",0.279207021791768,"Pathway",53
+"1245","PI3K/AKT activation",0.285074165636588,"Pathway",62
+"1246","PIKFYVE",0.35645285935085,"Gene",96
+"1247","PIP4K2A",0.357142857142857,"Gene",96
+"1248","PIP5K1B",0.36563614744352,"Gene",100
+"1249","PKA activation in glucagon signalling",0.270527859237537,"Pathway",36
+"1250","PKB-mediated events",0.27292899408284,"Pathway",41
+"1251","PKIG",0.344088026855651,"Gene",89
+"1252","PLA2G15",0.340154867256637,"Gene",80
+"1253","Plasma membrane estrogen receptor signaling",0.28150747635032,"Pathway",55
+"1254","Platelet activation, signaling and aggregation",0.304757185332012,"Pathway",74
+"1255","Platelet Adhesion to exposed collagen",0.269185876860228,"Pathway",33
+"1256","Platelet Aggregation (Plug Formation)",0.285692164756891,"Pathway",63
+"1257","Platelet degranulation",0.28150747635032,"Pathway",55
+"1258","Platelet homeostasis",0.27611493564801,"Pathway",48
+"1259","Platelet sensitization by LDL",0.265314926660915,"Pathway",25
+"1260","PLC beta mediated events",0.270369284876905,"Pathway",36
+"1261","PLEKHM1",0.340154867256637,"Gene",80
+"1262","Plexin-D1 Signaling",0.2677793904209,"Pathway",29
+"1263","PLK1 signaling events",0.275455359808898,"Pathway",47
+"1264","PLP1",0.343575418994413,"Gene",89
+"1265","PLS1",0.340154867256637,"Gene",80
+"1266","PMM2",0.237512873326468,"Gene",6
+"1267","PNKP",0.34028033935817,"Gene",83
+"1268","PNP",0.356177606177606,"Gene",95
+"1269","PNPLA3",0.278196622436671,"Gene",51
+"1270","POLD4",0.347719562759141,"Gene",92
+"1271","POLR1D",0.346804511278196,"Gene",91
+"1272","Porphyrin metabolism",0.263571428571429,"Pathway",20
+"1273","Post-chaperonin tubulin folding pathway",0.268168604651163,"Pathway",31
+"1274","Post-Elongation Processing of Intron-Containing pre-mRNA",0.25639244024458,"Pathway",10
+"1275","Post-translational protein modification",0.273171453953213,"Pathway",42
+"1276","Posttranslational regulation of adherens junction stability and dissassembly",0.282110091743119,"Pathway",57
+"1277","PPAR Alpha Pathway",0.249459167117361,"Pathway",8
+"1278","PPARA activates gene expression",0.28150747635032,"Pathway",55
+"1279","PPARD",0.36105675146771,"Gene",98
+"1280","PPARGC1A",0.364768683274021,"Gene",99
+"1281","PPIB",0.34116124260355,"Gene",86
+"1282","PPM1G",0.34028033935817,"Gene",83
+"1283","PPP2R5E",0.356177606177606,"Gene",95
+"1284","PPP4C",0.340154867256637,"Gene",80
+"1285","PRC2 methylates histones and DNA",0.271243751837695,"Pathway",38
+"1286","PRCP",0.343191964285714,"Gene",88
+"1287","Pre-NOTCH Expression and Processing",0.262895411798233,"Pathway",19
+"1288","Pre-NOTCH Processing in Golgi",0.262820512820513,"Pathway",18
+"1289","Pre-NOTCH Processing in the Endoplasmic Reticulum",0.262820512820513,"Pathway",18
+"1290","Pre-NOTCH Transcription and Translation",0.262895411798233,"Pathway",19
+"1291","Prefoldin mediated transfer of substrate to CCT/TriC",0.268558951965066,"Pathway",32
+"1292","Preimplantation Embryo",0.267468831545375,"Pathway",28
+"1293","Presenilin action in Notch and Wnt signaling",0.281679389312977,"Pathway",55
+"1294","Presynaptic nicotinic acetylcholine receptors",0.263420902341519,"Pathway",20
+"1295","Presynaptic phase of homologous DNA pairing and strand exchange",0.25963974106389,"Pathway",14
+"1296","Primary Focal Segmental Glomerulosclerosis FSGS",0.288913247729408,"Pathway",66
+"1297","PRKAG2",0.367529880478088,"Gene",100
+"1298","PRKCQ",0.359228971962617,"Gene",98
+"1299","Processing of Capped Intron-Containing Pre-mRNA",0.276197604790419,"Pathway",48
+"1300","Processing of DNA double-strand break ends",0.25963974106389,"Pathway",14
+"1301","Processing of DNA ends prior to end rejoining",0.258403361344538,"Pathway",12
+"1302","Processive synthesis on the C-strand of the telomere",0.273171453953213,"Pathway",42
+"1303","Processive synthesis on the lagging strand",0.273171453953213,"Pathway",42
+"1304","PROCR",0.343319687383699,"Gene",89
+"1305","Prolactin receptor signaling",0.266695576756288,"Pathway",27
+"1306","Prolonged ERK activation events",0.266541462005201,"Pathway",26
+"1307","PROS1",0.348639455782313,"Gene",92
+"1308","Prostacyclin signalling through prostacyclin receptor",0.270527859237537,"Pathway",36
+"1309","Prostaglandin Synthesis and Regulation",0.269894675248683,"Pathway",34
+"1310","Proteasome Degradation",0.283497234173325,"Pathway",60
+"1311","Protein folding",0.26863715783343,"Pathway",32
+"1312","Proteoglycan syndecan-mediated signaling events",0.267624020887728,"Pathway",29
+"1313","PRPF18",0.34028033935817,"Gene",83
+"1314","PRUNE",0.340154867256637,"Gene",80
+"1315","PRUNE2",0.340154867256637,"Gene",80
+"1316","PSD4",0.340154867256637,"Gene",80
+"1317","PSMA7",0.375152501016673,"Gene",100
+"1318","PSMB2",0.375152501016673,"Gene",100
+"1319","PSMB6",0.375152501016673,"Gene",100
+"1320","PSMC3",0.375457875457875,"Gene",100
+"1321","PSME1",0.375152501016673,"Gene",100
+"1322","PSMG1",0.231958762886598,"Gene",5
+"1323","PTGS1",0.279122541603631,"Gene",52
+"1324","PTGS2",0.363475177304965,"Gene",99
+"1325","PTM: gamma carboxylation, hypusine formation and arylsulfatase activation",0.258548206278027,"Pathway",13
+"1326","PTPN6",0.35576552256074,"Gene",95
+"1327","PTPRK",0.34028033935817,"Gene",83
+"1328","PTPRO",0.340909090909091,"Gene",85
+"1329","PUF60",0.340154867256637,"Gene",80
+"1330","Purine catabolism",0.262895411798233,"Pathway",19
+"1331","Purine metabolism",0.263195435092725,"Pathway",19
+"1332","Purine ribonucleoside monophosphate biosynthesis",0.262670842824601,"Pathway",18
+"1333","Purine salvage",0.262745656508117,"Pathway",18
+"1334","PWP2",0.340154867256637,"Gene",80
+"1335","PYCR1",0.356040138942493,"Gene",95
+"1336","Pyrimidine biosynthesis",0.228228599703117,"Pathway",4
+"1337","Pyrimidine catabolism",0.262745656508117,"Pathway",18
+"1338","Pyrimidine metabolism",0.268480791618161,"Pathway",31
+"1339","Pyrimidine salvage reactions",0.263571428571429,"Pathway",20
+"1340","Pyruvate metabolism",0.271164021164021,"Pathway",38
+"1341","Pyruvate metabolism and Citric Acid (TCA) cycle",0.271563143950545,"Pathway",38
+"1342","Quercetin and Nf-kB/ AP-1 Induced Cell Apoptosis",0.269421728971963,"Pathway",33
+"1343","RAC1 signaling pathway",0.282455603184323,"Pathway",57
+"1344","Rac1/Pak1/p38/MMP-2 pathway",0.291285127881276,"Pathway",68
+"1345","RAI14",0.340154867256637,"Gene",80
+"1346","RalA downstream regulated genes",0.253992290748899,"Pathway",8
+"1347","RALB",0.350627137970353,"Gene",93
+"1348","RAN",0.362190812720848,"Gene",99
+"1349","RANKL/RANK Signaling Pathway",0.271963443396226,"Pathway",39
+"1350","RBM6",0.340154867256637,"Gene",80
+"1351","Receptor-ligand binding initiates the second proteolytic cleavage of Notch receptor",0.286224014892957,"Pathway",64
+"1352","RECK",0.340154867256637,"Gene",80
+"1353","Recycling of bile acids and salts",0.273252369668246,"Pathway",42
+"1354","Recycling pathway of L1",0.26432664756447,"Pathway",23
+"1355","Reelin signaling pathway",0.270925110132159,"Pathway",37
+"1356","Regulation of Actin Cytoskeleton",0.28498609823911,"Pathway",62
+"1357","Regulation of actin dynamics for phagocytic cup formation",0.28410840776101,"Pathway",61
+"1358","Regulation of activated PAK-2p34 by proteasome mediated degradation",0.282715292675452,"Pathway",59
+"1359","Regulation of AMPK activity via LKB1",0.268793706293706,"Pathway",32
+"1360","Regulation of Androgen receptor activity",0.279884708737864,"Pathway",53
+"1361","Regulation of APC/C activators between G1/S and early anaphase",0.286847014925373,"Pathway",65
+"1362","Regulation of Apoptosis",0.28306228904572,"Pathway",59
+"1363","Regulation of beta-cell development",0.262521343198634,"Pathway",17
+"1364","Regulation of CDC42 activity",0.271643109540636,"Pathway",38
+"1365","Regulation of cholesterol biosynthesis by SREBP (SREBF)",0.277027027027027,"Pathway",50
+"1366","Regulation of Complement cascade",0.258548206278027,"Pathway",13
+"1367","Regulation of cytoplasmic and nuclear SMAD2/3 signaling",0.255540166204986,"Pathway",9
+"1368","Regulation of cytoskeletal remodeling and cell spreading by IPP complex components",0.254132231404959,"Pathway",8
+"1369","Regulation of DNA replication",0.286847014925373,"Pathway",65
+"1370","regulation of FZD by ubiquitination",0.281937652811736,"Pathway",56
+"1371","Regulation of gap junction activity",0.213937847866419,"Pathway",1
+"1372","Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells",0.262521343198634,"Pathway",17
+"1373","Regulation of Glucokinase by Glucokinase Regulatory Protein",0.24818401937046,"Pathway",7
+"1374","Regulation of HSF1-mediated heat shock response",0.26387299771167,"Pathway",21
+"1375","Regulation of IFNA signaling",0.262446657183499,"Pathway",17
+"1376","Regulation of IFNG signaling",0.262446657183499,"Pathway",17
+"1377","Regulation of innate immune responses to cytosolic DNA",0.281937652811736,"Pathway",56
+"1378","Regulation of insulin secretion",0.279460769463799,"Pathway",53
+"1379","Regulation of KIT signaling",0.275208830548926,"Pathway",47
+"1380","Regulation of lipid metabolism by Peroxisome proliferator-activated receptor alpha (PPARalpha)",0.28150747635032,"Pathway",55
+"1381","Regulation of mRNA stability by proteins that bind AU-rich elements",0.285603715170279,"Pathway",63
+"1382","Regulation of nuclear beta catenin signaling and target gene transcription",0.28073645769933,"Pathway",54
+"1383","Regulation of nuclear SMAD2/3 signaling",0.291838025941158,"Pathway",69
+"1384","Regulation of ornithine decarboxylase (ODC)",0.274717093508041,"Pathway",46
+"1385","Regulation of p38-alpha and p38-beta",0.273820124666073,"Pathway",43
+"1386","Regulation of PLK1 Activity at G2/M Transition",0.288191190253046,"Pathway",66
+"1387","Regulation of pyruvate dehydrogenase (PDH) complex",0.270845566647093,"Pathway",37
+"1388","Regulation of RAC1 activity",0.26387299771167,"Pathway",21
+"1389","Regulation of retinoblastoma protein",0.275290957923008,"Pathway",47
+"1390","Regulation of Rheb GTPase activity by AMPK",0.268793706293706,"Pathway",32
+"1391","Regulation of RhoA activity",0.26387299771167,"Pathway",21
+"1392","Regulation of signaling by CBL",0.275044722719141,"Pathway",46
+"1393","Regulation of Telomerase",0.285250463821892,"Pathway",63
+"1394","Regulation of the Fanconi anemia pathway",0.281937652811736,"Pathway",56
+"1395","Regulation of toll-like receptor signaling pathway",0.274064171122995,"Pathway",44
+"1396","Regulatory RNA pathways",0.276694661067786,"Pathway",49
+"1397","Release of apoptotic factors from the mitochondria",0.266772700983227,"Pathway",27
+"1398","Removal of aminoterminal propeptides from gamma-carboxylated proteins",0.258548206278027,"Pathway",13
+"1399","Removal of DNA patch containing abasic residue",0.271963443396226,"Pathway",39
+"1400","Removal of licensing factors from origins",0.286579683131407,"Pathway",64
+"1401","Removal of the Flap Intermediate",0.271164021164021,"Pathway",38
+"1402","Removal of the Flap Intermediate from the C-strand",0.271164021164021,"Pathway",38
+"1403","Repair synthesis for gap-filling by DNA polymerase in TC-NER",0.271164021164021,"Pathway",38
+"1404","Resolution of AP sites via the single-nucleotide replacement pathway",0.259347764970481,"Pathway",14
+"1405","Resolution of D-loop structures",0.269973661106234,"Pathway",34
+"1406","Resolution of Sister Chromatid Cohesion",0.278448536070027,"Pathway",51
+"1407","Respiratory electron transport",0.273495404684257,"Pathway",43
+"1408","Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.",0.273495404684257,"Pathway",43
+"1409","Response to elevated platelet cytosolic Ca2+",0.28150747635032,"Pathway",55
+"1410","Retinoblastoma (RB) in Cancer",0.28613523573201,"Pathway",64
+"1411","Retinoic acid receptors-mediated signaling",0.27284826974268,"Pathway",41
+"1412","Retinoid metabolism and transport",0.271723122238586,"Pathway",38
+"1413","Retrograde neurotrophin signalling",0.264024041213509,"Pathway",22
+"1414","REV-ERBA represses gene expression",0.271803182086034,"Pathway",38
+"1415","Rev-mediated nuclear export of HIV RNA",0.27292899408284,"Pathway",41
+"1416","REV3L",0.340154867256637,"Gene",80
+"1417","RGS2",0.349696739954511,"Gene",93
+"1418","Rho GTPase cycle",0.263948497854077,"Pathway",21
+"1419","RhoA signaling pathway",0.2677793904209,"Pathway",29
+"1420","RHOT2",0.34758854559156,"Gene",92
+"1421","Ribosomal scanning and start codon recognition",0.268168604651163,"Pathway",31
+"1422","RIG-I/MDA5 mediated induction of IFN-alpha/beta pathways",0.286847014925373,"Pathway",65
+"1423","RIN3",0.340154867256637,"Gene",80
+"1424","RIP-mediated NFkB activation via ZBP1",0.267158992180712,"Pathway",28
+"1425","RMI1",0.34028033935817,"Gene",84
+"1426","RMTs methylate histone arginines",0.264099627827083,"Pathway",22
+"1427","RNA Pol II CTD phosphorylation and interaction with CE",0.261035653650255,"Pathway",15
+"1428","RNA Polymerase I Chain Elongation",0.267546403712297,"Pathway",28
+"1429","RNA Polymerase I Promoter Clearance",0.276445909499551,"Pathway",49
+"1430","RNA Polymerase I Promoter Escape",0.261925042589438,"Pathway",16
+"1431","RNA Polymerase I Promoter Opening",0.263722126929674,"Pathway",21
+"1432","RNA Polymerase I Transcription",0.276445909499551,"Pathway",49
+"1433","RNA Polymerase I Transcription Initiation",0.273657668347671,"Pathway",43
+"1434","RNA Polymerase I Transcription Termination",0.261925042589438,"Pathway",16
+"1435","RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription",0.276445909499551,"Pathway",49
+"1436","RNA Polymerase II Pre-transcription Events",0.262297412567529,"Pathway",16
+"1437","RNA Polymerase II Transcription",0.26312036508842,"Pathway",19
+"1438","RNA Polymerase III Abortive And Retractive Initiation",0.257537688442211,"Pathway",11
+"1439","RNA Polymerase III Chain Elongation",0.257537688442211,"Pathway",11
+"1440","RNA Polymerase III Transcription Initiation",0.257537688442211,"Pathway",11
+"1441","RNA Polymerase III Transcription Initiation From Type 1 Promoter",0.257537688442211,"Pathway",11
+"1442","RNA Polymerase III Transcription Initiation From Type 2 Promoter",0.257537688442211,"Pathway",11
+"1443","RNA Polymerase III Transcription Initiation From Type 3 Promoter",0.257537688442211,"Pathway",11
+"1444","RNA Polymerase III Transcription Termination",0.257537688442211,"Pathway",11
+"1445","RNF mutants show enhanced WNT signaling and proliferation",0.296337937680694,"Pathway",71
+"1446","RNPS1",0.344730941704036,"Gene",90
+"1447","Role of Calcineurin-dependent NFAT signaling in lymphocytes",0.278112752487187,"Pathway",51
+"1448","Role of DCC in regulating apoptosis",0.254202259575641,"Pathway",8
+"1449","Role of LAT2/NTAL/LAB on calcium mobilization",0.290825977301387,"Pathway",68
+"1450","Role of phospholipids in phagocytosis",0.262820512820513,"Pathway",18
+"1451","RORA activates circadian gene expression",0.271803182086034,"Pathway",39
+"1452","RPA3",0.350627137970353,"Gene",93
+"1453","RPN1",0.345117845117845,"Gene",90
+"1454","RPS4Y1",0.289912005028284,"Gene",67
+"1455","RPS6",0.358113354037267,"Gene",97
+"1456","RPS6KC1",0.340154867256637,"Gene",81
+"1457","RRAGD",0.340657311669128,"Gene",84
+"1458","RRP1B",0.231958762886598,"Gene",5
+"1459","RRP8",0.343575418994413,"Gene",89
+"1460","RSU1",0.340657311669128,"Gene",84
+"1461","RUVBL1",0.353719325153374,"Gene",94
+"1462","RXR and RAR heterodimerization with other nuclear receptor",0.274880810488677,"Pathway",46
+"1463","S Phase",0.300488599348534,"Pathway",73
+"1464","S100A4",0.340154867256637,"Gene",81
+"1465","S1P1 pathway",0.27284826974268,"Pathway",41
+"1466","S1P2 pathway",0.275702331141662,"Pathway",48
+"1467","S1P3 pathway",0.270369284876905,"Pathway",36
+"1468","S1P4 pathway",0.270369284876905,"Pathway",36
+"1469","S1P5 pathway",0.270369284876905,"Pathway",36
+"1470","S6K1-mediated signalling",0.263722126929674,"Pathway",21
+"1471","S6K1 signalling",0.263722126929674,"Pathway",21
+"1472","SATB1",0.340657311669128,"Gene",84
+"1473","SC5D",0.274308652988403,"Gene",45
+"1474","SCAPER",0.340154867256637,"Gene",81
+"1475","Scavenging by Class F Receptors",0.272686964232929,"Pathway",40
+"1476","Scavenging of heme from plasma",0.229420542153693,"Pathway",4
+"1477","SCD",0.250679347826087,"Gene",8
+"1478","SCF-beta-TrCP mediated degradation of Emi1",0.284810126582278,"Pathway",62
+"1479","SCF(Skp2)-mediated degradation of p27/p21",0.285780669144981,"Pathway",63
+"1480","SCN1B",0.341035120147874,"Gene",85
+"1481","SCYL3",0.340154867256637,"Gene",81
+"1482","SDC1",0.365346534653465,"Gene",99
+"1483","SDCBP",0.342936802973978,"Gene",88
+"1484","SDHB",0.367969684882329,"Gene",100
+"1485","Secretion of Hydrochloric Acid in Parietal Cells",0.228285077951002,"Pathway",4
+"1486","Selenium Metabolism and Selenoproteins",0.264402407566638,"Pathway",23
+"1487","Selenium Micronutrient Network",0.279376135675348,"Pathway",53
+"1488","SEMA3A-Plexin repulsion signaling by inhibiting Integrin adhesion",0.269185876860228,"Pathway",33
+"1489","Sema3A PAK dependent Axon repulsion",0.283149171270718,"Pathway",59
+"1490","Semaphorin interactions",0.283323095823096,"Pathway",60
+"1491","Senescence-Associated Secretory Phenotype (SASP)",0.292115262824573,"Pathway",69
+"1492","Senescence and Autophagy in Cancer",0.284020935960591,"Pathway",60
+"1493","Separation of Sister Chromatids",0.292300380228137,"Pathway",69
+"1494","SEPHS2",0.341540170307294,"Gene",86
+"1495","Serotonin Receptor 2 and ELK-SRF/GATA4 signaling",0.228737912224151,"Pathway",4
+"1496","Serotonin Receptor 2 and STAT3 Signaling",0.228681209717402,"Pathway",4
+"1497","Serotonin Receptor 4/6/7 and NR3C Signaling",0.27636309167166,"Pathway",48
+"1498","Serotonin receptors",0.229021847070506,"Pathway",4
+"1499","Serotonin Transporter Activity",0.272686964232929,"Pathway",40
+"1500","SERPINA3",0.341666666666667,"Gene",86
+"1501","SESN1",0.342046718576196,"Gene",87
+"1502","SGMS1",0.357004643962848,"Gene",96
+"1503","SHC-mediated cascade",0.277193509615385,"Pathway",50
+"1504","SHC-mediated signalling",0.274308652988403,"Pathway",45
+"1505","SHC-related events",0.274308652988403,"Pathway",45
+"1506","SHC-related events triggered by IGF1R",0.274308652988403,"Pathway",45
+"1507","SHC activation",0.274308652988403,"Pathway",45
+"1508","SHC1",0.377918885702581,"Gene",100
+"1509","SHC1 events in EGFR signaling",0.274308652988403,"Pathway",45
+"1510","SHC1 events in ERBB2 signaling",0.275619958171497,"Pathway",47
+"1511","SHC1 events in ERBB4 signaling",0.274308652988403,"Pathway",45
+"1512","SHP2 signaling",0.274308652988403,"Pathway",45
+"1513","SIDS Susceptibility Pathways",0.287741734248284,"Pathway",65
+"1514","Signal amplification",0.270369284876905,"Pathway",36
+"1515","Signal attenuation",0.277027027027027,"Pathway",50
+"1516","Signal regulatory protein (SIRP) family interactions",0.262446657183499,"Pathway",17
+"1517","Signal transduction by L1",0.26957919345412,"Pathway",34
+"1518","Signal Transduction of S1P Receptor",0.270369284876905,"Pathway",36
+"1519","Signaling by Activin",0.258330999719966,"Pathway",12
+"1520","Signaling by Aurora kinases",0.257107023411371,"Pathway",11
+"1521","Signaling by constitutively active EGFR",0.296814671814672,"Pathway",72
+"1522","Signaling by EGFR",0.307807807807808,"Pathway",74
+"1523","Signaling by EGFR in Cancer",0.311444969615125,"Pathway",75
+"1524","Signaling by ERBB2",0.310188298587761,"Pathway",74
+"1525","Signaling by ERBB4",0.309563758389262,"Pathway",74
+"1526","Signaling by FGFR",0.304857898215466,"Pathway",74
+"1527","Signaling by FGFR in disease",0.30688622754491,"Pathway",74
+"1528","Signaling by FGFR mutants",0.269894675248683,"Pathway",34
+"1529","Signaling by FGFR1 fusion mutants",0.266541462005201,"Pathway",26
+"1530","Signaling by FGFR1 mutants",0.269894675248683,"Pathway",34
+"1531","Signaling by GPCR",0.297868905392315,"Pathway",73
+"1532","Signaling by Hedgehog",0.2864017385905,"Pathway",64
+"1533","Signaling by Hippo",0.258330999719966,"Pathway",12
+"1534","Signaling by Insulin receptor",0.290276903713027,"Pathway",67
+"1535","Signaling by Interleukins",0.292578496669838,"Pathway",69
+"1536","Signaling by Leptin",0.266541462005201,"Pathway",27
+"1537","Signaling by NGF",0.316683831101957,"Pathway",75
+"1538","Signaling by NODAL",0.264933946008041,"Pathway",24
+"1539","Signaling by NOTCH",0.296433161953727,"Pathway",72
+"1540","Signaling by NOTCH2",0.28498609823911,"Pathway",62
+"1541","Signaling by NOTCH3",0.261627906976744,"Pathway",16
+"1542","Signaling by NOTCH4",0.261627906976744,"Pathway",16
+"1543","Signaling by PDGF",0.291469194312796,"Pathway",68
+"1544","Signaling by Robo receptor",0.268090671316478,"Pathway",30
+"1545","Signaling by SCF-KIT",0.289275634995296,"Pathway",66
+"1546","Signaling by VEGF",0.292022792022792,"Pathway",69
+"1547","Signaling by Wnt",0.300097592713077,"Pathway",73
+"1548","Signaling by WNT in cancer",0.296337937680694,"Pathway",71
+"1549","Signaling events mediated by focal adhesion kinase",0.279291553133515,"Pathway",53
+"1550","Signaling events mediated by HDAC Class I",0.274635308127419,"Pathway",46
+"1551","Signaling events mediated by HDAC Class II",0.278280542986425,"Pathway",51
+"1552","Signaling events mediated by HDAC Class III",0.281851512373969,"Pathway",56
+"1553","Signaling events mediated by Hepatocyte Growth Factor Receptor (c-Met)",0.284371146732429,"Pathway",61
+"1554","Signaling events mediated by PRL",0.272445363260484,"Pathway",40
+"1555","Signaling events mediated by PTP1B",0.286757848927572,"Pathway",64
+"1556","Signaling events mediated by Stem cell factor receptor (c-Kit)",0.28613523573201,"Pathway",64
+"1557","Signaling events mediated by TCPTP",0.278028933092224,"Pathway",51
+"1558","Signaling events mediated by VEGFR1 and VEGFR2",0.285869228385497,"Pathway",63
+"1559","Signaling events regulated by Ret tyrosine kinase",0.277276825969342,"Pathway",50
+"1560","Signaling mediated by p38-alpha and p38-beta",0.275373134328358,"Pathway",47
+"1561","Signaling of Hepatocyte Growth Factor Receptor",0.269264448336252,"Pathway",33
+"1562","Signaling Pathways",0.370481927710843,"Pathway",100
+"1563","Signaling Pathways in Glioblastoma",0.26957919345412,"Pathway",34
+"1564","Signalling to ERKs",0.277360192423331,"Pathway",50
+"1565","Signalling to RAS",0.274717093508041,"Pathway",46
+"1566","SIK3",0.341035120147874,"Gene",85
+"1567","SIPA1L1",0.340154867256637,"Gene",81
+"1568","SIRT1 negatively regulates rRNA Expression",0.264175257731959,"Pathway",22
+"1569","SLC-mediated transmembrane transport",0.279460769463799,"Pathway",53
+"1570","SLC19A2",0.358391608391608,"Gene",97
+"1571","SLC22A1",0.276694661067786,"Gene",49
+"1572","SLC22A3",0.274798927613941,"Gene",46
+"1573","SLC22A4",0.249122333243316,"Gene",7
+"1574","SLC22A5",0.249122333243316,"Gene",8
+"1575","SLC25A4",0.307705136757839,"Gene",74
+"1576","SLC25A6",0.360492379835873,"Gene",98
+"1577","SLC2A6",0.346934937946596,"Gene",91
+"1578","SLC35F2",0.231958762886598,"Gene",5
+"1579","SLC38A1",0.346543951915853,"Gene",91
+"1580","SLC43A3",0.340154867256637,"Gene",81
+"1581","SLC6A2",0.27963019096696,"Gene",53
+"1582","SLC6A3",0.265162402989365,"Gene",25
+"1583","SLC6A4",0.265391254315305,"Gene",25
+"1584","SLC6A6",0.347457627118644,"Gene",91
+"1585","SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription",0.289912005028284,"Pathway",67
+"1586","SMARCA2",0.343319687383699,"Gene",89
+"1587","SMCHD1",0.340154867256637,"Gene",81
+"1588","Smooth Muscle Contraction",0.255540166204986,"Pathway",10
+"1589","SNRPA",0.343575418994413,"Gene",89
+"1590","SNRPA1",0.343575418994413,"Gene",89
+"1591","SNRPD2",0.343959731543624,"Gene",89
+"1592","SNX19",0.340154867256637,"Gene",81
+"1593","SNX6",0.340154867256637,"Gene",81
+"1594","SOCS5",0.341035120147874,"Gene",85
+"1595","SON",0.340154867256637,"Gene",81
+"1596","SOX10",0.341413767579571,"Gene",86
+"1597","SPG11",0.340154867256637,"Gene",81
+"1598","Sphingolipid de novo biosynthesis",0.263270547945205,"Pathway",19
+"1599","Sphingolipid metabolism",0.264554057929452,"Pathway",24
+"1600","Sphingolipid Metabolism",0.264402407566638,"Pathway",23
+"1601","Sphingosine 1-phosphate (S1P) pathway",0.270369284876905,"Pathway",36
+"1602","Spinal Cord Injury",0.289638932496075,"Pathway",67
+"1603","SPR",0.355902777777778,"Gene",95
+"1604","Spry regulation of FGF signaling",0.281937652811736,"Pathway",56
+"1605","SPTLC2",0.356177606177606,"Gene",95
+"1606","SQLE",0.274553571428571,"Gene",45
+"1607","SQSTM1",0.354944209311274,"Gene",94
+"1608","SREBF and miR33 in cholesterol and lipid homeostasis",0.273657668347671,"Pathway",43
+"1609","SREBF2",0.290094339622642,"Gene",67
+"1610","SREBP signalling",0.276445909499551,"Pathway",49
+"1611","SRP-dependent cotranslational protein targeting to membrane",0.268324607329843,"Pathway",31
+"1612","SS18L1",0.340154867256637,"Gene",81
+"1613","ST7",0.340154867256637,"Gene",81
+"1614","Stabilization and expansion of the E-cadherin adherens junction",0.25920202304018,"Pathway",14
+"1615","Stabilization of p53",0.282715292675452,"Pathway",59
+"1616","STAM2",0.352637614678899,"Gene",94
+"1617","STAT5A",0.362617924528302,"Gene",99
+"1618","STAT5B",0.360210855134713,"Gene",98
+"1619","Statin Pathway",0.271004700352526,"Pathway",37
+"1620","Steroid Biosynthesis",0.21518544436669,"Pathway",2
+"1621","Stimuli-sensing channels",0.281937652811736,"Pathway",57
+"1622","STING mediated induction of host immune responses",0.258403361344538,"Pathway",12
+"1623","STOML2",0.340154867256637,"Gene",81
+"1624","Structural Pathway of Interleukin 1 (IL-1)",0.263571428571429,"Pathway",20
+"1625","STUB1",0.365781126090404,"Gene",100
+"1626","STXBP1",0.364336492890995,"Gene",99
+"1627","Sulfation Biotransformation Reaction",0.264705882352941,"Pathway",24
+"1628","Sulfur amino acid metabolism",0.265238642898217,"Pathway",25
+"1629","Sulindac Metabolic Pathway",0.225770925110132,"Pathway",3
+"1630","Sumoylation by RanBP2 regulates transcriptional repression",0.265926780051888,"Pathway",26
+"1631","SUV39H1",0.346674182638106,"Gene",91
+"1632","SUZ12",0.344602166604408,"Gene",90
+"1633","SVIL",0.34028033935817,"Gene",84
+"1634","SYK",0.35645285935085,"Gene",96
+"1635","Synaptic Vesicle Pathway",0.277276825969342,"Pathway",50
+"1636","Syndecan-1-mediated signaling events",0.271403353927626,"Pathway",38
+"1637","Syndecan-2-mediated signaling events",0.263646756216062,"Pathway",20
+"1638","Syndecan-3-mediated signaling events",0.269185876860228,"Pathway",33
+"1639","Syndecan-4-mediated signaling events",0.262670842824601,"Pathway",18
+"1640","Syndecan interactions",0.272686964232929,"Pathway",41
+"1641","SYNGR3",0.340154867256637,"Gene",81
+"1642","SYNJ1",0.358949416342412,"Gene",97
+"1643","SYNJ2BP",0.340154867256637,"Gene",81
+"1644","Synthesis and interconversion of nucleotide di- and triphosphates",0.265620501007774,"Pathway",26
+"1645","Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)",0.226491529585072,"Pathway",3
+"1646","Synthesis of 15-eicosatetraenoic acid derivatives",0.266618497109827,"Pathway",27
+"1647","Synthesis of bile acids and bile salts",0.268480791618161,"Pathway",31
+"1648","Synthesis of bile acids and bile salts via 27-hydroxycholesterol",0.268480791618161,"Pathway",31
+"1649","Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol",0.268480791618161,"Pathway",31
+"1650","Synthesis of DNA",0.291469194312796,"Pathway",68
+"1651","Synthesis of Dolichyl-phosphate",0.222664735698769,"Pathway",2
+"1652","Synthesis of epoxy (EET) and dihydroxyeicosatrienoic acids (DHET)",0.226491529585072,"Pathway",3
+"1653","Synthesis of GDP-mannose",0.191947565543071,"Pathway",1
+"1654","Synthesis of IP2, IP, and Ins in the cytosol",0.26432664756447,"Pathway",23
+"1655","Synthesis of IP3 and IP4 in the cytosol",0.264175257731959,"Pathway",22
+"1656","Synthesis of PIPs at the early endosome membrane",0.26312036508842,"Pathway",19
+"1657","Synthesis of PIPs at the Golgi membrane",0.262820512820513,"Pathway",18
+"1658","Synthesis of PIPs at the late endosome membrane",0.262820512820513,"Pathway",19
+"1659","Synthesis of PIPs at the plasma membrane",0.268715409263035,"Pathway",32
+"1660","Synthesis of Prostaglandins (PG) and Thromboxanes (TX)",0.269815735595203,"Pathway",34
+"1661","Synthesis of substrates in N-glycan biosythesis",0.224890297415895,"Pathway",3
+"1662","Synthesis of very long-chain fatty acyl-CoAs",0.215386411393883,"Pathway",2
+"1663","T-Cell Receptor and Co-stimulatory Signaling",0.271883289124668,"Pathway",39
+"1664","TAB2",0.355628373168851,"Gene",94
+"1665","TAF4",0.346543951915853,"Gene",91
+"1666","TAK1 activates NFkB by phosphorylation and activation of IKKs complex",0.270210896309315,"Pathway",35
+"1667","Tamoxifen metabolism",0.228624535315985,"Pathway",4
+"1668","TarBasePathway",0.213937847866419,"Pathway",1
+"1669","TATDN2",0.342046718576196,"Gene",87
+"1670","TBC1D19",0.340154867256637,"Gene",81
+"1671","TBX2",0.340531561461794,"Gene",84
+"1672","TCA Cycle",0.269736842105263,"Pathway",34
+"1673","TCA Cycle and PDHc",0.219173200285103,"Pathway",2
+"1674","TCEB2",0.349431818181818,"Gene",92
+"1675","TCF dependent signaling in response to WNT",0.296337937680694,"Pathway",71
+"1676","TCR signaling",0.274471883368045,"Pathway",45
+"1677","TCR signaling in naïve CD4+ T cells",0.285074165636588,"Pathway",62
+"1678","TCR signaling in naïve CD8+ T cells",0.284371146732429,"Pathway",61
+"1679","TCR Signaling Pathway",0.288913247729408,"Pathway",66
+"1680","TCTA",0.340154867256637,"Gene",81
+"1681","TECPR2",0.340154867256637,"Gene",82
+"1682","Telomere C-strand (Lagging Strand) Synthesis",0.273171453953213,"Pathway",42
+"1683","Telomere Extension By Telomerase",0.261331444759207,"Pathway",16
+"1684","Telomere Maintenance",0.277777777777778,"Pathway",51
+"1685","Termination of O-glycan biosynthesis",0.254975124378109,"Pathway",9
+"1686","Tetrahydrobiopterin (BH4) synthesis, recycling, salvage and regulation",0.272767593140154,"Pathway",41
+"1687","TFEB",0.340154867256637,"Gene",82
+"1688","TGF-beta receptor signaling",0.277527075812274,"Pathway",50
+"1689","TGF-beta Receptor Signaling",0.254412575841147,"Pathway",9
+"1690","TGF-beta receptor signaling activates SMADs",0.283584383645865,"Pathway",60
+"1691","TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)",0.28236914600551,"Pathway",57
+"1692","TGF-beta Signaling Pathway",0.293416030534351,"Pathway",70
+"1693","THAP11",0.340154867256637,"Gene",82
+"1694","The citric acid (TCA) cycle and respiratory electron transport",0.27611493564801,"Pathway",48
+"1695","The NLRP1 inflammasome",0.261479591836735,"Pathway",16
+"1696","The NLRP3 inflammasome",0.264629948364888,"Pathway",24
+"1697","The phototransduction cascade",0.26432664756447,"Pathway",23
+"1698","The role of Nef in HIV-1 replication and disease pathogenesis",0.272364924712135,"Pathway",40
+"1699","Thromboxane A2 receptor signaling",0.284722222222222,"Pathway",62
+"1700","Tie2 Signaling",0.274880810488677,"Pathway",46
+"1701","Tight junction interactions",0.259712837837838,"Pathway",14
+"1702","TIMELESS",0.343319687383699,"Gene",89
+"1703","TIMM22",0.341793256761764,"Gene",86
+"1704","TIMM9",0.253434065934066,"Gene",8
+"1705","TIMP1",0.260152284263959,"Gene",15
+"1706","TJP2",0.348244620611552,"Gene",92
+"1707","TK1",0.357835531419705,"Gene",96
+"1708","TKT",0.358670295489891,"Gene",97
+"1709","TM9SF3",0.241176470588235,"Gene",6
+"1710","TMEM109",0.340154867256637,"Gene",82
+"1711","TMEM50A",0.340154867256637,"Gene",82
+"1712","TMEM97",0.340154867256637,"Gene",82
+"1713","TMSB10",0.340154867256637,"Gene",82
+"1714","TNF alpha Signaling Pathway",0.28236914600551,"Pathway",57
+"1715","TNF receptor signaling pathway ",0.264933946008041,"Pathway",24
+"1716","Toll-like Receptor Signaling Pathway",0.267391304347826,"Pathway",28
+"1717","Toll-Like Receptors Cascades",0.291745730550285,"Pathway",69
+"1718","Toll Like Receptor 4 (TLR4) Cascade",0.29073432083202,"Pathway",68
+"1719","Toll Like Receptor 9 (TLR9) Cascade",0.289366373902133,"Pathway",67
+"1720","TOR Signaling",0.271723122238586,"Pathway",38
+"1721","TP53 Network",0.279460769463799,"Pathway",53
+"1722","TPI1",0.359089139743091,"Gene",97
+"1723","TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation",0.289366373902133,"Pathway",67
+"1724","TRAF6 Mediated Induction of proinflammatory cytokines",0.289366373902133,"Pathway",67
+"1725","TRAF6 mediated induction of TAK1 complex",0.284546576187539,"Pathway",61
+"1726","TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling",0.261925042589438,"Pathway",16
+"1727","TRAF6 mediated NF-kB activation",0.267158992180712,"Pathway",28
+"1728","Trafficking and processing of endosomal TLR",0.256677796327212,"Pathway",10
+"1729","Trafficking of GluR2-containing AMPA receptors",0.264024041213509,"Pathway",22
+"1730","Trans-sulfuration and one carbon metabolism",0.269973661106234,"Pathway",35
+"1731","Transcription",0.278532608695652,"Pathway",51
+"1732","Transcription-coupled NER (TC-NER)",0.27611493564801,"Pathway",48
+"1733","Transcription factor regulation in adipogenesis",0.272606382978723,"Pathway",40
+"1734","Transcription of the HIV genome",0.262297412567529,"Pathway",17
+"1735","Transcriptional activation by NRF2",0.270448548812665,"Pathway",36
+"1736","Transcriptional activation of mitochondrial biogenesis",0.273982773982774,"Pathway",43
+"1737","Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer",0.289912005028284,"Pathway",67
+"1738","Transcriptional regulation by small RNAs",0.276694661067786,"Pathway",49
+"1739","Transcriptional regulation of white adipocyte differentiation",0.277945164206086,"Pathway",51
+"1740","Transferrin endocytosis and recycling",0.230049875311721,"Pathway",5
+"1741","Translation",0.271084337349398,"Pathway",37
+"1742","Translation Factors",0.262820512820513,"Pathway",19
+"1743","Translation initiation complex formation",0.268168604651163,"Pathway",31
+"1744","Translocation of GLUT4 to the plasma membrane",0.268872048965316,"Pathway",32
+"1745","Translocation of ZAP-70 to Immunological synapse",0.256749234622878,"Pathway",10
+"1746","Transmembrane transport of small molecules",0.305970149253731,"Pathway",74
+"1747","Transmission across Chemical Synapses",0.282023845918679,"Pathway",57
+"1748","Transport of connexons to the plasma membrane",0.213937847866419,"Pathway",1
+"1749","Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",0.258548206278027,"Pathway",13
+"1750","Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds",0.273495404684257,"Pathway",43
+"1751","Transport of inorganic cations/anions and amino acids/oligopeptides",0.258403361344538,"Pathway",12
+"1752","Transport of Mature mRNA derived from an Intron-Containing Transcript",0.272606382978723,"Pathway",40
+"1753","Transport of Mature mRNA Derived from an Intronless Transcript",0.24818401937046,"Pathway",7
+"1754","Transport of Mature mRNAs Derived from Intronless Transcripts",0.24818401937046,"Pathway",7
+"1755","Transport of Mature Transcript to Cytoplasm",0.272606382978723,"Pathway",40
+"1756","Transport of organic anions",0.229420542153693,"Pathway",4
+"1757","Transport of Ribonucleoproteins into the Host Nucleus",0.24818401937046,"Pathway",7
+"1758","Transport of the SLBP Dependant Mature mRNA",0.24818401937046,"Pathway",7
+"1759","Transport of the SLBP independent Mature mRNA",0.24818401937046,"Pathway",7
+"1760","Transport of vitamins, nucleosides, and related molecules",0.229420542153693,"Pathway",4
+"1761","TRAP1",0.341287458379578,"Gene",86
+"1762","TRAPPC10",0.340154867256637,"Gene",82
+"1763","TRAPPC2L",0.340154867256637,"Gene",82
+"1764","TRAPPC3",0.340154867256637,"Gene",82
+"1765","Triacylglyceride Synthesis",0.267624020887728,"Pathway",29
+"1766","TRIB3",0.322439706396365,"Gene",75
+"1767","Triglyceride Biosynthesis",0.267468831545375,"Pathway",28
+"1768","Trk receptor signaling mediated by PI3K and PLC-gamma",0.28125,"Pathway",55
+"1769","Trk receptor signaling mediated by the MAPK pathway",0.262521343198634,"Pathway",17
+"1770","TRMT112",0.340154867256637,"Gene",82
+"1771","tRNA Aminoacylation",0.265162402989365,"Pathway",25
+"1772","Tryptophan metabolism",0.226769911504425,"Pathway",3
+"1773","TSEN2",0.340154867256637,"Gene",82
+"1774","TSH signaling pathway",0.29073432083202,"Pathway",68
+"1775","TSLP Signaling Pathway",0.295389048991354,"Pathway",71
+"1776","TSPAN4",0.359929769801014,"Gene",98
+"1777","TSR3",0.340154867256637,"Gene",82
+"1778","TUBA1A",0.34758854559156,"Gene",92
+"1779","TUBB6",0.275290957923008,"Gene",47
+"1780","TUFM",0.340783154783894,"Gene",85
+"1781","TWEAK Signaling Pathway",0.260961810466761,"Pathway",15
+"1782","TXNDC9",0.231958762886598,"Gene",5
+"1783","TXNRD1",0.359228971962617,"Gene",98
+"1784","TYMS",0.295673076923077,"Gene",71
+"1785","Type I hemidesmosome assembly",0.256677796327212,"Pathway",10
+"1786","Type II diabetes mellitus",0.262895411798233,"Pathway",19
+"1787","Type II interferon signaling (IFNG)",0.258765778401122,"Pathway",13
+"1788","U12 Dependent Splicing",0.255965593784684,"Pathway",10
+"1789","UBC",0.392553191489362,"Gene",100
+"1790","UBE2C",0.348903177004539,"Gene",92
+"1791","Ubiquitin-dependent degradation of Cyclin D",0.282715292675452,"Pathway",59
+"1792","Ubiquitin Mediated Degradation of Phosphorylated Cdc25A",0.282715292675452,"Pathway",59
+"1793","UBL5",0.340154867256637,"Gene",82
+"1794","UBR2",0.342809364548495,"Gene",88
+"1795","Unfolded Protein Response (UPR)",0.27895373450257,"Pathway",52
+"1796","Unwinding of DNA",0.257969798657718,"Pathway",12
+"1797","UQCRQ",0.356177606177606,"Gene",96
+"1798","Urea cycle and metabolism of amino groups",0.262596071733561,"Pathway",18
+"1799","Urokinase-type plasminogen activator (uPA) and uPAR-mediated signaling",0.270527859237537,"Pathway",36
+"1800","USP22",0.235391681551416,"Gene",6
+"1801","USP6NL",0.343191964285714,"Gene",88
+"1802","UXS1",0.340154867256637,"Gene",82
+"1803","Validated nuclear estrogen receptor alpha network",0.291101293783528,"Pathway",68
+"1804","Validated nuclear estrogen receptor beta network",0.268480791618161,"Pathway",31
+"1805","Validated targets of C-MYC transcriptional activation",0.286847014925373,"Pathway",65
+"1806","Validated targets of C-MYC transcriptional repression",0.282455603184323,"Pathway",58
+"1807","Validated transcriptional targets of AP1 family members Fra1 and Fra2",0.275126752162243,"Pathway",47
+"1808","Validated transcriptional targets of deltaNp63 isoforms",0.262521343198634,"Pathway",18
+"1809","Validated transcriptional targets of TAp63 isoforms",0.267857142857143,"Pathway",29
+"1810","VAMP4",0.340154867256637,"Gene",82
+"1811","Varenicline",0.51536312849162,"Compound",100
+"1812","Vasopressin regulates renal water homeostasis via Aquaporins",0.270527859237537,"Pathway",36
+"1813","VAV3",0.358391608391608,"Gene",97
+"1814","VEGFA-VEGFR2 Pathway",0.292022792022792,"Pathway",69
+"1815","VEGFR1 specific signals",0.272686964232929,"Pathway",41
+"1816","VEGFR2 mediated vascular permeability",0.282110091743119,"Pathway",57
+"1817","VEGFR3 signaling in lymphatic endothelium",0.277027027027027,"Pathway",50
+"1818","Vif-mediated degradation of APOBEC3G",0.28375884343279,"Pathway",60
+"1819","Viral Messenger RNA Synthesis",0.24818401937046,"Pathway",7
+"1820","Viral mRNA Translation",0.268012783265543,"Pathway",30
+"1821","Vitamin A and Carotenoid Metabolism",0.271563143950545,"Pathway",38
+"1822","Vitamin B1 (thiamin) metabolism",0.26387299771167,"Pathway",21
+"1823","Vitamin B12 Metabolism",0.276445909499551,"Pathway",49
+"1824","Vitamin D Metabolism",0.215336134453782,"Pathway",2
+"1825","VLDLR",0.340531561461794,"Gene",84
+"1826","Vpr-mediated induction of apoptosis by mitochondrial outer membrane permeabilization",0.268246583309102,"Pathway",31
+"1827","Vpr-mediated nuclear import of PICs",0.272525849335303,"Pathway",40
+"1828","Vpu mediated degradation of CD4",0.282715292675452,"Pathway",59
+"1829","vRNP Assembly",0.272686964232929,"Pathway",41
+"1830","WASF3",0.350094876660342,"Gene",93
+"1831","WDR37",0.340154867256637,"Gene",82
+"1832","WIPF1",0.342936802973978,"Gene",88
+"1833","WNT mediated activation of DVL",0.2677793904209,"Pathway",29
+"1834","Wnt signaling network",0.258765778401122,"Pathway",13
+"1835","Wnt Signaling Pathway",0.28375884343279,"Pathway",60
+"1836","Wnt Signaling Pathway and Pluripotency",0.28613523573201,"Pathway",64
+"1837","Wnt Signaling Pathway Netpath",0.28013969025205,"Pathway",54
+"1838","WNT5A-dependent internalization of FZD2, FZD5 and ROR2",0.264024041213509,"Pathway",22
+"1839","WNT5A-dependent internalization of FZD4",0.264024041213509,"Pathway",22
+"1840","WRB",0.231958762886598,"Gene",5
+"1841","XBP1(S) activates chaperone genes",0.274962742175857,"Pathway",46
+"1842","Xenobiotics",0.228681209717402,"Pathway",4
+"1843","XRCC6",0.348376132930514,"Gene",92
+"1844","YAP1- and WWTR1 (TAZ)-stimulated gene expression",0.268480791618161,"Pathway",31
+"1845","YARS2",0.343447505584512,"Gene",89
+"1846","YBX3",0.340405904059041,"Gene",84
+"1847","YME1L1",0.340154867256637,"Gene",82
+"1848","YTHDF1",0.340154867256637,"Gene",83
+"1849","ZBP1(DAI) mediated induction of type I IFNs",0.267158992180712,"Pathway",28
+"1850","ZBTB48",0.340154867256637,"Gene",83
+"1851","ZEB2",0.34116124260355,"Gene",86
+"1852","ZNF248",0.343319687383699,"Gene",89
+"1853","ZNF516",0.340154867256637,"Gene",83
+"1854","ZNF518A",0.340154867256637,"Gene",83
+"1855","ZNHIT1",0.340154867256637,"Gene",83
+"1856","ZWINT",0.361481191222571,"Gene",99
