@@ -8,7 +8,7 @@ bibliography: references.bib
 link-citations: yes
 output:
   xaringan::moon_reader:
-    css: ["xaringan-themer.css"]
+    css: ["xaringan-themer.css","style.css"]
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
@@ -250,432 +250,31 @@ schema
 ]
 
 ---
+class:full
 
-```{r,echo=FALSE, warning=FALSE}
-
-#used libraries
-# library(tidyverse) # for data wrangling
-# library(igraph)    # for network data structures and tools
-# library(ggraph)    # for prettier network visualizations
-# 
-# ddd<-read.csv("data/triplist.csv") %>% 
-#   select(-X)
-# 
-# ggraph(ddd,layout="lgl")+
-#   geom_edge_link(width=0.1,colour="grey")+
-#   geom_node_point(col="black",size=3.7)+
-#   theme_graph()
-
-
-# https://www.r-bloggers.com/2018/03/another-game-of-thrones-network-analysis-this-time-with-tidygraph-and-ggraph/
-
-```
-
-
----
-```{r, centrality1, fig.asp = 0.6, fig.align = 'center', dpi=250,echo = FALSE, out.width = "100%", warning = FALSE}
-
-all<-read.csv("Data/all.csv")
-all2 <- all[ which(all$Degree>10 & all$Degree<1000), ]
-
-library(ggplot2)
-library(ggtext)
-library(plyr)
-library(extrafont)
-loadfonts(device = "win")
-
-mu <- ddply(all2, "Aspect", summarise, grp.mean=median(Degree))
-ggplot(all2, aes(x=Degree, color=Aspect)) +
-  geom_density()+
-  geom_vline(data=mu, aes(xintercept=grp.mean, color=Aspect),
-             linetype="dashed") +
-  xlim(NA, 100)+ 
-  labs(x = NULL)+
-  theme_classic()+
-  labs(
-    title = "<b style = 'color:#1381B0;  font-size:32px';> Density plot of degree centrality</b><br>
-    <span style = 'font-size:10pt'>The in-degree, out degree and total degree distribution for all the nodes. This plot excludes nodes with degrees below 10 and above 1000</span>",
-    x = "Number of connections",
-    y = "Distribution</span>"
-  )+
-  theme(
-    plot.title.position = "plot",
-    plot.title = element_textbox_simple(
-      size = 13,
-      lineheight = 1,
-      padding = margin(5.5, 5.5, 5.5, 5.5),
-      margin = margin(0, 0, 5.5, 0)
-     # fill = "cornsilk"
-    ),
-    axis.title.x = element_textbox_simple(
-      width = NULL,
-      padding = margin(4, 4, 4, 4),
-      margin = margin(4, 0, 0, 0),
-      linetype = 1,
-      r = grid::unit(8, "pt")
-     # fill = "azure1"
-    ),
-    axis.title.y = element_textbox_simple(
-      hjust = 0,
-      orientation = "left-rotated",
-      minwidth = unit(1, "in"),
-      maxwidth = unit(2, "in"),
-      padding = margin(4, 4, 2, 4),
-      margin = margin(0, 0, 2, 0)
-      #fill = "lightsteelblue1"
-    ))
-  
-
-```
-
-
+<center><img src="Data/all.png" height="600px" width="1000px" /></center> 
 
 ---
 class: full
 
-```{r, centrality, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%"}
-
-library(ggplot2)
-library(ggtext)
-library(dplyr)
-centralMerge<- read.csv("Data/centrality.csv")
-centralMerge$centrality<-scales::rescale(centralMerge$centrality)
-
-centralMerge2<-centralMerge %>% 
-  mutate(rank = dense_rank(centrality)) %>% 
-  head(5)
-
-
-centralMerge2<-centralMerge %>%
-    group_by(Category) %>%
-    mutate(rank = dense_rank(centrality))
-
-#paste0(centralMerge2$name, collapse=",")
-#head(centralMerge2)
-
-topCen<- centralMerge %>% 
-  filter(Category=="Gene") %>% 
-  filter(centralPercent==100) %>% 
-mutate(name2=name) %>% 
-  select(name,name2)
-
-centralMerge<-merge(centralMerge,topCen, by="name",all.x = TRUE)
-
-library(ggtext)
-library(ggrepel)
-ggplot(centralMerge, aes(x = factor(1), y = centrality)) +
-  geom_boxplot(width = 0.9, fill = "white") +
-  geom_jitter(aes(color = Category, shape = Category), 
-              width = 0.4, size = 2) + 
-  labs(x = NULL)+
-  theme_classic()+
-  labs(
-    title = "<b style = 'color:#1381B0; font-size:32px';>Centrality Measure</b><br>
-    <span style = 'font-size:10pt'>The top ten most connected genes are labeled</span>",
-    x = "All points",
-    y = "Centrality (scale (0-1)</span>"
-  )+ 
-  geom_text_repel(
-         aes(label = name2),
-         size = 3,
-         force        = 0.7,
-         nudge_x      = 0.5,
-         direction    = "y",
-         hjust        = 1.3,
-         segment.size = 0.2,max.overlaps = Inf
-       #  box.padding = unit(0.4, "lines"),
-       #  point.padding = unit(0.1, "lines")
-         )+
-  theme(
-    plot.title.position = "plot",
-    plot.title = element_textbox_simple(
-      size = 13,
-      lineheight = 1,
-      padding = margin(5.5, 5.5, 5.5, 5.5),
-      margin = margin(0, 0, 5.5, 0)
-      # fill = "cornsilk"
-    ),
-    axis.title.x = element_textbox_simple(
-      width = NULL,
-      padding = margin(4, 4, 4, 4),
-      margin = margin(4, 0, 0, 0),
-      linetype = 1,
-      r = grid::unit(8, "pt")
-      # fill = "azure1"
-    ),
-    axis.title.y = element_textbox_simple(
-      hjust = 0,
-      orientation = "left-rotated",
-      minwidth = unit(1, "in"),
-      maxwidth = unit(2, "in"),
-      padding = margin(4, 4, 2, 4),
-      margin = margin(0, 0, 2, 0)
-      #fill = "lightsteelblue1"
-    ))
-
-
-
-```
-
-
-
----
-class: full
-```{r, centralityBetweenness, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%", dpi= 250, warning = FALSE,error=FALSE}
-betweenMerge<- read.csv("Data/between.csv") 
-betweenMerge<-betweenMerge%>% 
-  mutate(betweenPercent=ntile(betweenMerge$betweenness,100))
-
-centralMerge<- read.csv("Data/centrality.csv")
-betweenAndcentrality <-merge(betweenMerge,centralMerge)
-
-topbetweenAndcentrality<-betweenAndcentrality %>% 
-  filter(Category=="Gene",betweenPercent==100,centralPercent==100) %>% 
-  mutate(name2=name) %>% 
-  select(name,name2)
-betweenAndcentrality$centrality<-scales::rescale(betweenAndcentrality$centrality)
-betweenAndcentrality$betweenness<-scales::rescale(betweenAndcentrality$betweenness)
-betweenAndcentrality<-merge(x=betweenAndcentrality,y=topbetweenAndcentrality, by="name", all.x=TRUE)
-#head(betweenAndcentrality)
-ggplot(betweenAndcentrality, aes(x=betweenness, y=centrality, shape=Category, color=Category)) +
-  geom_point() + 
-  theme_classic()+
-  labs(x = NULL)+
-  labs(
-    title = "<b style = 'color:#1381B0;  font-size:32px';>Influential connectors</b><br>
-    <span style = 'font-size:10pt'>Centrality and betweenness  scatter plot to 
-identify  nodes that have a larger influence in the network. With high  centrality and high betweenness lead to many and influential linkages</span>",
-    x = "Betweenness centrality",
-    y = "Centrality (scale (0-1)</span>"
-  )+ 
-  geom_text_repel(
-    aes(label = name2),
-    size = 3,
-    fill = "white", 
-    xlim = c(-Inf, Inf), 
-    ylim = c(-Inf, Inf)
-    ,max.overlaps = Inf
-    #  box.padding = unit(0.4, "lines"),
-    #  point.padding = unit(0.1, "lines")
-  )+
-  theme(
-    plot.title.position = "plot",
-    plot.title = element_textbox_simple(
-      size = 13,
-      lineheight = 1,
-      padding = margin(5.5, 5.5, 5.5, 5.5),
-      margin = margin(0, 0, 5.5, 0)
-      # fill = "cornsilk"
-    ),
-    axis.title.x = element_textbox_simple(
-      width = NULL,
-      padding = margin(4, 4, 4, 4),
-      margin = margin(4, 0, 0, 0),
-      linetype = 1,
-      r = grid::unit(8, "pt")
-      # fill = "azure1"
-    ),
-    axis.title.y = element_textbox_simple(
-      hjust = 0,
-      orientation = "left-rotated",
-      minwidth = unit(1, "in"),
-      maxwidth = unit(2, "in"),
-      padding = margin(4, 4, 2, 4),
-      margin = margin(0, 0, 2, 0)
-      #fill = "lightsteelblue1"
-    ))
-
-
-
-```
-
-
-```{r, echo=FALSE, eval=FALSE}
-
-betweenMerge<- read.csv("Data/between.csv")
-centralMerge<- read.csv("Data/centrality.csv")
-betweenAndcentrality <-merge(betweenMerge,centralMerge)
-closeness <- read.csv("Data/closeness.csv") %>% 
-  dplyr::select(name,closeness)
-da<-merge(betweenAndcentrality,closeness, by="name")
-
-bet_list <- split(da$betweenness, da$Category)
-cen_list <- split(da$centrality, da$Category)
-clos_list <- split(da$closeness, da$Category)
-## The Original plot
-
-coef_table <- data.frame(
-  Variables = c("Biological Process", "Compound", "Gene", "Pathway"),
-  Coefficients = c(confint(lm(da[ which(da$Category=='BiologicalProcess'), ]$closeness ~ 1, da), level=0.95)[1],
-                   confint(lm(da[ which(da$Category=='Compound'), ]$closeness ~ 1, da), level=0.95)[1],
-                   confint(lm(da[ which(da$Category=='Gene'), ]$closeness ~ 1, da), level=0.95)[1],
-                   confint(lm(da[ which(da$Category=='Pathway'), ]$closeness ~ 1, da), level=0.95)[1]),
-  Conf.Lower = c(mean(da[ which(da$Category=='BiologicalProcess'), ]$closeness),
-                 mean(da[ which(da$Category=='Compound'), ]$closeness), 
-                 mean(da[ which(da$Category=='Gene'), ]$closeness),
-                 mean(da[ which(da$Category=='Pathway'), ]$closeness)),
-  Conf.Higher = c(confint(lm(da[ which(da$Category=='BiologicalProcess'), ]$closeness ~ 1, da), level=0.95)[1],
-                  confint(lm(da[ which(da$Category=='Compound'), ]$closeness ~ 1, da), level=0.95)[1],
-                  confint(lm(da[ which(da$Category=='Gene'), ]$closeness ~ 1, da), level=0.95)[1],
-                  confint(lm(da[ which(da$Category=='Pathway'), ]$closeness ~ 1, da), level=0.95)[1])) 
-
-data.frame(
-  Variable = coef_table$Variables,
-  Closeness = ""
-) %>%
-  kbl(booktabs = T) %>%
-  kable_classic(full_width = FALSE) %>%
-  column_spec(2, image = spec_pointrange(
-    x = coef_table$Coefficients, 
-    xmin = coef_table$Conf.Lower, 
-    xmax = coef_table$Conf.Higher, 
-    vline = 0)
-  )
-
-```
-
-
----
-class: full
-```{r, Influential, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%", dpi= 250, warning = FALSE}
-
-library(tidyverse)
-betweenMerge<- read.csv("Data/between.csv")
-closenessMerge <- read.csv("Data/closeness.csv")
-
-betweenAndclose<-merge(closenessMerge,betweenMerge, by="name") %>% 
-  mutate(Category = Category.x)
-betweenAndclose$betweenness<-scales::rescale(betweenAndclose$betweenness)
-
-betweenAndclose$closeness<-scales::rescale(betweenAndclose$closeness)
-#head(betweenAndcentrality)
-
-betweenMerge<- read.csv("Data/between.csv")
-TopbetweenMerge <-betweenMerge %>% 
-  filter(Category=="Gene") %>% 
-  mutate(betweenPercent=ntile(betweenness,100)) %>% 
-  filter(betweenPercent==100) %>% 
-  mutate(Between=name) %>% 
-select(name,Between)
-
-closenessMerge <- read.csv("Data/closeness.csv")
-TopclosenessMerge <-closenessMerge %>% 
-  filter(Category=="Gene") %>% 
-  mutate(closePercent=ntile(closeness,100)) %>% 
-  filter(closePercent==100) %>% 
-  mutate(close=name) %>% 
-  select(name,close)
-
-both<-merge(x=TopbetweenMerge, y=TopclosenessMerge, all=TRUE) %>% 
-  select(name,Between,close) %>% 
-  drop_na() %>% 
-  mutate(name2=name) %>% 
-  select(-Between,-close)
-
-betweenAndclose<-merge(x=betweenAndclose, y=both, by="name", all.x=TRUE)
-
-ggplot(betweenAndclose, aes(x=betweenness, y=closeness, shape=Category, color=Category)) +
-  geom_point()+
-  theme_classic()+
-  labs(
-    title = "<b style = 'color:#1381B0;  font-size:32px';> Information flow influencers</b><br>
-    <span style = 'font-size:10pt'>Closeness centrality and betweenness centrality scatter plot to 
-identify  nodes that have a larger influence in the network. With high closeness centrality and high betweenness centrality both distribute information 
-effectively throughout the system, and are in a position of “control” of the influence of 
-other nodes on the system.</span>",
-    x = "Betweenness (scale (0-1)",
-    y = "Closeness (scale (0-1)</span>"
-  )+
-  geom_text_repel(
-    aes(label = name2),
-    size = 3,
-    fill = "white", 
-    xlim = c(-Inf, Inf), 
-    ylim = c(-Inf, Inf)
-    ,max.overlaps = Inf
-    #  box.padding = unit(0.4, "lines"),
-    #  point.padding = unit(0.1, "lines")
-  )+
-  theme(
-    plot.title.position = "plot",
-    plot.title = element_textbox_simple(
-      size = 13,
-      lineheight = 1,
-      padding = margin(5.5, 5.5, 5.5, 5.5),
-      margin = margin(0, 0, 5.5, 0)
-      # fill = "cornsilk"
-    ),
-    axis.title.x = element_textbox_simple(
-      width = NULL,
-      padding = margin(4, 4, 4, 4),
-      margin = margin(4, 0, 0, 0),
-      linetype = 1,
-      r = grid::unit(8, "pt")
-      # fill = "azure1"
-    ),
-    axis.title.y = element_textbox_simple(
-      hjust = 0,
-      orientation = "left-rotated",
-      minwidth = unit(1, "in"),
-      maxwidth = unit(2, "in"),
-      padding = margin(4, 4, 2, 4),
-      margin = margin(0, 0, 2, 0)
-      #fill = "lightsteelblue1"
-    ))
-
-
-# https://www.researchgate.net/figure/Closeness-centrality-and-betweenness-centrality-scatter-plot-of-the-network_fig2_239605090
-
-
-```
+<center><img src="Data/centrality.png" height="600px" width="1000px" /></center> 
 
 ---
 class: full
 
-```{r, toplist, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%", dpi= 250, warning = FALSE}
+<center><img src="Data/betweenAndcentrality.png" height="600px" width="1000px" /></center> 
 
-library(igraph )
-toplist<-read.csv("Data/toplist.csv")%>% 
-  select(-X) %>% 
-  drop_na()
+---
+class: full
 
-subgraph = igraph::graph.data.frame(toplist, directed=T)
-set.seed(1)
-ggraph(subgraph, layout = 'kk') + 
-  geom_edge_link(aes(colour = node1.name))+
-  geom_node_point( colour = "black")+ 
-  theme(axis.title = element_blank())+
-  theme_classic()+
-   labs(
-    title = "<b style = 'color:#1381B0;  font-size:32px';>Subset of the network of the top influential genes</b><br>
-    <span style = 'font-size:10pt'>Common Neighbours: neighbouring nodes in common is indicative of potential relation between a Disease and a Compound.</span>",
-    x = "",
-    y = "" 
-    )+
-  theme(
-    plot.title.position = "plot",
-    plot.title = element_textbox_simple(
-      size = 13,
-      lineheight = 1,
-      padding = margin(5.5, 5.5, 5.5, 5.5),
-      margin = margin(0, 0, 5.5, 0)
-     # fill = "cornsilk"
-    ),
-    axis.title.x = element_textbox_simple(
-      width = NULL
-      
-    ),
-    axis.title.y = element_textbox_simple(
-      hjust = 0,
-      orientation = "left-rotated",
-      minwidth = unit(1, "in"),
-      maxwidth = unit(2, "in"),
-      padding = margin(4, 4, 2, 4),
-      margin = margin(0, 0, 2, 0)
-      #fill = "lightsteelblue1"
-    ))
+<center><img src="Data/betweenAndclose.png" height="600px" width="1000px" /></center> 
 
-```
+---
+class: full
+
+<center><img src="Data/subgraph.png" height="600px" width="1000px" /></center> 
+
+
 ---
 ### Link prediction of drugs with potential effect on BTC using near neighbors.
 
@@ -691,14 +290,6 @@ library("RColorBrewer")
 library(wordcloud2)
 
 set.seed(1234)
-#wordcloud(words = diseaseDrugRank$Name, freq = diseaseDrugRank$value, min.freq = 0,
-#          max.words=200, random.order=FALSE, 
-#          colors=brewer.pal(8, "Dark2"))
-
-
-#wordcloud2(wordCount, color = "random-light", backgroundColor = "grey")
-
-#wordcloud2(data = wordCount)
 
 wordcloud(words = diseaseDrugRank$Name, freq = diseaseDrugRank$value, # words
           min.freq = 0,colors=brewer.pal(8, "Dark2"),
@@ -709,107 +300,14 @@ wordcloud(words = diseaseDrugRank$Name, freq = diseaseDrugRank$value, # words
 ```
 
 ---
-
-```{r, InfluentialDrugs, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%", dpi= 250, warning = FALSE}
-
-siteDrugRank<-read.csv("Data/siteDrugRank.csv")
-siteDrugRank<-siteDrugRank %>% 
-filter(rank<11)
-
-library(tidyverse)
-library(ggbump)
-ggplot(siteDrugRank, aes(x = Site, y = Compound, group = Compound)) +
-  geom_point(aes(color = rank, size = desc(rank)))+
-  geom_line(aes(color = rank), size = 2)+
-   labs(
-    title = "<b style = 'color:#1381B0;  font-size:32px';>Link prediction (Compound and BTC) based on shared genes</b><br>
-    <span style = 'font-size:10pt'></span>",
-    x = "Anatomical site",
-    y = "Compound" 
-    )+
-  theme(
-    plot.title.position = "plot",
-    plot.title = element_textbox_simple(
-      size = 13,
-      lineheight = 1,
-      padding = margin(5.5, 5.5, 5.5, 5.5),
-      margin = margin(0, 0, 5.5, 0)
-     # fill = "cornsilk"
-    ),
-    axis.title.x = element_textbox_simple(
-      width = NULL
-      
-    ),
-    axis.title.y = element_textbox_simple(
-      hjust = 0,
-      orientation = "left-rotated",
-      minwidth = unit(1, "in"),
-      maxwidth = unit(2, "in"),
-      padding = margin(4, 4, 2, 4),
-      margin = margin(0, 0, 2, 0)
-      #fill = "lightsteelblue1"
-    ))
-
-```
+class:full
+<center><img src="Data/siteDrugRank.png" height="600px" width="1000px" /></center> 
 
 
 ---
 class: full
 
-```{r, compoundSite, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%", dpi= 250, warning = FALSE}
-diseaseDrugRank<-read.csv("Data/diseaseDrugRank.csv")
-siteDrugRank<-read.csv("Data/siteDrugRank.csv")
-siteDrugRank2<-siteDrugRank %>% 
-  mutate(Name=Compound,siteDrugLink=Value) %>% 
-  select(Name, Site, siteDrugLink)
-
-diseaseDrugRank2<-diseaseDrugRank %>% 
-  mutate(diseaseDrugLink=value) %>% 
-  select(Name, Disease,diseaseDrugLink)
-
-presentLinks<-merge(siteDrugRank2,diseaseDrugRank2, by="Name") %>% 
-  mutate(Name2=ifelse(diseaseDrugLink>1,Name,NA))
-
-ggplot(presentLinks, aes(x = siteDrugLink, y = diseaseDrugLink)) +
-  geom_point(aes(color = Site)) +
-  facet_grid(~ Site)+
- theme_bw(base_size = 15) + theme(legend.position = "bottom") +
-  geom_text_repel(
-    aes(label = Name2),
-    size = 4,
-    box.padding = unit(0.25, "lines"),
-    point.padding = unit(0.25, "lines"))+
-   labs(
-    title = "<b style = 'color:#1381B0;  font-size:32px';>Predicting site specific compounds.</b><br>
-    <span style = 'font-size:10pt'> </span>",
-    x = "Link Prediction score: Anatomic site",
-    y = "Link Prediction score: Compound" 
-    )+
-  theme(
-    plot.title.position = "plot",
-    plot.title = element_textbox_simple(
-      size = 13,
-      lineheight = 1,
-      padding = margin(5.5, 5.5, 5.5, 5.5),
-      margin = margin(0, 0, 5.5, 0)
-     # fill = "cornsilk"
-    ),
-    axis.title.x = element_textbox_simple(
-      width = NULL
-      
-    ),
-    axis.title.y = element_textbox_simple(
-      hjust = 0,
-      orientation = "left-rotated",
-      minwidth = unit(1, "in"),
-      maxwidth = unit(2, "in"),
-      padding = margin(4, 4, 2, 4),
-      margin = margin(0, 0, 2, 0)
-      #fill = "lightsteelblue1"
-    ))
-
-  
-```
+<center><img src="Data/presentLinks.png" height="600px" width="1000px" /></center> 
 
 ---
 
@@ -835,16 +333,11 @@ Influential genes
 ]
 
 .right-column[
-Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Erat nam at lectus urna.
-Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
-_Eros donec ac odio tempor_ orci dapibus ultrices. 
-Id porta nibh venenatis cras sed felis eget velit aliquet.
-Aliquam id diam maecenas ultricies mi.
-Enim sit amet 
-`code_color("inline")`
-venenatis urna cursus eget nunc scelerisque viverra.
+- MYC amplification<sup>1</sup>,UBC <sup>1</sup> FYN<sup>4</sup>
+
+- NUP85 has been  Prognosis-related genes (NUP85, HAX1, GNPDA1, HDLBP and GPD1) among the differentially expressed glycolysis-related genes were screened and identified.  
+
+- FYN<sup>5</sup>
 ]
 
 ---
@@ -853,17 +346,14 @@ venenatis urna cursus eget nunc scelerisque viverra.
 
 ##### Varenicline 
 
-> Varenicline is a synthetic chemical substance produced from the alkaloid cytisine, used for smoking treatment.
->
-> Varenicline attenuated abstinence-induced negative affect among cancer patients.
+> Varenicline is a synthetic chemical substance produced from the alkaloid cytisine, used for smoking treatment.It has been associated with  affect among cancer patients.
 
 ##### Infliximab and Dexamethasone
 
-> Has been shown to cause chronic hepatic injury is accompanied by a ductular response that is strongly correlated with disease severity and progression of fibrosis.
+> Causes chronic hepatic injury accompanied by a response that is strongly correlated with disease severity.
 
 ##### Lapatinib
-> While targeting HER2/neu in BTCs shows considerable promise, there are also significant limitations and unmet challenges to overcome. 
-> Thus, it remains unclear how to best distinguish in a given case between a HER2/neu oncogenic driver alterations and mere passenger events.
+> This drug has been shown to be effective in the  cases showing HER2/neu mutations.
 
 ##### Captopril
 
@@ -886,6 +376,10 @@ Although there were no therapeutic candidates, there  certain medications which 
 3. Heterogeneous Network Edge Prediction: A Data Integration Approach to Prioritize Disease-Associated Genes
 Himmelstein DS, Baranzini SE PLOS Computational Biology (2015) DOI: 10.1371/journal.pcbi.1004259 · PMID: 26158728 · PMCID: PMC4497619
 
+4. Zou S, Li J, Zhou H, Frech C, Jiang X, Chu JSC, et al. Mutational Landscape of Intrahepatic Cholangiocarcinoma. Nat Commun (2014) 5(1):5696. doi: 10.1038/ncomms6696.
+
+5. Xia, R., Tang, H., Shen, J. et al. Prognostic value of a novel glycolysis-related gene expression signature for gastrointestinal cancer in the Asian population. Cancer Cell Int 21, 154 (2021). https://doi.org/10.1186/s12935-021-01857-4
+
 
 ---
 class: center, middle
@@ -894,5 +388,5 @@ class: center, middle
 
 Project repository:
 
-[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+[em-kagereki/Graph-analysis](https://github.com/em-kagereki/Graph-analysis)
 

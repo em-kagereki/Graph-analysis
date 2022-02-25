@@ -4,9 +4,10 @@
     <title>Chemotherapy in biliary tract cancer: Application of graph theory</title>
     <meta charset="utf-8" />
     <meta name="author" content="Edwin Kagereki" />
-    <meta name="date" content="2022-02-24" />
+    <meta name="date" content="2022-02-25" />
     <script src="Report_files/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -14,7 +15,7 @@ class: center, middle, inverse, title-slide
 
 # Chemotherapy in biliary tract cancer: Application of graph theory
 ### Edwin Kagereki
-### 2022-02-24
+### 2022-02-25
 
 ---
 
@@ -184,38 +185,31 @@ Hetionet is an integrative network of biomedical knowledge  combining informatio
 ]
 
 ---
+class:full
 
-
-
-
----
-&lt;img src="Report_files/figure-html/centrality1-1.png" width="100%" style="display: block; margin: auto;" /&gt;
-
-
+&lt;center&gt;&lt;img src="Data/all.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
 
 ---
 class: full
 
-&lt;img src="Report_files/figure-html/centrality-1.png" width="100%" style="display: block; margin: auto;" /&gt;
-
-
-
----
-class: full
-&lt;img src="Report_files/figure-html/centralityBetweenness-1.png" width="100%" style="display: block; margin: auto;" /&gt;
-
-
-
-
-
----
-class: full
-&lt;img src="Report_files/figure-html/Influential-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;center&gt;&lt;img src="Data/centrality.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
 
 ---
 class: full
 
-&lt;img src="Report_files/figure-html/toplist-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;center&gt;&lt;img src="Data/betweenAndcentrality.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
+
+---
+class: full
+
+&lt;center&gt;&lt;img src="Data/betweenAndclose.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
+
+---
+class: full
+
+&lt;center&gt;&lt;img src="Data/subgraph.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
+
+
 ---
 ### Link prediction of drugs with potential effect on BTC using near neighbors.
 
@@ -224,14 +218,14 @@ class: full
 &lt;img src="Report_files/figure-html/drugs-1.png" width="100%" /&gt;
 
 ---
-
-&lt;img src="Report_files/figure-html/InfluentialDrugs-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+class:full
+&lt;center&gt;&lt;img src="Data/siteDrugRank.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
 
 
 ---
 class: full
 
-&lt;img src="Report_files/figure-html/compoundSite-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;center&gt;&lt;img src="Data/presentLinks.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
 
 ---
 
@@ -257,16 +251,11 @@ Influential genes
 ]
 
 .right-column[
-Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Erat nam at lectus urna.
-Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
-_Eros donec ac odio tempor_ orci dapibus ultrices. 
-Id porta nibh venenatis cras sed felis eget velit aliquet.
-Aliquam id diam maecenas ultricies mi.
-Enim sit amet 
-`code_color("inline")`
-venenatis urna cursus eget nunc scelerisque viverra.
+- MYC amplification&lt;sup&gt;1&lt;/sup&gt;,UBC &lt;sup&gt;1&lt;/sup&gt; FYN&lt;sup&gt;4&lt;/sup&gt;
+
+- NUP85 has been  Prognosis-related genes (NUP85, HAX1, GNPDA1, HDLBP and GPD1) among the differentially expressed glycolysis-related genes were screened and identified.  
+
+- FYN&lt;sup&gt;5&lt;/sup&gt;
 ]
 
 ---
@@ -275,17 +264,14 @@ venenatis urna cursus eget nunc scelerisque viverra.
 
 ##### Varenicline 
 
-&gt; Varenicline is a synthetic chemical substance produced from the alkaloid cytisine, used for smoking treatment.
-&gt;
-&gt; Varenicline attenuated abstinence-induced negative affect among cancer patients.
+&gt; Varenicline is a synthetic chemical substance produced from the alkaloid cytisine, used for smoking treatment.It has been associated with  affect among cancer patients.
 
 ##### Infliximab and Dexamethasone
 
-&gt; Has been shown to cause chronic hepatic injury is accompanied by a ductular response that is strongly correlated with disease severity and progression of fibrosis.
+&gt; Causes chronic hepatic injury accompanied by a response that is strongly correlated with disease severity.
 
 ##### Lapatinib
-&gt; While targeting HER2/neu in BTCs shows considerable promise, there are also significant limitations and unmet challenges to overcome. 
-&gt; Thus, it remains unclear how to best distinguish in a given case between a HER2/neu oncogenic driver alterations and mere passenger events.
+&gt; This drug has been shown to be effective in the  cases showing HER2/neu mutations.
 
 ##### Captopril
 
@@ -308,6 +294,10 @@ Although there were no therapeutic candidates, there  certain medications which 
 3. Heterogeneous Network Edge Prediction: A Data Integration Approach to Prioritize Disease-Associated Genes
 Himmelstein DS, Baranzini SE PLOS Computational Biology (2015) DOI: 10.1371/journal.pcbi.1004259 · PMID: 26158728 · PMCID: PMC4497619
 
+4. Zou S, Li J, Zhou H, Frech C, Jiang X, Chu JSC, et al. Mutational Landscape of Intrahepatic Cholangiocarcinoma. Nat Commun (2014) 5(1):5696. doi: 10.1038/ncomms6696.
+
+5. Xia, R., Tang, H., Shen, J. et al. Prognostic value of a novel glycolysis-related gene expression signature for gastrointestinal cancer in the Asian population. Cancer Cell Int 21, 154 (2021). https://doi.org/10.1186/s12935-021-01857-4
+
 
 ---
 class: center, middle
@@ -316,7 +306,7 @@ class: center, middle
 
 Project repository:
 
-[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+[em-kagereki/Graph-analysis](https://github.com/em-kagereki/Graph-analysis)
 
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
