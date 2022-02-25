@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Chemotherapy in biliary tract cancer: Application of graph theory</title>
+    <title>Chemotherapeutic in biliary tract cancer: Application of network analysis</title>
     <meta charset="utf-8" />
     <meta name="author" content="Edwin Kagereki" />
     <meta name="date" content="2022-02-25" />
@@ -13,7 +13,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Chemotherapy in biliary tract cancer: Application of graph theory
+# Chemotherapeutic in biliary tract cancer: Application of network analysis
 ### Edwin Kagereki
 ### 2022-02-25
 
@@ -50,7 +50,7 @@ Highlights:
 
 ## Overview of BTC gene landscape
 
-#### Massive sequencing studies have improved our understanding of the causal mechanisms in CCA, emphasizing the genomic complexity in prevalent oncogenic modules affecting: cell cycle regulation
+#### WHole genone sequencing studies have improved the understanding of the causal mechanisms in CCA, highlighting the genomic complexity in prevalent oncogenic modules affecting BTC.
 
 
 1. DNA damage and genomic instability (TP53, CDKN2A, CCND1, ATM, ROBO2, BRCA1 and BRAC2); 
@@ -93,7 +93,7 @@ Highlights:
 
 - Immununotherapy with either chemotherapy or targeted therapy or loco regional therapies such as transarterial chemoembolization (TACE), cryotherapy, radiofrequency ablation (RFA), and radiotherapy is done based on the genetic mutations.
 
-- Relevant genes and proteins involved in chemoresistance have been identified.  
+- Relevant genes and proteins involved in chemo-resistance therefore need to be ruled out  
 
 
 ---
@@ -101,13 +101,14 @@ Highlights:
 ## Problem statement
 
 Different anatomical sites and genetic aberrations contribute to BTC heterogeneity.These  BTC sub types have different prognosis and response to therapy. 
-This analysis seeks to identify the common genes in the BTC and thereafter estimate identify chemotherapeutic compounds with site-specific importance.
+&lt;br&gt;
+This analysis seeks to identify the crucial genes in BTC and thereafter identify potential linkages with  site specific  chemotherapeutic compounds.
 
 
 ---
 ## Objectives
 
-#### Identify therapeutic opportunities: Which therapeutic compounds can potentially be associated with site specific BTC based on shared genes?
+#### Identify potential site-stecific therapeutic opportunities.
 
 
 1. What are the most essential genes associated with BTC? 
@@ -157,9 +158,9 @@ Hetionet is an integrative network of biomedical knowledge  combining informatio
 ```
 ---
 
-## Network level measures
+## Size of the network
 
- **This was a directed graph with a  total of 17535 nodes and 94950 edges. 
+#### This was a directed graph with a  total of 17535 nodes and 94950 edges. 
 
 
 .left-column[
@@ -209,31 +210,30 @@ class: full
 
 &lt;center&gt;&lt;img src="Data/subgraph.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
 
-
 ---
-### Link prediction of drugs with potential effect on BTC using near neighbors.
+
+
+class:full
+&lt;center&gt;&lt;img src="Data/siteDrugRank.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
+---
+### Link prediction between compounds and BTC based on shared genes.
 
 ##### The strength of the linkage is represented by the size of the word.
 
 &lt;img src="Report_files/figure-html/drugs-1.png" width="100%" /&gt;
 
 ---
-class:full
-&lt;center&gt;&lt;img src="Data/siteDrugRank.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
 
-
----
 class: full
 
 &lt;center&gt;&lt;img src="Data/presentLinks.png" height="600px" width="1000px" /&gt;&lt;/center&gt; 
 
+
 ---
-
-
 
 name: colors
 
-## Genomic landscape of BTC 
+### Genomic landscape of BTC 
 
 .left-column[
 Influential genes
@@ -251,38 +251,41 @@ Influential genes
 ]
 
 .right-column[
-- MYC amplification&lt;sup&gt;1&lt;/sup&gt;,UBC &lt;sup&gt;1&lt;/sup&gt; FYN&lt;sup&gt;4&lt;/sup&gt;
+- Aberrations in three of these genes have been associated in the pathogenesis  of BTC - MYC&lt;sup&gt;1&lt;/sup&gt;,UBC &lt;sup&gt;1&lt;/sup&gt; FYN&lt;sup&gt;4&lt;/sup&gt;
 
-- NUP85 has been  Prognosis-related genes (NUP85, HAX1, GNPDA1, HDLBP and GPD1) among the differentially expressed glycolysis-related genes were screened and identified.  
+- NUP85 is a low tissue specific gene, but has been attributed to poor prognosis of gastrointestinal cancers&lt;sup&gt;4&lt;/sup&gt;. 
+ 
 
-- FYN&lt;sup&gt;5&lt;/sup&gt;
+- SHC1 is a also a low tissue specific gene, but has been attributed to poor prognosis of renal, lung and cervical cancers&lt;sup&gt;4&lt;/sup&gt;.
 ]
 
 ---
 ## Drug target prediction by leveraging on gene network.
 
+####`Varenicline:`Used for smoking cessation.Has been associated with negative effects among cancer patients.
 
-##### Varenicline 
+####`Dexamethasone:` Associated with hepatic injury.
 
-&gt; Varenicline is a synthetic chemical substance produced from the alkaloid cytisine, used for smoking treatment.It has been associated with  affect among cancer patients.
+####`Afatinib:`Some ongoing trials as an add on to chemo-therapy naive patients with advanced BTC.
 
-##### Infliximab and Dexamethasone
+####`Lapatinib:`This drug has been shown to be effective in the  BTC cases showing HER2/neu mutations.
 
-&gt; Causes chronic hepatic injury accompanied by a response that is strongly correlated with disease severity.
+####`Captopril:`Indicated for hypertension but, there are trials for use in cancer.
 
-##### Lapatinib
-&gt; This drug has been shown to be effective in the  cases showing HER2/neu mutations.
-
-##### Captopril
+####`Marimastat:`Though not used for BTC, it is conventionally used for other GIT cancers.
 
 ---
 ### Conclusion
 
-Although there were no therapeutic candidates, there  certain medications which are more likely to cause harm in patients with BTC were identified.
+- While the role of the three genes (MYC,UBC and FYN) is potentially associated with the pathology of BTC,the strong links to the two other genes (SHC1 and NUP85) maybe attributed to likelihood of metastasis from neighboring organs. 
 
-
-
-
+- Considering the compounds, the following can be deduced:
+&lt;br&gt;
+&lt;span style="color:green"&gt; Drugs indicated for use: Lapatinib&lt;/span&gt;.
+&lt;br&gt;
+&lt;span style="color:orange"&gt; Potentially useful drugs: Afatinib, Captopril and Marimastat&lt;/span&gt;.
+&lt;br&gt;
+&lt;span style="color:red"&gt; Potentially harmful drugs: Varenicline and Dexamethasone&lt;/span&gt;.
 
 ---
 ## References:

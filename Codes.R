@@ -1,5 +1,3 @@
-setwd("C:/Users/Admin/Documents/KM - Winter 2022/tutorial/B00867154/Original Data")
-
 
 library(neo4r)
 library(dplyr)
@@ -8,18 +6,21 @@ library(tidyverse)
 library(ggthemes)
 library(ggrepel)
 library(ggtext)
+library(ggplot2)
+library(plyr)
+library(extrafont)
+library(igraph)
+library(ggbump)
+library(ggraph)
+library(magrittr)
 
-# Note that play_movies is only available for versions >= 0.1.3 
-
+####
+#### 1. Connection
+####
 connect <- neo4j_api$new(url = "http://localhost:7474", 
                          db = "Tutorial", 
                          user = "neo4j", 
                          password = "Tutorial")
-##
-## READ THE FILES
-##
-## THis code is modified from: https://github.com/neo4j-rstats/neo4r
-# I changed the on_load_query name to read accordingly
 
 disease_genes <- 'merge (n1:Disease {name: row.Disease, identifier: row.Disease_ID})
 merge (n2:Gene {name: row.Gene, identifier: row.Gene_ID})
@@ -28,15 +29,12 @@ load_csv(url = "file:///disease_genes.csv",
          con = connect, header = TRUE, periodic_commit = 50, 
          as = "row", on_load = disease_genes)
 
-
-
 compound_disease <- 'merge (n1:Compound {name: row.Compound, identifier: row.Compound_ID})
 merge (n2:Disease {name: row.Disease, identifier: row.Disease_ID})
 merge (n1)-[r:Compound_Disease {type: row.Relation}]-> (n2);'
 load_csv(url = "file:///compound_disease.csv", 
          con = connect, header = TRUE, periodic_commit = 50, 
          as = "row", on_load = compound_disease)
-
 
 compound_gene <- 'merge (n1:Compound {name: row.Compound, identifier: row.Compound_ID})
 merge (n2:Gene {name: row.Gene, identifier: row.Gene_ID})
@@ -74,9 +72,10 @@ merge (n1)-[r:Gene_Pathway {type: row.Relation}]-> (n2);'
 load_csv(url = "file:///gene_pathway.csv", 
          con = connect, header = TRUE, periodic_commit = 50, 
          as = "row", on_load = gene_pathway)
+####
+####2. Create the nodes
+####
 
-#Create a universal label (Hetionet_Nodes) to all nodes
-#This will help with calling GDS functions for graph analysis
 'match (n:Gene)
 set n:Hetionet_Nodes;' %>% 
   call_neo4j(connect)
@@ -96,7 +95,10 @@ set n:Hetionet_Nodes;'%>%
 set n:Hetionet_Nodes;'%>% 
   call_neo4j(connect)
 
-#Create new node properties to specify node type - e.g., Gene, Compound, Pathway, Anatomy, etc.
+####
+#### 3. Create new node properties to specify node type - e.g., Gene, Compound, Pathway, Anatomy, etc.
+####
+
 'match (n:Gene)
 set n.type = "Gene";' %>% 
   call_neo4j(connect)
@@ -116,8 +118,9 @@ set n.type = "BiologicalProcess";'%>%
 set n.type = "Disease";'%>% 
   call_neo4j(connect)
 
-
-# Graph statistics
+####
+####4. Graph statistics
+####
 
 ## Total connections:
 nNodes <-'match (n:Hetionet_Nodes)
@@ -155,7 +158,6 @@ return count(n) as total_number_of_Pathway;' %>%
   call_neo4j(connect)
 nPathway <-nPathway$total_number_of_Pathway[[1]]
 
-
 ## Extract the Edges
 Edges<-'match (:Hetionet_Nodes)-[r]-(:Hetionet_Nodes) return r;' %>%
   call_neo4j(connect)
@@ -187,7 +189,6 @@ return count(r)' %>%
   call_neo4j(connect)
 cRd <-cRd$`count(r)`[[1]] 
 
- 
 ## Total number of relations between Disease and Anatomy:
 dRa<-'match (:Disease)-[r]-(:Anatomy)
 return count(r)' %>%
@@ -212,19 +213,15 @@ return count(r)' %>%
   call_neo4j(connect)
 gRp <-gRp$`count(r)`[[1]] 
 
-setwd("C:/Users/Admin/Documents/KM - Winter 2022/tutorial/B00867154/Data")
-
 Aspects <- c('Nodes','Genes','Pathway','nBiologicalProcess','Relationships','nDisease','nCompound','gRd','dRa','aRg','gRb','gRp')
 Statistics<- c(nNodes,nGenes,nPathway,nBiologicalProcess,nRelationships,nDisease,nCompound,gRd,dRa,aRg,gRb,gRp)
 basicStats<-as.data.frame(cbind(Aspects,Statistics))
 basicStats$Statistics<-as.numeric(basicStats$Statistics)
 write.csv(basicStats, "basicStats.csv")
 
-library(igraph)
-library(magrittr)
-library(neo4r)
 
-## PART 2: List the individual nodes
+
+##  List the individual nodes
 
 Genes<-'MATCH (n:Gene)
 RETURN n.name;' %>% 
@@ -268,11 +265,11 @@ names(nodeList)[2] <- "Category"
 
 write.csv(nodeList,"nodeList.csv")
 
-
-## Part 3: Global graph stats
+####
+### 5 Calculate global graph stats
+###
 
 # Centrality disctribution
-
 
 Stats<-"CALL gds.degree.stats({
   nodeProjection: 'Nodes',
@@ -299,10 +296,7 @@ betweenMerge<-merge(between,nodeList, by="name")
 
 write.csv(betweenMerge, "between.csv")
 
-
 ## Centrality
-### Here I will Use the query ro calculate in degree, outdegree and all
-
 allCent<-'match (node1)-[r]-(node2)
 return node1.name,count(r);'
 allCent<-call_neo4j(allCent,connect)
@@ -327,8 +321,6 @@ names(outCent)[2] <- "outDegree"
 AllCentrality<-merge(x=nodeList, y=allCent, by="name", all.x = TRUE)
 AllCentrality<-merge(x=AllCentrality, y=outCent, by="name", all.x = TRUE)
 AllCentrality<-merge(x=AllCentrality, y=inCent, by="name", all.x = TRUE)
-
-
 
 centrality<-"call gds.degree.stream({
   nodeProjection: 'Nodes',
@@ -362,10 +354,11 @@ write.csv(closenessMerge, "closeness.csv")
 
 
 
+###
+### 6.  LINK PREDICTION
+###
 
-### LINK PREDICTION
-## Link prediction for the compound based on the disease
-# Common neighbors
+## Link prediction for the compound based on the disease using Common neighbors
 common<-'MATCH (n1:Disease)
 MATCH (n2:Compound)
 WHERE NOT (n2)--(n1)
@@ -379,10 +372,9 @@ common<- common %>%
   filter(value>0) 
 write.csv(common, "diseaseDrugRank.csv")
 
-siteDrugRank<-read.csv("diseaseDrugRank.csv")
 
-## Link Prediction : Anatomy
-# Common neighbors
+## Link Prediction : Compound and Anatomy using Common neighbors
+
 siteDrugRank<-'MATCH (n1:Anatomy)
 MATCH (n2:Compound)
 WHERE NOT (n2)--(n1)
@@ -401,7 +393,6 @@ siteDrugRank<- siteDrugRank %>%
 write.csv(siteDrugRank, "siteDrugRank.csv")
 
 
-
 siteDrugRank2<-siteDrugRank %>% 
   mutate(Name=Compound,siteDrugLink=Value) %>% 
   select(Name, Site, siteDrugLink)
@@ -411,422 +402,402 @@ diseaseDrugRank2<-common %>%
   select(Name, Disease,diseaseDrugLink)
 
 presentLinks<-merge(siteDrugRank2,diseaseDrugRank2, by="Name")
-
 allLinks<-merge(siteDrugRank2,diseaseDrugRank2, by="Name", all = TRUE)
   
 
-ggplot(allLinks, aes(x = diseaseDrugLink, y = siteDrugLink)) +
-     geom_point(aes(color = Site))
+### 
+### 
+###
+all<-read.csv("Data/all.csv")
+all2 <- all[ which(all$Degree>10 & all$Degree<1000), ]
+loadfonts(device = "win")
+mu <- ddply(all2, "Aspect", summarise, grp.mean=median(Degree))
+png("Data/all.png", width = 12, height = 7, units = 'in', res = 600)
+ggplot(all2, aes(x=Degree, color=Aspect)) +
+  geom_density()+
+  geom_vline(data=mu, aes(xintercept=grp.mean, color=Aspect),
+             linetype="dashed") +
+  xlim(NA, 100)+ 
+  labs(x = NULL)+
+  theme_classic()+
+  labs(
+    title = "<b style = 'color:#1381B0;  font-size:38px';> Density plot of degree centrality</b><br>
+    <span style = 'font-size:20pt'>The in-degree, out degree and total degree distribution for all the nodes. This plot excludes nodes with degrees below 10 and above 1000</span>",
+    x = "Number of connections",
+    y = "Distribution</span>")+
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)),
+    axis.title.x = element_textbox_simple(
+      width = NULL,
+      padding = margin(4, 4, 4, 4),
+      margin = margin(4, 0, 0, 0),
+      linetype = 1,
+      r = grid::unit(8, "pt")
+      # fill = "azure1"
+    ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+      #fill = "lightsteelblue1"
+    ))
+dev.off()
 
 
-
-
-
-
-
-
-
-
-## Adamic Adar
-common4<-'MATCH (n1:Disease)
-MATCH (n2:Compound)
-RETURN n1.name, n2.name, gds.alpha.linkprediction.adamicAdar(n1, n2) AS AdamicAdar_Score
-order by AdamicAdar_Score desc;'
-common4<-call_neo4j(common4,connect)
-common4<-cbind(common4$n1.name,common4$n2.name,common4$AdamicAdar_Score)
-names(common4)[1] <- "disease"
-names(common4)[2] <- "Name"
-common4<- common4 %>% 
-  select(Name, value) %>% 
-  mutate(Category = "Compound") %>% 
-  filter(value>0)
-
-
-
-## Then  the Pathway
-common3<-'MATCH (n1:Disease)
-MATCH (n2:Pathway)
-RETURN n1.name, n2.name, gds.alpha.linkprediction.adamicAdar(n1, n2) AS AdamicAdar_Score
-order by AdamicAdar_Score desc
-limit 100'
-common3<-call_neo4j(common3,connect)
-common3<-cbind(common3$n1.name,common3$n2.name,common3$AdamicAdar_Score)
-names(common3)[1] <- "disease"
-names(common3)[2] <- "Name"
-common3<- common3 %>% 
-  select(Name, value) %>% 
-  mutate(Category = "Pathway")%>% 
-  filter(value>0)
-
-## Then the biological processes
-common4<-'MATCH (n1:Disease)
-MATCH (n2:BiologicalProcess)
-RETURN n1.name, n2.name, gds.alpha.linkprediction.adamicAdar(n1, n2) AS AdamicAdar_Score
-order by AdamicAdar_Score desc;'
-common4<-call_neo4j(common4,connect)
-common4<-cbind(common4$n1.name,common4$n2.name,common4$AdamicAdar_Score)
-names(common4)[1] <- "disease"
-names(common4)[2] <- "Name"
-common4<- common4 %>% 
-  select(Name, value) %>% 
-  mutate(Category = "Biological Process") %>% 
-  filter(value>0)
-#head(common4)
-
-
-data<-rbind(common,common3, common4)
-
-write.csv(data,"linkCompound.csv")
-
-
-
-## Link Prediction
-#### Common Neighbours: neighbouring nodes in common is indicative of potential relation between a Disease and a Compound
-## Link prediction for the compound
-common4<-'MATCH (n1:Anatomy)
-MATCH (n2:Compound)
-WHERE NOT (n2)--(n1)
-RETURN n1.name, n2.name, gds.alpha.linkprediction.commonNeighbors(n1, n2) AS commonNeighbors_score
-order by commonNeighbors_score desc
-limit 100;'
-common4<-call_neo4j(common4,connect)
-common4<-cbind(common4$n1.name,common4$n2.name,common4$commonNeighbors_score)
-names(common4)[1] <- "Site"
-names(common4)[2] <- "name"
-common4<- common4 %>% 
-  select(Site,name, value) %>% 
-  filter(value>0)
-common4<-merge(common4, nodeList, by ="name")
-
-## Then  the Pathway
-common5<-'MATCH (n1:Anatomy)
-MATCH (n2:Pathway)
-RETURN n1.name, n2.name, gds.alpha.linkprediction.adamicAdar(n1, n2) AS AdamicAdar_Score
-order by AdamicAdar_Score desc
-limit 100'
-common5<-call_neo4j(common5,connect)
-common5<-cbind(common5$n1.name,common5$n2.name,common5$AdamicAdar_Score)
-names(common5)[1] <- "Site"
-names(common5)[2] <- "name"
-common5<- common5 %>% 
-  select(Site,name, value) %>% 
-  filter(value>0)
-common5<-merge(common5, nodeList, by ="name")
-
-## Then the biological processes
-common6<-'MATCH (n1:Anatomy)
-MATCH (n2:BiologicalProcess)
-RETURN n1.name, n2.name, gds.alpha.linkprediction.adamicAdar(n1, n2) AS AdamicAdar_Score
-order by AdamicAdar_Score desc;'
-common6<-call_neo4j(common6,connect)
-common6<-cbind(common6$n1.name,common6$n2.name,common6$AdamicAdar_Score)
-names(common6)[1] <- "Site"
-names(common6)[2] <- "name"
-common6<- common6 %>% 
-  select(Site,name, value) %>% 
-  filter(value>0)
-common6<-merge(common6, nodeList, by ="name")
-data2<-rbind(common4,common5, common6)
-write.csv(data2, "linkBiologicalProcess.csv")
-
-
-names(data2)[3] <- "AnatomyLInk"
-names(data)[2] <- "DiseaseLInk"
-
-
-data <-rename(data, Name = DiseaseLInk)
-data <-rename(data, DiseaseLInk = value)
-
-data2 <-rename(data2, Name = AnatomyLInk)
-data2 <-rename(data2, AnatomyLInk = value)
-
-dataComplete<-merge(x = data, y = data2, by = "Name", all = TRUE)
-dataComplete<-dataComplete[complete.cases(dataComplete), ]
-
-
-dataComplete<-merge(x = data, y = data2, by = "Name", all = TRUE)
-dataComplete<-dataComplete[complete.cases(dataComplete), ]
-
-drugs <- filter(data2, Category=='Compound') %>% 
-  select(name,Site,value)
-library(tidyr)
-drugsWide<-spread(drugs, key = name, value = value)
-drugsWide[is.na(drugsWide)] <- 0
-names(drugsWide)[1] <- "group"
-row.names(drugsWide) <- drugsWide$group
-drugsWide <- as_tibble(drugsWide,rescale)
-
-
-drugsWide<-drugsWide %>% 
-  mutate_each(funs(rescale), -group) %>%
-  ggradar()
-
-
-
-library(tidyr)
-drugsWide<-spread(drugs, key = Name, value = AnatomyLInk) %>% 
-  select(-Category)
-row.names(drugsWide) <- drugsWide$Site
-drugsWide<- drugsWide %>% select(-Site)
-ggradar(drugsWide)
-
-
-student1_data <- drugsWide[c("liver","lymph node"), ]
-student1_data[is.na(student1_data)] <- 0
-radarchart(student1_data)
-
-
-drugsWide<-spread(drugs, key = name, value = value) %>% 
-  select(-Category)
-
-## LInk Prediction : Similarity
-jarc<-'match (g:Gene)--(:Disease)
-with collect(g.name) as GenesAssociatedWithDisease
-match (n1:Gene)--(n2:Pathway)
-where n1.name in GenesAssociatedWithDisease
-with n1, collect(id(n2)) as Pathway1, GenesAssociatedWithDisease
-match (n3:Gene)--(n4:Pathway)
-where not n3.name in GenesAssociatedWithDisease
-with n1, Pathway1, n3, collect(id(n4)) as Pathway2
-return n1.name, n3.name, gds.alpha.similarity.jaccard(Pathway1, Pathway2) as similarity
-order by similarity desc;'
-jarc<-call_neo4j(jarc,connect)
-jarc<-cbind(jarc$n1.name,jarc$n3.name,jarc$similarity)
-
-
-
-library(ggplot2)
-library(ggradar)
-suppressPackageStartupMessages(library(dplyr))
-library(scales)
-
-mtcars %>%
-  tibble::rownames_to_column( var = "group" ) %>%
-  mutate_each(across(rescale), -group) %>%
-  tail(4) %>% select(1:10) -> mtcars_radar
-
-dat %>% 
-  mutate_each(funs(rescale), -group) %>%
-  ggradar()
-
-ggradar(mtcars_radar)
-
-
-betweenMerge<- read.csv("between.csv")
-centralMerge<- read.csv("centrality.csv")
-betweenAndcentrality <-merge(betweenMerge,centralMerge)
-closeness <- read.csv("closeness.csv") %>% 
-  dplyr::select(name,closeness)
-da<-merge(betweenAndcentrality,closeness, by="name")
-
-bet_list <- split(da$betweenness, da$Category)
-cen_list <- split(da$centrality, da$Category)
-clos_list <- split(da$closeness, da$Category)
-## The Original plot
-inline_plot <- data.frame(Node = c("BiologicalProcess", "Compound", "Gene","Pathway"), Plot = "", mpg_hist = "",
-                          mpg_line1 = "", mpg_line2 = "",
-                          mpg_points1 = "", mpg_points2 = "", mpg_poly = "")
-inline_plot %>%
-  kbl(booktabs = TRUE) %>%
-  kable_paper(full_width = TRUE) %>%
-  column_spec(2, image = spec_boxplot(mpg_list))%>%
-  column_spec(3, image = spec_hist(mpg_list)) %>%
-  column_spec(4, image = spec_plot(mpg_list, same_lim = TRUE)) %>%
-  column_spec(5, image = spec_plot(mpg_list, same_lim = FALSE)) %>%
-  column_spec(6, image = spec_plot(mpg_list, type = "p")) %>%
-  column_spec(7, image = spec_plot(mpg_list, disp_list, type = "p")) %>%
-  column_spec(8, image = spec_plot(mpg_list, polymin = 5))
-
-
-
-## Modifications
-
-
-inline_plot <- data.frame(Node = c("BiologicalProcess", "Compound", "Gene","Pathway"), Plot = "", 
-                          Highest = "")
-inline_plot %>%
-  kbl(booktabs = TRUE) %>%
-  kable_paper(full_width = TRUE) %>%
-  column_spec(2, image = spec_boxplot(bet_list))%>%
-  column_spec(3, image = spec_hist(cen_list,150,150)) 
-
-
-
-
-coef_table <- data.frame(
-  Variables = c("Biological Process", "Compound", "Gene", "Pathway"),
-  Coefficients = c(confint(lm(da[ which(da$Category=='BiologicalProcess'), ]$closeness ~ 1, da), level=0.95)[1],
-                   confint(lm(da[ which(da$Category=='Compound'), ]$closeness ~ 1, da), level=0.95)[1],
-                   confint(lm(da[ which(da$Category=='Gene'), ]$closeness ~ 1, da), level=0.95)[1],
-                   confint(lm(da[ which(da$Category=='Pathway'), ]$closeness ~ 1, da), level=0.95)[1]),
-  Conf.Lower = c(mean(da[ which(da$Category=='BiologicalProcess'), ]$closeness),
-                 mean(da[ which(da$Category=='Compound'), ]$closeness), 
-                 mean(da[ which(da$Category=='Gene'), ]$closeness),
-                 mean(da[ which(da$Category=='Pathway'), ]$closeness)),
-  Conf.Higher = c(confint(lm(da[ which(da$Category=='BiologicalProcess'), ]$closeness ~ 1, da), level=0.95)[1],
-                  confint(lm(da[ which(da$Category=='Compound'), ]$closeness ~ 1, da), level=0.95)[1],
-                  confint(lm(da[ which(da$Category=='Gene'), ]$closeness ~ 1, da), level=0.95)[1],
-                  confint(lm(da[ which(da$Category=='Pathway'), ]$closeness ~ 1, da), level=0.95)[1])
-) 
-
-data.frame(
-  Variable = coef_table$Variables,
-  Visualization = ""
-) %>%
-  kbl(booktabs = T) %>%
-  kable_classic(full_width = FALSE) %>%
-  column_spec(2, image = spec_pointrange(
-    x = coef_table$Coefficients, 
-    xmin = coef_table$Conf.Lower, 
-    xmax = coef_table$Conf.Higher, 
-    vline = 1)
-  )
-
-library(dplyr)
-closeness <- read.csv("closeness.csv")
-geneClose<-closeness[ which(closeness$Category=='Gene'), ] %>% 
-  mutate(rank = dense_rank(desc(closeness))) %>% 
+centralMerge<- read.csv("Data/centrality.csv")
+centralMerge$centrality<-scales::rescale(centralMerge$centrality)
+centralMerge2<-centralMerge %>% 
+  mutate(rank = dense_rank(centrality)) %>% 
   head(5)
+centralMerge2<-centralMerge %>%
+  group_by(Category) %>%
+  mutate(rank = dense_rank(centrality))
 
-geneClose$name
+topCen<- centralMerge %>% 
+  filter(Category=="Gene") %>% 
+  filter(centralPercent==100) %>% 
+  mutate(name2=name) %>% 
+  select(name,name2)
+centralMerge<-merge(centralMerge,topCen, by="name",all.x = TRUE)
+png("Data/centrality.png", width = 12, height = 7, units = 'in', res = 600)
+ggplot(centralMerge, aes(x = factor(1), y = centrality)) +
+  geom_boxplot(width = 0.9, fill = "white") +
+  geom_jitter(aes(color = Category, shape = Category), 
+              width = 0.4, size = 2) + 
+  labs(x = NULL)+
+  theme_classic()+
+  labs(
+    title = "<b style = 'color:#1381B0; font-size:38px';>Centrality Measure</b><br>
+    <span style = 'font-size:20pt'>Only genes in the 10th-percentile are labeled.</span>",
+    x = "All points",
+    y = "Centrality (scale (0-1)</span>"
+  )+ 
+  geom_text_repel(
+    aes(label = name2),
+    size = 3,
+    force        = 0.7,
+    nudge_x      = 0.5,
+    direction    = "y",
+    hjust        = 1.3,
+    segment.size = 0.2,max.overlaps = Inf
+    #  box.padding = unit(0.4, "lines"),
+    #  point.padding = unit(0.1, "lines")
+  )+
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)
+      # fill = "cornsilk"
+    ),
+    axis.title.x = element_textbox_simple(
+      width = NULL,
+      padding = margin(4, 4, 4, 4),
+      margin = margin(4, 0, 0, 0),
+      linetype = 1,
+      r = grid::unit(8, "pt")
+      # fill = "azure1"
+    ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+      #fill = "lightsteelblue1"
+    ))
+dev.off()
 
 
-set.seed(1234)
-wdata = data.frame(
-  sex = factor(rep(c("F", "M"), each=200)),
-  weight = c(rnorm(200, 55), rnorm(200, 58))
-)
-head(wdata, 4)
 
-library("dplyr")
-mu <- wdata %>% 
-  group_by(sex) %>%
-  summarise(grp.mean = mean(weight))
-mu
+betweenMerge<- read.csv("Data/between.csv") 
+betweenMerge<-betweenMerge%>% 
+  mutate(betweenPercent=ntile(betweenMerge$betweenness,100))
+centralMerge<- read.csv("Data/centrality.csv")
+betweenAndcentrality <-merge(betweenMerge,centralMerge)
+topbetweenAndcentrality<-betweenAndcentrality %>% 
+  filter(Category=="Gene",betweenPercent==100,centralPercent==100) %>% 
+  mutate(name2=name) %>% 
+  select(name,name2)
+betweenAndcentrality$centrality<-scales::rescale(betweenAndcentrality$centrality)
+betweenAndcentrality$betweenness<-scales::rescale(betweenAndcentrality$betweenness)
+betweenAndcentrality<-merge(x=betweenAndcentrality,y=topbetweenAndcentrality, by="name", all.x=TRUE)
+#head(betweenAndcentrality)
+png("Data/betweenAndcentrality.png", width = 12, height = 7, units = 'in', res = 600)
+ggplot(betweenAndcentrality, aes(x=betweenness, y=centrality, shape=Category, color=Category)) +
+  geom_point() + 
+  theme_classic()+
+  labs(x = NULL)+
+  labs(
+    title = "<b style = 'color:#1381B0;  font-size:38px';>Influential connectors</b><br>
+    <span style = 'font-size:20pt'>Centrality and betweenness  scatter plot to 
+identify  nodes that have a larger influence in the network. 
+    High  centrality and  betweenness shows  many and influential linkages. ONly genes within the 10th-percentile in both are labeled</span>",
+    x = "Betweenness centrality",
+    y = "Centrality (scale (0-1)</span>"
+  )+ 
+  geom_text_repel(
+    aes(label = name2),
+    size = 3,
+    fill = "white", 
+    xlim = c(-Inf, Inf), 
+    ylim = c(-Inf, Inf)
+    ,max.overlaps = Inf
+    #  box.padding = unit(0.4, "lines"),
+    #  point.padding = unit(0.1, "lines")
+  )+
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)
+      # fill = "cornsilk"
+    ),
+    axis.title.x = element_textbox_simple(
+      width = NULL,
+      padding = margin(4, 4, 4, 4),
+      margin = margin(4, 0, 0, 0),
+      linetype = 1,
+      r = grid::unit(8, "pt")
+      # fill = "azure1"
+    ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+      #fill = "lightsteelblue1"
+    ))
+dev.off()
+
+# https://www.r-bloggers.com/2018/03/another-game-of-thrones-network-analysis-this-time-with-tidygraph-and-ggraph/
+#### 
+### betweenAndclose
+# https://www.researchgate.net/figure/Closeness-centrality-and-betweenness-centrality-scatter-plot-of-the-network_fig2_239605090
+
+betweenMerge<- read.csv("Data/between.csv")
+closenessMerge <- read.csv("Data/closeness.csv")
+
+betweenAndclose<-merge(closenessMerge,betweenMerge, by="name") %>% 
+  mutate(Category = Category.x)
+betweenAndclose$betweenness<-scales::rescale(betweenAndclose$betweenness)
+
+betweenAndclose$closeness<-scales::rescale(betweenAndclose$closeness)
+
+betweenMerge<- read.csv("Data/between.csv")
+TopbetweenMerge <-betweenMerge %>% 
+  filter(Category=="Gene") %>% 
+  mutate(betweenPercent=ntile(betweenness,100)) %>% 
+  filter(betweenPercent==100) %>% 
+  mutate(Between=name) %>% 
+  select(name,Between)
+
+closenessMerge <- read.csv("Data/closeness.csv")
+TopclosenessMerge <-closenessMerge %>% 
+  filter(Category=="Gene") %>% 
+  mutate(closePercent=ntile(closeness,100)) %>% 
+  filter(closePercent==100) %>% 
+  mutate(close=name) %>% 
+  select(name,close)
+
+both<-merge(x=TopbetweenMerge, y=TopclosenessMerge, all=TRUE) %>% 
+  select(name,Between,close) %>% 
+  drop_na() %>% 
+  mutate(name2=name) %>% 
+  select(-Between,-close)
+
+betweenAndclose<-merge(x=betweenAndclose, y=both, by="name", all.x=TRUE)
+png("Data/betweenAndclose.png", width = 12, height = 7, units = 'in', res = 600)
+ggplot(betweenAndclose, aes(x=betweenness, y=closeness, shape=Category, color=Category)) +
+  geom_point()+
+  theme_classic()+
+  labs(
+    title = "<b style = 'color:#1381B0;  font-size:38px';> Information flow influencers</b><br>
+    <span style = 'font-size:20pt'>Closeness centrality and betweenness centrality scatter plot to 
+identify  nodes that have a larger influence in the network. High closeness betweenness support distribution of information 
+effectively throughout the network.</span>",
+    x = "Betweenness (scale (0-1)",
+    y = "Closeness (scale (0-1)</span>"
+  )+
+  geom_text_repel(
+    aes(label = name2),
+    size = 3,
+    fill = "white", 
+    xlim = c(-Inf, Inf), 
+    ylim = c(-Inf, Inf)
+    ,max.overlaps = Inf
+  )+
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)
+    ),
+    axis.title.x = element_textbox_simple(
+      width = NULL,
+      padding = margin(4, 4, 4, 4),
+      margin = margin(4, 0, 0, 0),
+      linetype = 1,
+      r = grid::unit(8, "pt")
+    ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+    ))
+
+
+dev.off()
 
 
 
-
-inD<-AllCentrality %>% 
-  select(name,inDegree) %>% 
-  rename(Degree = inDegree) %>% 
-  mutate(Aspect ="In degree") %>% 
-  mutate( Degree= replace_na(Degree, 0))
-
-  outD<-AllCentrality %>% 
-    select(name,outDegree) %>% 
-    rename(Degree = outDegree) %>% 
-    mutate(Aspect ="Out degree") %>% 
-    mutate( Degree= replace_na(Degree, 0))
-
-  allD<-AllCentrality %>% 
-    select(name,totalDegree) %>% 
-    rename(Degree = totalDegree) %>% 
-    mutate(Aspect ="Total degree") %>% 
-    mutate( Degree= replace_na(Degree, 0))
-  
-all<-rbind(outD,inD,allD)  
-  
-
-a <- ggplot(all, aes(x = Degree))
-
-
-a + geom_freqpoly( aes(color = Aspect, linetype = Aspect),
-                   bins = 10, size = 1.5) +
-  scale_color_manual(values = c("#00AFBB", "#E7B800","#00FF00"))
-
-library(ggplot2)
-library(hrbrthemes)
-library(dplyr)
-library(tidyr)
-library(viridis)
-
-write.csv(all,"all.csv")
-
-
-query <- "match  (node1)-[r]-(node2) return node1.name,node2.name"
-triplist <- call_neo4j(query, connect)
-library(igraph)
-subgraph = graph.data.frame(triplist, directed=T)
-plot(subgraph)
-write.csv(triplist,"triplist.csv")
-
-setwd("C:/Users/Admin/Documents/KM - Winter 2022/tutorial")
-
-ddd<-read.csv("data/triplist.csv") %>% 
+toplist<-read.csv("Data/toplist.csv")%>% 
   select(-X) %>% 
   drop_na()
-
-subgraph = graph.data.frame(ddd, directed=T)
-plot(subgraph)
-#return node1.name,count(r)
-
-ddd<-data.frame(triplist$node1.name,triplist$node2.name)
-ddd<-ddd %>% 
-  drop_na()
-
-
-ggraph(ddd,layout="lgl")+
-  geom_edge_link(width=0.1,colour="grey")+
-  geom_node_point(col="black",size=3.7)+
-  theme_graph()
-
-
-setwd("C:/Users/Admin/Documents/KM - Winter 2022/tutorial")
-
-
-
-
-library(tidyverse)
-library(igraph)
-library(ggraph)
-
-
-## Query for the most influential gener
-
-influentialGenes <- "match  (node1)-[r]-(node2) where node1.name='UBC' 
-XOR node1.name='SHC1' XOR node1.name='MYC' XOR node1.name='FYN' 
-XOR node1.name='NUP85' AND node2.name='bile tract disease' return node1.name,node2.name"
-toplist <- call_neo4j(influentialGenes, connect)
-toplist<-data.frame(toplist$node1.name,toplist$node2.name)
-write.csv(toplist,"toplist.csv")
-
-subgraph = graph.data.frame(toplist, directed=T)
-subgraph<-simplify(subgraph)
-
-
-
+png("Data/subgraph.png", width = 12, height = 7, units = 'in', res = 600)
+subgraph = igraph::graph.data.frame(toplist, directed=T)
+set.seed(1)
 ggraph(subgraph, layout = 'kk') + 
-  geom_edge_link(aes(colour = node1.name)) + 
-  geom_node_point()
+  geom_edge_link(aes(colour = node1.name))+
+  geom_node_point( colour = "black")+ 
+  theme(axis.title = element_blank())+
+  theme_classic()+
+  labs(
+    title = "<b style = 'color:#1381B0;  font-size:38px';>Subset of the network of the top influential genes</b><br>
+    <span style = 'font-size:20pt'>Visualization of the network formed by the four genes 
+    ranked to have the highest degree centrality, betweenness and closeness centrality.</span>",
+    x = "",
+    y = "" 
+  )+
+  
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)
+    ),
+    axis.title.x = element_textbox_simple(
+      width = NULL
+      
+    ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+    ))
 
-library(tidygraph)
-dolphin <- tbl_graph(nodes = Nodes, edges = Edges, directed = TRUE)
+dev.off()
 
 
-## Graph layouts
-## https://www.data-imaginist.com/2017/ggraph-introduction-layouts/
+
+siteDrugRank<-read.csv("Data/siteDrugRank.csv")
+siteDrugRank<-siteDrugRank %>% 
+  filter(rank<11)
+png("Data/siteDrugRank.png", width = 12, height = 7, units = 'in', res = 600)
+ggplot(siteDrugRank, aes(x = Site, y = Compound, group = Compound)) +
+  geom_point(aes(color = rank, size = desc(rank)))+
+  geom_line(aes(color = rank), size = 2)+
+  labs(
+    fill="Rank",
+    title = "<b style = 'color:#1381B0;  font-size:34px';>Potential linkages between the compound and site based on shared genes.
+</b><br>
+    <span style = 'font-size:20pt'> Potential linkages with highest common neighbor scores (46 out of 90)</span>",
+    x = "Anatomical site",
+    y = "Compound" 
+  )+
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)
+    ),
+    axis.title.x = element_textbox_simple(
+      width = NULL
+      ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+    ))
+dev.off()
 
 
-dd<-'MATCH (n)--(r) RETURN n.name AS from, r.name AS to;' %>% 
-  call_neo4j(connect)
+##Disease Drug Rank
+diseaseDrugRank<-read.csv("Data/diseaseDrugRank.csv")
+siteDrugRank<-read.csv("Data/siteDrugRank.csv")
+siteDrugRank2<-siteDrugRank %>% 
+  mutate(Name=Compound,siteDrugLink=Value) %>% 
+  select(Name, Site, siteDrugLink)
+diseaseDrugRank2<-diseaseDrugRank %>% 
+  mutate(diseaseDrugLink=value) %>% 
+  select(Name, Disease,diseaseDrugLink)
+presentLinks<-merge(siteDrugRank2,diseaseDrugRank2, by="Name") %>% 
+  mutate(Name2=ifelse(diseaseDrugLink>1,Name,NA))
+png("Data/presentLinks.png", width = 12, height = 7, units = 'in', res = 600)
+ggplot(presentLinks, aes(x = siteDrugLink, y = diseaseDrugLink)) +
+  geom_point(aes(color = Site)) +
+  facet_grid(~ Site)+
+  theme_bw(base_size = 15) + theme(legend.position = "bottom") +
+  geom_text_repel(
+    aes(label = Name2),
+    size = 4,
+    box.padding = unit(0.25, "lines"),
+    point.padding = unit(0.2, "lines"))+
+  labs(
+    title = "<b style = 'color:#1381B0;  font-size:38px';>Predicting site specific compounds.</b><br>
+    <span style = 'font-size:20pt'>Correlation between link prediction scores of BTC-compound
+    and Site-Compound </span>",
+    x = "Link Prediction score: Anatomic site",
+    y = "Link Prediction score: Compound" 
+  )+
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)
+    ),
+    axis.title.x = element_textbox_simple(
+      width = NULL
+    ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+    ))
+dev.off()
 
-nodes = data.frame(id=unique(c(dd$from, dd$to)))
-nodes$label = nodes$id
-
-edges<-data.frame(dd)
-names(edges)[1] <- "x"
-names(edges)[2] <- "y"
-
-
-### LInk Prediction
-
-# // Link prediction #1: Common Neighbours
-# // Query below calculates shared neighbours between Disease and Compound
-# // Having many neighbouring nodes in common is indicative of potential relation between a Disease and a Compound
-# // Note that the query below will only match Compound nodes which DO NOT HAVE A DIRECT RELATION with the Disease node MATCH (n1:Disease)
-MATCH (n2:Compound)
-WHERE NOT (n2)--(n1)
-RETURN n1.name, n2.name, gds.alpha.linkprediction.commonNeighbors(n1, n2) AS commonNeighbors_score
-order by commonNeighbors_score desc
-limit 100

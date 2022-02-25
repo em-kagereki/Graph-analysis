@@ -1,36 +1,41 @@
 
-# Knowledge management: Knowledge Graph
+# Chemotherapeutics in  biliary tract cancer: Application of network analysis
 
+The aim of this project was to apply expert-augmented network analysis to for Drug Repurposing in the Bile tract cancer. 
+This was achieved by 
 
-The objective of this project is to 
--  Create a Neo4j graph database for a subset of [Hetionet](https://het.io/#:~:text=Hetionet%20is%20an%20integrative%20network,2%2C250%2C197%20relationships%20(24%20types).)  data centered on bile tract cancer.
--  Conduct a thorough analysis of the knowledge graph  using graph algorithms, such as centrality and link prediction, and 
-- Interpret results the results of the analysis and identify interesting associations between previously unlinked nodes.
+-  Generation of a  graph database for a subset of [Hetionet](https://het.io/#:~:text=Hetionet%20is%20an%20integrative%20network,2%2C250%2C197%20relationships%20(24%20types).)  data centered on bile tract cancer.
+-  Conduct a thorough analysis of the knowledge graph  using graph algorithms.  
+- Interpret results of the analysis and identify interesting associations between the disease and the therapeutic agents.
 
-
-[![Metagraph](graph_schema.png)]
 
 ## Table of content
 
-- [Installation](#installation)
-    - [R and packages](#R and packages)
-    - [Neo4j](#Neo4j)
-- [Analysis workflow](#Analysis workflow)
-    - [Extension](#extension)
-    - [Database](#database)
-- [Page setup](#page-setup)
-    - [Upload the page tree file](#upload-the-page-tree-file)
-    - [Go to the import view](#go-to-the-import-view)
-    - [Import the page tree](#import-the-page-tree)
-    - [SEO-friendly URLs](#seo-friendly-urls)
-- [License](#license)
-- [Links](#links)
+- [Background](Bile tract cancer)
+    - [Bile tract cancer](#Bile tract cancer)
+    - [Graph theory](#Graph theory)
+- [Methodology](#Analysis workflow)
+    - [Data](#Data)
+    - [Graph algorithms](#Graph algorithms)
+    - [Analysis workflow](#Analysis workflow)
+    - [Tools](#Tools)
+- [Results and discussion](#page-setup)
 
-## Installation
 
-This document is for the latest Aimeos TYPO3 **21.10 release and later**.
+### Bile tract cancer
 
-### R and packages
+
+### Graph theory
+
+[![Metagraph](graph_schema.png)]
+
+
+### Data
+### Graph algorithms
+### Analysis workflow
+
+
+### Tools
 
 The R version 4.1.2 (2021-11-01) -- "Bird Hippie" was used for the project. The packages used were:
 
@@ -50,11 +55,6 @@ The R version 4.1.2 (2021-11-01) -- "Bird Hippie" was used for the project. The 
 
 
 
-
-### Report writing
-
-
-
 ## Codes
 
 Setup TYPO3 as normal by creating a `FIRST_INSTALL` file in the `./public` directory:
@@ -67,74 +67,15 @@ Open the URL of your installation in the browser and follow the steps in the TYP
 
 
 ```
-'DB' => [
-    'Connections' => [
-        'Default' => [
-            'tableoptions' => [
-                'charset' => 'utf8',
-                'collate' => 'utf8_unicode_ci',
-            ],
-            // ...
-        ],
-    ],
-],
+Two files contain the codes:
+
+  - Codes: R codes that contain the graph analysis codes.
+  - Report: Markdown file for the presentation.
+  - createPDF: R code to compile the markdown report.
 ```
 
 
 
-## Site setup
-
-TYPO3 10+ requires a site configuration which you have to add in "Site Management" > "Sites" available in the left navigation.
-
-## Page setup
-
-The page setup for an Aimeos web shop is easy if you import the example page tree for TYPO3 10/11:
-
-* [21.10+ page tree](https://aimeos.org/fileadmin/download/Aimeos-pages_21.10.t3d) only
-
-**Note:** The Aimeos layout expects [Bootstrap](https://getbootstrap.com) providing the grid layout!
-
-### Go to the import view
-
-* In Web::Page, root page (the one with the globe)
-* Right click on the globe
-* Move the cursor to "Branch actions"
-* In the sub-menu, click on "Import from .t3d"
-
-![Go to the import view](https://aimeos.org/docs/images/Aimeos-typo3-pages-menu.png)
-
-### Upload the page tree file
-
-* In the page import dialog
-* Select the "Upload" tab (2nd one)
-* Click on the "Select" dialog
-* Choose the file you've downloaded
-* Press the "Upload files" button
-
-![Upload the page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-upload.png)
-
-### Import the page tree
-
-* In Import / Export view
-* Select the uploaded file from the drop-down menu
-* Click on the "Preview" button
-* The pages that will be imported are shown below
-* Click on the "Import" button that has appeared
-* Confirm to import the pages
-
-![Import the uploaded page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-import.png)
-
-Now you have a new page "Shop" in your page tree including all required sub-pages.
-
-### SEO-friendly URLs
-
-TYPO3 9.5 and later can create SEO friendly URLs if you add the rules to the site config:
-[https://aimeos.org/docs/latest/typo3/setup/#seo-urls](https://aimeos.org/docs/latest/typo3/setup/#seo-urls)
-
-## License
-
-The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
-license and is available for free.
 
 ## Links
 
