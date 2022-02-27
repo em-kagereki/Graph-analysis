@@ -54,3 +54,6 @@ return count(r);
 // Count total number of relations between Gene and Pathway
 match (:Gene)-[r]-(:Pathway)
 return count(r);
+
+
+

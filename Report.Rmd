@@ -1,5 +1,5 @@
 ---
-title: "Chemotherapeutic in  biliary tract cancer: Application of network analysis"
+title: "Expert-augmented network analysis for drug repurposing in  bile tract cancer."
 subtitle: ""  
 author: 
   - "Edwin Kagereki"
@@ -96,22 +96,22 @@ Highlights:
 
 ## Overview of BTC gene landscape
 
-#### WHole genone sequencing studies have improved the understanding of the causal mechanisms in CCA, highlighting the genomic complexity in prevalent oncogenic modules affecting BTC.
+#### Whole genone sequencing studies have improved the understanding of the causal mechanisms in BTC, highlighting the genomic complexity.
 
 
-1. DNA damage and genomic instability (TP53, CDKN2A, CCND1, ATM, ROBO2, BRCA1 and BRAC2); 
+1. Mutations leading to DNA damage and genomic instability (TP53, CDKN2A, CCND1, ATM, ROBO2, BRCA1 and BRAC2); 
 
-2. MYC amplification; epigenetic regulation including NADPH metabolism (IDH1 and IDH2), 
+2.  Deranged epigenetic regulation(IDH1 and IDH2 and MYC amplification);
 
-3. de-ubiquitination (BAP1), SWI–SNF complex (PBRM1, ARID1A, ARID1B, ARID2, SMARCA2, SMARCA4 and SMARCAD1)
+3. de-ubiquitination (BAP1,PBRM1, ARID1A, ARID1B, ARID2, SMARCA2, SMARCA4 and SMARCAD1);
  
 4. histone (de-)methylation (MLL2, MML3, KMT2C, KDM4A, KDM5D, KDM6A and KDM6B); 
 
 5. kinase signalling (KRAS, ERBB1–3, BRAF, PIK3CA, PTEN, STK11, SMAD4 and FGFR1–3); 
 
-6. immune dysregulation (JAK–STAT3 signalling); FGFR2 and PRKCA–PRKCB fusions; 
+6. immune dysregulation (JAK–STAT3 signalling,  FGFR2 and PRKCA–PRKCB fusions); 
 
-7. WNT–CTNNB1 pathway (APC); Hippo signalling (NF2, SAV1 deletion); METLL13 amplifications; 
+7. Others  - WNT–CTNNB1 pathway (APC); Hippo signalling (NF2, SAV1 deletion); METLL13 amplifications; 
 
 
 ---
@@ -120,12 +120,12 @@ Highlights:
 #####  There are marked differences in the genomic features depending on the anatomical location and risk factors. 
 - Some examples of the  differences in the mutations include:<sup>1,2</sup>.
 
- > Small bile duct iCCA can be characterized by isocitrate dehydrogenase (IDH1, IDH2) mutations or fibroblast growth factor receptor 2 (FGFR2) fusions. 
+ > Small bile duct BTC is often  characterized by IDH1, IDH2  mutations or FGFR2 fusions. 
  
- > By contrast, large bile duct iCCA, similar to pCCA and dCCA, shows a high frequency of mutations in KRAS and/or TP53 genes. 
+ > By contrast, large bile duct,pCCA and dCCA , shows a high frequency of mutations in KRAS and/or TP53 genes. 
  
 
-- Growing evidence demonstrates that distinct cells of origin within an organ can give rise to different sub-types of cancer, typically tissue-specific stem and progenitor cells
+- Growing evidence demonstrates that distinct cells of origin within an organ can give rise to different sub-types of cancer.
 
 
 - These findings could be useful to establish treatment and diagnostic strategies for BTCs based on genetic profile.
@@ -139,7 +139,7 @@ Highlights:
 
 - Immununotherapy with either chemotherapy or targeted therapy or loco regional therapies such as transarterial chemoembolization (TACE), cryotherapy, radiofrequency ablation (RFA), and radiotherapy is done based on the genetic mutations.
 
-- Relevant genes and proteins involved in chemo-resistance therefore need to be ruled out  
+- Relevant genes and proteins involved in chemo-resistance therefore need to be ruled out.  
 
 
 ---
@@ -166,24 +166,20 @@ This analysis seeks to identify the crucial genes in BTC and thereafter identify
 ## Methodology
 
 1. Social network analysis
-  - Network level measures: 
-      - Size
-  - Node-level measures(Centrality)
+  - Network level measures.
+  - Node-level measures:
       - Degree centrality.
       - Betweenness centrality.
       - Closeness centrality.
   - Link prediction:  Common neighbors.
 
-2. Tools: Neo4J and R.
+2. Tools: 
+  - Neo4J.
+  - neo4r package was used to query data from the  'Neo4J' server and handle the results in R.
 
----
+???
 
-layout: false
-
-## Metagraph
-
-<center><img src="graph_schema.png" height="400px" /></center> *Fig 1.Metagraph showing the types of nodes used to build the network and the types of links defined to connect the nodes. Reproduced as provided by ALI DAWOOD*
-
+_if not asked to lend money_.
 ---
 ## Dataset
 
@@ -223,6 +219,14 @@ schema
 ```
 ---
 
+layout: false
+
+## Metagraph
+
+<center><img src="graph_schema.png" height="400px" /></center> *Fig 1.Metagraph showing the types of nodes used to build the network and the types of links defined to connect the nodes. Reproduced as provided by ALI DAWOOD*
+
+---
+
 ## Size of the network
 
 #### This was a directed graph with a  total of `r filter(basicStats, Aspects=='Nodes')$Statistics` nodes and `r filter(basicStats, Aspects=='Relationships')$Statistics` edges. 
@@ -252,6 +256,13 @@ schema
 
 ---
 class:full
+#### <p style="color:#1381B0">Network has 3350 unique communities, with 2794 being isolated nodes. The community membership agaist the size is demonstrated below.</p>
+.
+
+<center><img src="Data/frequency.png" height="500px" width="1000px" /></center> 
+
+---
+class:full
 
 <center><img src="Data/all.png" height="600px" width="1000px" /></center> 
 
@@ -269,14 +280,22 @@ class: full
 class: full
 
 <center><img src="Data/betweenAndclose.png" height="600px" width="1000px" /></center> 
-
 ---
 class: full
 
-<center><img src="Data/subgraph.png" height="600px" width="1000px" /></center> 
+
+class: full
+
+### Subgraph with the five most influential genes
+```{r figSvg,eval=TRUE,echo=FALSE,message=FALSE, error=FALSE, warning=FALSE,fig.height=4}
+
+library(cowplot)
+fig_svg<-cowplot::ggdraw()+cowplot::draw_image("Data/mainNodes_5.svg")
+plot(fig_svg)
+```
+
 
 ---
-
 
 class:full
 <center><img src="Data/siteDrugRank.png" height="600px" width="1000px" /></center> 
@@ -365,7 +384,7 @@ Influential genes
 <br>
 <span style="color:green"> Drugs indicated for use: Lapatinib</span>.
 <br>
-<span style="color:orange"> Potentially useful drugs: Afatinib, Captopril and Marimastat</span>.
+<span style="color:orange"> Potentially useful drugs: Afatinib, Captopril (Liver and lymph nodes) and Marimastat(liver,Pancreas)</span>.
 <br>
 <span style="color:red"> Potentially harmful drugs: Varenicline and Dexamethasone</span>.
 

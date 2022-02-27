@@ -45,3 +45,34 @@ call gds.pageRank.stream({
 YIELD nodeId, score
 return gds.util.asNode(nodeId).name AS name, gds.util.asNode(nodeId).type AS nodeType ,score
 order by score desc limit 100
+
+
+####This is my addition: Count number of communities
+####
+####
+CALL gds.louvain.stats({
+  nodeProjection: 'Hetionet_Nodes',
+  relationshipProjection: ['Disease_Gene', 'Disease_Anatomy', 'Compound_Gene', 'Anatomy_Gene', 'Gene_BiologicalProcess', 'Gene_Pathway']
+  })
+  YIELD communityCount
+  
+  ####This is my addition: Count number of communities
+####
+####
+  CALL gds.louvain.stream({
+  nodeProjection: 'Hetionet_Nodes',
+  relationshipProjection: ['Disease_Gene', 'Disease_Anatomy', 'Compound_Gene', 'Anatomy_Gene', 'Gene_BiologicalProcess', 'Gene_Pathway']
+  })
+YIELD nodeId, communityId, intermediateCommunityIds
+RETURN gds.util.asNode(nodeId).name AS name, communityId, intermediateCommunityIds
+ORDER BY name ASC
+
+
+CALL gds.beta.k1coloring.stream(
+{
+  nodeProjection: 'Hetionet_Nodes',
+  relationshipProjection: ['Disease_Gene', 'Disease_Anatomy', 'Compound_Gene', 'Anatomy_Gene', 'Gene_BiologicalProcess', 'Gene_Pathway']
+  }
+)
+YIELD nodeId, color
+RETURN gds.util.asNode(nodeId).name AS name, color;

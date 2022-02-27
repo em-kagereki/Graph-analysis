@@ -801,3 +801,26 @@ ggplot(presentLinks, aes(x = siteDrugLink, y = diseaseDrugLink)) +
     ))
 dev.off()
 
+
+
+## Class membership
+
+
+library(tidyverse)
+communitiesTop<-read.csv("communities.csv") 
+nodeList<-read.csv("nodeList.csv")
+communitiesTop<-merge(x=communitiesTop, y=nodeList, by="name",all.x = TRUE)
+communitiesNumber<-communitiesTop %>% 
+  group_by(communityId) %>% 
+  tally()
+
+communitiesWithone<-communitiesNumber %>% 
+  filter(n==1) %>% 
+  tally()
+
+
+communitiesTop3<- merge(y=communitiesTop, x=communitiesNumber,by="communityId",all.x=TRUE) %>% 
+  drop_na() %>% 
+  rename( Membership=n, Nodes=Category)
+tab<-tableplot(communitiesTop3, select = c( Membership, Nodes), sortCol = Membership)
+tableSave(tab, filename = "frequency.png", width = 12, height = 8, fontsize = 12, legend.lines = 7)

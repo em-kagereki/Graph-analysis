@@ -1,5 +1,5 @@
 
-# Chemotherapeutics in  biliary tract cancer: Application of network analysis
+# Expert-augmented network analysis to for drug repurposing in bile tract cancer.
 
 The aim of this project was to apply expert-augmented network analysis to for Drug Repurposing in the Bile tract cancer. 
 This was achieved by 
@@ -11,7 +11,7 @@ This was achieved by
 
 ## Table of content
 
-- [Background](Bile tract cancer)
+- [Background](#Bile tract cancer)
     - [Bile tract cancer](#Bile tract cancer)
     - [Graph theory](#Graph theory)
 - [Methodology](#Analysis workflow)
@@ -24,7 +24,13 @@ This was achieved by
 
 ### Bile tract cancer
 
+  - Low survival rates (5-year survival rate for metastatic disease being only 2%).
+  - Prevalence increasing globally ( accounts for ~15% of all primary liver cancers and ~3% of gastrointestinal malignancies).
+  - High heterogeneity at the genomic, epigenetic and molecular levels severely compromises the efficacy of the available therapies.
+  - Limited treatment options.
 
+![Anatomy, "Anatomy"](Data/anat.png)*Fig 1.Anatomic classification of BTC. Reproduced from [Banales et al](https://www.nature.com/articles/s41575-020-0310-z) <sup>1</sup>*
+]
 ### Graph theory
 
 [![Metagraph](graph_schema.png)]
