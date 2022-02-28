@@ -229,7 +229,7 @@ layout: false
 
 ## Size of the network
 
-#### This was a directed graph with a  total of `r filter(basicStats, Aspects=='Nodes')$Statistics` nodes and `r filter(basicStats, Aspects=='Relationships')$Statistics` edges. 
+#### Directed graph with a  total of `r filter(basicStats, Aspects=='Nodes')$Statistics` nodes and `r filter(basicStats, Aspects=='Relationships')$Statistics` edges. 
 
 
 .left-column[
@@ -256,8 +256,7 @@ layout: false
 
 ---
 class:full
-#### <p style="color:#1381B0">Network has 3350 unique communities, with 2794 being isolated nodes. The community membership agaist the size is demonstrated below.</p>
-.
+#### <p style="color:#1381B0">Network has 3350 communities, with 2794 being isolated nodes. The community membership and  the size is demonstrated below.</p>
 
 <center><img src="Data/frequency.png" height="500px" width="1000px" /></center> 
 
@@ -300,26 +299,54 @@ plot(fig_svg)
 class:full
 <center><img src="Data/siteDrugRank.png" height="600px" width="1000px" /></center> 
 ---
-### Link prediction between compounds and BTC based on shared genes.
+class:full
 
-##### The strength of the linkage is represented by the size of the word.
-
-```{r, drugs,warning=FALSE, echo=FALSE}
+```{r, fig.asp = 0.6, fig.align = 'center', echo = FALSE, out.width = "100%", dpi= 400, warning = FALSE}
 diseaseDrugRank<-read.csv("Data/diseaseDrugRank.csv")
-wordCount<-diseaseDrugRank %>% 
-  mutate(word=Name, freq=value) %>% 
-  select(word,freq)
-library("wordcloud")
-library("RColorBrewer")
-library(wordcloud2)
 
-set.seed(1234)
+#set.seed(1234)
 
-wordcloud(words = diseaseDrugRank$Name, freq = diseaseDrugRank$value, # words
-          min.freq = 0,colors=brewer.pal(8, "Dark2"),
-          scale=c(1.2,.5),
-           max.words=200, random.order=FALSE,
- rot.per = 0.3) 
+#wordcloud(words = diseaseDrugRank$Name, freq = diseaseDrugRank$value, # words
+#          min.freq = 0,colors=brewer.pal(8, "Dark2"),
+#          scale=c(1.2,.5),
+#           max.words=200, random.order=FALSE,
+# rot.per = 0.3) 
+
+ p <- ggplot(diseaseDrugRank, aes(x = reorder(Name, -value), y = value))
+ p <- p + geom_bar(stat="identity", color='skyblue',fill='steelblue')
+ p <- p + theme(axis.text.x=element_text(angle=45, hjust=1,size = 6))
+ p+
+  labs(
+    title = "<b style = 'color:#1381B0;  font-size:26px';>Link prediction between compounds and BTC based on shared genes.</b><br>
+    <span style = 'font-size:12pt'></span>",
+    x = "Compound",
+    y = "Common neighbor score</span>"
+  )+
+  theme(
+    plot.title.position = "plot",
+    plot.title = element_textbox_simple(
+      size = 13,
+      lineheight = 1,
+      padding = margin(5.5, 5.5, 5.5, 5.5),
+      margin = margin(0, 0, 5.5, 0)
+    ),
+    axis.title.x = element_textbox_simple(
+      width = NULL,
+      padding = margin(4, 4, 4, 4),
+      margin = margin(4, 0, 0, 0),
+      linetype = 1,
+      r = grid::unit(8, "pt")
+      # fill = "azure1"
+    ),
+    axis.title.y = element_textbox_simple(
+      hjust = 0,
+      orientation = "left-rotated",
+      minwidth = unit(1, "in"),
+      maxwidth = unit(2, "in"),
+      padding = margin(4, 4, 2, 4),
+      margin = margin(0, 0, 2, 0)
+      #fill = "lightsteelblue1"
+    ))
 
 ```
 
@@ -365,7 +392,7 @@ Influential genes
 
 ####`Varenicline:`Used for smoking cessation.Has been associated with negative effects among cancer patients.
 
-####`Dexamethasone:` Associated with hepatic injury.
+####`Dexamethasone & acetylsalicylic acid:` Associated with hepatic injury.
 
 ####`Afatinib:`Some ongoing trials as an add on to chemo-therapy naive patients with advanced BTC.
 
@@ -386,7 +413,7 @@ Influential genes
 <br>
 <span style="color:orange"> Potentially useful drugs: Afatinib, Captopril (Liver and lymph nodes) and Marimastat(liver,Pancreas)</span>.
 <br>
-<span style="color:red"> Potentially harmful drugs: Varenicline and Dexamethasone</span>.
+<span style="color:red"> Potentially harmful drugs: Varenicline, acetylsalicylic acid and Dexamethasone</span>.
 
 ---
 ## References:

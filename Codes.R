@@ -422,7 +422,7 @@ ggplot(all2, aes(x=Degree, color=Aspect)) +
   theme_classic()+
   labs(
     title = "<b style = 'color:#1381B0;  font-size:38px';> Density plot of degree centrality</b><br>
-    <span style = 'font-size:20pt'>The in-degree, out degree and total degree distribution for all the nodes. This plot excludes nodes with degrees below 10 and above 1000</span>",
+    <span style = 'font-size:14pt'>The in-degree, out degree and total degree distribution for all the nodes. This plot excludes nodes with degrees below 10 and above 1000</span>",
     x = "Number of connections",
     y = "Distribution</span>")+
   theme(
@@ -475,8 +475,8 @@ ggplot(centralMerge, aes(x = factor(1), y = centrality)) +
   labs(x = NULL)+
   theme_classic()+
   labs(
-    title = "<b style = 'color:#1381B0; font-size:38px';>Centrality Measure</b><br>
-    <span style = 'font-size:20pt'>Only genes in the 10th-percentile are labeled.</span>",
+    title = "<b style = 'color:#1381B0; font-size:38px';>Degree Centrality</b><br>
+    <span style = 'font-size:14pt'>Only genes in the top 1 percent bin  are labeled.</span>",
     x = "All points",
     y = "Centrality (scale (0-1)</span>"
   )+ 
@@ -533,6 +533,9 @@ topbetweenAndcentrality<-betweenAndcentrality %>%
 betweenAndcentrality$centrality<-scales::rescale(betweenAndcentrality$centrality)
 betweenAndcentrality$betweenness<-scales::rescale(betweenAndcentrality$betweenness)
 betweenAndcentrality<-merge(x=betweenAndcentrality,y=topbetweenAndcentrality, by="name", all.x=TRUE)
+betweenAndcentrality<-betweenAndcentrality%>% 
+  mutate(Class=ifelse(is.na(name2), "Less", "Top 1 percent"))
+
 #head(betweenAndcentrality)
 png("Data/betweenAndcentrality.png", width = 12, height = 7, units = 'in', res = 600)
 ggplot(betweenAndcentrality, aes(x=betweenness, y=centrality, shape=Category, color=Category)) +
@@ -541,22 +544,21 @@ ggplot(betweenAndcentrality, aes(x=betweenness, y=centrality, shape=Category, co
   labs(x = NULL)+
   labs(
     title = "<b style = 'color:#1381B0;  font-size:38px';>Influential connectors</b><br>
-    <span style = 'font-size:20pt'>Centrality and betweenness  scatter plot to 
-identify  nodes that have a larger influence in the network. 
-    High  centrality and  betweenness shows  many and influential linkages. ONly genes within the 10th-percentile in both are labeled</span>",
+    <span style = 'font-size:12pt'>Centrality and betweenness  scatter plot to 
+identify  nodes that have many and influential linkages. Only genes within the top percent in both are labeled.</span>",
     x = "Betweenness centrality",
     y = "Centrality (scale (0-1)</span>"
   )+ 
-  geom_text_repel(
-    aes(label = name2),
-    size = 3,
-    fill = "white", 
-    xlim = c(-Inf, Inf), 
-    ylim = c(-Inf, Inf)
-    ,max.overlaps = Inf
-    #  box.padding = unit(0.4, "lines"),
-    #  point.padding = unit(0.1, "lines")
-  )+
+  geom_mark_hull(aes(fill = Class,filter = Class != 'Less'),show.legend=FALSE,  
+                 fill = "white",
+                 con.colour = "black",
+                 con.size = 0.5,
+                 con.linetype = 1) +
+  geom_mark_rect(aes(fill = name2, label = name2,
+                     filter = name2 != ''),show.legend=FALSE,
+                 expand = unit(0.5,"mm"),
+                 radius = unit(0.5, "mm"),
+                 con.type = "straight",)+
   theme(
     plot.title.position = "plot",
     plot.title = element_textbox_simple(
@@ -582,7 +584,8 @@ identify  nodes that have a larger influence in the network.
       padding = margin(4, 4, 2, 4),
       margin = margin(0, 0, 2, 0)
       #fill = "lightsteelblue1"
-    ))
+    ))+ 
+  theme(legend.position="bottom")
 dev.off()
 
 # https://www.r-bloggers.com/2018/03/another-game-of-thrones-network-analysis-this-time-with-tidygraph-and-ggraph/
@@ -622,28 +625,32 @@ both<-merge(x=TopbetweenMerge, y=TopclosenessMerge, all=TRUE) %>%
   select(-Between,-close)
 
 betweenAndclose<-merge(x=betweenAndclose, y=both, by="name", all.x=TRUE)
+betweenAndclose<-betweenAndclose%>% 
+      mutate(Class=ifelse(is.na(name2), "Less", "Top 1 percent"))
+
 png("Data/betweenAndclose.png", width = 12, height = 7, units = 'in', res = 600)
 ggplot(betweenAndclose, aes(x=betweenness, y=closeness, shape=Category, color=Category)) +
   geom_point()+
   theme_classic()+
   labs(
     title = "<b style = 'color:#1381B0;  font-size:38px';> Information flow influencers</b><br>
-    <span style = 'font-size:20pt'>Closeness centrality and betweenness centrality scatter plot to 
-identify  nodes that have a larger influence in the network. High closeness betweenness support distribution of information 
+    <span style = 'font-size:14pt'>Scatter plot of Closeness vs Betweenness  to 
+identify  nodes that support distribution of information 
 effectively throughout the network.</span>",
     x = "Betweenness (scale (0-1)",
     y = "Closeness (scale (0-1)</span>"
   )+
-  geom_text_repel(
-    aes(label = name2),
-    size = 3,
-    fill = "white", 
-    xlim = c(-Inf, Inf), 
-    ylim = c(-Inf, Inf)
-    ,max.overlaps = Inf
-  )+
+  geom_mark_hull(aes(fill = Class,filter = Class != 'Less'),show.legend=FALSE,  
+                 fill = "white",
+                 con.colour = "black",
+                 con.size = 0.5,
+                 con.linetype = 1) +
+  geom_mark_rect(aes(fill = name2, label = name2,
+                     filter = name2 != ''),show.legend=FALSE,
+                 expand = unit(0.5,"mm"),
+                 radius = unit(0.5, "mm"))+
   theme(
-    plot.title.position = "plot",
+    #plot.title.position = "plot",
     plot.title = element_textbox_simple(
       size = 13,
       lineheight = 1,
@@ -664,7 +671,8 @@ effectively throughout the network.</span>",
       maxwidth = unit(2, "in"),
       padding = margin(4, 4, 2, 4),
       margin = margin(0, 0, 2, 0)
-    ))
+    ))+ 
+  theme(legend.position="bottom")
 
 
 dev.off()
